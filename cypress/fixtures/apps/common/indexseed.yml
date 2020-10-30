@@ -1,0 +1,369 @@
+- model: Role
+  data:
+    - QA admin:
+        desc: User with all permissions
+        applications:
+          - projects
+          - lims
+          - analysis
+          - builders
+          - samples
+          - entities
+          - inventory
+          - location
+          - dashboard
+          - data
+          - admin
+          - iam
+          - applets
+          - ingest
+          - search
+          - qaclasses
+          - configuration
+          - knowledge
+        permissions:
+          Address: [create, delete, import, update]
+          Container: [create, delete, import, update, execute]
+          ContainerType: [create, delete, import, update, execute]
+          Customer: [create, delete, import, update, execute]
+          IngestDefinition: [create, delete, import, update, execute]
+          IngestInstance: [create, delete, execute, update, import]
+          Item: [create, delete, import, update, execute]
+          ItemType: [create, delete, import, update, execute]
+          Lab: [create, delete, import, update, execute]
+          ParamGroup: [create, delete, import, update, execute]
+          Pipeline: [create, delete, execute, import, update]
+          PipelineInstance: [delete, update, create, import, execute]
+          Project: [create, delete, update, import, execute]
+          Protocol: [create, delete, import, update, execute]
+          ReadPermission: [create, delete, import, update, execute]
+          Report: [import, create, delete, update, execute]
+          ReportTemplate: [import, create, delete, update, execute]
+          Role: [create, delete, import, update, execute]
+          Sample: [create, delete, import, update, execute]
+          SampleSheet: [create, delete, update, import, execute]
+          SampleType: [create, delete, import, update, execute]
+          Service: [create, delete, import, update, execute]
+          ServiceType: [create, delete, import, update, execute]
+          Task: [create, delete, import, update, execute]
+          TaskInstance: [delete, update, create, import, execute]
+          User: [create, delete, import, update]
+          Vendor: [create, delete, import, update, execute]
+          Workflow: [create, delete, import, update, execute]
+          WorkflowChain: [create, delete, import, update, execute]
+          WorkflowChainInstance: [create, delete, update, import, execute]
+          WorkflowChainPlan: [create, delete, import, update, execute]
+          WorkflowInstance: [create, delete, update, import, execute]
+          WorkflowableResourceClass: [create, delete, import, update, execute]
+
+    - Sample Manager:
+        desc: Can create, edit, delete samples
+        permissions:
+          Sample: [create, delete, update]
+        applications:
+          - samples
+          - entities
+
+    - Limited User:
+        desc: User without any permissions
+
+
+- model: User
+  data:
+    - Chris Johnson:
+        email: cjohnson@localhost
+        password: L4b7R0cks!
+        roles:
+          - QA admin
+
+    - Alice Admin:
+        email: alice@example.com
+        password: L4b7R0cks!
+        roles:
+          - QA admin
+
+    - Joe Blow:
+        email: lame@localhost
+        password: L4b7R0cks!
+        roles:
+          - Limited User
+
+
+- model: workgroup
+  data:
+    - QA:
+        desc: QA Workgroup
+        members:
+          - Chris Johnson
+
+    - other:
+        desc: other Workgroup
+        members:
+          - Alice Admin
+
+
+- model: sampletype
+  data:
+    - qatype:
+        class: Qaclass
+        variables:
+          - Text1:
+              rule: string
+              value: text
+          - Text2:
+              rule: string
+              value: text
+            
+    - qatype2:
+        class: Qaclass
+      
+    - QA sample:
+        desc: qa sample type
+        sequences:
+          - ESP SEQUENCE
+          - TEST SEQUENCE
+
+    - Test Type:
+        desc: sample type to modify for SP-6
+        tags:
+          - qa
+          - test
+        sequences:
+          - TEST SEQUENCE
+        variables:
+        - Text1:
+            rule: string
+            value: text
+        - Text2:
+            rule: string
+            value: text
+
+    - Test Type2:
+        desc: another test sample type
+        sequences:
+          - TEST SEQUENCE
+        variables:
+        - Text1:
+            rule: string
+            value: text
+        - Text2:
+            rule: string
+            value: text
+
+    - All Vars:
+        sequences:
+          - TEST SEQUENCE
+        variables:
+          - Text:
+              rule: string
+          - Numeric:
+              rule: numeric
+          - Picklist:
+              rule: dropdown
+              dropdown:
+                  - Option 1
+                  - Option 2
+                  - Option 3
+          - Multi Picklist:
+              rule: multiselect
+              dropdown:
+                  - Option 1
+                  - Option 2
+                  - Option 3
+
+
+- model: itemtype
+  data:
+    - Ethanol:
+        desc: solvent ethanol
+        tags: [demo]
+        # Note: if barcode looks like an int, be sure to quote it.
+        barcode: '45262341'
+        # consumption_type: stock reagent, consumable, or kit component.
+        # discrete: consumable and kit component.
+        # continuous: stock reagent.
+        consumption_type: stock reagent
+        units: L
+        reorder_threshold_qty: 10
+        reorder_amount_qty: 50
+        vendors:
+            - Fisher
+
+    - syringes:
+        desc: syringes
+        tags: [consumable]
+        barcode: '39247865'
+        consumption_type: consumable
+        reorder_threshold_qty: 150
+        reorder_amount_qty: 1000
+        vendors:
+            - Bio Guys
+            - Fisher
+
+    - gloves:
+        desc: gloves
+        tags: [consumable, qa]
+        barcode: '0928443'
+        consumption_type: consumable
+        reorder_threshold_qty: 1000
+        reorder_amount_qty: 10000
+        vendors:
+            - Bio Guys
+            - Fisher
+
+    - IN24 test:
+        desc: test type for IN-23
+        tags: [consumable]
+        barcode: '3922215'
+        consumption_type: consumable
+        reorder_threshold_qty: 10
+        reorder_amount_qty: 100
+        vendors:
+            - Bio Guys
+
+
+- model: containertype
+  data:
+    - Sample Single:
+        desc: Container for samples, one item per slot
+        renderer: defaultcontainer.js
+        label_format: '%s%s'
+        slot_capacity: element
+        axes:
+          - Row: [A, B, C]
+          - Col: ['01', '02', '03', '04']
+        contains:
+          - Sample
+
+    - Sample Unlimited:
+        desc: Container for samples, unlimited items per slot
+        renderer: defaultcontainer.js
+        label_format: '%s%s'
+        slot_capacity: list
+        axes:
+          - Row: [A, B, C]
+          - Col: ['01', '02', '03', '04']
+        contains:
+          - Sample
+
+    - Sample and Container Single:
+        desc: Container for sample and containers, one item per slot
+        renderer: defaultcontainer.js
+        label_format: '%s'
+        slot_capacity: element
+        axes:
+          - Shelf: ['1', '2', '3']
+        contains:
+          - Sample
+          - Container
+
+    - Sample and Container Unlimited:
+        desc: Container for sample and containers, unlimted items per slot
+        renderer: defaultcontainer.js
+        label_format: '%s'
+        slot_capacity: list
+        axes:
+          - Shelf: ['1', '2', '3']
+        contains:
+          - Sample
+          - Container
+
+    - Container Single:
+        desc: Container for containers, one item per slot
+        renderer: defaultcontainer.js
+        label_format: R. %s-C.%s.
+        slot_capacity: element
+        axes:
+          - Row: [A, B]
+          - Col: ['01', '02', '03']
+        contains:
+          - Container
+
+    - Container Unlimited:
+        desc: Container for containers, unlimited items per slot
+        renderer: defaultcontainer.js
+        label_format: R. %s-C.%s.
+        slot_capacity: list
+        axes:
+          - Row: [A, B]
+          - Col: ['01', '02', '03']
+        contains:
+          - Container
+
+
+- model: workflow
+  data:
+    - Simple Workflow:
+        desc: Simple workflow for testing
+        tags: [qa, simple]
+        protocols:
+          - Simple Protocol:
+              protocol: standard
+              desc: Simple protocol for a simple workflow
+              variables:
+                - Text Column:
+                    rule: text
+
+    - Test Type Workflow:
+        desc: Simple workflow for testing
+        tags: [qa, simple]
+        sample_types:
+          - Test Type
+          - Test Type2
+        protocols:
+          - Test Type Protocol:
+              protocol: standard
+              desc: Simple protocol for a simple workflow
+              variables:
+                - Text Column:
+                    rule: text
+
+- model: project
+  data:
+    - AN:
+        desc: project for analysis
+    - EN:
+        desc: project for entities
+    - LM:
+        desc: project for lims
+    - PG:
+        desc: project for param groups
+    - PR:
+        desc: project for projects
+    - SP:
+        desc: project for samples
+    - SR:
+        desc: project for search
+    - D:
+        desc: project for data
+    - WF:
+        desc: project for workflow chains
+    - ST1:
+        desc: project for smoketests
+    - EX:
+        desc: project for smoketests
+    - LP:
+        desc: project for permissions
+    - PERF:
+        desc: project for performance
+    - LOAD:
+        desc: project for load
+
+- model: workflowable_class
+  data:
+    - name: Qaclass
+      plural_name: qaclasses
+      view_template: |+
+        <html>
+        <head></head>
+        <body>
+        <h1>qaclass view template goes here</h1>
+        </body>
+        </html>
+      # list_view_template: |+ // TODO - add back once APPS-4152 is fixed
+      #   <html>
+      #   <head></head>
+      #   <body>
+      #   <h1>qaclass list view template goes here</h1>
+      #   </body>
+      #   </html>

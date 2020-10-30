@@ -25,7 +25,6 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 // import { DragSimulator } from './index'
-import 'cypress-file-upload';
 import { dropCommand, dragNDrop } from './sortable'
 import * as ag from "./ag_enum"
 import {upload_xlsx} from './data'
