@@ -4,7 +4,7 @@ import {openSheet} from "../../../support/lims"
 describe('23 - I should be able to fail samples', function() {
     // User Story 23: As a user when I am on the Worksheet Details page, I should be able to fail a sample
     before(function() {
-        cy.seed('lims/LM23seed')
+        // cy.seed('lims/LM23seed')
         cy.loginRoute('alice@example.com', 'L4b7R0cks!')
     })
 
@@ -12,10 +12,10 @@ describe('23 - I should be able to fail samples', function() {
         cy.visit('/#/lims')
     })
 
-    after(function() {
-        // teardown not working
-        cy.seedTeardown('lims/LM23teardown')
-    })
+    // after(function() {
+    //     // teardown not working
+    //     cy.seedTeardown('lims/LM23teardown')
+    // })
 
     it('LM-23-1 Should be able to fail a sample row', function() {
         openSheet('LM23-1')

@@ -110,9 +110,9 @@ fi
 
 # seed
 # esp -P $PORT -H $HOST -u $EMAIL -p $PASSWORD clear
-if $SEED; then
-  esp -P $PORT -H $HOST -u $EMAIL -p $PASSWORD seed --no-overwrite cypress/fixtures/apps/common/indexseed.yml 
-fi
+# if $SEED; then
+#   esp -P $PORT -H $HOST -u $EMAIL -p $PASSWORD seed --no-overwrite cypress/fixtures/apps/common/indexseed.yml 
+# fi
 
 # open cypress
 echo $PWD

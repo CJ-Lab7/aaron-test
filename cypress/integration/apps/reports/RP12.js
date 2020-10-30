@@ -1,7 +1,7 @@
 describe('12 - I can use Reports link in the nav bar', function() {
     // User Story 12: As a user in the reports app, I can use Dashbaord links in the nav bar
     before(function() {
-        cy.seed('reports/RP12seed')
+        // cy.seed('reports/RP12seed')
         cy.loginRoute('alice@example.com', 'L4b7R0cks!')
     })
     
@@ -9,9 +9,9 @@ describe('12 - I can use Reports link in the nav bar', function() {
         cy.visit('/#/dashboard/reports')
     })
 
-    after(function() {
-        cy.seedTeardown('reports/RP12seed')
-    })
+    // after(function() {
+    //     cy.seedTeardown('reports/RP12seed')
+    // })
 
     it('RP-12-1 Should use Reports link', function() {
         cy.contains('.description', 'RP12').click()

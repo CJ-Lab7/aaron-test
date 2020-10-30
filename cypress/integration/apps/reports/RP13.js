@@ -1,7 +1,7 @@
 describe('13 - I can use Reports link in the nav bar', function() {
     // User Story 13: As a user in Reports when I am under Group tab, I can view details of reports in the Inspector Panel 
     before(function() {
-        cy.seed('reports/RP13seed')
+        // cy.seed('reports/RP13seed')
         cy.loginRoute('alice@example.com', 'L4b7R0cks!')
     })
     
@@ -9,9 +9,9 @@ describe('13 - I can use Reports link in the nav bar', function() {
         cy.visit('/#/dashboard/reports')
     })
 
-    after(function() {
-        cy.seedTeardown('reports/RP13seed')
-    })
+    // after(function() {
+    //     cy.seedTeardown('reports/RP13seed')
+    // })
 
     let name = 'RP13'
     let description = 'Dummy report for RP13'
