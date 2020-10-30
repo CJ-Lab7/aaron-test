@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="45.823" tests="5" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-28T17:42:19" tests="0" file="cypress/integration/apps/inventory/IN14.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="14 - On the Inventory details page, I can sort columns" timestamp="2020-03-28T17:42:19" tests="5" failures="0" time="45.823">
+    <testcase name="14 - On the Inventory details page, I can sort columns IN-14-1 Should sort column by initial amount" time="30.93" classname="IN-14-1 Should sort column by initial amount">
+    </testcase>
+    <testcase name="14 - On the Inventory details page, I can sort columns IN-14-2 Should sort column by usage" time="4.969" classname="IN-14-2 Should sort column by usage">
+    </testcase>
+    <testcase name="14 - On the Inventory details page, I can sort columns IN-14-3 Should sort column by result" time="4.979" classname="IN-14-3 Should sort column by result">
+    </testcase>
+    <testcase name="14 - On the Inventory details page, I can sort columns IN-14-4 Should sort column by notes" time="4.945" classname="IN-14-4 Should sort column by notes">
+    </testcase>
+  </testsuite>
+</testsuites>

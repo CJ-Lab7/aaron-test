@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="120.36800000000001" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-29T01:31:31" tests="0" file="cypress/integration/apps/sample_sets/LM58d.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58d - archive worksheets with multiple sample protocols" timestamp="2020-03-29T01:31:31" tests="5" failures="1" time="120.36800000000001">
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-1 - Archive after all samples are complete" time="42.905" classname="LM-58d-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-2 - Archive after all samples fail in second protocol" time="11.739" classname="LM-58d-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-3 - Archive after first sample fails in second protocol" time="19.386" classname="LM-58d-3 - Archive after first sample fails in second protocol">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-4 - Archive after last sample fails in second protocol" time="18.998" classname="LM-58d-4 - Archive after last sample fails in second protocol">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-5 - Archive after all samples fail in third protocol" time="13.67" classname="LM-58d-5 - Archive after all samples fail in third protocol">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols &quot;after all&quot; hook for &quot;LM-58d-5 - Archive after all samples fail in third protocol&quot;" time="13.67" classname="&quot;after all&quot; hook for &quot;LM-58d-5 - Archive after all samples fail in third protocol&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/sample_sets/LM58dseed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 20:33:20,981:Saving data in Experiment LM58d-x for Protocol: Simple Protocol.
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;58d - archive worksheets wi...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/sample_sets/LM58dseed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 20:33:20,981:Saving data in Experiment LM58d-x for Protocol: Simple Protocol.
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '58d - archive worksheets wi...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

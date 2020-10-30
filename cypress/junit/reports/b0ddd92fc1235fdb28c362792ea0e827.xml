@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="229.631" tests="15" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-04T19:51:44" tests="0" file="cypress/integration/apps/customers/CS09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can edit a customer" timestamp="2020-06-04T19:51:44" tests="15" failures="1" time="229.631">
+    <testcase name="9 - I can edit a customer CS-9-1 Should edit name" time="19.71" classname="CS-9-1 Should edit name">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-2 Should edit description" time="14.339" classname="CS-9-2 Should edit description">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-3 Should edit tags" time="13.346" classname="CS-9-3 Should edit tags">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-4 Should edit billing street" time="14.782" classname="CS-9-4 Should edit billing street">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-5 Should edit billing city" time="15.094" classname="CS-9-5 Should edit billing city">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-6 Should edit billing state" time="16.584" classname="CS-9-6 Should edit billing state">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-7 Should edit billing country" time="15.892" classname="CS-9-7 Should edit billing country">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-8 Should edit billing postal code" time="16.214" classname="CS-9-8 Should edit billing postal code">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-9 Should edit shipping street" time="16.592" classname="CS-9-9 Should edit shipping street">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-10 Should edit shipping city" time="17.152" classname="CS-9-10 Should edit shipping city">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-11 Should edit shipping state" time="17.561" classname="CS-9-11 Should edit shipping state">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-12 Should edit shipping country" time="17.199" classname="CS-9-12 Should edit shipping country">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-13 Should edit shipping postal code" time="17.251" classname="CS-9-13 Should edit shipping postal code">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-14 Should cancel" time="17.915" classname="CS-9-14 Should cancel">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-15 Should make shipping same as billing address" time="0" classname="CS-9-15 Should make shipping same as billing address">
+      <failure message="Timed out retrying: cy.click() failed because this element is detached from the DOM.
+
+&lt;div role=&quot;row&quot; row-index=&quot;4&quot; aria-rowindex=&quot;6&quot; row-id=&quot;4&quot; comp-id=&quot;243&quot; class=&quot;ag-row ag-row-no-focus ag-row-even ag-row-level-0 ag-row-position-absolute ag-row-last&quot; style=&quot;height: 36px; transform: translateY(144px); border: none;&quot;&gt;&lt;/div&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.contains()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.click() failed because this element is detached from the DOM.
+
+<div role="row" row-index="4" aria-rowindex="6" row-id="4" comp-id="243" class="ag-row ag-row-no-focus ag-row-even ag-row-level-0 ag-row-position-absolute ag-row-last" style="height: 36px; transform: translateY(144px); border: none;"></div>
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.contains()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

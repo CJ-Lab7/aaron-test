@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="226.87399999999997" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T22:26:23" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="59d - archive worksheets with multiple sample protocols" timestamp="2020-02-27T22:26:23" tests="8" failures="0" time="226.87399999999997">
+    <testcase name="59d - archive worksheets with multiple sample protocols LM-59d-1 - Archive after all samples are complete" time="162.67" classname="LM-59d-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="59d - archive worksheets with multiple sample protocols LM-59d-2 - Archive after failing all samples in the second protocol" time="9.186" classname="LM-59d-2 - Archive after failing all samples in the second protocol">
+    </testcase>
+    <testcase name="59d - archive worksheets with multiple sample protocols LM-59d-3 - Archive after failing first sample in the second protocol" time="10.148" classname="LM-59d-3 - Archive after failing first sample in the second protocol">
+    </testcase>
+    <testcase name="59d - archive worksheets with multiple sample protocols LM-59d-4 - Archive after failing last sample in the second protocol" time="9.497" classname="LM-59d-4 - Archive after failing last sample in the second protocol">
+    </testcase>
+    <testcase name="59d - archive worksheets with multiple sample protocols LM-59d-5 - Archive after failing all samples in the third protocol" time="7.558" classname="LM-59d-5 - Archive after failing all samples in the third protocol">
+    </testcase>
+    <testcase name="59d - archive worksheets with multiple sample protocols LM-59d-6 - Archive after first sample in the third protocol" time="9.682" classname="LM-59d-6 - Archive after first sample in the third protocol">
+    </testcase>
+    <testcase name="59d - archive worksheets with multiple sample protocols LM-59d-7 - Archive after last sample in the third protocol" time="9.645" classname="LM-59d-7 - Archive after last sample in the third protocol">
+    </testcase>
+    <testcase name="59d - archive worksheets with multiple sample protocols LM-59d-8 - Archive after failing all samples in the fourth protocol" time="8.488" classname="LM-59d-8 - Archive after failing all samples in the fourth protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

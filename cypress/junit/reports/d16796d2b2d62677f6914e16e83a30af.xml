@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="222.034" tests="11" failures="3" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-06-23T19:20:23" tests="0" file="cypress/integration/apps/entities/EN30_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I can use all types of data columns in new experiment modal" timestamp="2020-06-23T19:20:23" tests="11" failures="3" time="222.034">
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-11 Should require field" time="31.663" classname="EN-30-11 Should require field">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-12 Should find default value" time="18.001" classname="EN-30-12 Should find default value">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-13 Should not edit read only" time="26.226" classname="EN-30-13 Should not edit read only">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-14 Should add Sample Resource Link" time="34.778" classname="EN-30-14 Should add Sample Resource Link">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-16 Should add File Resource Link" time="0" classname="EN-30-16 Should add File Resource Link">
+      <failure message="Timed out retrying: Expected to find content: &apos;job_script for &quot;LP19 echo&quot; task instance&apos; within the element: &lt;section.view-header__info&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'job_script for "LP19 echo" task instance' within the element: <section.view-header__info> but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-17 Should add Container Resource Link" time="0" classname="EN-30-17 Should add Container Resource Link">
+      <failure message="Timed out retrying: Expected to find content: &apos;Freezer A&apos; within the element: &lt;section.view-header__info&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Freezer A' within the element: <section.view-header__info> but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-18 Should add Report Resource Link" time="0" classname="EN-30-18 Should add Report Resource Link">
+      <failure message="Timed out retrying: Expected to find content: &apos;Last Activity By User&apos; within the element: &lt;section.view-header__info&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Last Activity By User' within the element: <section.view-header__info> but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-19 Should add Project Resource Link" time="35.855" classname="EN-30-19 Should add Project Resource Link">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-20 Should add Experiment Resource Link" time="37.413" classname="EN-30-20 Should add Experiment Resource Link">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-21 Should add Inventory Resource Link" time="38.098" classname="EN-30-21 Should add Inventory Resource Link">
+    </testcase>
+  </testsuite>
+</testsuites>

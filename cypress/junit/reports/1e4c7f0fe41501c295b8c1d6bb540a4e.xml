@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="179.252" tests="8" failures="1" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-06-24T03:15:24" tests="0" file="cypress/integration/apps/lims/LM52_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="52 - I can use group all with every column type" timestamp="2020-06-24T03:15:24" tests="8" failures="1" time="179.252">
+    <testcase name="52 - I can use group all with every column type LM-52-7 Should use group all protocol with barcode column (rows different)" time="65.447" classname="LM-52-7 Should use group all protocol with barcode column (rows different)">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-8 Should use group all protocol with barcode column (rows same)" time="21.913" classname="LM-52-8 Should use group all protocol with barcode column (rows same)">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-10 Should use group all protocol with approval column" time="19.418" classname="LM-52-10 Should use group all protocol with approval column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-11 Should use group all protocol with checkbox column" time="19.506" classname="LM-52-11 Should use group all protocol with checkbox column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-12 Should use group all protocol with complete column" time="0" classname="LM-52-12 Should use group all protocol with complete column">
+      <failure message="Timed out retrying: cy.click() failed because this element is detached from the DOM.
+
+&lt;input type=&quot;checkbox&quot;&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.find()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.click() failed because this element is detached from the DOM.
+
+<input type="checkbox">
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.find()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-14 Should use grouped pipeline protocol" time="52.968" classname="LM-52-14 Should use grouped pipeline protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

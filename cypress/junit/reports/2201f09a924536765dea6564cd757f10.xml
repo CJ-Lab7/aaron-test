@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="393.046" tests="10" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-12T15:06:18" tests="0" file="cypress/integration/apps/sample_sets/LM59e.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="59e - archive worksheets with multiple sample protocols" timestamp="2020-03-12T15:06:18" tests="10" failures="0" time="393.046">
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-1 - Archive after all samples are complete" time="217.7" classname="LM-59e-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-2 - Archive after failing all samples in the second protocol" time="12.058" classname="LM-59e-2 - Archive after failing all samples in the second protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-3 - Archive after failing first sample in the second protocol" time="23.981" classname="LM-59e-3 - Archive after failing first sample in the second protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-4 - Archive after failing last sample in the second protocol" time="21.589" classname="LM-59e-4 - Archive after failing last sample in the second protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-5 - Archive after failing all samples in the third protocol" time="12.175" classname="LM-59e-5 - Archive after failing all samples in the third protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-6 - Archive after first sample in the third protocol" time="20.771" classname="LM-59e-6 - Archive after first sample in the third protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-7 - Archive after last sample in the third protocol" time="21.196" classname="LM-59e-7 - Archive after last sample in the third protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-8 - Archive after failing all samples in the fourth protocol" time="17.527" classname="LM-59e-8 - Archive after failing all samples in the fourth protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-9 - Archive after first 3 samples in the fourth protocol" time="23.577" classname="LM-59e-9 - Archive after first 3 samples in the fourth protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-10 - Archive after last 3 samples in the fourth protocol" time="22.472" classname="LM-59e-10 - Archive after last 3 samples in the fourth protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

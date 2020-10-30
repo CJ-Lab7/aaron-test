@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.766" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-20T15:44:38" tests="0" file="cypress/integration/apps/container_types/CT25.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I can switch between the Container Type detail pages by clicking on the tabs" timestamp="2020-05-20T15:44:38" tests="1" failures="0" time="19.766">
+    <testcase name="25 - I can switch between the Container Type detail pages by clicking on the tabs CT-25-1 Should switch between the Container Type detail pages by clicking on the tabs" time="19.766" classname="CT-25-1 Should switch between the Container Type detail pages by clicking on the tabs">
+    </testcase>
+  </testsuite>
+</testsuites>

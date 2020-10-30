@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.150000000000002" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:36:03" tests="0" file="cypress/integration/apps/entities/EN20.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="20 - I can generate a new barcode by clicking &quot;Generate Barcode&quot;" timestamp="2020-07-10T19:36:03" tests="3" failures="0" time="19.150000000000002">
+    <testcase name="20 - I can generate a new barcode by clicking &quot;Generate Barcode&quot; EN-20-1 Should generate new QR barcode" time="11.189" classname="EN-20-1 Should generate new QR barcode">
+    </testcase>
+    <testcase name="20 - I can generate a new barcode by clicking &quot;Generate Barcode&quot; EN-20-2 Should generate new 1D barcode" time="4.582" classname="EN-20-2 Should generate new 1D barcode">
+    </testcase>
+    <testcase name="20 - I can generate a new barcode by clicking &quot;Generate Barcode&quot; EN-20-3 Should generate new mini data matrix barcode" time="3.379" classname="EN-20-3 Should generate new mini data matrix barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

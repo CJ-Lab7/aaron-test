@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="49.477000000000004" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T04:05:21" tests="0" file="cypress/integration/apps/data/D17.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can see file content (details content tab)" timestamp="2020-03-31T04:05:21" tests="3" failures="0" time="49.477000000000004">
+    <testcase name="17 - I can see file content (details content tab) D-17-1 Should display correct Association values" time="26.623" classname="D-17-1 Should display correct Association values">
+    </testcase>
+    <testcase name="17 - I can see file content (details content tab) D-17-2 Should display correct Contents values" time="11.703" classname="D-17-2 Should display correct Contents values">
+    </testcase>
+    <testcase name="17 - I can see file content (details content tab) D-17-3 Should display correct History values" time="11.151" classname="D-17-3 Should display correct History values">
+    </testcase>
+  </testsuite>
+</testsuites>

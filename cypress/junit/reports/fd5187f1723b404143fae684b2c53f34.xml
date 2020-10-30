@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3128.7470000000003" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-17T22:49:28" tests="0" file="cypress/integration/load/WU_load.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples " timestamp="2020-07-17T22:49:28" tests="3" failures="0" time="3128.7470000000003">
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-1 Create &amp; Submit an Experiment " time="28.882" classname="0-190-PERF-1 Create &amp; Submit an Experiment ">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-2 Should be able to create a new worksheet " time="15.793" classname="0-190-PERF-2 Should be able to create a new worksheet ">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-3 Should be able to run and complete all workflows in chain" time="3084.072" classname="0-190-PERF-3 Should be able to run and complete all workflows in chain">
+    </testcase>
+  </testsuite>
+</testsuites>

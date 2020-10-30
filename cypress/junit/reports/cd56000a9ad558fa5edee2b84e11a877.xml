@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.892" tests="2" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-16T16:31:46" tests="0" file="cypress/integration/apps/samples/SP16.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="16 - I can update an existing barcode" timestamp="2020-04-16T16:31:46" tests="2" failures="0" time="15.892">
+    <testcase name="16 - I can update an existing barcode SP-16-2 Should type a new barcode" time="15.892" classname="SP-16-2 Should type a new barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

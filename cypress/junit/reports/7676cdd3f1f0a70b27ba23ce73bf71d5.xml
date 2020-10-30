@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="43.491" tests="6" failures="2" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-06-09T01:19:38" tests="0" file="cypress/integration/apps/permissions/LP24.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="24 - I can have experiment permissions" timestamp="2020-06-09T01:19:38" tests="6" failures="2" time="43.491">
+    <testcase name="24 - I can have experiment permissions LP-24-4 Should fail to create an experiment" time="27.228" classname="LP-24-4 Should fail to create an experiment">
+    </testcase>
+    <testcase name="24 - I can have experiment permissions LP-24-5 Should fail to update an experiment" time="0" classname="LP-24-5 Should fail to update an experiment">
+      <failure message="Timed out retrying: expected &apos;&lt;div.modal-container&gt;&apos; not to be &apos;visible&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '<div.modal-container>' not to be 'visible'
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="24 - I can have experiment permissions LP-24-1 Should create an experiment" time="16.263" classname="LP-24-1 Should create an experiment">
+    </testcase>
+    <testcase name="24 - I can have experiment permissions &quot;before each&quot; hook for &quot;LP-24-2 Should update an experiment&quot;" time="0" classname="&quot;before each&quot; hook for &quot;LP-24-2 Should update an experiment&quot;">
+      <failure message="Timed out after waiting &apos;20000ms&apos; for your remote page to load.
+
+Your page did not fire its &apos;load&apos; event within &apos;20000ms&apos;.
+
+You can try increasing the &apos;pageLoadTimeout&apos; value in &apos;cypress.json&apos; to wait longer.
+
+Browsers will not fire the &apos;load&apos; event until all stylesheets and scripts are done downloading.
+
+When this &apos;load&apos; event occurs, Cypress will continue running commands.
+
+Because this error occurred during a &apos;before each&apos; hook we are skipping the remaining tests in the current suite: &apos;24 - I can have experiment ...&apos;" type="CypressError"><![CDATA[CypressError: Timed out after waiting '20000ms' for your remote page to load.
+
+Your page did not fire its 'load' event within '20000ms'.
+
+You can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.
+
+Browsers will not fire the 'load' event until all stylesheets and scripts are done downloading.
+
+When this 'load' event occurs, Cypress will continue running commands.
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '24 - I can have experiment ...'
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at timedOutWaitingForPageLoad (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:126147:20)
+    at https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:126943:16
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:160036:41
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

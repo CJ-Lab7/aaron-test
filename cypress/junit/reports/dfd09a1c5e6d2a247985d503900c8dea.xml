@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="33.527" tests="5" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-02-27T22:39:38" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I should see samples on the samples page" timestamp="2020-02-27T22:39:38" tests="5" failures="0" time="33.527">
+    <testcase name="1 - I should see samples on the samples page SP-1-2 Should view samples" time="21.719" classname="SP-1-2 Should view samples">
+    </testcase>
+    <testcase name="1 - I should see samples on the samples page SP-1-5 Should view sample filters in left column" time="3.7" classname="SP-1-5 Should view sample filters in left column">
+    </testcase>
+    <testcase name="1 - I should see samples on the samples page SP-1-6 Should view sample details in right column" time="6.435" classname="SP-1-6 Should view sample details in right column">
+    </testcase>
+    <testcase name="1 - I should see samples on the samples page SP-1-8 Should collapse/expand filters column" time="1.673" classname="SP-1-8 Should collapse/expand filters column">
+    </testcase>
+  </testsuite>
+</testsuites>

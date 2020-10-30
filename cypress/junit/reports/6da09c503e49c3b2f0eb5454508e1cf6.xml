@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-02-27T16:54:09" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="23 - I can work with samples in running experiments" timestamp="2020-02-27T16:54:09" tests="2" failures="1" time="0">
+    <testcase name="23 - I can work with samples in running experiments &quot;before each&quot; hook for &quot;PR-23-1 Should not add samples to a running experiment&quot;" time="0" classname="&quot;before each&quot; hook for &quot;PR-23-1 Should not add samples to a running experiment&quot;">
+      <failure message="Timed out after waiting &apos;20000ms&apos; for your remote page to load.
+
+Your page did not fire its &apos;load&apos; event within &apos;20000ms&apos;.
+
+You can try increasing the &apos;pageLoadTimeout&apos; value in &apos;cypress.json&apos; to wait longer.
+
+Browsers will not fire the &apos;load&apos; event until all stylesheets and scripts are done downloading.
+
+When this &apos;load&apos; event occurs, Cypress will continue running commands.
+
+Because this error occurred during a &apos;before each&apos; hook we are skipping the remaining tests in the current suite: &apos;23 - I can work with sample...&apos;" type="CypressError"><![CDATA[CypressError: Timed out after waiting '20000ms' for your remote page to load.
+
+Your page did not fire its 'load' event within '20000ms'.
+
+You can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.
+
+Browsers will not fire the 'load' event until all stylesheets and scripts are done downloading.
+
+When this 'load' event occurs, Cypress will continue running commands.
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '23 - I can work with sample...'
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at timedOutWaitingForPageLoad (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:55648:17)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:56297:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126583:41
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="50.361000000000004" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T12:53:52" tests="0" file="cypress/integration/apps/expressions/EX11.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="11 - I should be able to use the Container API" timestamp="2020-03-31T12:53:52" tests="3" failures="0" time="50.361000000000004">
+    <testcase name="11 - I should be able to use the Container API EX-11-1 Should use formatted_location(value)" time="26.164" classname="EX-11-1 Should use formatted_location(value)">
+    </testcase>
+    <testcase name="11 - I should be able to use the Container API EX-11-2 Should use location_name(value, container=0)" time="12.586" classname="EX-11-2 Should use location_name(value, container=0)">
+    </testcase>
+    <testcase name="11 - I should be able to use the Container API EX-11-3 Should use location_slot(value, container=0, slot=0)" time="11.611" classname="EX-11-3 Should use location_slot(value, container=0, slot=0)">
+    </testcase>
+  </testsuite>
+</testsuites>

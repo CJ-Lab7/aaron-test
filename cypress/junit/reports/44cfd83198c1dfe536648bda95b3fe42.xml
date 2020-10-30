@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.814" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-02T17:20:43" tests="0" file="cypress/integration/apps/service_types/ST17.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can access and view History details" timestamp="2020-07-02T17:20:43" tests="1" failures="0" time="17.814">
+    <testcase name="17 - I can access and view History details ST-17-3 Should archive from details page" time="17.814" classname="ST-17-3 Should archive from details page">
+    </testcase>
+  </testsuite>
+</testsuites>

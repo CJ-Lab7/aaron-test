@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="198.21" tests="13" failures="1" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-16T02:07:44" tests="0" file="cypress/integration/apps/location/LC42.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="42 - I can fill out custom fields under the Data tab" timestamp="2020-04-16T02:07:44" tests="13" failures="1" time="198.21">
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-1 Should edit text field" time="29.116" classname="LC-42-1 Should edit text field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-2 Should edit numeric field" time="18.231" classname="LC-42-2 Should edit numeric field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-3 Should edit picklist field" time="17.209" classname="LC-42-3 Should edit picklist field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-5 Should edit date field" time="0" classname="LC-42-5 Should edit date field">
+      <failure message="Timed out retrying: Expected to find content: &apos;18&apos; within the element: &lt;div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: '18' within the element: <div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value> but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-6 Should edit checkbox field" time="15.498" classname="LC-42-6 Should edit checkbox field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-7 Should edit attachment field" time="18.666" classname="LC-42-7 Should edit attachment field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-8 Should edit QR field" time="18.656" classname="LC-42-8 Should edit QR field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-9 Should edit 1D field" time="18.031" classname="LC-42-9 Should edit 1D field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-10 Should edit mini datamatrix field" time="16.335" classname="LC-42-10 Should edit mini datamatrix field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-11 Should not delete required field" time="16.492" classname="LC-42-11 Should not delete required field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-1 Should find default value" time="13.676" classname="LC-42-1 Should find default value">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-13 Should not edit read only field" time="16.3" classname="LC-42-13 Should not edit read only field">
+    </testcase>
+  </testsuite>
+</testsuites>

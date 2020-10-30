@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.864" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-11T02:14:03" tests="0" file="cypress/integration/apps/search/SR08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can search by custom field data" timestamp="2020-07-11T02:14:03" tests="1" failures="0" time="10.864">
+    <testcase name="8 - I can search by custom field data SR-8-1 Should search by data value" time="10.864" classname="SR-8-1 Should search by data value">
+    </testcase>
+  </testsuite>
+</testsuites>

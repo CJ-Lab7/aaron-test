@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="122.919" tests="9" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-15T23:14:55" tests="0" file="cypress/integration/apps/entities/EN02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I can see entity details (left column) after clicking a entity ID" timestamp="2020-04-15T23:14:55" tests="9" failures="0" time="122.919">
+    <testcase name="2 - I can see entity details (left column) after clicking a entity ID EN-2-1 Should view entity ID" time="17.71" classname="EN-2-1 Should view entity ID">
+    </testcase>
+    <testcase name="2 - I can see entity details (left column) after clicking a entity ID EN-2-2 Should view entity class" time="13.23" classname="EN-2-2 Should view entity class">
+    </testcase>
+    <testcase name="2 - I can see entity details (left column) after clicking a entity ID EN-2-3 Should view entity type" time="11.912" classname="EN-2-3 Should view entity type">
+    </testcase>
+    <testcase name="2 - I can see entity details (left column) after clicking a entity ID EN-2-4 Should view tags" time="12.956" classname="EN-2-4 Should view tags">
+    </testcase>
+    <testcase name="2 - I can see entity details (left column) after clicking a entity ID EN-2-5 Should view description" time="14.29" classname="EN-2-5 Should view description">
+    </testcase>
+    <testcase name="2 - I can see entity details (left column) after clicking a entity ID EN-2-6 Should view owner" time="14.707" classname="EN-2-6 Should view owner">
+    </testcase>
+    <testcase name="2 - I can see entity details (left column) after clicking a entity ID EN-2-7 Should view date of creation" time="13.047" classname="EN-2-7 Should view date of creation">
+    </testcase>
+    <testcase name="2 - I can see entity details (left column) after clicking a entity ID EN-2-8 Should view date of modification" time="12.719" classname="EN-2-8 Should view date of modification">
+    </testcase>
+    <testcase name="2 - I can see entity details (left column) after clicking a entity ID EN-2-9 Should view barcode" time="12.348" classname="EN-2-9 Should view barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.906" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T01:40:05" tests="0" file="cypress/integration/apps/lims/LM28.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="28 - I can see reports under the reports tab" timestamp="2020-06-24T01:40:05" tests="1" failures="0" time="28.906">
+    <testcase name="28 - I can see reports under the reports tab LM-28-1 Should find report details" time="28.906" classname="LM-28-1 Should find report details">
+    </testcase>
+  </testsuite>
+</testsuites>

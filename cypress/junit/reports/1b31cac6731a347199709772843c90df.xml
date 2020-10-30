@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.003" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-05-28T21:09:36" tests="0" file="cypress/integration/apps/service_types/ST10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I can create per duration service types" timestamp="2020-05-28T21:09:36" tests="6" failures="1" time="20.003">
+    <testcase name="10 - I can create per duration service types ST-10-1 Should add name" time="8.082" classname="ST-10-1 Should add name">
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-2 Should add description" time="3.709" classname="ST-10-2 Should add description">
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-3 Should add price type" time="1.742" classname="ST-10-3 Should add price type">
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-4 Should add base price" time="3.038" classname="ST-10-4 Should add base price">
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-5 Should save" time="0" classname="ST-10-5 Should save">
+      <failure message="Timed out retrying: expected &apos;4&apos; to equal &apos;3.5&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '4' to equal '3.5'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-6 Should cancel" time="3.432" classname="ST-10-6 Should cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

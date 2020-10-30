@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="6" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-02-27T16:58:06" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - I see the correct header on the Projects page" timestamp="2020-02-27T16:58:06" tests="6" failures="2" time="0">
+    <testcase name="26 - I see the correct header on the Projects page &quot;before all&quot; hook for &quot;PR-26-1 Should create a new project&quot;" time="0" classname="&quot;before all&quot; hook for &quot;PR-26-1 Should create a new project&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed --no-overwrite cypress/fixtures/apps/projects/PR26seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+/Users/cj/bitrepos/esp/client/esp/__main__.py:309: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load fo...
+
+Because this error occurred during a &apos;before all&apos; hook we are skipping the remaining tests in the current suite: &apos;26 - I see the correct head...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed --no-overwrite cypress/fixtures/apps/projects/PR26seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+/Users/cj/bitrepos/esp/client/esp/__main__.py:309: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load fo...
+
+Because this error occurred during a 'before all' hook we are skipping the remaining tests in the current suite: '26 - I see the correct head...'
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:55115:23
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129472:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="26 - I see the correct header on the Projects page &quot;after all&quot; hook for &quot;PR-26-1 Should create a new project&quot;" time="0" classname="&quot;after all&quot; hook for &quot;PR-26-1 Should create a new project&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/projects/PR26seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+/Users/cj/bitrepos/esp/client/esp/__main__.py:309: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load fo...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;26 - I see the correct head...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/projects/PR26seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+/Users/cj/bitrepos/esp/client/esp/__main__.py:309: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load fo...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '26 - I see the correct head...'
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:55115:23
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129472:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

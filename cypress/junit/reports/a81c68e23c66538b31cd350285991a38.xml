@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="79.641" tests="12" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T02:14:58" tests="0" file="cypress/integration/apps/navbar/NB01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I can access user profile in the navbar" timestamp="2020-04-16T02:14:58" tests="12" failures="0" time="79.641">
+    <testcase name="1 - I can access user profile in the navbar NB-1-1 Should find correct profile header" time="10.405" classname="NB-1-1 Should find correct profile header">
+    </testcase>
+    <testcase name="1 - I can access user profile in the navbar NB-1-2 Should find correct profile metadata" time="4.922" classname="NB-1-2 Should find correct profile metadata">
+    </testcase>
+    <testcase name="1 - I can access user profile in the navbar NB-1-3 Should find correct user/email" time="5.956" classname="NB-1-3 Should find correct user/email">
+    </testcase>
+    <testcase name="1 - I can access user profile in the navbar NB-1-4 Should find correct name" time="6.307" classname="NB-1-4 Should find correct name">
+    </testcase>
+    <testcase name="1 - I can access user profile in the navbar NB-1-5 Should find change password link" time="5.969" classname="NB-1-5 Should find change password link">
+    </testcase>
+    <testcase name="1 - I can access user profile in the navbar NB-1-6 Should find API Key toolbox" time="5.689" classname="NB-1-6 Should find API Key toolbox">
+    </testcase>
+    <testcase name="1 - I can access user profile in the navbar NB-1-7 Should find generate API Key button" time="5.898" classname="NB-1-7 Should find generate API Key button">
+    </testcase>
+    <testcase name="1 - I can access user profile in the navbar NB-1-8 Should find licensed apps" time="6.75" classname="NB-1-8 Should find licensed apps">
+    </testcase>
+    <testcase name="1 - I can access user profile in the navbar NB-1-9 Should find roles" time="6.551" classname="NB-1-9 Should find roles">
+    </testcase>
+    <testcase name="1 - I can access user profile in the navbar NB-1-10 Should find workgroups" time="6.401" classname="NB-1-10 Should find workgroups">
+    </testcase>
+    <testcase name="1 - I can access user profile in the navbar NB-1-11 Should find current sessions" time="8.302" classname="NB-1-11 Should find current sessions">
+    </testcase>
+    <testcase name="1 - I can access user profile in the navbar NB-1-13 Should use &apos;X&apos; button" time="6.491" classname="NB-1-13 Should use &apos;X&apos; button">
+    </testcase>
+  </testsuite>
+</testsuites>

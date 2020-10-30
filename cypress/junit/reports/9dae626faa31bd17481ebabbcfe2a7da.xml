@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="66.99799999999999" tests="4" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-06-24T01:35:57" tests="0" file="cypress/integration/apps/lims/LM25_3a.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25a_3 - I should be able to render columns correctly when protocol is run" timestamp="2020-06-24T01:35:57" tests="4" failures="0" time="66.99799999999999">
+    <testcase name="25a_3 - I should be able to render columns correctly when protocol is run LM-25a-21 Should use multiselect picklist column" time="34.687" classname="LM-25a-21 Should use multiselect picklist column">
+    </testcase>
+    <testcase name="25a_3 - I should be able to render columns correctly when protocol is run LM-25a-22 Should not complete sample with invalid numeric input (complete sample)" time="14.407" classname="LM-25a-22 Should not complete sample with invalid numeric input (complete sample)">
+    </testcase>
+    <testcase name="25a_3 - I should be able to render columns correctly when protocol is run LM-25a-24 Should use barcode column" time="17.904" classname="LM-25a-24 Should use barcode column">
+    </testcase>
+  </testsuite>
+</testsuites>

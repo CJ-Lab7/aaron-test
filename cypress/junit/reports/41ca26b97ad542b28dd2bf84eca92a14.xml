@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="94.498" tests="9" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-04T20:16:44" tests="0" file="cypress/integration/apps/entity_types/ET09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can view Entity Type details" timestamp="2020-06-04T20:16:44" tests="9" failures="0" time="94.498">
+    <testcase name="9 - I can view Entity Type details ET-9-1 Should find export history button" time="12.193" classname="ET-9-1 Should find export history button">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-2 Should find archive button" time="8.392" classname="ET-9-2 Should find archive button">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-3 Should find custom field button" time="8.289" classname="ET-9-3 Should find custom field button">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-4 Should find save button" time="9.375" classname="ET-9-4 Should find save button">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-5 Should find cancel button" time="9.568" classname="ET-9-5 Should find cancel button">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-6 Should find details" time="10.168" classname="ET-9-6 Should find details">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-7 Should find custom fields tab" time="13.009" classname="ET-9-7 Should find custom fields tab">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-8 Should find sample ID sequences tab" time="12.334" classname="ET-9-8 Should find sample ID sequences tab">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-9 Should find history tab" time="11.17" classname="ET-9-9 Should find history tab">
+    </testcase>
+  </testsuite>
+</testsuites>

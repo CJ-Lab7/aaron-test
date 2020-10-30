@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="98.876" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-04T21:42:51" tests="0" file="cypress/integration/apps/service_types/ST13.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="13 - I can edit a price entry" timestamp="2020-06-04T21:42:51" tests="7" failures="0" time="98.876">
+    <testcase name="13 - I can edit a price entry ST-13-1 Should open modal" time="24.946" classname="ST-13-1 Should open modal">
+    </testcase>
+    <testcase name="13 - I can edit a price entry ST-13-2 Should not be able to edit customer" time="11.707" classname="ST-13-2 Should not be able to edit customer">
+    </testcase>
+    <testcase name="13 - I can edit a price entry ST-13-3 Should edit base price" time="12.112" classname="ST-13-3 Should edit base price">
+    </testcase>
+    <testcase name="13 - I can edit a price entry ST-13-4 Should edit scale price" time="11.872" classname="ST-13-4 Should edit scale price">
+    </testcase>
+    <testcase name="13 - I can edit a price entry ST-13-5 Should save" time="12.76" classname="ST-13-5 Should save">
+    </testcase>
+    <testcase name="13 - I can edit a price entry ST-13-6 Should cancel" time="12.94" classname="ST-13-6 Should cancel">
+    </testcase>
+    <testcase name="13 - I can edit a price entry ST-13-7 Should close modal" time="12.539" classname="ST-13-7 Should close modal">
+    </testcase>
+  </testsuite>
+</testsuites>

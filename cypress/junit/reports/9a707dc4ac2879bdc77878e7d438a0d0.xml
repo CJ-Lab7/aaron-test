@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="193.935" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T13:05:55" tests="0" file="cypress/integration/apps/sample_sets/LM58b.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58b - archive worksheets with multiple sample protocols" timestamp="2020-06-24T13:05:55" tests="5" failures="0" time="193.935">
+    <testcase name="58b - archive worksheets with multiple sample protocols LM-58b-1 - Archive after all samples are complete" time="80.065" classname="LM-58b-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58b - archive worksheets with multiple sample protocols LM-58b-2 - Archive after all samples fail in second protocol" time="20.606" classname="LM-58b-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58b - archive worksheets with multiple sample protocols LM-58b-3 - Archive after all samples fail in third protocol" time="25.565" classname="LM-58b-3 - Archive after all samples fail in third protocol">
+    </testcase>
+    <testcase name="58b - archive worksheets with multiple sample protocols LM-58b-4 - Archive after first sample fails in third protocol" time="34.048" classname="LM-58b-4 - Archive after first sample fails in third protocol">
+    </testcase>
+    <testcase name="58b - archive worksheets with multiple sample protocols LM-58b-5 - Archive after last sample fails in third protocol" time="33.651" classname="LM-58b-5 - Archive after last sample fails in third protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

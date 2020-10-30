@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="33.128" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T22:59:37" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="22 - I can edit sample barcodes" timestamp="2020-02-27T22:59:37" tests="2" failures="0" time="33.128">
+    <testcase name="22 - I can edit sample barcodes SP-22-1 Should edit barcode and accept" time="24.644" classname="SP-22-1 Should edit barcode and accept">
+    </testcase>
+    <testcase name="22 - I can edit sample barcodes SP-22-2 Should edit barcode and cancel" time="8.484" classname="SP-22-2 Should edit barcode and cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

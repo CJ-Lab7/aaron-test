@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="22.892" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-02T15:50:22" tests="0" file="cypress/integration/apps/container_types/CT25.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I can delete container types that have containers under the type" timestamp="2020-07-02T15:50:22" tests="1" failures="0" time="22.892">
+    <testcase name="25 - I can delete container types that have containers under the type CT-25-1 Should delete contain types" time="22.892" classname="CT-25-1 Should delete contain types">
+    </testcase>
+  </testsuite>
+</testsuites>

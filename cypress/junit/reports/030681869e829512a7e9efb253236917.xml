@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="74.107" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T15:44:24" tests="0" file="cypress/integration/apps/lims/LM26.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - I should be able to Group All samples" timestamp="2020-06-24T15:44:24" tests="3" failures="0" time="74.107">
+    <testcase name="26 - I should be able to Group All samples LM-26-1 Should be able to Group All samples in a protocol" time="38.289" classname="LM-26-1 Should be able to Group All samples in a protocol">
+    </testcase>
+    <testcase name="26 - I should be able to Group All samples LM-26-2 Should move samples to group all protocol" time="18.184" classname="LM-26-2 Should move samples to group all protocol">
+    </testcase>
+    <testcase name="26 - I should be able to Group All samples LM-26-3 Should be able to Group samples by Columns" time="17.634" classname="LM-26-3 Should be able to Group samples by Columns">
+    </testcase>
+  </testsuite>
+</testsuites>

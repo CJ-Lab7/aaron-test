@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="48.329" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T17:04:53" tests="0" file="cypress/integration/apps/lims/LM07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I should be able to filter experiments" timestamp="2020-03-22T17:04:53" tests="2" failures="0" time="48.329">
+    <testcase name="7 - I should be able to filter experiments LM-7-6 Should group by experiment then filter by sample name" time="43.182" classname="LM-7-6 Should group by experiment then filter by sample name">
+    </testcase>
+    <testcase name="7 - I should be able to filter experiments LM-7-7 Should group by experiment then filter by sample name" time="5.147" classname="LM-7-7 Should group by experiment then filter by sample name">
+    </testcase>
+  </testsuite>
+</testsuites>

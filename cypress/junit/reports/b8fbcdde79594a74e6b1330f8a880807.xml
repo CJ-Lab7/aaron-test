@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="129.99599999999998" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T13:48:43" tests="0" file="cypress/integration/apps/lims/LM33.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="33 - I will be asked to save changes when clicking next protocol" timestamp="2020-03-31T13:48:43" tests="6" failures="0" time="129.99599999999998">
+    <testcase name="33 - I will be asked to save changes when clicking next protocol LM-33-1 Should save and continue when going to next protocol" time="51.273" classname="LM-33-1 Should save and continue when going to next protocol">
+    </testcase>
+    <testcase name="33 - I will be asked to save changes when clicking next protocol LM-33-2 Should continue without saving when going to next protocol" time="14.258" classname="LM-33-2 Should continue without saving when going to next protocol">
+    </testcase>
+    <testcase name="33 - I will be asked to save changes when clicking next protocol LM-33-3 Should cancel going to next protocol" time="16.183" classname="LM-33-3 Should cancel going to next protocol">
+    </testcase>
+    <testcase name="33 - I will be asked to save changes when clicking next protocol LM-33-4 Should save and continue, going to previous protocol" time="15.195" classname="LM-33-4 Should save and continue, going to previous protocol">
+    </testcase>
+    <testcase name="33 - I will be asked to save changes when clicking next protocol LM-33-5 Should continue without saving to previous protocol" time="14.855" classname="LM-33-5 Should continue without saving to previous protocol">
+    </testcase>
+    <testcase name="33 - I will be asked to save changes when clicking next protocol LM-33-6 Should cancel to previous protocol" time="18.232" classname="LM-33-6 Should cancel to previous protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

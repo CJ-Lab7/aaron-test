@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.354" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T15:28:26" tests="0" file="cypress/integration/apps/applets/APL02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I should see applets in list and card views" timestamp="2020-04-03T15:28:26" tests="2" failures="0" time="17.354">
+    <testcase name="2 - I should see applets in list and card views APL-2-1 Should find applet list" time="11.244" classname="APL-2-1 Should find applet list">
+    </testcase>
+    <testcase name="2 - I should see applets in list and card views APL-2-2 Should find applet cards" time="6.11" classname="APL-2-2 Should find applet cards">
+    </testcase>
+  </testsuite>
+</testsuites>

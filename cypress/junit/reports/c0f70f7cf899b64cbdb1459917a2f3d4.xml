@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.046999999999997" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-04T18:57:49" tests="0" file="cypress/integration/apps/container_types/CT09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can create container types" timestamp="2020-06-04T18:57:49" tests="2" failures="0" time="20.046999999999997">
+    <testcase name="9 - I can create container types CT-9-1 Should create a container type with tags" time="10.681" classname="CT-9-1 Should create a container type with tags">
+    </testcase>
+    <testcase name="9 - I can create container types CT-9-2 Should create a container type with description" time="9.366" classname="CT-9-2 Should create a container type with description">
+    </testcase>
+  </testsuite>
+</testsuites>

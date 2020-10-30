@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="53.674" tests="8" failures="5">
+  <testsuite name="Root Suite" timestamp="2020-03-22T20:42:59" tests="0" file="cypress/integration/apps/projects/PR16.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="16 - I can group experiments by workflow" timestamp="2020-03-22T20:42:59" tests="8" failures="5" time="53.674">
+    <testcase name="16 - I can group experiments by workflow PR-16-1 Should see experiments grouped by workflow" time="46.564" classname="PR-16-1 Should see experiments grouped by workflow">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-2 Should see list of experiments for each workflow" time="4.155" classname="PR-16-2 Should see list of experiments for each workflow">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-3 Should show correct experiment names" time="0" classname="PR-16-3 Should show correct experiment names">
+      <failure message="Timed out retrying: Expected to find content: &apos;PR16 one&apos; within the element: &lt;div.section&gt; and with the selector: &apos;.row&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'PR16 one' within the element: <div.section> and with the selector: '.row' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-4 Should show correct status" time="0" classname="PR-16-4 Should show correct status">
+      <failure message="Timed out retrying: Expected to find content: &apos;PR16 one&apos; within the element: &lt;div.section&gt; and with the selector: &apos;.row&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'PR16 one' within the element: <div.section> and with the selector: '.row' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-5 Should show correct project" time="0" classname="PR-16-5 Should show correct project">
+      <failure message="Timed out retrying: Expected to find content: &apos;PR16 one&apos; within the element: &lt;div.section&gt; and with the selector: &apos;.row&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'PR16 one' within the element: <div.section> and with the selector: '.row' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-6 Should show correct number of samples" time="0" classname="PR-16-6 Should show correct number of samples">
+      <failure message="Timed out retrying: Expected to find content: &apos;PR16 one&apos; within the element: &lt;div.section&gt; and with the selector: &apos;.row&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'PR16 one' within the element: <div.section> and with the selector: '.row' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-7 Should show correct owner" time="0" classname="PR-16-7 Should show correct owner">
+      <failure message="Timed out retrying: Expected to find content: &apos;PR16 one&apos; within the element: &lt;div.section&gt; and with the selector: &apos;.row&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'PR16 one' within the element: <div.section> and with the selector: '.row' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-9 Should show correct number of experiments under each workflow" time="2.955" classname="PR-16-9 Should show correct number of experiments under each workflow">
+    </testcase>
+  </testsuite>
+</testsuites>

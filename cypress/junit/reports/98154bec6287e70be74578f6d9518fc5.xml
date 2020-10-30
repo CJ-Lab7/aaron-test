@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.414" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T20:17:56" tests="0" file="cypress/integration/apps/location/LC06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - On a container details page, I can view and export history" timestamp="2020-03-28T20:17:56" tests="3" failures="0" time="16.414">
+    <testcase name="6 - On a container details page, I can view and export history LC-6-1 Should export history" time="9.748" classname="LC-6-1 Should export history">
+    </testcase>
+    <testcase name="6 - On a container details page, I can view and export history LC-6-2 Should view history" time="3.342" classname="LC-6-2 Should view history">
+    </testcase>
+    <testcase name="6 - On a container details page, I can view and export history LC-6-3 Should sort history columns" time="3.324" classname="LC-6-3 Should sort history columns">
+    </testcase>
+  </testsuite>
+</testsuites>

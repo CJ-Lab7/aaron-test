@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="41.713" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-23T01:21:08" tests="0" file="cypress/integration/apps/samples/SP33.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="33 - I can attach existing resources to a sample" timestamp="2020-03-23T01:21:08" tests="1" failures="0" time="41.713">
+    <testcase name="33 - I can attach existing resources to a sample SP-33-1 Should filter by resource type" time="41.713" classname="SP-33-1 Should filter by resource type">
+    </testcase>
+  </testsuite>
+</testsuites>

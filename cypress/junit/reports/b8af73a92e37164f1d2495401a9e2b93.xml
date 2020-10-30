@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.569" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-29T00:31:59" tests="0" file="cypress/integration/apps/projects/PR11.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="11 - The header should be correct (Experiments tab)" timestamp="2020-03-29T00:31:59" tests="4" failures="0" time="12.569">
+    <testcase name="11 - The header should be correct (Experiments tab) PR-11-1 Should say Experiments in header" time="10.631" classname="PR-11-1 Should say Experiments in header">
+    </testcase>
+    <testcase name="11 - The header should be correct (Experiments tab) PR-11-2 Should observe the correct # of experiments monitored" time="1.775" classname="PR-11-2 Should observe the correct # of experiments monitored">
+    </testcase>
+    <testcase name="11 - The header should be correct (Experiments tab) PR-11-4 Should have buttons for new experiment" time="0.121" classname="PR-11-4 Should have buttons for new experiment">
+    </testcase>
+    <testcase name="11 - The header should be correct (Experiments tab) PR-11-5 Should have buttons for new project" time="0.042" classname="PR-11-5 Should have buttons for new project">
+    </testcase>
+  </testsuite>
+</testsuites>

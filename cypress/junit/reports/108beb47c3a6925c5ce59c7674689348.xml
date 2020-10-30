@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-03T17:44:23" tests="0" file="cypress/integration/apps/inventory/IN03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - On the Inventory main page, I can sort results" timestamp="2020-04-03T17:44:23" tests="1" failures="0" time="0">
+  </testsuite>
+</testsuites>

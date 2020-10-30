@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.796" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-27T16:28:13" tests="0" file="cypress/integration/apps/inventory/IN27.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="27 - On the Inventory details page, I can print barcode" timestamp="2020-04-27T16:28:13" tests="1" failures="0" time="13.796">
+    <testcase name="27 - On the Inventory details page, I can print barcode IN-27-1, IN-27-2 &amp; IN-27-3 Print 1D, QR, and Mini Datamatrix barcode" time="13.796" classname="IN-27-1, IN-27-2 &amp; IN-27-3 Print 1D, QR, and Mini Datamatrix barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

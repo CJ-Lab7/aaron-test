@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="332.18700000000007" tests="13" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T12:25:39" tests="0" file="cypress/integration/apps/entities/EN31.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I can edit all entity type variables" timestamp="2020-03-31T12:25:39" tests="13" failures="0" time="332.18700000000007">
+    <testcase name="31 - I can edit all entity type variables EN-31-1 Should add text" time="42.369" classname="EN-31-1 Should add text">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-2 Should add numeric" time="27.001" classname="EN-31-2 Should add numeric">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-3 Should add picklist" time="25.484" classname="EN-31-3 Should add picklist">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-4 Should add multiselect picklist" time="17.558" classname="EN-31-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-5 Should add date" time="26.772" classname="EN-31-5 Should add date">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-6 Should add checkbox" time="25.116" classname="EN-31-6 Should add checkbox">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-7 Should add attachment" time="27.521" classname="EN-31-7 Should add attachment">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-8 Should add qr barcode" time="25.736" classname="EN-31-8 Should add qr barcode">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-9 Should add 1d barcode" time="26.51" classname="EN-31-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-10 Should add mini data matrix" time="25.598" classname="EN-31-10 Should add mini data matrix">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-11 Should require field" time="26.665" classname="EN-31-11 Should require field">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-12 Should find default" time="18.028" classname="EN-31-12 Should find default">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-13 Should find read only" time="17.829" classname="EN-31-13 Should find read only">
+    </testcase>
+  </testsuite>
+</testsuites>

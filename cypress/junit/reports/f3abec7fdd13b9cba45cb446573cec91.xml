@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-13T16:53:16" tests="0" file="cypress/integration/apps/applets/APL09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I should access applet details page" timestamp="2020-07-13T16:53:16" tests="2" failures="1" time="0">
+    <testcase name="9 - I should access applet details page &quot;before each&quot; hook for &quot;APL-9-1 Should find details page header&quot;" time="0" classname="&quot;before each&quot; hook for &quot;APL-9-1 Should find details page header&quot;">
+      <failure message="Timed out retrying: Expected to find content: &apos;APL09 name&apos; within the selector: &apos;.description&apos; but never did.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `9 - I should access applet ...`" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'APL09 name' within the selector: '.description' but never did.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `9 - I should access applet ...`
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/applets/APL09.js:13:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

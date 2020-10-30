@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="13" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-03-29T00:28:26" tests="0" file="cypress/integration/apps/projects/PR05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I see a project&apos;s details page by clicking View Details (List tab)" timestamp="2020-03-29T00:28:26" tests="13" failures="2" time="0">
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) &quot;before all&quot; hook for &quot;PR-5-1 Should see project details on the left&quot;" time="0" classname="&quot;before all&quot; hook for &quot;PR-5-1 Should see project details on the left&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed --no-overwrite cypress/fixtures/apps/projects/PR05seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 19:28:26,794:Creating Protocol: PR5 first
+INFO:root:2020-03-28 19:28:27,491:Creating Workflow: PR5 first
+INFO:root:2020-03-28 19:28:27,635:Creating Protocol: PR5 second
+INFO:ro...
+
+Because this error occurred during a &apos;before all&apos; hook we are skipping the remaining tests in the current suite: &apos;5 - I see a project&apos;s detai...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed --no-overwrite cypress/fixtures/apps/projects/PR05seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 19:28:26,794:Creating Protocol: PR5 first
+INFO:root:2020-03-28 19:28:27,491:Creating Workflow: PR5 first
+INFO:root:2020-03-28 19:28:27,635:Creating Protocol: PR5 second
+INFO:ro...
+
+Because this error occurred during a 'before all' hook we are skipping the remaining tests in the current suite: '5 - I see a project's detai...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) &quot;after all&quot; hook for &quot;PR-5-1 Should see project details on the left&quot;" time="0" classname="&quot;after all&quot; hook for &quot;PR-5-1 Should see project details on the left&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/projects/PR05seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 19:28:37,886:Saving data in Experiment PR-5 exp for Protocol: PR5 standard.
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line 1...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;5 - I see a project&apos;s detai...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/projects/PR05seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 19:28:37,886:Saving data in Experiment PR-5 exp for Protocol: PR5 standard.
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line 1...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '5 - I see a project's detai...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

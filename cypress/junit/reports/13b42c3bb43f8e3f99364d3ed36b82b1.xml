@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.658" tests="4" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-04-28T18:05:39" tests="0" file="cypress/integration/apps/permissions/LP35.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="35 - I can have workflow chain instance permissions" timestamp="2020-04-28T18:05:39" tests="4" failures="2" time="25.658">
+    <testcase name="35 - I can have workflow chain instance permissions LP-35-4 Should fail to create a workflow chain instance" time="21.352" classname="LP-35-4 Should fail to create a workflow chain instance">
+    </testcase>
+    <testcase name="35 - I can have workflow chain instance permissions LP-35-5 Should fail to update a workflow chain instance" time="0" classname="LP-35-5 Should fail to update a workflow chain instance">
+      <failure message="Timed out retrying: Expected not to find content: &apos;LP35 second&apos; within the selector: &apos;.workflow-instance&apos; but continuously found it." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected not to find content: 'LP35 second' within the selector: '.workflow-instance' but continuously found it.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="35 - I can have workflow chain instance permissions LP-35-1 Should create a workflow chain instance" time="4.306" classname="LP-35-1 Should create a workflow chain instance">
+    </testcase>
+    <testcase name="35 - I can have workflow chain instance permissions LP-35-2 Should update a workflow chain instance" time="0" classname="LP-35-2 Should update a workflow chain instance">
+      <failure message="Timed out retrying: Expected to find content: &apos;Worksheet&apos; within the selector: &apos;.ag-header-cell&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Worksheet' within the selector: '.ag-header-cell' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

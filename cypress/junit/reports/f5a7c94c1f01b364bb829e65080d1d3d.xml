@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="13" failures="13">
+  <testsuite name="Root Suite" timestamp="2020-03-03T16:51:27" tests="0" file="cypress/integration/apps/samples/SP30.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I can use all types of data columns in new sample modal" timestamp="2020-03-03T16:51:27" tests="13" failures="13" time="0">
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-1 Should add text" time="0" classname="SP-30-1 Should add text">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;SP30 text&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'SP30 text'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-2 Should add numeric" time="0" classname="SP-30-2 Should add numeric">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;SP30 numeric&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'SP30 numeric'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-3 Should add picklist" time="0" classname="SP-30-3 Should add picklist">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;SP30 picklist&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'SP30 picklist'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-4 Should add multiselect picklist" time="0" classname="SP-30-4 Should add multiselect picklist">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;SP30 multiselect&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'SP30 multiselect'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-5 Should add date" time="0" classname="SP-30-5 Should add date">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;SP30 date&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'SP30 date'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-6 Should add checkbox" time="0" classname="SP-30-6 Should add checkbox">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;SP30 checkbox&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'SP30 checkbox'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-7 Should add attachment" time="0" classname="SP-30-7 Should add attachment">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;SP30 attachment&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'SP30 attachment'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-8 Should add qr barcode" time="0" classname="SP-30-8 Should add qr barcode">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;SP30 QR&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'SP30 QR'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-9 Should add 1d barcode" time="0" classname="SP-30-9 Should add 1d barcode">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;SP30 1D&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'SP30 1D'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-10 Should add mini data matrix" time="0" classname="SP-30-10 Should add mini data matrix">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;SP30 datamatrix&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'SP30 datamatrix'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-11 Should require required field" time="0" classname="SP-30-11 Should require required field">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;SP30 required&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'SP30 required'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-12 Should find default value" time="0" classname="SP-30-12 Should find default value">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;SP30 default&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'SP30 default'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-13 Should find read only field" time="0" classname="SP-30-13 Should find read only field">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;EN29 read only&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'EN29 read only'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="164.84099999999998" tests="9" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-24T16:10:51" tests="0" file="cypress/integration/apps/lims/LM42.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="42 - I can use approval column in worksheets" timestamp="2020-06-24T16:10:51" tests="9" failures="1" time="164.84099999999998">
+    <testcase name="42 - I can use approval column in worksheets LM-42-1 Should approve and autosave" time="0" classname="LM-42-1 Should approve and autosave">
+      <failure message="Timed out retrying: Expected to find content: &apos;Approved&apos; within the element: &lt;div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value.ag-cell-focus.ag-cell-range-selected.ag-cell-range-selected-1.ag-cell-range-single-cell.ag-cell-popup-editing&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Approved' within the element: <div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value.ag-cell-focus.ag-cell-range-selected.ag-cell-range-selected-1.ag-cell-range-single-cell.ag-cell-popup-editing> but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-2 Should approve, complete, and save sheet" time="20.437" classname="LM-42-2 Should approve, complete, and save sheet">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-3 Should fail to complete and save without approval" time="16.107" classname="LM-42-3 Should fail to complete and save without approval">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-4 Should fail samples then approve a different sample" time="23.505" classname="LM-42-4 Should fail samples then approve a different sample">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-5 Should move approved samples to next protocol" time="21.971" classname="LM-42-5 Should move approved samples to next protocol">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-6 Should fail to approve with user not in workgroup" time="19.741" classname="LM-42-6 Should fail to approve with user not in workgroup">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-7 Should fail to approve when user is not logged in" time="21.152" classname="LM-42-7 Should fail to approve when user is not logged in">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-8 Should fail to approve with incorrect password" time="21.043" classname="LM-42-8 Should fail to approve with incorrect password">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-9 Should fail to approve before all required columns have values" time="20.885" classname="LM-42-9 Should fail to approve before all required columns have values">
+    </testcase>
+  </testsuite>
+</testsuites>

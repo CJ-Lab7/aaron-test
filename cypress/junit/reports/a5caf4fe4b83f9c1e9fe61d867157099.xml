@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="31.689" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T20:47:06" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can access experiments in the inspector panel (Projects Cards)" timestamp="2020-02-27T20:47:06" tests="2" failures="0" time="31.689">
+    <testcase name="8 - I can access experiments in the inspector panel (Projects Cards) PR-8-1 Should list experiments and status in inspector" time="26.913" classname="PR-8-1 Should list experiments and status in inspector">
+    </testcase>
+    <testcase name="8 - I can access experiments in the inspector panel (Projects Cards) PR-8-2 Should link to experiment details" time="4.776" classname="PR-8-2 Should link to experiment details">
+    </testcase>
+  </testsuite>
+</testsuites>

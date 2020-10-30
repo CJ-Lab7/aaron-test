@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="41.833" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T14:17:59" tests="0" file="cypress/integration/apps/container_types/CT03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can filter container types" timestamp="2020-06-26T14:17:59" tests="4" failures="0" time="41.833">
+    <testcase name="3 - I can filter container types CT-3-1 Should filter by name" time="13.984" classname="CT-3-1 Should filter by name">
+    </testcase>
+    <testcase name="3 - I can filter container types CT-3-2 Should filter by description" time="9.947" classname="CT-3-2 Should filter by description">
+    </testcase>
+    <testcase name="3 - I can filter container types CT-3-3 Should filter by tags" time="9.932" classname="CT-3-3 Should filter by tags">
+    </testcase>
+    <testcase name="3 - I can filter container types CT-3-4/5 Should open/close filter panel" time="7.97" classname="CT-3-4/5 Should open/close filter panel">
+    </testcase>
+  </testsuite>
+</testsuites>

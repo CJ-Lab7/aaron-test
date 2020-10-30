@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.697" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-28T14:05:48" tests="0" file="cypress/integration/apps/entity_types/ET01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I can access the Entity Types app" timestamp="2020-05-28T14:05:48" tests="7" failures="0" time="23.697">
+    <testcase name="1 - I can access the Entity Types app ET-1-1 Should find header" time="9.246" classname="ET-1-1 Should find header">
+    </testcase>
+    <testcase name="1 - I can access the Entity Types app ET-1-2 Should find subheader" time="3.034" classname="ET-1-2 Should find subheader">
+    </testcase>
+    <testcase name="1 - I can access the Entity Types app ET-1-3 Should find New Entity Type button" time="1.593" classname="ET-1-3 Should find New Entity Type button">
+    </testcase>
+    <testcase name="1 - I can access the Entity Types app ET-1-5 Should find filter panel" time="1.865" classname="ET-1-5 Should find filter panel">
+    </testcase>
+    <testcase name="1 - I can access the Entity Types app ET-1-6 Should find list of entity types" time="2.547" classname="ET-1-6 Should find list of entity types">
+    </testcase>
+    <testcase name="1 - I can access the Entity Types app ET-1-8 Should find inspector panel" time="3.797" classname="ET-1-8 Should find inspector panel">
+    </testcase>
+    <testcase name="1 - I can access the Entity Types app ET-1-9 Should access entity types app" time="1.615" classname="ET-1-9 Should access entity types app">
+    </testcase>
+  </testsuite>
+</testsuites>

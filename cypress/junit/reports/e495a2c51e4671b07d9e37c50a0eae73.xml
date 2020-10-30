@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="61.796" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T16:21:21" tests="0" file="cypress/integration/apps/lims/LM47.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="47 - I can click a checkbox header and the grouped row should behave properly" timestamp="2020-06-24T16:21:21" tests="3" failures="0" time="61.796">
+    <testcase name="47 - I can click a checkbox header and the grouped row should behave properly LM-47-1 Should check group row when complete header is checked" time="25.313" classname="LM-47-1 Should check group row when complete header is checked">
+    </testcase>
+    <testcase name="47 - I can click a checkbox header and the grouped row should behave properly LM-47-2 Should check grouped row when checkbox header is checked" time="19.446" classname="LM-47-2 Should check grouped row when checkbox header is checked">
+    </testcase>
+    <testcase name="47 - I can click a checkbox header and the grouped row should behave properly LM-47-3 Should disable grouped checkbox when complete header is checked" time="17.037" classname="LM-47-3 Should disable grouped checkbox when complete header is checked">
+    </testcase>
+  </testsuite>
+</testsuites>

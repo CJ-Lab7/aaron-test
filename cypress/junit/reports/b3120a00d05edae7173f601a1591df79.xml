@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="230.984" tests="8" failures="6">
+  <testsuite name="Root Suite" timestamp="2020-06-26T20:38:50" tests="0" file="cypress/integration/apps/sample_sets/LM58i.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58i - archive worksheets with multiple sample protocols" timestamp="2020-06-26T20:38:50" tests="8" failures="6" time="230.984">
+    <testcase name="58i - archive worksheets with multiple sample protocols LM-58i-1 - Archive after all samples are complete" time="90.641" classname="LM-58i-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58i - archive worksheets with multiple sample protocols LM-58i-2 - Archive after all samples fail in second protocol" time="27.022" classname="LM-58i-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58i - archive worksheets with multiple sample protocols LM-58i-3 - Archive after first 3 samples fail in second protocol" time="0" classname="LM-58i-3 - Archive after first 3 samples fail in second protocol">
+      <failure message="Timed out retrying: Expected to find element: &apos;.ag-pinned-left-cols-container .ag-row:not(.ag-hidden)&apos;, but never found it." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.ag-pinned-left-cols-container .ag-row:not(.ag-hidden)', but never found it.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="58i - archive worksheets with multiple sample protocols LM-58i-4 - Archive after last 3 samples fail in second protocol" time="0" classname="LM-58i-4 - Archive after last 3 samples fail in second protocol">
+      <failure message="Timed out retrying: Expected to find element: &apos;.ag-pinned-left-cols-container .ag-row:not(.ag-hidden)&apos;, but never found it." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.ag-pinned-left-cols-container .ag-row:not(.ag-hidden)', but never found it.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="58i - archive worksheets with multiple sample protocols LM-58i-5 - Archive after all samples fail in third protocol" time="58.516" classname="LM-58i-5 - Archive after all samples fail in third protocol">
+    </testcase>
+    <testcase name="58i - archive worksheets with multiple sample protocols LM-58i-6 - Archive after first 3 samples fail in third protocol" time="0" classname="LM-58i-6 - Archive after first 3 samples fail in third protocol">
+      <failure message="Timed out retrying: Expected to find element: &apos;.ag-selection-checkbox:not(.ag-hidden)&apos;, but never found it. Queried from element: &lt;div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first&gt;" type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.ag-selection-checkbox:not(.ag-hidden)', but never found it. Queried from element: <div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first>
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="58i - archive worksheets with multiple sample protocols LM-58i-7 - Archive after last 3 samples fail in third protocol" time="0" classname="LM-58i-7 - Archive after last 3 samples fail in third protocol">
+      <failure message="Timed out retrying: Expected to find element: &apos;.ag-selection-checkbox:not(.ag-hidden)&apos;, but never found it. Queried from element: &lt;div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first&gt;" type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.ag-selection-checkbox:not(.ag-hidden)', but never found it. Queried from element: <div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first>
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="58i - archive worksheets with multiple sample protocols LM-58i-8 - Archive after one sample fails in each sample protocol" time="0" classname="LM-58i-8 - Archive after one sample fails in each sample protocol">
+      <failure message="Timed out retrying: Expected to find element: &apos;.ag-pinned-left-cols-container .ag-row:not(.ag-hidden)&apos;, but never found it." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.ag-pinned-left-cols-container .ag-row:not(.ag-hidden)', but never found it.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="58i - archive worksheets with multiple sample protocols &quot;after all&quot; hook for &quot;LM-58i-8 - Archive after one sample fails in each sample protocol&quot;" time="54.805" classname="&quot;after all&quot; hook for &quot;LM-58i-8 - Archive after one sample fails in each sample protocol&quot;">
+      <failure message="cy.exec(&apos;esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/sample_sets/LM58iseed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-06-26 15:46:46,376:Dropping SampleSheet: LM58-x i
+INFO:root:2020-06-26 15:46:46,511:Dropping Experiment: LM58i-x
+INFO:root:2020-06-26 15:46:48,302:Dropping Experiment: LM58i-1
+Traceb...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;58i - archive worksheets wi...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/sample_sets/LM58iseed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-06-26 15:46:46,376:Dropping SampleSheet: LM58-x i
+INFO:root:2020-06-26 15:46:46,511:Dropping Experiment: LM58i-x
+INFO:root:2020-06-26 15:46:48,302:Dropping Experiment: LM58i-1
+Traceb...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '58i - archive worksheets wi...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

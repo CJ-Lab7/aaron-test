@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="14" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-29T15:17:24" tests="0" file="cypress/integration/apps/permissions/LP10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - With permission, i can access apps via the address bar" timestamp="2020-06-29T15:17:24" tests="14" failures="1" time="0">
+    <testcase name="10 - With permission, i can access apps via the address bar &quot;before all&quot; hook for &quot;LP-10-2 Should not visit analysis&quot;" time="0" classname="&quot;before all&quot; hook for &quot;LP-10-2 Should not visit analysis&quot;">
+      <failure message="cy.request() failed on:
+
+https://thy.test.l7informatics.com/login
+
+The response we received from your web server was:
+
+  &gt; 401: Unauthorized
+
+This was considered a failure because the status code was not &apos;2xx&apos; or &apos;3xx&apos;.
+
+If you do not want status codes to cause failures pass the option: &apos;failOnStatusCode: false&apos;
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: POST
+URL: https://thy.test.l7informatics.com/login
+Headers: {
+  &quot;Connection&quot;: &quot;keep-alive&quot;,
+  &quot;Content-Type&quot;: &quot;application/json&quot;,
+  &quot;Authorization&quot;: &quot;Basic bGFtZUBsb2NhbGhvc3Q6TDRiN1IwY2tzIQ==&quot;,
+  &quot;user-agent&quot;: &quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36&quot;,
+  &quot;accept&quot;: &quot;application/json&quot;,
+  &quot;accept-encoding&quot;: &quot;gzip, deflate&quot;,
+  &quot;content-length&quot;: 0
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 401 - Unauthorized
+Headers: {
+  &quot;content-length&quot;: &quot;60&quot;,
+  &quot;content-type&quot;: &quot;application/json; charset=UTF-8&quot;,
+  &quot;access-control-allow-origin&quot;: &quot;*, *&quot;,
+  &quot;expires&quot;: &quot;0&quot;,
+  &quot;access-control-allow-methods&quot;: &quot;GET, PUT, POST, DELETE, OPTIONS&quot;,
+  &quot;access-control-allow-headers&quot;: &quot;access-control-allow-origin,authorization,content-type&quot;,
+  &quot;cache-control&quot;: &quot;no-cache, no-store&quot;,
+  &quot;access-control-allow-credentials&quot;: &quot;true&quot;,
+  &quot;login-url&quot;: &quot;/login&quot;,
+  &quot;server-execution-time-ms&quot;: &quot;14.574527740478516&quot;,
+  &quot;vary&quot;: &quot;Accept-Encoding&quot;,
+  &quot;server&quot;: &quot;Lab7_ESP/2.3.x.1.20200625232458&quot;,
+  &quot;pragma&quot;: &quot;no-cache&quot;,
+  &quot;date&quot;: &quot;Mon, 29 Jun 2020 15:17:24 GMT&quot;,
+  &quot;session-token-expires-minutes&quot;: &quot;120&quot;,
+  &quot;x-server&quot;: &quot;server_8005&quot;,
+  &quot;x-frame-options&quot;: &quot;sameorigin&quot;,
+  &quot;x-content-type-options&quot;: &quot;nosniff&quot;,
+  &quot;x-xss-protection&quot;: &quot;1; mode=block&quot;,
+  &quot;set-cookie&quot;: [
+    &quot;l7_esp_server_id=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/&quot;
+  ]
+}
+Body: {
+  &quot;error&quot;: &quot;Too many failed attempts in the past 15 minutes&quot;
+}
+
+
+Because this error occurred during a &apos;before all&apos; hook we are skipping the remaining tests in the current suite: &apos;10 - With permission, i can...&apos;" type="CypressError"><![CDATA[CypressError: cy.request() failed on:
+
+https://thy.test.l7informatics.com/login
+
+The response we received from your web server was:
+
+  > 401: Unauthorized
+
+This was considered a failure because the status code was not '2xx' or '3xx'.
+
+If you do not want status codes to cause failures pass the option: 'failOnStatusCode: false'
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: POST
+URL: https://thy.test.l7informatics.com/login
+Headers: {
+  "Connection": "keep-alive",
+  "Content-Type": "application/json",
+  "Authorization": "Basic bGFtZUBsb2NhbGhvc3Q6TDRiN1IwY2tzIQ==",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36",
+  "accept": "application/json",
+  "accept-encoding": "gzip, deflate",
+  "content-length": 0
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 401 - Unauthorized
+Headers: {
+  "content-length": "60",
+  "content-type": "application/json; charset=UTF-8",
+  "access-control-allow-origin": "*, *",
+  "expires": "0",
+  "access-control-allow-methods": "GET, PUT, POST, DELETE, OPTIONS",
+  "access-control-allow-headers": "access-control-allow-origin,authorization,content-type",
+  "cache-control": "no-cache, no-store",
+  "access-control-allow-credentials": "true",
+  "login-url": "/login",
+  "server-execution-time-ms": "14.574527740478516",
+  "vary": "Accept-Encoding",
+  "server": "Lab7_ESP/2.3.x.1.20200625232458",
+  "pragma": "no-cache",
+  "date": "Mon, 29 Jun 2020 15:17:24 GMT",
+  "session-token-expires-minutes": "120",
+  "x-server": "server_8005",
+  "x-frame-options": "sameorigin",
+  "x-content-type-options": "nosniff",
+  "x-xss-protection": "1; mode=block",
+  "set-cookie": [
+    "l7_esp_server_id=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/"
+  ]
+}
+Body: {
+  "error": "Too many failed attempts in the past 15 minutes"
+}
+
+
+Because this error occurred during a 'before all' hook we are skipping the remaining tests in the current suite: '10 - With permission, i can...'
+    at cypressErr (https://thy.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://thy.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://thy.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at https://thy.test.l7informatics.com/__cypress/runner/cypress_runner.js:127890:21
+    at tryCatcher (https://thy.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://thy.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://thy.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://thy.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://thy.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://thy.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://thy.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://thy.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

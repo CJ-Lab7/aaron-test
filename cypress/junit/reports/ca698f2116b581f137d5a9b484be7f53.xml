@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.539" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-29T18:41:28" tests="0" file="cypress/integration/apps/samples/SP18.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="18 - I can add different types of barcodes to samples" timestamp="2020-03-29T18:41:28" tests="3" failures="0" time="21.539">
+    <testcase name="18 - I can add different types of barcodes to samples SP-18-1 Should add QR barcode" time="12.222" classname="SP-18-1 Should add QR barcode">
+    </testcase>
+    <testcase name="18 - I can add different types of barcodes to samples SP-18-2 Should add 1D barcode" time="5.378" classname="SP-18-2 Should add 1D barcode">
+    </testcase>
+    <testcase name="18 - I can add different types of barcodes to samples SP-18-3 Should add mini data matrix barcode" time="3.939" classname="SP-18-3 Should add mini data matrix barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

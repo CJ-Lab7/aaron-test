@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="50.711" tests="10" failures="1" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-28T14:39:24" tests="0" file="cypress/integration/apps/location/LC43_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="43 - In Container details page, I should be able to edit Data values" timestamp="2020-04-28T14:39:24" tests="10" failures="1" time="50.711">
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-1 Should edit text field" time="15.241" classname="LC-43-1 Should edit text field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-2 Should edit numeric field" time="8.3" classname="LC-43-2 Should edit numeric field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-3 Should edit picklist field" time="5.477" classname="LC-43-3 Should edit picklist field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-5 Should edit date field" time="3.829" classname="LC-43-5 Should edit date field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-6 Should edit checkbox field" time="2.841" classname="LC-43-6 Should edit checkbox field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-7 Should edit attachment field" time="4.918" classname="LC-43-7 Should edit attachment field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-8 Should edit QR field" time="4.439" classname="LC-43-8 Should edit QR field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-9 Should edit 1D field" time="0" classname="LC-43-9 Should edit 1D field">
+      <failure message="Timed out retrying: Expected to find element: &apos;.barcode-value-editor&apos;, but never found it." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.barcode-value-editor', but never found it.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-10 Should edit mini datamatrix field" time="5.666" classname="LC-43-10 Should edit mini datamatrix field">
+    </testcase>
+  </testsuite>
+</testsuites>

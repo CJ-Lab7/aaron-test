@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="94.839" tests="11" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-21T21:52:21" tests="0" file="cypress/integration/apps/samples/SP30_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I can use all types of data columns in new sample modal" timestamp="2020-04-21T21:52:21" tests="11" failures="0" time="94.839">
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-11 Should require required field" time="18.801" classname="SP-30-11 Should require required field">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-12 Should find default value" time="6.542" classname="SP-30-12 Should find default value">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-13 Should find read only field" time="5.189" classname="SP-30-13 Should find read only field">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-14 Should add Sample Resource Link" time="9.048" classname="SP-30-14 Should add Sample Resource Link">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-16 Should add File Link Type" time="8.875" classname="SP-30-16 Should add File Link Type">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-17 Should add Container Link Type" time="9.048" classname="SP-30-17 Should add Container Link Type">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-18 Should add Report Link Type" time="9.613" classname="SP-30-18 Should add Report Link Type">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-19 Should add Project Link Type" time="8.907" classname="SP-30-19 Should add Project Link Type">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-20 Should add Experiment Link Type" time="9.673" classname="SP-30-20 Should add Experiment Link Type">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-21 Should add Inventory Link Type" time="9.143" classname="SP-30-21 Should add Inventory Link Type">
+    </testcase>
+  </testsuite>
+</testsuites>

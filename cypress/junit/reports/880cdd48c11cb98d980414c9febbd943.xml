@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="38.704" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T17:24:17" tests="0" file="cypress/integration/apps/container_types/CT19.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="19 - I can access and view History details" timestamp="2020-07-10T17:24:17" tests="5" failures="0" time="38.704">
+    <testcase name="19 - I can access and view History details CT-19-1 Should see history updates when a new Container Types is added" time="12.037" classname="CT-19-1 Should see history updates when a new Container Types is added">
+    </testcase>
+    <testcase name="19 - I can access and view History details CT-19-2 Should see history updates after adding dimensions" time="7.323" classname="CT-19-2 Should see history updates after adding dimensions">
+    </testcase>
+    <testcase name="19 - I can access and view History details CT-19-3 Should see history updates after editing dimensions" time="5.808" classname="CT-19-3 Should see history updates after editing dimensions">
+    </testcase>
+    <testcase name="19 - I can access and view History details CT-19-4 Should see history updates after adding custom fields" time="6.187" classname="CT-19-4 Should see history updates after adding custom fields">
+    </testcase>
+    <testcase name="19 - I can access and view History details CT-19-5 Should see history updates after editing custom fields" time="7.349" classname="CT-19-5 Should see history updates after editing custom fields">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="193.31300000000002" tests="10" failures="1" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-06-24T18:58:47" tests="0" file="cypress/integration/apps/expressions/EX09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I should be able to use the Sample API" timestamp="2020-06-24T18:58:47" tests="10" failures="1" time="193.31300000000002">
+    <testcase name="9 - I should be able to use the Sample API EX-9-1 Should use sample_parents(uuid, flatten=False)" time="33.911" classname="EX-9-1 Should use sample_parents(uuid, flatten=False)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-2 Should use sample_parent_uuids(uuid)" time="0" classname="EX-9-2 Should use sample_parent_uuids(uuid)">
+      <failure message="Timed out retrying: cy.dblclick() failed because this element is detached from the DOM.
+
+&lt;div tabindex=&quot;-1&quot; unselectable=&quot;on&quot; role=&quot;gridcell&quot; comp-id=&quot;160&quot; col-id=&quot;fe4f11e2-3ee2-4bc3-b140-dedc4399fb47&quot; class=&quot;ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value&quot; style=&quot;width: 200px; left: 0px; background-color: ; &quot;&gt;[{&apos;gene...&lt;/div&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.eq()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.dblclick() failed because this element is detached from the DOM.
+
+<div tabindex="-1" unselectable="on" role="gridcell" comp-id="160" col-id="fe4f11e2-3ee2-4bc3-b140-dedc4399fb47" class="ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value" style="width: 200px; left: 0px; background-color: ; ">[{'gene...</div>
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.eq()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-3 Should use sample_children(uuid, flatten=False)" time="20.765" classname="EX-9-3 Should use sample_children(uuid, flatten=False)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-4 Should use sample_children_uuid(uuid)" time="15.562" classname="EX-9-4 Should use sample_children_uuid(uuid)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-5 Should use sample_generation(generation, sample_uuid=None, uuids_only=False, flatten=True)" time="58.994" classname="EX-9-5 Should use sample_generation(generation, sample_uuid=None, uuids_only=False, flatten=True)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-8 Should use sample_type_name(sample_type_def_uuid=None, sample_uuid=None)" time="20.901" classname="EX-9-8 Should use sample_type_name(sample_type_def_uuid=None, sample_uuid=None)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-9 Should use sample_types(tags=None, namesonly=True)" time="27.812" classname="EX-9-9 Should use sample_types(tags=None, namesonly=True)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-10 Should use list_samples(sample_type)" time="15.368" classname="EX-9-10 Should use list_samples(sample_type)">
+    </testcase>
+  </testsuite>
+</testsuites>

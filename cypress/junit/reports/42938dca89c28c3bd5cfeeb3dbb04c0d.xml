@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.19" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-22T21:36:21" tests="0" file="cypress/integration/apps/vendors/VEN13.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="13 - I can Archive vendors" timestamp="2020-05-22T21:36:21" tests="3" failures="0" time="25.19">
+    <testcase name="13 - I can Archive vendors VEN-13-1 Should archive vendor" time="13.625" classname="VEN-13-1 Should archive vendor">
+    </testcase>
+    <testcase name="13 - I can Archive vendors VEN-13-2 Should cancel archive vendor" time="6.431" classname="VEN-13-2 Should cancel archive vendor">
+    </testcase>
+    <testcase name="13 - I can Archive vendors VEN-13-3 Should close the archive modal" time="5.134" classname="VEN-13-3 Should close the archive modal">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="67.59400000000001" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-15T20:30:35" tests="0" file="cypress/integration/apps/lims/LM06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I should be able to sort Worksheets" timestamp="2020-04-15T20:30:35" tests="5" failures="0" time="67.59400000000001">
+    <testcase name="6 - I should be able to sort Worksheets LM-6-1 Should sort worksheets by worksheet name" time="29.169" classname="LM-6-1 Should sort worksheets by worksheet name">
+    </testcase>
+    <testcase name="6 - I should be able to sort Worksheets LM-6-2 Should sort experiments by workflow" time="9.87" classname="LM-6-2 Should sort experiments by workflow">
+    </testcase>
+    <testcase name="6 - I should be able to sort Worksheets LM-6-3 Should sort experiments by owner" time="10.5" classname="LM-6-3 Should sort experiments by owner">
+    </testcase>
+    <testcase name="6 - I should be able to sort Worksheets LM-6-4 Should sort experiments by samples submitted" time="8.777" classname="LM-6-4 Should sort experiments by samples submitted">
+    </testcase>
+    <testcase name="6 - I should be able to sort Worksheets LM-6-6 Should sort experiments by state" time="9.278" classname="LM-6-6 Should sort experiments by state">
+    </testcase>
+  </testsuite>
+</testsuites>

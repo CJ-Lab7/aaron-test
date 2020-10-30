@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="151.274" tests="14" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-08T23:27:06" tests="0" file="cypress/integration/apps/permissions/LP08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - Without permission, i cannot find links on the home page" timestamp="2020-06-08T23:27:06" tests="14" failures="0" time="151.274">
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-2 Should not link to analysis" time="11.264" classname="LP-8-2 Should not link to analysis">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-3 Should not link to applets" time="10.149" classname="LP-8-3 Should not link to applets">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-4 Should not link to dashbaord" time="9.768" classname="LP-8-4 Should not link to dashbaord">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-5 Should not link to data" time="11.091" classname="LP-8-5 Should not link to data">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-6 Should not link to entities" time="10.718" classname="LP-8-6 Should not link to entities">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-7 Should not link to IAM" time="9.989" classname="LP-8-7 Should not link to IAM">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-8 Should not link to ingest" time="10.675" classname="LP-8-8 Should not link to ingest">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-9 Should not link to inventory" time="10.278" classname="LP-8-9 Should not link to inventory">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-10 Should not link to lims" time="10.609" classname="LP-8-10 Should not link to lims">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-11 Should not link to location" time="12.252" classname="LP-8-11 Should not link to location">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-12 Should not link to projects" time="11.103" classname="LP-8-12 Should not link to projects">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-13 Should not link to samples" time="12.062" classname="LP-8-13 Should not link to samples">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-14 Should not link to search" time="10.443" classname="LP-8-14 Should not link to search">
+    </testcase>
+    <testcase name="8 - Without permission, i cannot find links on the home page LP-8-15 Should not link to builders" time="10.873" classname="LP-8-15 Should not link to builders">
+    </testcase>
+  </testsuite>
+</testsuites>

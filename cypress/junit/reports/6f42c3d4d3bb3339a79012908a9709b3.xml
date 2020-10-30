@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="77.401" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-23T18:07:42" tests="0" file="cypress/integration/apps/navbar/NB09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can access the menu bar" timestamp="2020-06-23T18:07:42" tests="5" failures="0" time="77.401">
+    <testcase name="9 - I can access the menu bar NB-9-1 Should find correct menu header" time="6.713" classname="NB-9-1 Should find correct menu header">
+    </testcase>
+    <testcase name="9 - I can access the menu bar NB-9-2 Should find list of apps" time="6.64" classname="NB-9-2 Should find list of apps">
+    </testcase>
+    <testcase name="9 - I can access the menu bar NB-9-3 Should access apps via menu" time="37.026" classname="NB-9-3 Should access apps via menu">
+    </testcase>
+    <testcase name="9 - I can access the menu bar NB-9-4 Should access system apps via menu" time="14.023" classname="NB-9-4 Should access system apps via menu">
+    </testcase>
+    <testcase name="9 - I can access the menu bar NB-9-5 Should use recent activity" time="12.999" classname="NB-9-5 Should use recent activity">
+    </testcase>
+  </testsuite>
+</testsuites>

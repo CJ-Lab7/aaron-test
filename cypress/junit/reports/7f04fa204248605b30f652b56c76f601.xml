@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="119.798" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T16:48:32" tests="0" file="cypress/integration/apps/permissions/LP26.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - I can have sample permissions" timestamp="2020-03-31T16:48:32" tests="6" failures="0" time="119.798">
+    <testcase name="26 - I can have sample permissions LP-26-6 Should fail to create a sample" time="23.746" classname="LP-26-6 Should fail to create a sample">
+    </testcase>
+    <testcase name="26 - I can have sample permissions LP-26-7 Should fail to update a sample" time="21.866" classname="LP-26-7 Should fail to update a sample">
+    </testcase>
+    <testcase name="26 - I can have sample permissions LP-26-8 Should fail to delete a sample" time="18.691" classname="LP-26-8 Should fail to delete a sample">
+    </testcase>
+    <testcase name="26 - I can have sample permissions LP-26-2 Should create a sample" time="13.274" classname="LP-26-2 Should create a sample">
+    </testcase>
+    <testcase name="26 - I can have sample permissions LP-26-3 Should update a sample" time="21.554" classname="LP-26-3 Should update a sample">
+    </testcase>
+    <testcase name="26 - I can have sample permissions LP-26-4 Should delete a sample" time="20.667" classname="LP-26-4 Should delete a sample">
+    </testcase>
+  </testsuite>
+</testsuites>

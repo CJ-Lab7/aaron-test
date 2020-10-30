@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="217.387" tests="8" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:48:09" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58e - archive worksheets with multiple sample protocols" timestamp="2020-02-27T21:48:09" tests="8" failures="1" time="217.387">
+    <testcase name="58e - archive worksheets with multiple sample protocols LM-58e-1 - Archive after all samples are complete" time="161.414" classname="LM-58e-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58e - archive worksheets with multiple sample protocols LM-58e-2 - Archive after all samples fail in second protocol" time="9.941" classname="LM-58e-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58e - archive worksheets with multiple sample protocols LM-58e-3 - Archive after first sample fails in second protocol" time="8.905" classname="LM-58e-3 - Archive after first sample fails in second protocol">
+    </testcase>
+    <testcase name="58e - archive worksheets with multiple sample protocols LM-58e-4 - Archive after last sample fails in second protocol" time="9.32" classname="LM-58e-4 - Archive after last sample fails in second protocol">
+    </testcase>
+    <testcase name="58e - archive worksheets with multiple sample protocols LM-58e-5 - Archive after all samples fail in third protocol" time="7.979" classname="LM-58e-5 - Archive after all samples fail in third protocol">
+    </testcase>
+    <testcase name="58e - archive worksheets with multiple sample protocols LM-58e-6 - Archive after first 3 samples fail in third protocol" time="9.974" classname="LM-58e-6 - Archive after first 3 samples fail in third protocol">
+    </testcase>
+    <testcase name="58e - archive worksheets with multiple sample protocols LM-58e-7 - Archive after last 3 samples fail in third protocol" time="9.854" classname="LM-58e-7 - Archive after last 3 samples fail in third protocol">
+    </testcase>
+    <testcase name="58e - archive worksheets with multiple sample protocols LM-58e-8 - Archive after one sample fails in each sample protocol" time="0" classname="LM-58e-8 - Archive after one sample fails in each sample protocol">
+      <failure message="Timed out retrying: Expected to find element: &apos;.ag-selection-checkbox:not(.ag-hidden)&apos;, but never found it. Queried from element: &lt;div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.row-failed.ag-row-position-absolute.ag-row-first&gt;" type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.ag-selection-checkbox:not(.ag-hidden)', but never found it. Queried from element: <div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.row-failed.ag-row-position-absolute.ag-row-first>
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

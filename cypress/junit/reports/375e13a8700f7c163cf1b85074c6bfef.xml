@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.614" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T21:08:47" tests="0" file="cypress/integration/apps/navbar/NB05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can access information about ESP" timestamp="2020-03-28T21:08:47" tests="5" failures="0" time="13.614">
+    <testcase name="5 - I can access information about ESP NB-5-1 Should open modal" time="7.025" classname="NB-5-1 Should open modal">
+    </testcase>
+    <testcase name="5 - I can access information about ESP NB-5-2 Should find copyright information" time="2.293" classname="NB-5-2 Should find copyright information">
+    </testcase>
+    <testcase name="5 - I can access information about ESP NB-5-5 Should find support link" time="1.043" classname="NB-5-5 Should find support link">
+    </testcase>
+    <testcase name="5 - I can access information about ESP NB-5-6 Should use close button" time="1.597" classname="NB-5-6 Should use close button">
+    </testcase>
+    <testcase name="5 - I can access information about ESP NB-5-7 Should use &apos;X&apos; button" time="1.656" classname="NB-5-7 Should use &apos;X&apos; button">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.146" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-03T01:48:05" tests="0" file="cypress/integration/apps/customers/CS16.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="16 - I can open details of a customer in a new tab" timestamp="2020-06-03T01:48:05" tests="1" failures="0" time="14.146">
+    <testcase name="16 - I can open details of a customer in a new tab CS-16-1 Should open customer details in new tab" time="14.146" classname="CS-16-1 Should open customer details in new tab">
+    </testcase>
+  </testsuite>
+</testsuites>

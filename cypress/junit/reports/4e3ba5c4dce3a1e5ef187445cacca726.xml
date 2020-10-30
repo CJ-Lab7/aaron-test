@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="97.227" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T21:27:29" tests="0" file="cypress/integration/apps/projects/PR26.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - I see the correct header on the Projects page" timestamp="2020-04-03T21:27:29" tests="6" failures="0" time="97.227">
+    <testcase name="26 - I see the correct header on the Projects page PR-26-1 Should create a new project" time="20.753" classname="PR-26-1 Should create a new project">
+    </testcase>
+    <testcase name="26 - I see the correct header on the Projects page PR-26-2 Should create multiple new projects" time="17.331" classname="PR-26-2 Should create multiple new projects">
+    </testcase>
+    <testcase name="26 - I see the correct header on the Projects page PR-26-3 Should edit project name" time="14.982" classname="PR-26-3 Should edit project name">
+    </testcase>
+    <testcase name="26 - I see the correct header on the Projects page PR-26-4 Should edit project description" time="15.762" classname="PR-26-4 Should edit project description">
+    </testcase>
+    <testcase name="26 - I see the correct header on the Projects page PR-26-5 Should delete project tag" time="13.363" classname="PR-26-5 Should delete project tag">
+    </testcase>
+    <testcase name="26 - I see the correct header on the Projects page PR-26-6 Should add project tags" time="15.036" classname="PR-26-6 Should add project tags">
+    </testcase>
+  </testsuite>
+</testsuites>

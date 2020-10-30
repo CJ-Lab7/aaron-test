@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.402" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T13:40:57" tests="0" file="cypress/integration/apps/data/D09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can sort data columns" timestamp="2020-03-22T13:40:57" tests="4" failures="0" time="20.402">
+    <testcase name="9 - I can sort data columns D-9-1 Should sort name column" time="11.051" classname="D-9-1 Should sort name column">
+    </testcase>
+    <testcase name="9 - I can sort data columns D-9-2 Should sort registed date column" time="3.819" classname="D-9-2 Should sort registed date column">
+    </testcase>
+    <testcase name="9 - I can sort data columns D-9-3 Should sort description column" time="2.511" classname="D-9-3 Should sort description column">
+    </testcase>
+    <testcase name="9 - I can sort data columns D-9-5 Should sort file type column" time="3.021" classname="D-9-5 Should sort file type column">
+    </testcase>
+  </testsuite>
+</testsuites>

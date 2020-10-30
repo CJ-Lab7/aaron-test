@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="34.276" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:10:59" tests="0" file="cypress/integration/apps/lims/LM23.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="23 - I should be able to fail samples" timestamp="2020-07-10T21:10:59" tests="2" failures="1" time="34.276">
+    <testcase name="23 - I should be able to fail samples LM-23-1 Should be able to fail a sample row" time="25.184" classname="LM-23-1 Should be able to fail a sample row">
+    </testcase>
+    <testcase name="23 - I should be able to fail samples LM-23-2 Should not fail samples that are completed" time="4.546" classname="LM-23-2 Should not fail samples that are completed">
+    </testcase>
+    <testcase name="23 - I should be able to fail samples &quot;after all&quot; hook for &quot;LM-23-2 Should not fail samples that are completed&quot;" time="4.546" classname="&quot;after all&quot; hook for &quot;LM-23-2 Should not fail samples that are completed&quot;">
+      <failure message="Execution of &quot;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM23teardown.yml&quot; failed
+        Exit code: 1
+        Stdout:
+
+        Stderr:
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line 11, in &lt;module&gt;
+    load_entry_point(&apos;espclient&apos;, &apos;console_scripts&apos;, &apos;esp&apos;)()
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 662, in main
+    args.func(args)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 64, in _
+    return func(args)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 308, in seed
+    model.drop(deep=args.deep)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/project.py&quot;, line 977, in drop
+    if self.state not in [&apos;pending&apos;, &apos;queued&apos;] and self.sheet.exists():
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/lib/python3.7/site-packages/gems/decorators.py&quot;, line 102, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/project.py&quot;, line 1030, in sheet
+    raise AssertionError(&apos;Experiment must be submitted to access sample sheet!&apos;)
+AssertionError: Experiment must be submitted to access sample sheet!
+
+Because this error occurred during a `after all` hook we are skipping the remaining tests in the current suite: `23 - I should be able to fa...`" type="Error"><![CDATA[Error: Execution of "esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM23teardown.yml" failed
+        Exit code: 1
+        Stdout:
+
+        Stderr:
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line 11, in <module>
+    load_entry_point('espclient', 'console_scripts', 'esp')()
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 662, in main
+    args.func(args)
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 64, in _
+    return func(args)
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 308, in seed
+    model.drop(deep=args.deep)
+  File "/Users/cj/bitrepos/esp/client/esp/models/project.py", line 977, in drop
+    if self.state not in ['pending', 'queued'] and self.sheet.exists():
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/lib/python3.7/site-packages/gems/decorators.py", line 102, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "/Users/cj/bitrepos/esp/client/esp/models/project.py", line 1030, in sheet
+    raise AssertionError('Experiment must be submitted to access sample sheet!')
+AssertionError: Experiment must be submitted to access sample sheet!
+
+Because this error occurred during a `after all` hook we are skipping the remaining tests in the current suite: `23 - I should be able to fa...`
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/support/index.js:739:13)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

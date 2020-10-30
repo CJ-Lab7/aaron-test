@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.258" tests="10" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-05-18T21:15:21" tests="0" file="cypress/integration/apps/container_types/CT08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can use the New Container Type modal" timestamp="2020-05-18T21:15:21" tests="10" failures="1" time="27.258">
+    <testcase name="8 - I can use the New Container Type modal CT-8-1 Should add name" time="8.346" classname="CT-8-1 Should add name">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-2 Should add description" time="3.843" classname="CT-8-2 Should add description">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-3 Should find Contains selector options" time="1.939" classname="CT-8-3 Should find Contains selector options">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-4 Should find Elements per Location options" time="1.829" classname="CT-8-4 Should find Elements per Location options">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-6 Should add tags" time="2.419" classname="CT-8-6 Should add tags">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-7 Should delete tag" time="2.27" classname="CT-8-7 Should delete tag">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-8 Should not save without name" time="1.875" classname="CT-8-8 Should not save without name">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-9 Should Save" time="0" classname="CT-8-9 Should Save">
+      <failure message="Timed out retrying: Expected to find content: &apos;Details for CT-8-9 type&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Details for CT-8-9 type' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-10 Should cancel" time="2.281" classname="CT-8-10 Should cancel">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-11 Should close modal" time="2.456" classname="CT-8-11 Should close modal">
+    </testcase>
+  </testsuite>
+</testsuites>

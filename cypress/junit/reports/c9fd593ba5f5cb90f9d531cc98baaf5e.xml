@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="26.399" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T14:46:26" tests="0" file="cypress/integration/apps/container_types/CT26.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - I can delete a container type when the container column removed from protocols" timestamp="2020-06-26T14:46:26" tests="1" failures="0" time="26.399">
+    <testcase name="26 - I can delete a container type when the container column removed from protocols CT-26-1 Should delete a container type" time="26.399" classname="CT-26-1 Should delete a container type">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="81.42599999999999" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-20T19:05:15" tests="0" file="cypress/integration/apps/analysis/AN08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I should be able to archive pipeline instances under Monitor tab" timestamp="2020-03-20T19:05:15" tests="4" failures="0" time="81.42599999999999">
+    <testcase name="8 - I should be able to archive pipeline instances under Monitor tab AN-8-1 Should archive a pipeline that ran successfully" time="64.099" classname="AN-8-1 Should archive a pipeline that ran successfully">
+    </testcase>
+    <testcase name="8 - I should be able to archive pipeline instances under Monitor tab AN-8-2 Should archive a pipeline that failed" time="5.701" classname="AN-8-2 Should archive a pipeline that failed">
+    </testcase>
+    <testcase name="8 - I should be able to archive pipeline instances under Monitor tab AN-8-3 Should archive a pipeline that was paused" time="5.806" classname="AN-8-3 Should archive a pipeline that was paused">
+    </testcase>
+    <testcase name="8 - I should be able to archive pipeline instances under Monitor tab AN-8-4 Should archive a pipeline that was killed" time="5.82" classname="AN-8-4 Should archive a pipeline that was killed">
+    </testcase>
+  </testsuite>
+</testsuites>

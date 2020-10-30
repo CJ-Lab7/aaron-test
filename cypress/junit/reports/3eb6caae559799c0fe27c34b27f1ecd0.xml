@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="44.849999999999994" tests="4" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-15T20:29:38" tests="0" file="cypress/integration/apps/lims/LM05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I should be able to sort experiments" timestamp="2020-04-15T20:29:38" tests="4" failures="0" time="44.849999999999994">
+    <testcase name="5 - I should be able to sort experiments LM-5-1 Should be able to sort experiments by Name" time="26.068" classname="LM-5-1 Should be able to sort experiments by Name">
+    </testcase>
+    <testcase name="5 - I should be able to sort experiments LM-5-3 Should be able to sort experiments by Workflow" time="8.357" classname="LM-5-3 Should be able to sort experiments by Workflow">
+    </testcase>
+    <testcase name="5 - I should be able to sort experiments LM-5-4 Should reset sort" time="10.425" classname="LM-5-4 Should reset sort">
+    </testcase>
+  </testsuite>
+</testsuites>

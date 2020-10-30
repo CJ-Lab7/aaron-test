@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="42.288" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-28T15:27:48" tests="0" file="cypress/integration/apps/customers/CS10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I should find customer details" timestamp="2020-05-28T15:27:48" tests="8" failures="0" time="42.288">
+    <testcase name="10 - I should find customer details CS-10-1 Should find header" time="11.19" classname="CS-10-1 Should find header">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-2 Should find subheader" time="4.974" classname="CS-10-2 Should find subheader">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-3 Should find archive button" time="3.694" classname="CS-10-3 Should find archive button">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-4 Should find export history button" time="3.671" classname="CS-10-4 Should find export history button">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-5 Should find details panel" time="4.191" classname="CS-10-5 Should find details panel">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-6 Should find same shipping and billing address" time="5.781" classname="CS-10-6 Should find same shipping and billing address">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-7 Should find different shipping and billing address" time="4.902" classname="CS-10-7 Should find different shipping and billing address">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-8 Should find history tab" time="3.885" classname="CS-10-8 Should find history tab">
+    </testcase>
+  </testsuite>
+</testsuites>

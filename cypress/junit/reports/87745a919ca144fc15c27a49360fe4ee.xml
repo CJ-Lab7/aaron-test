@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-24T01:40:43" tests="0" file="cypress/integration/apps/lims/LM29.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="29 - I can rearrange the pipeline modal" timestamp="2020-06-24T01:40:43" tests="2" failures="1" time="0">
+    <testcase name="29 - I can rearrange the pipeline modal &quot;before each&quot; hook for &quot;LM-29-1/2 Should make modal full screen then smaller&quot;" time="0" classname="&quot;before each&quot; hook for &quot;LM-29-1/2 Should make modal full screen then smaller&quot;">
+      <failure message="cy.click() failed because this element is detached from the DOM.
+
+&lt;button data-v-04713248=&quot;&quot; data-v-af6106c0=&quot;&quot; class=&quot;pipeline-status-wrapper&quot;&gt;...&lt;/button&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.contains()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+
+Because this error occurred during a &apos;before each&apos; hook we are skipping the remaining tests in the current suite: &apos;29 - I can rearrange the pi...&apos;" type="CypressError"><![CDATA[CypressError: cy.click() failed because this element is detached from the DOM.
+
+<button data-v-04713248="" data-v-af6106c0="" class="pipeline-status-wrapper">...</button>
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.contains()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '29 - I can rearrange the pi...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at ensureAttached (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:129702:24)
+    at validateType (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:129581:11)
+    at Object.ensureSubjectByType (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:129612:9)
+    at pushSubjectAndValidate (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:136688:15)
+    at Context.<anonymous> (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:136976:18)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:136453:33
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

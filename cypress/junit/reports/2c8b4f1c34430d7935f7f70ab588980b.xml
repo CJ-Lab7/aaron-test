@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="131.979" tests="12" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-04-03T22:57:28" tests="0" file="cypress/integration/apps/samples/SP05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can filter samples on the Samples page" timestamp="2020-04-03T22:57:28" tests="12" failures="2" time="131.979">
+    <testcase name="5 - I can filter samples on the Samples page SP-5-1 Should show all samples" time="24.957" classname="SP-5-1 Should show all samples">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-2 Should show submitted samples" time="11.745" classname="SP-5-2 Should show submitted samples">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-3 Should show unsubmitted samples" time="9.81" classname="SP-5-3 Should show unsubmitted samples">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-4 Should filter by Sample ID" time="9.357" classname="SP-5-4 Should filter by Sample ID">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-5 Should filter by Owner (with samples)" time="28.219" classname="SP-5-5 Should filter by Owner (with samples)">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-6 Should filter by Owner (without samples)" time="9.504" classname="SP-5-6 Should filter by Owner (without samples)">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-7 Should filter by Note" time="9.991" classname="SP-5-7 Should filter by Note">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-8 Should filter by Sample Tags" time="8.759" classname="SP-5-8 Should filter by Sample Tags">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-9 Should filter by Sample Type" time="0" classname="SP-5-9 Should filter by Sample Type">
+      <failure message="Timed out retrying: Expected to find content: &apos;Test Type&apos; within the element: &lt;div.row&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Test Type' within the element: <div.row> but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-10 Should filter by Created After" time="10.822" classname="SP-5-10 Should filter by Created After">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-11 Should filter by Created Before" time="0" classname="SP-5-11 Should filter by Created Before">
+      <failure message="Timed out retrying: Expected [ &lt;div.row&gt;, 199 more... ] not to exist in the DOM, but it was continuously found." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected [ <div.row>, 199 more... ] not to exist in the DOM, but it was continuously found.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-12 Should clear filters" time="8.815" classname="SP-5-12 Should clear filters">
+    </testcase>
+  </testsuite>
+</testsuites>

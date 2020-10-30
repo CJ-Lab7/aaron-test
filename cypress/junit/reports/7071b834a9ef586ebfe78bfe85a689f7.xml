@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.671000000000003" tests="10" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-23T00:50:38" tests="0" file="cypress/integration/apps/samples/SP04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can add new samples on the Samples page" timestamp="2020-03-23T00:50:38" tests="10" failures="0" time="23.671000000000003">
+    <testcase name="4 - I can add new samples on the Samples page SP-4-4 Should require number of samples" time="7.581" classname="SP-4-4 Should require number of samples">
+    </testcase>
+    <testcase name="4 - I can add new samples on the Samples page SP-4-5 Should require sample type" time="3.082" classname="SP-4-5 Should require sample type">
+    </testcase>
+    <testcase name="4 - I can add new samples on the Samples page SP-4-6 Should require sample sequence" time="2.006" classname="SP-4-6 Should require sample sequence">
+    </testcase>
+    <testcase name="4 - I can add new samples on the Samples page SP-4-7 Should create sample with tags" time="2.714" classname="SP-4-7 Should create sample with tags">
+    </testcase>
+    <testcase name="4 - I can add new samples on the Samples page SP-4-8 Should show message before selecting number of samples" time="1.341" classname="SP-4-8 Should show message before selecting number of samples">
+    </testcase>
+    <testcase name="4 - I can add new samples on the Samples page SP-4-9 Should show samples in table" time="1.591" classname="SP-4-9 Should show samples in table">
+    </testcase>
+    <testcase name="4 - I can add new samples on the Samples page SP-4-10 Should close with &apos;x&apos;" time="1.66" classname="SP-4-10 Should close with &apos;x&apos;">
+    </testcase>
+    <testcase name="4 - I can add new samples on the Samples page SP-4-11 Should cancel" time="1.67" classname="SP-4-11 Should cancel">
+    </testcase>
+    <testcase name="4 - I can add new samples on the Samples page SP-4-12 Should register sample" time="2.026" classname="SP-4-12 Should register sample">
+    </testcase>
+  </testsuite>
+</testsuites>

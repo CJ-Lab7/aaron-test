@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.928" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:27:18" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can use Reports link in the nav bar" timestamp="2020-02-27T21:27:18" tests="2" failures="0" time="20.928">
+    <testcase name="12 - I can use Reports link in the nav bar RP-12-1 Should use Reports link" time="16.526" classname="RP-12-1 Should use Reports link">
+    </testcase>
+    <testcase name="12 - I can use Reports link in the nav bar RP-12-2 Should use DASHBOARD link" time="4.402" classname="RP-12-2 Should use DASHBOARD link">
+    </testcase>
+  </testsuite>
+</testsuites>

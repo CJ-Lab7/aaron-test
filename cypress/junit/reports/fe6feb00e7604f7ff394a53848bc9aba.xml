@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.252" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T17:25:03" tests="0" file="cypress/integration/apps/container_types/CT20.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="20 - I can archive Container Types" timestamp="2020-07-10T17:25:03" tests="2" failures="0" time="20.252">
+    <testcase name="20 - I can archive Container Types CT-20-1 Should archive from details page" time="13.244" classname="CT-20-1 Should archive from details page">
+    </testcase>
+    <testcase name="20 - I can archive Container Types CT-20-2 Should cancel archiving" time="7.008" classname="CT-20-2 Should cancel archiving">
+    </testcase>
+  </testsuite>
+</testsuites>

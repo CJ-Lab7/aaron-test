@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="29.393" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-03T02:54:49" tests="0" file="cypress/integration/apps/vendors/VEN17.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can use the links in the nav bar" timestamp="2020-06-03T02:54:49" tests="2" failures="0" time="29.393">
+    <testcase name="17 - I can use the links in the nav bar VEN-17-1 Should navigate to the Vendor main page via the nav bar" time="16.417" classname="VEN-17-1 Should navigate to the Vendor main page via the nav bar">
+    </testcase>
+    <testcase name="17 - I can use the links in the nav bar VEN-17-2 Should navigate to the Builders main page via the nav bar" time="12.976" classname="VEN-17-2 Should navigate to the Builders main page via the nav bar">
+    </testcase>
+  </testsuite>
+</testsuites>

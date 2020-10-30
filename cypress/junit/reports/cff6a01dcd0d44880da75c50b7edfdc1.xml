@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.69" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T16:28:02" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - On the Projects main page, I should see the experiments tab" timestamp="2020-02-27T16:28:02" tests="2" failures="0" time="14.69">
+    <testcase name="1 - On the Projects main page, I should see the experiments tab PR-1-1 Should find the experiments tab" time="10.036" classname="PR-1-1 Should find the experiments tab">
+    </testcase>
+    <testcase name="1 - On the Projects main page, I should see the experiments tab PR-1-2 Should find the projects tab" time="4.654" classname="PR-1-2 Should find the projects tab">
+    </testcase>
+  </testsuite>
+</testsuites>

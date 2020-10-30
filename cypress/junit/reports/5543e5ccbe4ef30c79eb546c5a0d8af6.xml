@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="84.97600000000001" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-05-15T14:24:47" tests="0" file="cypress/integration/apps/vendors/VEN11.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="11 - I can edit vendor details" timestamp="2020-05-15T14:24:47" tests="7" failures="1" time="84.97600000000001">
+    <testcase name="11 - I can edit vendor details VEN-11-1 Should edit name" time="20.884" classname="VEN-11-1 Should edit name">
+    </testcase>
+    <testcase name="11 - I can edit vendor details VEN-11-2 Should edit description" time="11.487" classname="VEN-11-2 Should edit description">
+    </testcase>
+    <testcase name="11 - I can edit vendor details VEN-11-2 Should edit tags" time="0" classname="VEN-11-2 Should edit tags">
+      <failure message="Timed out retrying: cy.click() failed because this element is detached from the DOM.
+
+&lt;a href=&quot;#/builders/vendors/details/43229966-d4fc-458c-877d-4327685367cc&quot; class=&quot;protocol-link&quot;&gt;VEN11 edit&lt;/a&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.contains()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.click() failed because this element is detached from the DOM.
+
+<a href="#/builders/vendors/details/43229966-d4fc-458c-877d-4327685367cc" class="protocol-link">VEN11 edit</a>
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.contains()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132798:12)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="11 - I can edit vendor details VEN-11-4 Should edit billing address" time="15.927" classname="VEN-11-4 Should edit billing address">
+    </testcase>
+    <testcase name="11 - I can edit vendor details VEN-11-5 Should edit shipping address" time="16.561" classname="VEN-11-5 Should edit shipping address">
+    </testcase>
+    <testcase name="11 - I can edit vendor details VEN-11-6 Should save" time="10.101" classname="VEN-11-6 Should save">
+    </testcase>
+    <testcase name="11 - I can edit vendor details VEN-11-7 Should Cancel" time="10.016" classname="VEN-11-7 Should Cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

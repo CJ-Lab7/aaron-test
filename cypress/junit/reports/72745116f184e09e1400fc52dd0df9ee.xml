@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="32.294" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T18:10:42" tests="0" file="cypress/integration/apps/lims/LM46.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="46 - I can check/uncheck boxes and the header reacts accordingly" timestamp="2020-03-22T18:10:42" tests="1" failures="0" time="32.294">
+    <testcase name="46 - I can check/uncheck boxes and the header reacts accordingly LM-46-1/2 Should not check checkbox when sample is complete" time="32.294" classname="LM-46-1/2 Should not check checkbox when sample is complete">
+    </testcase>
+  </testsuite>
+</testsuites>

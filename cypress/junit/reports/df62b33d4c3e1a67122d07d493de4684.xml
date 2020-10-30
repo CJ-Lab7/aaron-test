@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="48.125" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T17:17:06" tests="0" file="cypress/integration/apps/container_types/CT13.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="13 - I can add/move dimensions" timestamp="2020-07-10T17:17:06" tests="8" failures="0" time="48.125">
+    <testcase name="13 - I can add/move dimensions CT-13-1 Should add name" time="13.674" classname="CT-13-1 Should add name">
+    </testcase>
+    <testcase name="13 - I can add/move dimensions CT-13-2 Should add suffix" time="6.583" classname="CT-13-2 Should add suffix">
+    </testcase>
+    <testcase name="13 - I can add/move dimensions CT-13-3 Should add number of elements" time="4.563" classname="CT-13-3 Should add number of elements">
+    </testcase>
+    <testcase name="13 - I can add/move dimensions CT-13-4 Should select label type" time="4.491" classname="CT-13-4 Should select label type">
+    </testcase>
+    <testcase name="13 - I can add/move dimensions CT-13-5 Should select labels" time="4.437" classname="CT-13-5 Should select labels">
+    </testcase>
+    <testcase name="13 - I can add/move dimensions CT-13-6 Should save" time="5.646" classname="CT-13-6 Should save">
+    </testcase>
+    <testcase name="13 - I can add/move dimensions CT-13-7 Should cancel" time="4.381" classname="CT-13-7 Should cancel">
+    </testcase>
+    <testcase name="13 - I can add/move dimensions CT-13-8 Should click x" time="4.35" classname="CT-13-8 Should click x">
+    </testcase>
+  </testsuite>
+</testsuites>

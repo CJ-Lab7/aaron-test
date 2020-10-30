@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.621000000000002" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:33:03" tests="0" file="cypress/integration/apps/entities/EN17_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can use the entity relation tree" timestamp="2020-07-10T19:33:03" tests="5" failures="1" time="27.621000000000002">
+    <testcase name="17 - I can use the entity relation tree EN-17-1 Should highlight entity and show connections to parents/children" time="14.739" classname="EN-17-1 Should highlight entity and show connections to parents/children">
+    </testcase>
+    <testcase name="17 - I can use the entity relation tree EN-17-2 Should use entity tree dropdowns" time="6.681" classname="EN-17-2 Should use entity tree dropdowns">
+    </testcase>
+    <testcase name="17 - I can use the entity relation tree EN-17-3 Should find table columns" time="2.62" classname="EN-17-3 Should find table columns">
+    </testcase>
+    <testcase name="17 - I can use the entity relation tree EN-17-6 Should link to entity details page" time="0" classname="EN-17-6 Should link to entity details page">
+      <failure message="Timed out retrying: Expected to find content: &apos;Details for EN-17 child1&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'Details for EN-17 child1' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entities/EN17_1.js:104:8)]]></failure>
+    </testcase>
+    <testcase name="17 - I can use the entity relation tree EN-17-7 Should highlight entity and show connections to parents/children" time="3.581" classname="EN-17-7 Should highlight entity and show connections to parents/children">
+    </testcase>
+  </testsuite>
+</testsuites>

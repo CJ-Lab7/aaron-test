@@ -1,0 +1,8 @@
+- model: Report
+  data:
+    - name: RP12
+      desc: Dummy report for RP12
+      report_groups: [delete]
+      tags: 
+        - delete
+      contents: <div id="rp012">RP12 contents</div>

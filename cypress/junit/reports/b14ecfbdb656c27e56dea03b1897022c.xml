@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="278.2320000000001" tests="15" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T14:53:48" tests="0" file="cypress/integration/apps/customers/CS09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can edit a customer" timestamp="2020-06-26T14:53:48" tests="15" failures="0" time="278.2320000000001">
+    <testcase name="9 - I can edit a customer CS-9-1 Should edit name" time="20.936" classname="CS-9-1 Should edit name">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-2 Should edit description" time="17.803" classname="CS-9-2 Should edit description">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-3 Should edit tags" time="17.4" classname="CS-9-3 Should edit tags">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-4 Should edit billing street" time="17.91" classname="CS-9-4 Should edit billing street">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-5 Should edit billing city" time="18.549" classname="CS-9-5 Should edit billing city">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-6 Should edit billing state" time="17.614" classname="CS-9-6 Should edit billing state">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-7 Should edit billing country" time="17.64" classname="CS-9-7 Should edit billing country">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-8 Should edit billing postal code" time="21.375" classname="CS-9-8 Should edit billing postal code">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-9 Should edit shipping street" time="19.381" classname="CS-9-9 Should edit shipping street">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-10 Should edit shipping city" time="18.25" classname="CS-9-10 Should edit shipping city">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-11 Should edit shipping state" time="17.828" classname="CS-9-11 Should edit shipping state">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-12 Should edit shipping country" time="18.156" classname="CS-9-12 Should edit shipping country">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-13 Should edit shipping postal code" time="19.345" classname="CS-9-13 Should edit shipping postal code">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-14 Should cancel" time="17.664" classname="CS-9-14 Should cancel">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-15 Should make shipping same as billing address" time="18.381" classname="CS-9-15 Should make shipping same as billing address">
+    </testcase>
+  </testsuite>
+</testsuites>

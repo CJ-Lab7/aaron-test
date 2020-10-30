@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.146" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-23T16:19:41" tests="0" file="cypress/integration/apps/vendors/VEN10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I can view details" timestamp="2020-06-23T16:19:42" tests="1" failures="0" time="17.146">
+    <testcase name="10 - I can view details VEN-10-2 Should view existing vendor Contact Info" time="17.146" classname="VEN-10-2 Should view existing vendor Contact Info">
+    </testcase>
+  </testsuite>
+</testsuites>

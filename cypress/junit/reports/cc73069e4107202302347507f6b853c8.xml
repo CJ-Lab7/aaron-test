@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.57" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T20:19:29" tests="0" file="cypress/integration/apps/location/LC11.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="11 - On a container details page, I can add items to the pool" timestamp="2020-03-28T20:19:29" tests="3" failures="0" time="28.57">
+    <testcase name="11 - On a container details page, I can add items to the pool LC-11-1 Should add samples" time="13.714" classname="LC-11-1 Should add samples">
+    </testcase>
+    <testcase name="11 - On a container details page, I can add items to the pool LC-11-2 Should add containers" time="6.319" classname="LC-11-2 Should add containers">
+    </testcase>
+    <testcase name="11 - On a container details page, I can add items to the pool LC-11-4 Should add samples and containers" time="8.537" classname="LC-11-4 Should add samples and containers">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="24.425" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-23T02:43:18" tests="0" file="cypress/integration/apps/search/SR04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can see recently viewed items by clicking them in Recent Activity" timestamp="2020-03-23T02:43:18" tests="1" failures="0" time="24.425">
+    <testcase name="4 - I can see recently viewed items by clicking them in Recent Activity SR-4-1 Should access details of recently viewed pages" time="24.425" classname="SR-4-1 Should access details of recently viewed pages">
+    </testcase>
+  </testsuite>
+</testsuites>

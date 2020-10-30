@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="32.989" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-05-15T15:05:45" tests="0" file="cypress/integration/apps/vendors/VEN01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I can access the main vendors page" timestamp="2020-05-15T15:05:45" tests="6" failures="1" time="32.989">
+    <testcase name="1 - I can access the main vendors page VEN-1-1 Should find the header" time="14.438" classname="VEN-1-1 Should find the header">
+    </testcase>
+    <testcase name="1 - I can access the main vendors page VEN-1-2 Should find the subheader" time="4.937" classname="VEN-1-2 Should find the subheader">
+    </testcase>
+    <testcase name="1 - I can access the main vendors page VEN-1-3 Should find the + New Vendor button" time="2.916" classname="VEN-1-3 Should find the + New Vendor button">
+    </testcase>
+    <testcase name="1 - I can access the main vendors page VEN-1-4 Should find the Vendor Filters" time="2.962" classname="VEN-1-4 Should find the Vendor Filters">
+    </testcase>
+    <testcase name="1 - I can access the main vendors page VEN-1-5 Should find the list in the middle panel" time="0" classname="VEN-1-5 Should find the list in the middle panel">
+      <failure message="Timed out retrying: Expected to find element: &apos;.ag-root .ag-header-cell&apos;, but never found it." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.ag-root .ag-header-cell', but never found it.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="1 - I can access the main vendors page VEN-1-6 Should find the the inspector on the right panel" time="7.736" classname="VEN-1-6 Should find the the inspector on the right panel">
+    </testcase>
+  </testsuite>
+</testsuites>

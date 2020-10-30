@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="80.00400000000002" tests="10" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:52:05" tests="0" file="cypress/integration/apps/entities/EN31_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I can edit all entity type variables" timestamp="2020-07-10T19:52:05" tests="10" failures="0" time="80.00400000000002">
+    <testcase name="31 - I can edit all entity type variables EN-31-1 Should add text" time="22.582" classname="EN-31-1 Should add text">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-2 Should add numeric" time="9.984" classname="EN-31-2 Should add numeric">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-3 Should add picklist" time="7.982" classname="EN-31-3 Should add picklist">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-4 Should add multiselect picklist" time="5.057" classname="EN-31-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-5 Should add date" time="6.063" classname="EN-31-5 Should add date">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-6 Should add checkbox" time="6.167" classname="EN-31-6 Should add checkbox">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-7 Should add attachment" time="7.251" classname="EN-31-7 Should add attachment">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-8 Should add qr barcode" time="5.815" classname="EN-31-8 Should add qr barcode">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-9 Should add 1d barcode" time="4.545" classname="EN-31-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-10 Should add mini data matrix" time="4.558" classname="EN-31-10 Should add mini data matrix">
+    </testcase>
+  </testsuite>
+</testsuites>

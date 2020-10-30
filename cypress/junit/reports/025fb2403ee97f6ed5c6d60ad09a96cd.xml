@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="40.858000000000004" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-02T15:15:25" tests="0" file="cypress/integration/apps/container_types/CT02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I can find container type page details" timestamp="2020-07-02T15:15:25" tests="5" failures="0" time="40.858000000000004">
+    <testcase name="2 - I can find container type page details CT-2-1 Should find subheader" time="8.212" classname="CT-2-1 Should find subheader">
+    </testcase>
+    <testcase name="2 - I can find container type page details CT-2-2 Should find New Container button" time="6.61" classname="CT-2-2 Should find New Container button">
+    </testcase>
+    <testcase name="2 - I can find container type page details CT-2-3 Should find filters column" time="8.46" classname="CT-2-3 Should find filters column">
+    </testcase>
+    <testcase name="2 - I can find container type page details CT-2-4 Should find list of container types" time="8.39" classname="CT-2-4 Should find list of container types">
+    </testcase>
+    <testcase name="2 - I can find container type page details CT-2-5 Should find inspector column" time="9.186" classname="CT-2-5 Should find inspector column">
+    </testcase>
+  </testsuite>
+</testsuites>

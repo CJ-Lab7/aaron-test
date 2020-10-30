@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="30.279999999999994" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:26:42" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I can edit report details" timestamp="2020-02-27T21:26:42" tests="5" failures="0" time="30.279999999999994">
+    <testcase name="10 - I can edit report details RP-10-1 Should edit description" time="18.275" classname="RP-10-1 Should edit description">
+    </testcase>
+    <testcase name="10 - I can edit report details RP-10-2 Should add tag" time="5.047" classname="RP-10-2 Should add tag">
+    </testcase>
+    <testcase name="10 - I can edit report details RP-10-3 Should delete tag" time="2.356" classname="RP-10-3 Should delete tag">
+    </testcase>
+    <testcase name="10 - I can edit report details RP-10-4 Should add report group" time="2.455" classname="RP-10-4 Should add report group">
+    </testcase>
+    <testcase name="10 - I can edit report details RP-10-5 Should delete report group" time="2.147" classname="RP-10-5 Should delete report group">
+    </testcase>
+  </testsuite>
+</testsuites>

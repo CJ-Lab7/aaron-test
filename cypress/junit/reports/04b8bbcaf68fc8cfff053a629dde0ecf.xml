@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="199.02100000000002" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T18:56:30" tests="0" file="cypress/integration/apps/lims/LM41.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="41 - I can use inventory item use column in worksheets" timestamp="2020-04-03T18:56:30" tests="8" failures="0" time="199.02100000000002">
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-1 Should add item quantity" time="58.658" classname="LM-41-1 Should add item quantity">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-2 Should remove item quantity" time="21.012" classname="LM-41-2 Should remove item quantity">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-3 Should add note" time="21.444" classname="LM-41-3 Should add note">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-4 Should show remaining quantity" time="14.892" classname="LM-41-4 Should show remaining quantity">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-5 Should find item details in drop down menu" time="15.9" classname="LM-41-5 Should find item details in drop down menu">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-8 Should close window" time="14.115" classname="LM-41-8 Should close window">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-9 Should update inventory in transpose view" time="22.168" classname="LM-41-9 Should update inventory in transpose view">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-10 Should use multiple approval columns in the same protocol" time="30.832" classname="LM-41-10 Should use multiple approval columns in the same protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

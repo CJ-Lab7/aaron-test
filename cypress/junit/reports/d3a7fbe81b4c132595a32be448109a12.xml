@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="3" failures="3">
+  <testsuite name="Root Suite" timestamp="2020-07-13T16:52:04" tests="0" file="cypress/integration/apps/applets/APL08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can quick filter" timestamp="2020-07-13T16:52:04" tests="3" failures="3" time="0">
+    <testcase name="8 - I can quick filter APL-8-1 Should quick filter in list view" time="0" classname="APL-8-1 Should quick filter in list view">
+      <failure message="Timed out retrying: Expected to find content: &apos;APL8 one&apos; within the selector: &apos;.report-table-row&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'APL8 one' within the selector: '.report-table-row' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/applets/APL08.js:18:8)]]></failure>
+    </testcase>
+    <testcase name="8 - I can quick filter APL-8-2 Should quick filter in cards view" time="0" classname="APL-8-2 Should quick filter in cards view">
+      <failure message="Timed out retrying: Expected to find content: &apos;APL8 one&apos; within the selector: &apos;.item--name&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'APL8 one' within the selector: '.item--name' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/applets/APL08.js:28:8)]]></failure>
+    </testcase>
+    <testcase name="8 - I can quick filter APL-8-3 Should quick filter in group view" time="0" classname="APL-8-3 Should quick filter in group view">
+      <failure message="Timed out retrying: Expected to find content: &apos;APL8 one&apos; within the selector: &apos;.description&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'APL8 one' within the selector: '.description' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/applets/APL08.js:38:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

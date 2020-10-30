@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="40.004" tests="7" failures="1" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-06-23T15:55:16" tests="0" file="cypress/integration/apps/service_types/ST03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can view Service Type details on the main page" timestamp="2020-06-23T15:55:16" tests="7" failures="1" time="40.004">
+    <testcase name="3 - I can view Service Type details on the main page ST-3-1 Should find header" time="11.85" classname="ST-3-1 Should find header">
+    </testcase>
+    <testcase name="3 - I can view Service Type details on the main page ST-3-2 Should find subheader" time="6.915" classname="ST-3-2 Should find subheader">
+    </testcase>
+    <testcase name="3 - I can view Service Type details on the main page ST-3-3 Should find New Service Type button" time="6.63" classname="ST-3-3 Should find New Service Type button">
+    </testcase>
+    <testcase name="3 - I can view Service Type details on the main page ST-3-5 Should find filters column" time="7.478" classname="ST-3-5 Should find filters column">
+    </testcase>
+    <testcase name="3 - I can view Service Type details on the main page ST-3-6 Should find list of service types" time="0" classname="ST-3-6 Should find list of service types">
+      <failure message="Timed out retrying: Expected to find content: &apos;ST03 one&apos; within the element: [ &lt;div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first&gt;, 1 more... ] but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'ST03 one' within the element: [ <div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first>, 1 more... ] but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="3 - I can view Service Type details on the main page ST-3-7 Should find inspector" time="7.131" classname="ST-3-7 Should find inspector">
+    </testcase>
+  </testsuite>
+</testsuites>

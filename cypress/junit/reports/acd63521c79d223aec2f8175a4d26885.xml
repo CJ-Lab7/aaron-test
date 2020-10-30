@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.465" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T20:45:35" tests="0" file="cypress/integration/apps/inventory/IN15.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="15 - On the Inventory details page, I can export usage" timestamp="2020-07-10T20:45:35" tests="1" failures="0" time="19.465">
+    <testcase name="15 - On the Inventory details page, I can export usage IN-15-1 Should export usage file" time="19.465" classname="IN-15-1 Should export usage file">
+    </testcase>
+  </testsuite>
+</testsuites>

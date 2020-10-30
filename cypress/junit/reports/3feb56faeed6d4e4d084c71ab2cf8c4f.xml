@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="45.397000000000006" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-15T22:37:06" tests="0" file="cypress/integration/apps/lims/LM55.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="55 - I can only use checkboxes when samples are not completed" timestamp="2020-04-15T22:37:06" tests="2" failures="0" time="45.397000000000006">
+    <testcase name="55 - I can only use checkboxes when samples are not completed LM-55-1 Should find correct header in normal view" time="28.073" classname="LM-55-1 Should find correct header in normal view">
+    </testcase>
+    <testcase name="55 - I can only use checkboxes when samples are not completed LM-55-2 Should find correct header in transpose view" time="17.324" classname="LM-55-2 Should find correct header in transpose view">
+    </testcase>
+  </testsuite>
+</testsuites>

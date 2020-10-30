@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="36.593999999999994" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-11T01:28:37" tests="0" file="cypress/integration/apps/samples/SP21.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="21 - I can switch between different types of barcodes" timestamp="2020-07-11T01:28:37" tests="3" failures="0" time="36.593999999999994">
+    <testcase name="21 - I can switch between different types of barcodes SP-21-1 Should display 1D" time="17.741" classname="SP-21-1 Should display 1D">
+    </testcase>
+    <testcase name="21 - I can switch between different types of barcodes SP-21-1 Should display QR" time="10.031" classname="SP-21-1 Should display QR">
+    </testcase>
+    <testcase name="21 - I can switch between different types of barcodes SP-21-1 Should display Mini Datamatrix" time="8.822" classname="SP-21-1 Should display Mini Datamatrix">
+    </testcase>
+  </testsuite>
+</testsuites>

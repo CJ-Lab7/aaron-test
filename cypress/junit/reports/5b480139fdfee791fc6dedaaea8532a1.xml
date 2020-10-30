@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.656" tests="3" failures="1" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-05-28T15:48:38" tests="0" file="cypress/integration/apps/service_types/ST05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can see the list of all service types" timestamp="2020-05-28T15:48:38" tests="3" failures="1" time="4.656">
+    <testcase name="5 - I can see the list of all service types ST-5-1 Should list with all columns" time="0" classname="ST-5-1 Should list with all columns">
+      <failure message="Timed out retrying: Expected to find content: &apos;Last Updated&apos; within the element: [ &lt;div.ag-header-cell.ag-header-cell-sortable&gt;, 6 more... ] but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Last Updated' within the element: [ <div.ag-header-cell.ag-header-cell-sortable>, 6 more... ] but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="5 - I can see the list of all service types ST-5-3 Should open details page" time="4.656" classname="ST-5-3 Should open details page">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.129" tests="5" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:22:19" tests="0" file="cypress/integration/apps/lims/LM27.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="27 - I should be able to see details under the metadata tab (pipeline details modal)" timestamp="2020-07-10T21:22:19" tests="5" failures="0" time="27.129">
+    <testcase name="27 - I should be able to see details under the metadata tab (pipeline details modal) LM-27-1 Should find correct owner" time="18.764" classname="LM-27-1 Should find correct owner">
+    </testcase>
+    <testcase name="27 - I should be able to see details under the metadata tab (pipeline details modal) LM-27-2 Should find correct status" time="4.702" classname="LM-27-2 Should find correct status">
+    </testcase>
+    <testcase name="27 - I should be able to see details under the metadata tab (pipeline details modal) LM-27-5 Should find correct pipeline" time="3.663" classname="LM-27-5 Should find correct pipeline">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="125.67999999999999" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T12:06:41" tests="0" file="cypress/integration/apps/entities/EN23.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="23 - I can generate new barcodes with the barcode modal" timestamp="2020-03-31T12:06:41" tests="8" failures="0" time="125.67999999999999">
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-1 Should generate new QR barcode" time="20.709" classname="EN-23-1 Should generate new QR barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-2 Should generate new 1D barcode" time="13.476" classname="EN-23-2 Should generate new 1D barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-3 Should generate new Mini Data Matrix barcode" time="14.398" classname="EN-23-3 Should generate new Mini Data Matrix barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-4 Should edit QR barcode" time="16.334" classname="EN-23-4 Should edit QR barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-5 Should edit 1D barcode" time="14.859" classname="EN-23-5 Should edit 1D barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-6 Should edit Mini Data Matrix barcode" time="15.797" classname="EN-23-6 Should edit Mini Data Matrix barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-8 Should close modal with &apos;X&apos;" time="15.934" classname="EN-23-8 Should close modal with &apos;X&apos;">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-9 Should close modal with Cancel" time="14.173" classname="EN-23-9 Should close modal with Cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

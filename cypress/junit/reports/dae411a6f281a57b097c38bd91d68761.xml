@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="99.52699999999999" tests="8" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-04T19:14:45" tests="0" file="cypress/integration/apps/container_types/CT17.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can click on a Container Types details and can edit Custom Fields" timestamp="2020-06-04T19:14:45" tests="8" failures="1" time="99.52699999999999">
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-1 Should edit name" time="18.707" classname="CT-17-1 Should edit name">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-2 Should edit description" time="14.092" classname="CT-17-2 Should edit description">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-3 Should edit default value" time="13.266" classname="CT-17-3 Should edit default value">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-4 Should add read only" time="13.879" classname="CT-17-4 Should add read only">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-5 Should add required" time="12.397" classname="CT-17-5 Should add required">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-6 Should edit type" time="12.264" classname="CT-17-6 Should edit type">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-7 Should add picklist options" time="0" classname="CT-17-7 Should add picklist options">
+      <failure message="Timed out retrying: Expected to find content: &apos;CT17 picklist&apos; within the selector: &apos;.ag-center-cols-container .ag-row a&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'CT17 picklist' within the selector: '.ag-center-cols-container .ag-row a' but never did.
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-8 Should remove custom field" time="14.922" classname="CT-17-8 Should remove custom field">
+    </testcase>
+  </testsuite>
+</testsuites>

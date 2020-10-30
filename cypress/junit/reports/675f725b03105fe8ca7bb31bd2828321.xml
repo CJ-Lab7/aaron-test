@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="110.515" tests="16" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-04-29T18:23:02" tests="0" file="cypress/integration/apps/permissions/LP04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - Admin users can grant user access to specific apps" timestamp="2020-04-29T18:23:02" tests="16" failures="1" time="110.515">
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-1 Should have access to projects" time="20.943" classname="LP-4-1 Should have access to projects">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-2 Should NOT have access to projects" time="7.191" classname="LP-4-2 Should NOT have access to projects">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-3 Should have access to LIMS" time="5.397" classname="LP-4-3 Should have access to LIMS">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-4 Should NOT have access to LIMS" time="6.958" classname="LP-4-4 Should NOT have access to LIMS">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-5 Should have access to inventory" time="5.147" classname="LP-4-5 Should have access to inventory">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-6 Should NOT have access to inventory" time="6.881" classname="LP-4-6 Should NOT have access to inventory">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-7 Should have access to location" time="5.64" classname="LP-4-7 Should have access to location">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-8 Should NOT have access to location" time="6.964" classname="LP-4-8 Should NOT have access to location">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-9 Should have access to samples" time="5.45" classname="LP-4-9 Should have access to samples">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-10 Should NOT have access to samples" time="0" classname="LP-4-10 Should NOT have access to samples">
+      <failure message="Timed out retrying: Expected &lt;a.app-remix&gt; not to exist in the DOM, but it was continuously found. Queried from element: &lt;div.app-picker&gt;" type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected <a.app-remix> not to exist in the DOM, but it was continuously found. Queried from element: <div.app-picker>
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-11 Should have access to dashboard" time="5.406" classname="LP-4-11 Should have access to dashboard">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-12 Should NOT have access to dashboard" time="7.499" classname="LP-4-12 Should NOT have access to dashboard">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-13 Should have access to data" time="7.099" classname="LP-4-13 Should have access to data">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-14 Should not have access to data" time="7.324" classname="LP-4-14 Should not have access to data">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-15 Should have access to analysis" time="5.241" classname="LP-4-15 Should have access to analysis">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-16 Should NOT have access to analysis" time="7.375" classname="LP-4-16 Should NOT have access to analysis">
+    </testcase>
+  </testsuite>
+</testsuites>

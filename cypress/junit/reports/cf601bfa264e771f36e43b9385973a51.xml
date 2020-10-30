@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.915" tests="3" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-28T14:26:31" tests="0" file="cypress/integration/apps/analysis/AN06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I should be able to see pipeline instances in Cards View under Monitor tab" timestamp="2020-03-28T14:26:31" tests="3" failures="0" time="21.915">
+    <testcase name="6 - I should be able to see pipeline instances in Cards View under Monitor tab AN-6-1 Should see pipeline instances in columns by status" time="19.2" classname="AN-6-1 Should see pipeline instances in columns by status">
+    </testcase>
+    <testcase name="6 - I should be able to see pipeline instances in Cards View under Monitor tab AN-6-2 Should show number of pipeline instances in each category" time="2.715" classname="AN-6-2 Should show number of pipeline instances in each category">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-31T02:39:10" tests="0" file="cypress/integration/apps/analysis/AN07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I should be able to access pipeline inspector under Monitor tab" timestamp="2020-03-31T02:39:10" tests="3" failures="1" time="0">
+    <testcase name="7 - I should be able to access pipeline inspector under Monitor tab &quot;before all&quot; hook for &quot;AN-7-1 Should display pipeline instance details&quot;" time="0" classname="&quot;before all&quot; hook for &quot;AN-7-1 Should display pipeline instance details&quot;">
+      <failure message="cy.exec(&apos;esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed --no-overwrite cypress/fixtures/apps//analysis/AN7seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-30 21:39:11,040:Creating Task: AN7 task
+INFO:root:2020-03-30 21:39:12,439:Creating Pipeline: AN7 report
+INFO:root:2020-03-30 21:39:13,120:Creating PipelineReport: AN7 report
+INFO:...
+
+Because this error occurred during a &apos;before all&apos; hook we are skipping the remaining tests in the current suite: &apos;7 - I should be able to acc...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed --no-overwrite cypress/fixtures/apps//analysis/AN7seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-30 21:39:11,040:Creating Task: AN7 task
+INFO:root:2020-03-30 21:39:12,439:Creating Pipeline: AN7 report
+INFO:root:2020-03-30 21:39:13,120:Creating PipelineReport: AN7 report
+INFO:...
+
+Because this error occurred during a 'before all' hook we are skipping the remaining tests in the current suite: '7 - I should be able to acc...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

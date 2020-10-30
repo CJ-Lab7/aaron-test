@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.28" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-11T03:16:08" tests="0" file="cypress/integration/apps/vendors/VEN09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can create a new customer with same Billing and Shipping address" timestamp="2020-07-11T03:16:08" tests="5" failures="0" time="20.28">
+    <testcase name="9 - I can create a new customer with same Billing and Shipping address VEN-9-1 Should input name" time="7.976" classname="VEN-9-1 Should input name">
+    </testcase>
+    <testcase name="9 - I can create a new customer with same Billing and Shipping address VEN-9-2 Should input description" time="3.461" classname="VEN-9-2 Should input description">
+    </testcase>
+    <testcase name="9 - I can create a new customer with same Billing and Shipping address VEN-9-11 Should save vendor" time="3.256" classname="VEN-9-11 Should save vendor">
+    </testcase>
+    <testcase name="9 - I can create a new customer with same Billing and Shipping address VEN-9-13 Should cancel" time="2.418" classname="VEN-9-13 Should cancel">
+    </testcase>
+    <testcase name="9 - I can create a new customer with same Billing and Shipping address VEN-9-14 Should close modal" time="3.169" classname="VEN-9-14 Should close modal">
+    </testcase>
+  </testsuite>
+</testsuites>

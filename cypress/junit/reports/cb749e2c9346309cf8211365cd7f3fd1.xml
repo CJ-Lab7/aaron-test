@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.817" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-09T19:02:52" tests="0" file="cypress/integration/apps/search/SR06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can do a blank search and see no items" timestamp="2020-06-09T19:02:52" tests="1" failures="0" time="14.817">
+    <testcase name="6 - I can do a blank search and see no items SR-6-1 Should display no items under All Results" time="14.817" classname="SR-6-1 Should display no items under All Results">
+    </testcase>
+  </testsuite>
+</testsuites>

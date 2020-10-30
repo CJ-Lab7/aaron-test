@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="104.681" tests="13" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-03T17:24:34" tests="0" file="cypress/integration/apps/entities/EN29.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="29 - I can use all types of data columns in new entity modal" timestamp="2020-03-03T17:24:34" tests="13" failures="1" time="104.681">
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-1 Should add text" time="41.188" classname="EN-29-1 Should add text">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-2 Should add numeric" time="7.785" classname="EN-29-2 Should add numeric">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-3 Should add picklist" time="5.498" classname="EN-29-3 Should add picklist">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-4 Should add multiselect picklist" time="4.017" classname="EN-29-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-5 Should add date" time="6.387" classname="EN-29-5 Should add date">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-6 Should add checkbox" time="5.337" classname="EN-29-6 Should add checkbox">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-7 Should add attachment" time="0" classname="EN-29-7 Should add attachment">
+      <failure message="Timed out retrying: Expected to find content: &apos;en29.txt&apos; within the element: &lt;div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value.ag-column-hover.ag-cell-focus.ag-cell-range-selected.ag-cell-range-selected-1.ag-cell-range-single-cell.ag-cell-popup-editing&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'en29.txt' within the element: <div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value.ag-column-hover.ag-cell-focus.ag-cell-range-selected.ag-cell-range-selected-1.ag-cell-range-single-cell.ag-cell-popup-editing> but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-8 Should add qr barcode" time="8.371" classname="EN-29-8 Should add qr barcode">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-9 Should add 1d barcode" time="6.713" classname="EN-29-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-10 Should add mini data matrix" time="5.942" classname="EN-29-10 Should add mini data matrix">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-11 Should require required field" time="5.499" classname="EN-29-11 Should require required field">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-12 Should find default value" time="5.634" classname="EN-29-12 Should find default value">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-13 Should find read only field" time="2.31" classname="EN-29-13 Should find read only field">
+    </testcase>
+  </testsuite>
+</testsuites>

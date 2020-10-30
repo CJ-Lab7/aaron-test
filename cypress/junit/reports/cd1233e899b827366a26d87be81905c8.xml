@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="22.740000000000002" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-05-01T19:53:56" tests="0" file="cypress/integration/apps/container_types/CT10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I can create container types that accept different objects" timestamp="2020-05-01T19:53:56" tests="6" failures="1" time="22.740000000000002">
+    <testcase name="10 - I can create container types that accept different objects CT-10-1 Should create single entity container" time="9" classname="CT-10-1 Should create single entity container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-2 Should create unlimited entity container" time="4.418" classname="CT-10-2 Should create unlimited entity container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-3 Should create single container container" time="3.039" classname="CT-10-3 Should create single container container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-4 Should create unlimited container container" time="3.036" classname="CT-10-4 Should create unlimited container container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-5 Should create single entity and container container" time="0" classname="CT-10-5 Should create single entity and container container">
+      <failure message="Timed out retrying: Expected to find content: &apos;New Container Type&apos; within the selector: &apos;button&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'New Container Type' within the selector: 'button' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-6 Should create unlimited entity and container container" time="3.247" classname="CT-10-6 Should create unlimited entity and container container">
+    </testcase>
+  </testsuite>
+</testsuites>

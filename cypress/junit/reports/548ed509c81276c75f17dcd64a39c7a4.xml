@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.035" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-26T16:20:01" tests="0" file="cypress/integration/apps/customers/CS02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I can find customers page details" timestamp="2020-05-26T16:20:01" tests="6" failures="0" time="18.035">
+    <testcase name="2 - I can find customers page details CS-2-1 Should find header" time="8.664" classname="CS-2-1 Should find header">
+    </testcase>
+    <testcase name="2 - I can find customers page details CS-2-2 Should find subheader" time="2.943" classname="CS-2-2 Should find subheader">
+    </testcase>
+    <testcase name="2 - I can find customers page details CS-2-3 Should find New Customers button" time="1.678" classname="CS-2-3 Should find New Customers button">
+    </testcase>
+    <testcase name="2 - I can find customers page details CS-2-5 Should find filters column" time="1.541" classname="CS-2-5 Should find filters column">
+    </testcase>
+    <testcase name="2 - I can find customers page details CS-2-6 Should find list of customers" time="1.691" classname="CS-2-6 Should find list of customers">
+    </testcase>
+    <testcase name="2 - I can find customers page details CS-2-7 Should find inspector column" time="1.518" classname="CS-2-7 Should find inspector column">
+    </testcase>
+  </testsuite>
+</testsuites>

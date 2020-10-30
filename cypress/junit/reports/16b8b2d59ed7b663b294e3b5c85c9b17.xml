@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.08" tests="6" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-03-23T02:40:40" tests="0" file="cypress/integration/apps/search/SR02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I can use the search box" timestamp="2020-03-23T02:40:40" tests="6" failures="2" time="16.08">
+    <testcase name="2 - I can use the search box SR-2-1 Should search and display all results" time="0" classname="SR-2-1 Should search and display all results">
+      <failure message="Timed out retrying: Expected to find content: &apos;SR2 exp&apos; within the selector: &apos;.result-item&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'SR2 exp' within the selector: '.result-item' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="2 - I can use the search box SR-2-2 Should confirm correct search results" time="0" classname="SR-2-2 Should confirm correct search results">
+      <failure message="Timed out retrying: Expected to find content: &apos;SR2 exp&apos; within the selector: &apos;.result-item&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'SR2 exp' within the selector: '.result-item' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="2 - I can use the search box SR-2-3 Should confirm total number of results for each tab" time="3.548" classname="SR-2-3 Should confirm total number of results for each tab">
+    </testcase>
+    <testcase name="2 - I can use the search box SR-2-4 Should find tabs for each search category" time="3.381" classname="SR-2-4 Should find tabs for each search category">
+    </testcase>
+    <testcase name="2 - I can use the search box SR-2-5 Should find a link for each search result" time="3.728" classname="SR-2-5 Should find a link for each search result">
+    </testcase>
+    <testcase name="2 - I can use the search box SR-2-6 Should find correct icons for search results" time="5.423" classname="SR-2-6 Should find correct icons for search results">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.232" tests="8" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:44:30" tests="0" file="cypress/integration/apps/projects/PR03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I should see a summary of all projects (Projects List)" timestamp="2020-07-10T22:44:30" tests="8" failures="1" time="16.232">
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-1 Should view all project names" time="0" classname="PR-3-1 Should view all project names">
+      <failure message="Timed out retrying: Expected to find element: `.description`, but never found it. Queried from element: &lt;div.project-table-row&gt;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `.description`, but never found it. Queried from element: <div.project-table-row>
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/projects/PR03.js:23:20)]]></failure>
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-2 Should observe number of workflow chains" time="3.475" classname="PR-3-2 Should observe number of workflow chains">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-3 Should display correct number of experiments in a project" time="1.836" classname="PR-3-3 Should display correct number of experiments in a project">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-4 Should display the correct number of samples in a project" time="1.806" classname="PR-3-4 Should display the correct number of samples in a project">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-5 Should see View Details button for each project" time="2.097" classname="PR-3-5 Should see View Details button for each project">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-6 Should see + Experiment button for each project" time="2.347" classname="PR-3-6 Should see + Experiment button for each project">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-7 Should open a dropdown menu containing the project&apos;s experiments" time="2.248" classname="PR-3-7 Should open a dropdown menu containing the project&apos;s experiments">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-8 Should list all chains in a project" time="2.423" classname="PR-3-8 Should list all chains in a project">
+    </testcase>
+  </testsuite>
+</testsuites>

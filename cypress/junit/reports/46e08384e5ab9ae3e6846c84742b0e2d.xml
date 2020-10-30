@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.685" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-23T00:52:16" tests="0" file="cypress/integration/apps/samples/SP06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can edit a sample on the Sample details page" timestamp="2020-03-23T00:52:16" tests="2" failures="0" time="25.685">
+    <testcase name="6 - I can edit a sample on the Sample details page SP-6-1 Should add/remove tags (with permission)" time="19.386" classname="SP-6-1 Should add/remove tags (with permission)">
+    </testcase>
+    <testcase name="6 - I can edit a sample on the Sample details page SP-6-3 Should add/edit/remove note (with permission)" time="6.299" classname="SP-6-3 Should add/edit/remove note (with permission)">
+    </testcase>
+  </testsuite>
+</testsuites>

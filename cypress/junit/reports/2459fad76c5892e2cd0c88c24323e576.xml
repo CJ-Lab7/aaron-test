@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-03-29T00:34:18" tests="0" file="cypress/integration/apps/projects/PR14.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="14 - I can hide completed experiments (Experiment Filters)" timestamp="2020-03-29T00:34:18" tests="1" failures="2" time="0">
+    <testcase name="14 - I can hide completed experiments (Experiment Filters) &quot;before all&quot; hook for &quot;PR-14-1 Should hide completed experiments&quot;" time="0" classname="&quot;before all&quot; hook for &quot;PR-14-1 Should hide completed experiments&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed --no-overwrite cypress/fixtures/apps/projects/PR14seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 19:34:19,574:Creating Sample: PR140001
+INFO:root:2020-03-28 19:34:19,702:Creating Experiment: PR14 pending
+INFO:root:2020-03-28 19:34:20,243:Creating Sample: PR0140002
+INFO:roo...
+
+Because this error occurred during a &apos;before all&apos; hook we are skipping the remaining tests in the current suite: &apos;14 - I can hide completed e...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed --no-overwrite cypress/fixtures/apps/projects/PR14seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 19:34:19,574:Creating Sample: PR140001
+INFO:root:2020-03-28 19:34:19,702:Creating Experiment: PR14 pending
+INFO:root:2020-03-28 19:34:20,243:Creating Sample: PR0140002
+INFO:roo...
+
+Because this error occurred during a 'before all' hook we are skipping the remaining tests in the current suite: '14 - I can hide completed e...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="14 - I can hide completed experiments (Experiment Filters) &quot;after all&quot; hook for &quot;PR-14-1 Should hide completed experiments&quot;" time="0" classname="&quot;after all&quot; hook for &quot;PR-14-1 Should hide completed experiments&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/projects/PR14seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 19:34:24,773:Dropping Experiment: PR14 pending
+INFO:root:2020-03-28 19:34:26,065:Saving data in Experiment PR14 complete for Protocol: Simple Protocol.
+Traceback (most recent c...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;14 - I can hide completed e...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/projects/PR14seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 19:34:24,773:Dropping Experiment: PR14 pending
+INFO:root:2020-03-28 19:34:26,065:Saving data in Experiment PR14 complete for Protocol: Simple Protocol.
+Traceback (most recent c...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '14 - I can hide completed e...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

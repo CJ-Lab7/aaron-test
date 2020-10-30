@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="93.79599999999999" tests="5" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-03T21:38:07" tests="0" file="cypress/integration/apps/projects/PR34.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="34 - I can see the status of an experiment&apos;s worksheets" timestamp="2020-04-03T21:38:07" tests="5" failures="0" time="93.79599999999999">
+    <testcase name="34 - I can see the status of an experiment&apos;s worksheets PR-34-1 Should find loading status" time="52.781" classname="PR-34-1 Should find loading status">
+    </testcase>
+    <testcase name="34 - I can see the status of an experiment&apos;s worksheets PR-34-2 Should find running status" time="13.366" classname="PR-34-2 Should find running status">
+    </testcase>
+    <testcase name="34 - I can see the status of an experiment&apos;s worksheets PR-34-3 Should find done status" time="14.103" classname="PR-34-3 Should find done status">
+    </testcase>
+    <testcase name="34 - I can see the status of an experiment&apos;s worksheets PR-34-4 Should find failed status" time="13.546" classname="PR-34-4 Should find failed status">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="36.516" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:25:59" tests="0" file="cypress/integration/apps/lims/LM32.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="32 - I should be able to change protocol attachments" timestamp="2020-07-10T21:25:59" tests="2" failures="0" time="36.516">
+    <testcase name="32 - I should be able to change protocol attachments LM-32-1 Should change attachment before completing protocol" time="24.579" classname="LM-32-1 Should change attachment before completing protocol">
+    </testcase>
+    <testcase name="32 - I should be able to change protocol attachments LM-32-2 Should change attachment after completing protocol" time="11.937" classname="LM-32-2 Should change attachment after completing protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

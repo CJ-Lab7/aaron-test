@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.99" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-09-18T16:26:45" tests="1" file="cypress/integration/apps/location/LC32.js" failures="1" time="0.99">
+    <testcase name="An uncaught error was detected outside of a test" time="0.99" classname="An uncaught error was detected outside of a test">
+      <failure message="The following error originated from your test code, not from Cypress.
+
+  &gt; `Cypress.Cookies.defaults` `whitelist` option has been renamed to `preserve`. Please rename `whitelist` to `preserve`.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure." type="CypressError"><![CDATA[CypressError: The following error originated from your test code, not from Cypress.
+
+  > `Cypress.Cookies.defaults` `whitelist` option has been renamed to `preserve`. Please rename `whitelist` to `preserve`.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure.
+    at warnOnWhitelistRenamed (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:169041:22)
+    at Object.defaults (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:169173:7)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:176798:16
+    at arrayEach (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:25250:11)
+    at Function.forEach (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:34102:14)
+    at evalScripts (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:176793:5)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:176808:12
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10325:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8260:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8317:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8362:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8442:18)
+    at Promise._fulfill (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8386:18)
+    at MappingPromiseArray.PromiseArray._resolve (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8659:19)
+    at MappingPromiseArray._promiseFulfilled (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:7485:18)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8322:26)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

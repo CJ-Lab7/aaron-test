@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="61.308" tests="7" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-07-11T01:18:58" tests="0" file="cypress/integration/apps/samples/SP08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can add parents and children to samples" timestamp="2020-07-11T01:18:58" tests="7" failures="2" time="61.308">
+    <testcase name="8 - I can add parents and children to samples SP-8-1 Should add parents to a sample" time="22.217" classname="SP-8-1 Should add parents to a sample">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-2 Should add children to a sample" time="11.969" classname="SP-8-2 Should add children to a sample">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-3 Should not add sample as it&apos;s own parent" time="8.22" classname="SP-8-3 Should not add sample as it&apos;s own parent">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-4 Should not add sample as it&apos;s own child" time="8.185" classname="SP-8-4 Should not add sample as it&apos;s own child">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-5 Should add sample as another samples child and parent" time="10.717" classname="SP-8-5 Should add sample as another samples child and parent">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-6 Should access details of parents" time="0" classname="SP-8-6 Should access details of parents">
+      <failure message="Timed out retrying: Expected to find content: &apos;SP-8 parent1&apos; within the selector: &apos;.view-header__info&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'SP-8 parent1' within the selector: '.view-header__info' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/samples/SP08.js:123:8)]]></failure>
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-7 Should access details of children" time="0" classname="SP-8-7 Should access details of children">
+      <failure message="Timed out retrying: Expected to find content: &apos;SP-8 child1&apos; within the selector: &apos;.view-header__info&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'SP-8 child1' within the selector: '.view-header__info' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/samples/SP08.js:149:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

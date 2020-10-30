@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.897000000000002" tests="6" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-04-29T18:09:53" tests="0" file="cypress/integration/apps/permissions/LP31.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I can have project permissions" timestamp="2020-04-29T18:09:53" tests="6" failures="0" time="28.897000000000002">
+    <testcase name="31 - I can have project permissions LP-31-6 Should fail to create a project" time="12.599" classname="LP-31-6 Should fail to create a project">
+    </testcase>
+    <testcase name="31 - I can have project permissions LP-31-7 Should fail to update a project" time="7.588" classname="LP-31-7 Should fail to update a project">
+    </testcase>
+    <testcase name="31 - I can have project permissions LP-31-2 Should create a project" time="3.455" classname="LP-31-2 Should create a project">
+    </testcase>
+    <testcase name="31 - I can have project permissions LP-31-3 Should update a project" time="5.255" classname="LP-31-3 Should update a project">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="36.323" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:09:47" tests="0" file="cypress/integration/apps/lims/LM19.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="19 - I should be able to archive worksheets " timestamp="2020-07-10T21:09:47" tests="3" failures="0" time="36.323">
+    <testcase name="19 - I should be able to archive worksheets  LM-19-1 Should be able to archive worsheet with all samples failed" time="21.672" classname="LM-19-1 Should be able to archive worsheet with all samples failed">
+    </testcase>
+    <testcase name="19 - I should be able to archive worksheets  LM-19-2 Should be able to archive worsheet where all protocols have been completed successfully" time="6.806" classname="LM-19-2 Should be able to archive worsheet where all protocols have been completed successfully">
+    </testcase>
+    <testcase name="19 - I should be able to archive worksheets  LM-19-3 Should archive worksheet with samples failed in the middle protocol" time="7.845" classname="LM-19-3 Should archive worksheet with samples failed in the middle protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

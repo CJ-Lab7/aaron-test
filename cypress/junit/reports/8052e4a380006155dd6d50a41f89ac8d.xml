@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="31.504999999999995" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-26T14:16:47" tests="0" file="cypress/integration/apps/container_types/CT02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I can find container type page details" timestamp="2020-06-26T14:16:47" tests="5" failures="1" time="31.504999999999995">
+    <testcase name="2 - I can find container type page details CT-2-1 Should find subheader" time="8.164" classname="CT-2-1 Should find subheader">
+    </testcase>
+    <testcase name="2 - I can find container type page details CT-2-2 Should find New Container button" time="7.84" classname="CT-2-2 Should find New Container button">
+    </testcase>
+    <testcase name="2 - I can find container type page details CT-2-3 Should find filters column" time="7.427" classname="CT-2-3 Should find filters column">
+    </testcase>
+    <testcase name="2 - I can find container type page details CT-2-4 Should find list of container types" time="0" classname="CT-2-4 Should find list of container types">
+      <failure message="Timed out retrying: Expected to find content: &apos;Container Single&apos; within the element: [ &lt;div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first&gt;, 9 more... ] and with the selector: &apos;a&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Container Single' within the element: [ <div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first>, 9 more... ] and with the selector: 'a' but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="2 - I can find container type page details CT-2-5 Should find inspector column" time="8.074" classname="CT-2-5 Should find inspector column">
+    </testcase>
+  </testsuite>
+</testsuites>

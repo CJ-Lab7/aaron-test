@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.015" tests="3" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-27T21:39:26" tests="0" file="cypress/integration/apps/inventory/IN26.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - On the Inventory details page, I cannot update barcode" timestamp="2020-04-27T21:39:26" tests="3" failures="0" time="25.015">
+    <testcase name="26 - On the Inventory details page, I cannot update barcode IN-26-2 Manually update barcode" time="10.119" classname="IN-26-2 Manually update barcode">
+    </testcase>
+    <testcase name="26 - On the Inventory details page, I cannot update barcode IN-26-3 Change barcode type" time="14.896" classname="IN-26-3 Change barcode type">
+    </testcase>
+  </testsuite>
+</testsuites>

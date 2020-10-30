@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="35.597" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:23:53" tests="0" file="cypress/integration/apps/lims/LM30.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I should NOT be able to restart a completed pipeline (pipeline details modal)" timestamp="2020-07-10T21:23:53" tests="2" failures="0" time="35.597">
+    <testcase name="30 - I should NOT be able to restart a completed pipeline (pipeline details modal) LM-30-1 Should find disabled restart pipeline button" time="24.924" classname="LM-30-1 Should find disabled restart pipeline button">
+    </testcase>
+    <testcase name="30 - I should NOT be able to restart a completed pipeline (pipeline details modal) LM-30-2 Should resubmit pipeline" time="10.673" classname="LM-30-2 Should resubmit pipeline">
+    </testcase>
+  </testsuite>
+</testsuites>

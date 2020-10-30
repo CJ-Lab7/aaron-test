@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="70.63" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T01:18:51" tests="0" file="cypress/integration/apps/expressions/EX04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I should be able to use the File API" timestamp="2020-04-16T01:18:51" tests="5" failures="0" time="70.63">
+    <testcase name="4 - I should be able to use the File API EX-4-1 Should use basename(path)" time="22.263" classname="EX-4-1 Should use basename(path)">
+    </testcase>
+    <testcase name="4 - I should be able to use the File API EX-4-2 Should use dirname(path)" time="12.582" classname="EX-4-2 Should use dirname(path)">
+    </testcase>
+    <testcase name="4 - I should be able to use the File API EX-4-3 Should use file_ext(file_path)" time="11.78" classname="EX-4-3 Should use file_ext(file_path)">
+    </testcase>
+    <testcase name="4 - I should be able to use the File API EX-4-4 Should use remove_ext(file_path, ext=None)" time="11.458" classname="EX-4-4 Should use remove_ext(file_path, ext=None)">
+    </testcase>
+    <testcase name="4 - I should be able to use the File API EX-4-5 Should use replace_ext(file_path, new_ext, old_ext=None)" time="12.547" classname="EX-4-5 Should use replace_ext(file_path, new_ext, old_ext=None)">
+    </testcase>
+  </testsuite>
+</testsuites>

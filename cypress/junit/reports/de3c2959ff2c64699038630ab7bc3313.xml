@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="61.477999999999994" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-24T03:11:29" tests="0" file="cypress/integration/apps/lims/LM51.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="51 - I can use barcodes column in a group all protocol" timestamp="2020-06-24T03:11:29" tests="4" failures="1" time="61.477999999999994">
+    <testcase name="51 - I can use barcodes column in a group all protocol LM-51-1 Should show barcode in header when all samples have the same barcode" time="26.069" classname="LM-51-1 Should show barcode in header when all samples have the same barcode">
+    </testcase>
+    <testcase name="51 - I can use barcodes column in a group all protocol LM-51-2 Should say multiple barcodes in header when samples have different barcodes" time="18.298" classname="LM-51-2 Should say multiple barcodes in header when samples have different barcodes">
+    </testcase>
+    <testcase name="51 - I can use barcodes column in a group all protocol LM-51-3 Should say multiple barcodes in header when samples have missing barcodes" time="0" classname="LM-51-3 Should say multiple barcodes in header when samples have missing barcodes">
+      <failure message="Timed out retrying: cy.click() failed because this element is detached from the DOM.
+
+&lt;span class=&quot;ag-group-contracted&quot; ref=&quot;eContracted&quot;&gt;...&lt;/span&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.get()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.click() failed because this element is detached from the DOM.
+
+<span class="ag-group-contracted" ref="eContracted">...</span>
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.get()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="51 - I can use barcodes column in a group all protocol LM-51-4 Should have empty header when no samples have barcode" time="17.111" classname="LM-51-4 Should have empty header when no samples have barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

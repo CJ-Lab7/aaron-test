@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="195.78899999999996" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:37:07" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58b - archive worksheets with multiple sample protocols" timestamp="2020-02-27T21:37:07" tests="5" failures="0" time="195.78899999999996">
+    <testcase name="58b - archive worksheets with multiple sample protocols LM-58b-1 - Archive after all samples are complete" time="161.688" classname="LM-58b-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58b - archive worksheets with multiple sample protocols LM-58b-2 - Archive after all samples fail in second protocol" time="8.73" classname="LM-58b-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58b - archive worksheets with multiple sample protocols LM-58b-3 - Archive after all samples fail in third protocol" time="6.843" classname="LM-58b-3 - Archive after all samples fail in third protocol">
+    </testcase>
+    <testcase name="58b - archive worksheets with multiple sample protocols LM-58b-4 - Archive after first sample fails in third protocol" time="8.749" classname="LM-58b-4 - Archive after first sample fails in third protocol">
+    </testcase>
+    <testcase name="58b - archive worksheets with multiple sample protocols LM-58b-5 - Archive after last sample fails in third protocol" time="9.779" classname="LM-58b-5 - Archive after last sample fails in third protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="82.506" tests="11" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-03-20T19:48:34" tests="0" file="cypress/integration/apps/container_types/CT08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can use the New Container Type modal" timestamp="2020-03-20T19:48:34" tests="11" failures="2" time="82.506">
+    <testcase name="8 - I can use the New Container Type modal CT-8-1 Should add name" time="11.815" classname="CT-8-1 Should add name">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-2 Should add description" time="8.609" classname="CT-8-2 Should add description">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-3 Should find Contains selector options" time="0" classname="CT-8-3 Should find Contains selector options">
+      <failure message="Timed out retrying: Expected to find content: &apos;Samples&apos; within the element: &lt;select&gt; and with the selector: &apos;option&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Samples' within the element: <select> and with the selector: 'option' but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-4 Should find Elements per Location options" time="8.882" classname="CT-8-4 Should find Elements per Location options">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-5 Should add rendering script" time="0" classname="CT-8-5 Should add rendering script">
+      <failure message="Timed out retrying: Expected to find element: &apos;.textarea-editor textarea&apos;, but never found it. Queried from element: &lt;div.modal-container&gt;" type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.textarea-editor textarea', but never found it. Queried from element: <div.modal-container>
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-6 Should add tags" time="9.019" classname="CT-8-6 Should add tags">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-7 Should delete tag" time="8.133" classname="CT-8-7 Should delete tag">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-8 Should not save without name" time="8.389" classname="CT-8-8 Should not save without name">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-9 Should Save" time="9.836" classname="CT-8-9 Should Save">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-10 Should cancel" time="8.382" classname="CT-8-10 Should cancel">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-11 Should close modal" time="9.441" classname="CT-8-11 Should close modal">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.319000000000003" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-26T19:12:59" tests="0" file="cypress/integration/apps/vendors/VEN10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I can view details" timestamp="2020-05-26T19:12:59" tests="4" failures="0" time="28.319000000000003">
+    <testcase name="10 - I can view details VEN-10-1 Should view existing vendor details" time="11.535" classname="VEN-10-1 Should view existing vendor details">
+    </testcase>
+    <testcase name="10 - I can view details VEN-10-2 Should view existing vendor Contact Info" time="7.833" classname="VEN-10-2 Should view existing vendor Contact Info">
+    </testcase>
+    <testcase name="10 - I can view details VEN-10-3 Should view existing vendor History" time="4.5" classname="VEN-10-3 Should view existing vendor History">
+    </testcase>
+    <testcase name="10 - I can view details VEN-10-4 Should view buttons on the vendor details page" time="4.451" classname="VEN-10-4 Should view buttons on the vendor details page">
+    </testcase>
+  </testsuite>
+</testsuites>

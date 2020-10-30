@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="30.95" tests="6" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:49:13" tests="0" file="cypress/integration/apps/lims/LM53_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="53 - I can only use ag-grid functionality in regular view" timestamp="2020-07-10T21:49:13" tests="6" failures="0" time="30.95">
+    <testcase name="53 - I can only use ag-grid functionality in regular view LM-53-1/2 Should sort column descending/ascending" time="20.029" classname="LM-53-1/2 Should sort column descending/ascending">
+    </testcase>
+    <testcase name="53 - I can only use ag-grid functionality in regular view LM-53-3 Should pin column left" time="4.667" classname="LM-53-3 Should pin column left">
+    </testcase>
+    <testcase name="53 - I can only use ag-grid functionality in regular view LM-53-4 Should pin column right" time="2.872" classname="LM-53-4 Should pin column right">
+    </testcase>
+    <testcase name="53 - I can only use ag-grid functionality in regular view LM-53-5 Should have no pin on column" time="3.382" classname="LM-53-5 Should have no pin on column">
+    </testcase>
+  </testsuite>
+</testsuites>

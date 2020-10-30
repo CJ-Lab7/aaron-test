@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.062000000000001" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T23:08:08" tests="0" file="cypress/integration/apps/projects/PR35.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="35 - I can use projects nav links" timestamp="2020-07-10T23:08:08" tests="3" failures="0" time="15.062000000000001">
+    <testcase name="35 - I can use projects nav links PR-35-1 Should find Projects button" time="8.329" classname="PR-35-1 Should find Projects button">
+    </testcase>
+    <testcase name="35 - I can use projects nav links PR-35-2 Should find Experiments button" time="4.269" classname="PR-35-2 Should find Experiments button">
+    </testcase>
+    <testcase name="35 - I can use projects nav links PR-35-3 Should find PROJECTS title link" time="2.464" classname="PR-35-3 Should find PROJECTS title link">
+    </testcase>
+  </testsuite>
+</testsuites>

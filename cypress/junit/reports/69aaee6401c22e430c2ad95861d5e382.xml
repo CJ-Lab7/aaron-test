@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="69.991" tests="4" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-04-15T22:19:17" tests="0" file="cypress/integration/apps/lims/LM48.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="48 - I can use complete checkboxes only if later protocols are not complete" timestamp="2020-04-15T22:19:17" tests="4" failures="2" time="69.991">
+    <testcase name="48 - I can use complete checkboxes only if later protocols are not complete LM-48-1 Should find disabled complete checkbox if later protocols are complete" time="49.394" classname="LM-48-1 Should find disabled complete checkbox if later protocols are complete">
+    </testcase>
+    <testcase name="48 - I can use complete checkboxes only if later protocols are not complete LM-48-2 Should find disabled complete header if later protocols are complete" time="0" classname="LM-48-2 Should find disabled complete header if later protocols are complete">
+      <failure message="Timed out retrying: expected &apos;[ &lt;input.ag-hidden&gt;, 1 more... ]&apos; to be &apos;disabled&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '[ <input.ag-hidden>, 1 more... ]' to be 'disabled'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="48 - I can use complete checkboxes only if later protocols are not complete LM-48-3 Should find enabled complete checkbox if later protocols are not complete" time="0" classname="LM-48-3 Should find enabled complete checkbox if later protocols are not complete">
+      <failure message="cy.click() failed because it requires a DOM element.
+
+The subject received was:
+
+  &gt; Object{3}
+
+The previous command that ran was:
+
+  &gt; cy.should()" type="CypressError"><![CDATA[CypressError: cy.click() failed because it requires a DOM element.
+
+The subject received was:
+
+  > Object{3}
+
+The previous command that ran was:
+
+  > cy.should()
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at ensureElement (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:129712:24)
+    at validateType (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:129584:16)
+    at Object.ensureSubjectByType (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:129612:9)
+    at pushSubjectAndValidate (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:136688:15)
+    at Context.<anonymous> (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:136976:18)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:136453:33
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="48 - I can use complete checkboxes only if later protocols are not complete LM-48-4 Should find enabled complete header if later protocols are not complete" time="20.597" classname="LM-48-4 Should find enabled complete header if later protocols are not complete">
+    </testcase>
+  </testsuite>
+</testsuites>

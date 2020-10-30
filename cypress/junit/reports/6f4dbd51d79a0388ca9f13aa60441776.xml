@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="93.954" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T18:34:47" tests="0" file="cypress/integration/apps/samples/SP17_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can use the sample relation table" timestamp="2020-03-31T18:34:47" tests="4" failures="0" time="93.954">
+    <testcase name="17 - I can use the sample relation table SP-17-7 Should show samples parents and children" time="28.127" classname="SP-17-7 Should show samples parents and children">
+    </testcase>
+    <testcase name="17 - I can use the sample relation table SP-17-8 Should use dropdowns for parents and children" time="18.468" classname="SP-17-8 Should use dropdowns for parents and children">
+    </testcase>
+    <testcase name="17 - I can use the sample relation table SP-17-9 Should sort columns" time="17.94" classname="SP-17-9 Should sort columns">
+    </testcase>
+    <testcase name="17 - I can use the sample relation table SP-17-10 Should link to parent and children details" time="29.419" classname="SP-17-10 Should link to parent and children details">
+    </testcase>
+  </testsuite>
+</testsuites>

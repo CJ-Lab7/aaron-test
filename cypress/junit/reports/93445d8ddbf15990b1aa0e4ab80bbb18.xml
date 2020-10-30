@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.843000000000004" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-28T20:01:26" tests="0" file="cypress/integration/apps/lims/LM47.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="47 - I can click a checkbox header and the grouped row should behave properly" timestamp="2020-03-28T20:01:26" tests="3" failures="1" time="21.843000000000004">
+    <testcase name="47 - I can click a checkbox header and the grouped row should behave properly LM-47-1 Should check group row when complete header is checked" time="12.955" classname="LM-47-1 Should check group row when complete header is checked">
+    </testcase>
+    <testcase name="47 - I can click a checkbox header and the grouped row should behave properly LM-47-2 Should check grouped row when checkbox header is checked" time="3.804" classname="LM-47-2 Should check grouped row when checkbox header is checked">
+    </testcase>
+    <testcase name="47 - I can click a checkbox header and the grouped row should behave properly LM-47-3 Should disable grouped checkbox when complete header is checked" time="2.542" classname="LM-47-3 Should disable grouped checkbox when complete header is checked">
+    </testcase>
+    <testcase name="47 - I can click a checkbox header and the grouped row should behave properly &quot;after all&quot; hook for &quot;LM-47-3 Should disable grouped checkbox when complete header is checked&quot;" time="2.542" classname="&quot;after all&quot; hook for &quot;LM-47-3 Should disable grouped checkbox when complete header is checked&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM47seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 15:01:48,053:Saving data in Experiment LM47 for Protocol: LM47 Standard Checkbox.
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, ...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;47 - I can click a checkbox...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM47seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 15:01:48,053:Saving data in Experiment LM47 for Protocol: LM47 Standard Checkbox.
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", ...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '47 - I can click a checkbox...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

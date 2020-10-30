@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="67.71199999999999" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-23T00:56:19" tests="0" file="cypress/integration/apps/samples/SP17_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can use the sample relation tree" timestamp="2020-03-23T00:56:19" tests="5" failures="0" time="67.71199999999999">
+    <testcase name="17 - I can use the sample relation tree SP-17-1 Should highlight sample and show connections to parents/children" time="48.306" classname="SP-17-1 Should highlight sample and show connections to parents/children">
+    </testcase>
+    <testcase name="17 - I can use the sample relation tree SP-17-2 Should use sample tree dropdowns" time="6.363" classname="SP-17-2 Should use sample tree dropdowns">
+    </testcase>
+    <testcase name="17 - I can use the sample relation tree SP-17-3 Should find table columns" time="2.444" classname="SP-17-3 Should find table columns">
+    </testcase>
+    <testcase name="17 - I can use the sample relation tree SP-17-6 Should link to sample details page" time="7.856" classname="SP-17-6 Should link to sample details page">
+    </testcase>
+    <testcase name="17 - I can use the sample relation tree SP-17-7 Should highlight sample and show connections to parents/children" time="2.743" classname="SP-17-7 Should highlight sample and show connections to parents/children">
+    </testcase>
+  </testsuite>
+</testsuites>

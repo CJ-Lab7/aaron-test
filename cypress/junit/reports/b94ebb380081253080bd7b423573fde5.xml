@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.556000000000001" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-23T02:40:26" tests="0" file="cypress/integration/apps/search/SR01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I should see the ESP logo, search bar, history, and recent activity" timestamp="2020-03-23T02:40:26" tests="4" failures="0" time="10.556000000000001">
+    <testcase name="1 - I should see the ESP logo, search bar, history, and recent activity SR-1-1 Should find ESP logo" time="7.123" classname="SR-1-1 Should find ESP logo">
+    </testcase>
+    <testcase name="1 - I should see the ESP logo, search bar, history, and recent activity SR-1-2 Should find search box" time="1.806" classname="SR-1-2 Should find search box">
+    </testcase>
+    <testcase name="1 - I should see the ESP logo, search bar, history, and recent activity SR-1-3 Should find search history" time="0.842" classname="SR-1-3 Should find search history">
+    </testcase>
+    <testcase name="1 - I should see the ESP logo, search bar, history, and recent activity SR-1-4 Should find recent activity" time="0.785" classname="SR-1-4 Should find recent activity">
+    </testcase>
+  </testsuite>
+</testsuites>

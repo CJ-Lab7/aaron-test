@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.214" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T21:00:18" tests="0" file="cypress/integration/apps/projects/PR01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - On the Projects main page, I should see the experiments tab" timestamp="2020-04-03T21:00:18" tests="2" failures="0" time="15.214">
+    <testcase name="1 - On the Projects main page, I should see the experiments tab PR-1-1 Should find the experiments tab" time="9.375" classname="PR-1-1 Should find the experiments tab">
+    </testcase>
+    <testcase name="1 - On the Projects main page, I should see the experiments tab PR-1-2 Should find the projects tab" time="5.839" classname="PR-1-2 Should find the projects tab">
+    </testcase>
+  </testsuite>
+</testsuites>

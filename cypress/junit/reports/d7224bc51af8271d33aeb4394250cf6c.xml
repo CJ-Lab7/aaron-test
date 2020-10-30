@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="80.143" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2020-09-18T16:51:53" tests="0" file="cypress/integration/apps/location/LC26.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - I can add samples to container slots by scanning barcode" timestamp="2020-09-18T16:51:53" tests="4" failures="4" time="80.143">
+    <testcase name="26 - I can add samples to container slots by scanning barcode LC-26-1 Should add uuid sample to location when sample is in item pool" time="20.027" classname="LC-26-1 Should add uuid sample to location when sample is in item pool">
+      <failure message="Timed out retrying: Expected to find content: &apos;LC2610001&apos; within the selector: &apos;.pool .sample_content&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'LC2610001' within the selector: '.pool .sample_content' but never did.
+    at assertPool (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC26.js:601:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC26.js:220:30)]]></failure>
+    </testcase>
+    <testcase name="26 - I can add samples to container slots by scanning barcode LC-26-2 Should add non-uuid sample to location when sample is in item pool" time="20.938" classname="LC-26-2 Should add non-uuid sample to location when sample is in item pool">
+      <failure message="Timed out retrying: Expected to find content: &apos;LC2620001&apos; within the selector: &apos;.pool .sample_content&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'LC2620001' within the selector: '.pool .sample_content' but never did.
+    at assertPool (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC26.js:601:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC26.js:242:30)]]></failure>
+    </testcase>
+    <testcase name="26 - I can add samples to container slots by scanning barcode LC-26-3 Should add uuid sample to location when sample is NOT in item pool" time="18.594" classname="LC-26-3 Should add uuid sample to location when sample is NOT in item pool">
+      <failure message="Timed out retrying: Expected to find content: &apos;A02&apos; within the selector: &apos;.container&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'A02' within the selector: '.container' but never did.
+    at scanSamples (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC26.js:522:8)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC26.js:259:31)]]></failure>
+    </testcase>
+    <testcase name="26 - I can add samples to container slots by scanning barcode LC-26-4 Should add non-uuid sample to location when sample is NOT in item pool" time="20.584" classname="LC-26-4 Should add non-uuid sample to location when sample is NOT in item pool">
+      <failure message="Timed out retrying: Expected to find content: &apos;A01&apos; within the selector: &apos;.container&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'A01' within the selector: '.container' but never did.
+    at scanSamples (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC26.js:522:8)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC26.js:276:31)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

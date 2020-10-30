@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.375" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:47:59" tests="0" file="cypress/integration/apps/projects/PR07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I can see a summary of all projects (Projects Cards)" timestamp="2020-07-10T22:47:59" tests="7" failures="0" time="28.375">
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-1 Should see project names" time="15.652" classname="PR-7-1 Should see project names">
+    </testcase>
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-2 Should see number of chains per project" time="3.221" classname="PR-7-2 Should see number of chains per project">
+    </testcase>
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-3 Should see number of experiments per project" time="2.085" classname="PR-7-3 Should see number of experiments per project">
+    </testcase>
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-4 Should see total samples per project" time="1.678" classname="PR-7-4 Should see total samples per project">
+    </testcase>
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-5 Should view project details from card view" time="1.861" classname="PR-7-5 Should view project details from card view">
+    </testcase>
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-6 Should find new experiment button" time="1.797" classname="PR-7-6 Should find new experiment button">
+    </testcase>
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-7 Should list experiments in the inspector panel" time="2.081" classname="PR-7-7 Should list experiments in the inspector panel">
+    </testcase>
+  </testsuite>
+</testsuites>

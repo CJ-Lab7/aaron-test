@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.62" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-23T18:43:24" tests="0" file="cypress/integration/apps/entities/EN12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - Should be able to delete a entity" timestamp="2020-06-23T18:43:24" tests="1" failures="0" time="25.62">
+    <testcase name="12 - Should be able to delete a entity EN-12-1 Should archive entity" time="25.62" classname="EN-12-1 Should archive entity">
+    </testcase>
+  </testsuite>
+</testsuites>

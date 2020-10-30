@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="74.625" tests="8" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:22:24" tests="0" file="cypress/integration/apps/permissions/LP04_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - Admin users can grant user access to specific apps" timestamp="2020-07-10T22:22:24" tests="8" failures="2" time="74.625">
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-11 Should have access to dashboard" time="20.966" classname="LP-4-11 Should have access to dashboard">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-12 Should NOT have access to dashboard" time="11.403" classname="LP-4-12 Should NOT have access to dashboard">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-13 Should have access to data" time="10.786" classname="LP-4-13 Should have access to data">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-14 Should not have access to data" time="11.509" classname="LP-4-14 Should not have access to data">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-15 Should have access to analysis" time="8.699" classname="LP-4-15 Should have access to analysis">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-16 Should NOT have access to analysis" time="11.262" classname="LP-4-16 Should NOT have access to analysis">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-17 Should have access to builders" time="0" classname="LP-4-17 Should have access to builders">
+      <failure message="Timed out retrying: Expected to find element: `a[href=&quot;#/admin&quot;]`, but never found it. Queried from element: &lt;div.app-picker&gt;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `a[href="#/admin"]`, but never found it. Queried from element: <div.app-picker>
+    at testAccess (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/permissions/LP04_2.js:54:50)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/permissions/LP04_2.js:32:5)]]></failure>
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-18 Should NOT have access to builders" time="0" classname="LP-4-18 Should NOT have access to builders">
+      <failure message="Timed out retrying: Expected to find content: &apos;You are not authorized for Builders app&apos; within the selector: &apos;.no-license&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'You are not authorized for Builders app' within the selector: '.no-license' but never did.
+    at testAccess (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/permissions/LP04_2.js:76:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/permissions/LP04_2.js:35:5)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="41.3" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-24T21:56:05" tests="0" file="cypress/integration/apps/entities/EN18.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="18 - I can add different types of barcodes to entities" timestamp="2020-06-24T21:56:05" tests="3" failures="1" time="41.3">
+    <testcase name="18 - I can add different types of barcodes to entities EN-18-1 Should add QR barcode" time="23.566" classname="EN-18-1 Should add QR barcode">
+    </testcase>
+    <testcase name="18 - I can add different types of barcodes to entities EN-18-2 Should add 1D barcode" time="0" classname="EN-18-2 Should add 1D barcode">
+      <failure message="Timed out after waiting &apos;20000ms&apos; for your remote page to load.
+
+Your page did not fire its &apos;load&apos; event within &apos;20000ms&apos;.
+
+You can try increasing the &apos;pageLoadTimeout&apos; value in &apos;cypress.json&apos; to wait longer.
+
+Browsers will not fire the &apos;load&apos; event until all stylesheets and scripts are done downloading.
+
+When this &apos;load&apos; event occurs, Cypress will continue running commands." type="CypressError"><![CDATA[CypressError: Timed out after waiting '20000ms' for your remote page to load.
+
+Your page did not fire its 'load' event within '20000ms'.
+
+You can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.
+
+Browsers will not fire the 'load' event until all stylesheets and scripts are done downloading.
+
+When this 'load' event occurs, Cypress will continue running commands.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at timedOutWaitingForPageLoad (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:126147:20)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:126943:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:160036:41
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="18 - I can add different types of barcodes to entities EN-18-3 Should add mini data matrix barcode" time="17.734" classname="EN-18-3 Should add mini data matrix barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

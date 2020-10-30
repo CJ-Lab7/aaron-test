@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="35.455" tests="10" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-05-18T21:04:22" tests="0" file="cypress/integration/apps/container_types/CT08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can use the New Container Type modal" timestamp="2020-05-18T21:04:22" tests="10" failures="1" time="35.455">
+    <testcase name="8 - I can use the New Container Type modal CT-8-1 Should add name" time="9.05" classname="CT-8-1 Should add name">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-2 Should add description" time="4.197" classname="CT-8-2 Should add description">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-3 Should find Contains selector options" time="1.964" classname="CT-8-3 Should find Contains selector options">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-4 Should find Elements per Location options" time="1.92" classname="CT-8-4 Should find Elements per Location options">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-6 Should add tags" time="2.497" classname="CT-8-6 Should add tags">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-7 Should delete tag" time="2.491" classname="CT-8-7 Should delete tag">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-8 Should not save without name" time="2.688" classname="CT-8-8 Should not save without name">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-9 Should Save" time="2.876" classname="CT-8-9 Should Save">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-10 Should cancel" time="3.062" classname="CT-8-10 Should cancel">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-11 Should close modal" time="2.355" classname="CT-8-11 Should close modal">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal &quot;after all&quot; hook for &quot;CT-8-11 Should close modal&quot;" time="2.355" classname="&quot;after all&quot; hook for &quot;CT-8-11 Should close modal&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/container_types/CT08teardown.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line 11, in &lt;module&gt;
+    load_entry_point(&apos;espclient&apos;, &apos;console_scripts&apos;, &apos;esp&apos;)()
+  File &quot;/Users/cj/bi...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;8 - I can use the New Conta...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/container_types/CT08teardown.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line 11, in <module>
+    load_entry_point('espclient', 'console_scripts', 'esp')()
+  File "/Users/cj/bi...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '8 - I can use the New Conta...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

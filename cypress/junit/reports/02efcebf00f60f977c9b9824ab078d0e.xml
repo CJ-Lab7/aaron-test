@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="41.705" tests="5" failures="0" skipped="3">
+  <testsuite name="Root Suite" timestamp="2020-04-15T22:33:31" tests="0" file="cypress/integration/apps/lims/LM54_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="54 - I can only use ag-grid functionality in transpose view" timestamp="2020-04-15T22:33:31" tests="5" failures="0" time="41.705">
+    <testcase name="54 - I can only use ag-grid functionality in transpose view LM-54-4 Should pin column right" time="20.351" classname="LM-54-4 Should pin column right">
+    </testcase>
+    <testcase name="54 - I can only use ag-grid functionality in transpose view LM-54-5 Should have no pin on column" time="21.354" classname="LM-54-5 Should have no pin on column">
+    </testcase>
+  </testsuite>
+</testsuites>

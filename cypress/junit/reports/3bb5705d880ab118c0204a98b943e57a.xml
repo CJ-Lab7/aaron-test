@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="59.487" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T20:48:09" tests="0" file="cypress/integration/apps/inventory/IN21.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="21 - On the Inventory details page, I can edit description" timestamp="2020-07-10T20:48:09" tests="7" failures="0" time="59.487">
+    <testcase name="21 - On the Inventory details page, I can edit description IN-21-1 Should edit name" time="14.69" classname="IN-21-1 Should edit name">
+    </testcase>
+    <testcase name="21 - On the Inventory details page, I can edit description IN-21-2 Should edit description" time="9.633" classname="IN-21-2 Should edit description">
+    </testcase>
+    <testcase name="21 - On the Inventory details page, I can edit description IN-21-3 Should edit tag" time="6.111" classname="IN-21-3 Should edit tag">
+    </testcase>
+    <testcase name="21 - On the Inventory details page, I can edit description IN-21-4 Should edit vendor" time="5.876" classname="IN-21-4 Should edit vendor">
+    </testcase>
+    <testcase name="21 - On the Inventory details page, I can edit description IN-21-5 Should edit lot number" time="7.395" classname="IN-21-5 Should edit lot number">
+    </testcase>
+    <testcase name="21 - On the Inventory details page, I can edit description IN-21-6 Should edit date" time="7.218" classname="IN-21-6 Should edit date">
+    </testcase>
+    <testcase name="21 - On the Inventory details page, I can edit description IN-21-7 Should edit barcode" time="8.564" classname="IN-21-7 Should edit barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

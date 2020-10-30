@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="43.015" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T23:43:08" tests="0" file="cypress/integration/apps/samples/SP35.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="35 - I can view sample fields separated by var group" timestamp="2020-04-03T23:43:08" tests="2" failures="0" time="43.015">
+    <testcase name="35 - I can view sample fields separated by var group SP-35-1 Should find separate table of fields for each var group" time="25.612" classname="SP-35-1 Should find separate table of fields for each var group">
+    </testcase>
+    <testcase name="35 - I can view sample fields separated by var group SP-35-2 Should find the default var group to be Data" time="17.403" classname="SP-35-2 Should find the default var group to be Data">
+    </testcase>
+  </testsuite>
+</testsuites>

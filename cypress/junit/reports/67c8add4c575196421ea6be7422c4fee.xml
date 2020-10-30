@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="33.337" tests="4" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:39:30" tests="0" file="cypress/integration/apps/permissions/LP35.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="35 - I can have workflow chain instance permissions" timestamp="2020-07-10T22:39:30" tests="4" failures="0" time="33.337">
+    <testcase name="35 - I can have workflow chain instance permissions LP-35-4 Should fail to create a workflow chain instance" time="25.588" classname="LP-35-4 Should fail to create a workflow chain instance">
+    </testcase>
+    <testcase name="35 - I can have workflow chain instance permissions LP-35-1 Should create a workflow chain instance" time="7.749" classname="LP-35-1 Should create a workflow chain instance">
+    </testcase>
+  </testsuite>
+</testsuites>

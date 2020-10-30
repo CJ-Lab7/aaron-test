@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-11T02:12:29" tests="0" file="cypress/integration/apps/search/SR04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can see recently viewed items by clicking them in Recent Activity" timestamp="2020-07-11T02:12:29" tests="1" failures="1" time="0">
+    <testcase name="4 - I can see recently viewed items by clicking them in Recent Activity SR-4-1 Should access details of recently viewed pages" time="0" classname="SR-4-1 Should access details of recently viewed pages">
+      <failure message="Timed out retrying: expected &apos;http://127.0.0.1:8080/#/Samples/details/176ee50e-b306-49a5-a9e0-0fb953fa7c58&apos; to include &apos;samples/details&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected 'http://127.0.0.1:8080/#/Samples/details/176ee50e-b306-49a5-a9e0-0fb953fa7c58' to include 'samples/details'
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/search/SR04.js:31:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="22.052" tests="2" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-06-25T14:08:53" tests="0" file="cypress/integration/apps/samples/SP14.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="14 - I can scan barcode to open sample details" timestamp="2020-06-25T14:08:53" tests="2" failures="0" time="22.052">
+    <testcase name="14 - I can scan barcode to open sample details SP-14-1 Should scan uuid barcode and open sample details" time="22.052" classname="SP-14-1 Should scan uuid barcode and open sample details">
+    </testcase>
+  </testsuite>
+</testsuites>

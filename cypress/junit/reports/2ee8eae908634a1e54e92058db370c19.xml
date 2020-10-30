@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="218.26100000000002" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-08T23:14:27" tests="0" file="cypress/integration/apps/permissions/LP04_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - Admin users can grant user access to specific apps" timestamp="2020-06-08T23:14:27" tests="8" failures="0" time="218.26100000000002">
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-11 Should have access to dashboard" time="34.486" classname="LP-4-11 Should have access to dashboard">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-12 Should NOT have access to dashboard" time="26.307" classname="LP-4-12 Should NOT have access to dashboard">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-13 Should have access to data" time="26.475" classname="LP-4-13 Should have access to data">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-14 Should not have access to data" time="26.27" classname="LP-4-14 Should not have access to data">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-15 Should have access to analysis" time="24.469" classname="LP-4-15 Should have access to analysis">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-16 Should NOT have access to analysis" time="27.211" classname="LP-4-16 Should NOT have access to analysis">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-17 Should have access to builders" time="25.454" classname="LP-4-17 Should have access to builders">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-18 Should NOT have access to builders" time="27.589" classname="LP-4-18 Should NOT have access to builders">
+    </testcase>
+  </testsuite>
+</testsuites>

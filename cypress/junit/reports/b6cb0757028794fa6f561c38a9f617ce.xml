@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="52.92099999999999" tests="12" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-01T15:40:22" tests="0" file="cypress/integration/apps/container_types/CT12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can create container types" timestamp="2020-06-01T15:40:22" tests="12" failures="0" time="52.92099999999999">
+    <testcase name="12 - I can create container types CT-12-1 Should find details header" time="11.255" classname="CT-12-1 Should find details header">
+    </testcase>
+    <testcase name="12 - I can create container types CT-12-2 Should find details subheader" time="4.657" classname="CT-12-2 Should find details subheader">
+    </testcase>
+    <testcase name="12 - I can create container types CT-12-3 Should find export history button" time="3.688" classname="CT-12-3 Should find export history button">
+    </testcase>
+    <testcase name="12 - I can create container types CT-12-4 Should find archive button" time="3.651" classname="CT-12-4 Should find archive button">
+    </testcase>
+    <testcase name="12 - I can create container types CT-12-5 Should find dimensions button" time="3.75" classname="CT-12-5 Should find dimensions button">
+    </testcase>
+    <testcase name="12 - I can create container types CT-12-6 Should find custom field button" time="3.73" classname="CT-12-6 Should find custom field button">
+    </testcase>
+    <testcase name="12 - I can create container types CT-12-7 Should find cancel button" time="3.635" classname="CT-12-7 Should find cancel button">
+    </testcase>
+    <testcase name="12 - I can create container types CT-12-8 Should find save button" time="3.662" classname="CT-12-8 Should find save button">
+    </testcase>
+    <testcase name="12 - I can create container types CT-12-9 Should find details panel" time="3.715" classname="CT-12-9 Should find details panel">
+    </testcase>
+    <testcase name="12 - I can create container types CT-12-10 Should find dimensions tab" time="3.775" classname="CT-12-10 Should find dimensions tab">
+    </testcase>
+    <testcase name="12 - I can create container types CT-12-12 Should find history tab" time="3.635" classname="CT-12-12 Should find history tab">
+    </testcase>
+    <testcase name="12 - I can create container types CT-12-13 Should find custom field tab" time="3.768" classname="CT-12-13 Should find custom field tab">
+    </testcase>
+  </testsuite>
+</testsuites>

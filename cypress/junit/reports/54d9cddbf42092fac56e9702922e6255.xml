@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="115.83300000000001" tests="12" failures="1" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-03-28T19:34:59" tests="0" file="cypress/integration/apps/lims/LM25_1a.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I should be able to render columns correctly when protocol is run" timestamp="2020-03-28T19:34:59" tests="12" failures="1" time="115.83300000000001">
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-1 Should use free text column" time="38.088" classname="LM-25a-1 Should use free text column">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-2 Should not be able to allow non-numeric values when column is set for numeric numbers" time="8.032" classname="LM-25a-2 Should not be able to allow non-numeric values when column is set for numeric numbers">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-3 Should be able to put samples in correct location" time="8.266" classname="LM-25a-3 Should be able to put samples in correct location">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-4 Should remove sample from a location" time="11.382" classname="LM-25a-4 Should remove sample from a location">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-5 Should not remove sample that was added earlier" time="11.437" classname="LM-25a-5 Should not remove sample that was added earlier">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-6 Should not add sample to full location" time="6.089" classname="LM-25a-6 Should not add sample to full location">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-7 Should add multiple items to a location" time="12.046" classname="LM-25a-7 Should add multiple items to a location">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-10 Should be able to add attachments to protocol columns and steps" time="6.331" classname="LM-25a-10 Should be able to add attachments to protocol columns and steps">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-11 Should be able to use Date Picker" time="5.102" classname="LM-25a-11 Should be able to use Date Picker">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-12 Should be able to use Checkbox" time="4.53" classname="LM-25a-12 Should be able to use Checkbox">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run &quot;after all&quot; hook for &quot;LM-25a-12 Should be able to use Checkbox&quot;" time="4.53" classname="&quot;after all&quot; hook for &quot;LM-25a-12 Should be able to use Checkbox&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM25_1aseed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 14:36:53,655:Saving data in Experiment LM25a-1text for Protocol: LM25a-1 standard.
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;,...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;25 - I should be able to re...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM25_1aseed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 14:36:53,655:Saving data in Experiment LM25a-1text for Protocol: LM25a-1 standard.
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp",...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '25 - I should be able to re...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-29T00:49:12" tests="0" file="cypress/integration/apps/projects/PR41.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="41 - I can archive an submitted experiment that is not in a worksheet" timestamp="2020-03-29T00:49:12" tests="1" failures="0" time="0">
+  </testsuite>
+</testsuites>

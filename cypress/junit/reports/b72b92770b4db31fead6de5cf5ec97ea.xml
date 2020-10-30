@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="105.42999999999999" tests="13" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-29T18:46:54" tests="0" file="cypress/integration/apps/samples/SP31.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I can use all types of data columns in new experiment modal" timestamp="2020-03-29T18:46:54" tests="13" failures="0" time="105.42999999999999">
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-1 Should add text" time="18.179" classname="SP-31-1 Should add text">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-2 Should add numeric" time="10.378" classname="SP-31-2 Should add numeric">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-3 Should add picklist" time="7.553" classname="SP-31-3 Should add picklist">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-4 Should add multiselect picklist" time="7.953" classname="SP-31-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-5 Should add date" time="7.719" classname="SP-31-5 Should add date">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-6 Should add checkbox" time="7.606" classname="SP-31-6 Should add checkbox">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-8 Should add qr barcode" time="7.578" classname="SP-31-8 Should add qr barcode">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-9 Should add 1d barcode" time="7.761" classname="SP-31-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-10 Should add mini data matrix" time="7.738" classname="SP-31-10 Should add mini data matrix">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-11 Should require field" time="8.116" classname="SP-31-11 Should require field">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-12 Should find default value" time="7.35" classname="SP-31-12 Should find default value">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-13 Should not edit read only" time="7.499" classname="SP-31-13 Should not edit read only">
+    </testcase>
+  </testsuite>
+</testsuites>

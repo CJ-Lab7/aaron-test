@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.041" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-25T01:18:40" tests="0" file="cypress/integration/apps/location/LC32.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="32 - I can use LOCATION link in the nav bar" timestamp="2020-06-25T01:18:40" tests="1" failures="0" time="16.041">
+    <testcase name="32 - I can use LOCATION link in the nav bar LC-32-1 Should use LOCATION link" time="16.041" classname="LC-32-1 Should use LOCATION link">
+    </testcase>
+  </testsuite>
+</testsuites>

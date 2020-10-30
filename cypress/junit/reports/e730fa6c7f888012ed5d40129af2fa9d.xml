@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="43.358" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-11T01:25:30" tests="0" file="cypress/integration/apps/samples/SP17_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can use the sample relation table" timestamp="2020-07-11T01:25:30" tests="4" failures="1" time="43.358">
+    <testcase name="17 - I can use the sample relation table SP-17-7 Should show samples parents and children" time="21.426" classname="SP-17-7 Should show samples parents and children">
+    </testcase>
+    <testcase name="17 - I can use the sample relation table SP-17-8 Should use dropdowns for parents and children" time="11.444" classname="SP-17-8 Should use dropdowns for parents and children">
+    </testcase>
+    <testcase name="17 - I can use the sample relation table SP-17-9 Should sort columns" time="10.488" classname="SP-17-9 Should sort columns">
+    </testcase>
+    <testcase name="17 - I can use the sample relation table SP-17-10 Should link to parent and children details" time="0" classname="SP-17-10 Should link to parent and children details">
+      <failure message="Timed out retrying: Expected to find content: &apos;Details for SP-17 child1&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'Details for SP-17 child1' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/samples/SP17_2.js:53:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

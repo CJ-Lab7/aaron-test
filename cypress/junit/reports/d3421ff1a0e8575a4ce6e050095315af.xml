@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="104.95200000000001" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T02:05:17" tests="0" file="cypress/integration/apps/lims/LM35.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="35 - I can see worksheet state in card and list view" timestamp="2020-06-24T02:05:17" tests="5" failures="0" time="104.95200000000001">
+    <testcase name="35 - I can see worksheet state in card and list view LM-35-1 Should find empty worksheet" time="49.009" classname="LM-35-1 Should find empty worksheet">
+    </testcase>
+    <testcase name="35 - I can see worksheet state in card and list view LM-35-2 Should find loading worksheet" time="14.107" classname="LM-35-2 Should find loading worksheet">
+    </testcase>
+    <testcase name="35 - I can see worksheet state in card and list view LM-35-3 Should find running worksheet" time="14.04" classname="LM-35-3 Should find running worksheet">
+    </testcase>
+    <testcase name="35 - I can see worksheet state in card and list view LM-35-4 Should find done worksheet" time="14.191" classname="LM-35-4 Should find done worksheet">
+    </testcase>
+    <testcase name="35 - I can see worksheet state in card and list view LM-35-5 Should find failed worksheet" time="13.605" classname="LM-35-5 Should find failed worksheet">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="124.65" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-23T15:04:29" tests="0" file="cypress/integration/apps/container_types/CT18.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="18 - I can click on a Container Types details and can edit Custom Fields" timestamp="2020-06-23T15:04:29" tests="8" failures="0" time="124.65">
+    <testcase name="18 - I can click on a Container Types details and can edit Custom Fields CT-18-1 Should edit name" time="19.228" classname="CT-18-1 Should edit name">
+    </testcase>
+    <testcase name="18 - I can click on a Container Types details and can edit Custom Fields CT-18-2 Should edit description" time="14.795" classname="CT-18-2 Should edit description">
+    </testcase>
+    <testcase name="18 - I can click on a Container Types details and can edit Custom Fields CT-18-3 Should edit default value" time="14.465" classname="CT-18-3 Should edit default value">
+    </testcase>
+    <testcase name="18 - I can click on a Container Types details and can edit Custom Fields CT-18-4 Should add read only" time="14.549" classname="CT-18-4 Should add read only">
+    </testcase>
+    <testcase name="18 - I can click on a Container Types details and can edit Custom Fields CT-18-5 Should add required" time="13.753" classname="CT-18-5 Should add required">
+    </testcase>
+    <testcase name="18 - I can click on a Container Types details and can edit Custom Fields CT-18-6 Should edit type" time="13.593" classname="CT-18-6 Should edit type">
+    </testcase>
+    <testcase name="18 - I can click on a Container Types details and can edit Custom Fields CT-18-7 Should add picklist options" time="18.173" classname="CT-18-7 Should add picklist options">
+    </testcase>
+    <testcase name="18 - I can click on a Container Types details and can edit Custom Fields CT-18-8 Should remove custom field" time="16.094" classname="CT-18-8 Should remove custom field">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="83.17699999999999" tests="17" failures="3">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:55:20" tests="0" file="cypress/integration/apps/entities/EN32.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="32 - I can attach existing resources to a entity" timestamp="2020-07-10T19:55:20" tests="17" failures="3" time="83.17699999999999">
+    <testcase name="32 - I can attach existing resources to a entity EN-32-1 Should filter by resource type" time="0" classname="EN-32-1 Should filter by resource type">
+      <failure message="Timed out retrying: Expected to find content: &apos;EN32 one&apos; within the element: [ &lt;div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first&gt;, 29 more... ] but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'EN32 one' within the element: [ <div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first>, 29 more... ] but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entities/EN32.js:62:25)]]></failure>
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-2 Should filter by name" time="6.184" classname="EN-32-2 Should filter by name">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-3 Should filter by owner" time="0" classname="EN-32-3 Should filter by owner">
+      <failure message="Timed out retrying: Expected to find content: &apos;EN32 one&apos; within the element: [ &lt;div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first&gt;, 29 more... ] but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'EN32 one' within the element: [ <div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first>, 29 more... ] but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entities/EN32.js:94:21)]]></failure>
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-4 Should filter by description" time="4.707" classname="EN-32-4 Should filter by description">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-5 Should filter by tags" time="4.868" classname="EN-32-5 Should filter by tags">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-6 Should filter by created before" time="4.915" classname="EN-32-6 Should filter by created before">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-7 Should filter by created after" time="4.81" classname="EN-32-7 Should filter by created after">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-8 Should clear filters" time="8.621" classname="EN-32-8 Should clear filters">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-9 Should remove link to file" time="7.238" classname="EN-32-9 Should remove link to file">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-11 Should search entity without selecting resource type" time="4.037" classname="EN-32-11 Should search entity without selecting resource type">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-12 Should show message when no resource is found" time="5.006" classname="EN-32-12 Should show message when no resource is found">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-13 Should match all as parents" time="7.083" classname="EN-32-13 Should match all as parents">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-14 Should match all as children" time="7.33" classname="EN-32-14 Should match all as children">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-15 Should submit" time="7.395" classname="EN-32-15 Should submit">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-16 Should show number of selected entities" time="0" classname="EN-32-16 Should show number of selected entities">
+      <failure message="Timed out retrying: Expected to find element: `.ag-selection-checkbox`, but never found it. Queried from element: &lt;div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first&gt;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `.ag-selection-checkbox`, but never found it. Queried from element: <div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first>
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entities/EN32.js:271:27)]]></failure>
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-17 Should close modal with &apos;X&apos;" time="4.809" classname="EN-32-17 Should close modal with &apos;X&apos;">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-18 Should show number of selected entities" time="6.174" classname="EN-32-18 Should show number of selected entities">
+    </testcase>
+  </testsuite>
+</testsuites>

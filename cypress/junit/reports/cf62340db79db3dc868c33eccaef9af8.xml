@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.678" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-08T17:33:35" tests="0" file="cypress/integration/apps/permissions/LP12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can login without app permissions" timestamp="2020-06-08T17:33:35" tests="1" failures="0" time="18.678">
+    <testcase name="12 - I can login without app permissions LP-12-1 Should login without app permissions" time="18.678" classname="LP-12-1 Should login without app permissions">
+    </testcase>
+  </testsuite>
+</testsuites>

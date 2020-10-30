@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.25" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-15T20:08:23" tests="0" file="cypress/integration/apps/analysis/AN10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I should be able to see pipeline details under Monitor tab" timestamp="2020-04-15T20:08:23" tests="1" failures="0" time="16.25">
+    <testcase name="10 - I should be able to see pipeline details under Monitor tab AN-10-1 Should see tabs of Pipeline View, Code View, and Reports" time="16.25" classname="AN-10-1 Should see tabs of Pipeline View, Code View, and Reports">
+    </testcase>
+  </testsuite>
+</testsuites>

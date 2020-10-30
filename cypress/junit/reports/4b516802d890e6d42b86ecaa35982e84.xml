@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.283" tests="2" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-03T17:49:25" tests="0" file="cypress/integration/apps/inventory/IN12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - On the Inventory main page, I can add/remove columns with the gear menu" timestamp="2020-04-03T17:49:25" tests="2" failures="0" time="14.283">
+    <testcase name="12 - On the Inventory main page, I can add/remove columns with the gear menu IN-12-1/2 Should remove columns then add them back" time="14.283" classname="IN-12-1/2 Should remove columns then add them back">
+    </testcase>
+  </testsuite>
+</testsuites>

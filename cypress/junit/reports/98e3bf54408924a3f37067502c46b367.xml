@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="30.648" tests="5" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-07-11T01:11:33" tests="0" file="cypress/integration/apps/samples/SP01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I should see samples on the samples page" timestamp="2020-07-11T01:11:33" tests="5" failures="0" time="30.648">
+    <testcase name="1 - I should see samples on the samples page SP-1-2 Should view samples" time="13.175" classname="SP-1-2 Should view samples">
+    </testcase>
+    <testcase name="1 - I should see samples on the samples page SP-1-5 Should view sample filters in left column" time="3.363" classname="SP-1-5 Should view sample filters in left column">
+    </testcase>
+    <testcase name="1 - I should see samples on the samples page SP-1-6 Should view sample details in right column" time="12.52" classname="SP-1-6 Should view sample details in right column">
+    </testcase>
+    <testcase name="1 - I should see samples on the samples page SP-1-8 Should collapse/expand filters column" time="1.59" classname="SP-1-8 Should collapse/expand filters column">
+    </testcase>
+  </testsuite>
+</testsuites>

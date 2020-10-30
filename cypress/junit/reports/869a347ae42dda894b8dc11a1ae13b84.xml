@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="35.328" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T15:43:25" tests="0" file="cypress/integration/apps/chains/WF16.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="16 - I can complete wf chains in transpose view" timestamp="2020-04-03T15:43:25" tests="1" failures="0" time="35.328">
+    <testcase name="16 - I can complete wf chains in transpose view WF-16-1 Should complete wf chain in transpose view" time="35.328" classname="WF-16-1 Should complete wf chain in transpose view">
+    </testcase>
+  </testsuite>
+</testsuites>

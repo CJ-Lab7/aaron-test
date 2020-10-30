@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="29.651999999999997" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T23:00:18" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="23 - I can generate new barcodes with the barcode modal" timestamp="2020-02-27T23:00:18" tests="3" failures="0" time="29.651999999999997">
+    <testcase name="23 - I can generate new barcodes with the barcode modal SP-23-1 Should generate new QR barcode" time="19.811" classname="SP-23-1 Should generate new QR barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal SP-23-2 Should generate new 1D barcode" time="6.223" classname="SP-23-2 Should generate new 1D barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal SP-23-3 Should generate new Mini Data Matrix barcode" time="3.618" classname="SP-23-3 Should generate new Mini Data Matrix barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

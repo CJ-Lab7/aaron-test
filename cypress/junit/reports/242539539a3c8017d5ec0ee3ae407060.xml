@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="103.66" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T03:30:59" tests="0" file="cypress/integration/apps/chains/WF03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can send samples to different workflows based on rules" timestamp="2020-03-31T03:30:59" tests="3" failures="0" time="103.66">
+    <testcase name="3 - I can send samples to different workflows based on rules WF-3-1 Should move samples to 2 different workflows" time="60.777" classname="WF-3-1 Should move samples to 2 different workflows">
+    </testcase>
+    <testcase name="3 - I can send samples to different workflows based on rules WF-3-2 Should move samples to 2 different workflows (sample type restriction)" time="24.45" classname="WF-3-2 Should move samples to 2 different workflows (sample type restriction)">
+    </testcase>
+    <testcase name="3 - I can send samples to different workflows based on rules WF-3-4 Should move all samples to the same workflow" time="18.433" classname="WF-3-4 Should move all samples to the same workflow">
+    </testcase>
+  </testsuite>
+</testsuites>

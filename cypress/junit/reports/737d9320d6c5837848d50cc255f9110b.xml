@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="66.288" tests="7" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-06-25T01:10:52" tests="0" file="cypress/integration/apps/location/LC25.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I can add items to item pool by scanning barcodes" timestamp="2020-06-25T01:10:52" tests="7" failures="2" time="66.288">
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-1 Should add sample to item pool by scanning uuid barcode" time="0" classname="LC-25-1 Should add sample to item pool by scanning uuid barcode">
+      <failure message="Timed out retrying: Expected to find content: &apos;LC2510001&apos; within the selector: &apos;.pool .sample_content&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'LC2510001' within the selector: '.pool .sample_content' but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-2 Should add sample to item pool by scanning non-uuid barcode" time="14.097" classname="LC-25-2 Should add sample to item pool by scanning non-uuid barcode">
+    </testcase>
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-3 Should add container to item pool by scanning uuid barcode" time="15.179" classname="LC-25-3 Should add container to item pool by scanning uuid barcode">
+    </testcase>
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-4 Should add container to item pool by scanning non-uuid barcode" time="0" classname="LC-25-4 Should add container to item pool by scanning non-uuid barcode">
+      <failure message="Timed out retrying: Expected to find content: &apos;LC-25-4 one&apos; within the selector: &apos;.pool .sample_content&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'LC-25-4 one' within the selector: '.pool .sample_content' but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-7 Should not add container to itself" time="11.992" classname="LC-25-7 Should not add container to itself">
+    </testcase>
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-8 Should not add sample to container container" time="12.283" classname="LC-25-8 Should not add sample to container container">
+    </testcase>
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-9 Should not add container to sample container" time="12.737" classname="LC-25-9 Should not add container to sample container">
+    </testcase>
+  </testsuite>
+</testsuites>

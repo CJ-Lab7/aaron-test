@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="474.913" tests="10" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-11T00:32:36" tests="0" file="cypress/integration/apps/sample_sets/LM59e.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="59e - archive worksheets with multiple sample protocols" timestamp="2020-07-11T00:32:36" tests="10" failures="1" time="474.913">
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-1 - Archive after all samples are complete" time="80.537" classname="LM-59e-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-2 - Archive after failing all samples in the second protocol" time="16.136" classname="LM-59e-2 - Archive after failing all samples in the second protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-3 - Archive after failing first sample in the second protocol" time="43.861" classname="LM-59e-3 - Archive after failing first sample in the second protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-4 - Archive after failing last sample in the second protocol" time="44.839" classname="LM-59e-4 - Archive after failing last sample in the second protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-5 - Archive after failing all samples in the third protocol" time="22.838" classname="LM-59e-5 - Archive after failing all samples in the third protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-6 - Archive after first sample in the third protocol" time="45.036" classname="LM-59e-6 - Archive after first sample in the third protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-7 - Archive after last sample in the third protocol" time="45.568" classname="LM-59e-7 - Archive after last sample in the third protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-8 - Archive after failing all samples in the fourth protocol" time="32.597" classname="LM-59e-8 - Archive after failing all samples in the fourth protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-9 - Archive after first 3 samples in the fourth protocol" time="48.377" classname="LM-59e-9 - Archive after first 3 samples in the fourth protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols LM-59e-10 - Archive after last 3 samples in the fourth protocol" time="47.562" classname="LM-59e-10 - Archive after last 3 samples in the fourth protocol">
+    </testcase>
+    <testcase name="59e - archive worksheets with multiple sample protocols &quot;after all&quot; hook for &quot;LM-59e-10 - Archive after last 3 samples in the fourth protocol&quot;" time="47.562" classname="&quot;after all&quot; hook for &quot;LM-59e-10 - Archive after last 3 samples in the fourth protocol&quot;">
+      <failure message="Execution of &quot;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/sample_sets/LM59eseed.yml&quot; failed
+        Exit code: 1
+        Stdout:
+
+        Stderr:
+INFO:root:2020-07-10 19:39:47,028:Dropping SampleSheet: LM59-x e
+INFO:root:2020-07-10 19:39:47,085:Dropping Experiment: LM59e-x
+INFO:root:2020-07-10 19:39:47,944:Dropping Experiment: LM59e-1
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line 11, in &lt;module&gt;
+    load_entry_point(&apos;espclient&apos;, &apos;console_scripts&apos;, &apos;esp&apos;)()
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 662, in main
+    args.func(args)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 64, in _
+    return func(args)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 308, in seed
+    model.drop(deep=args.deep)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/project.py&quot;, line 977, in drop
+    if self.state not in [&apos;pending&apos;, &apos;queued&apos;] and self.sheet.exists():
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/lib/python3.7/site-packages/gems/decorators.py&quot;, line 102, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/project.py&quot;, line 1030, in sheet
+    raise AssertionError(&apos;Experiment must be submitted to access sample sheet!&apos;)
+AssertionError: Experiment must be submitted to access sample sheet!
+
+Because this error occurred during a `after all` hook we are skipping the remaining tests in the current suite: `59e - archive worksheets wi...`" type="Error"><![CDATA[Error: Execution of "esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/sample_sets/LM59eseed.yml" failed
+        Exit code: 1
+        Stdout:
+
+        Stderr:
+INFO:root:2020-07-10 19:39:47,028:Dropping SampleSheet: LM59-x e
+INFO:root:2020-07-10 19:39:47,085:Dropping Experiment: LM59e-x
+INFO:root:2020-07-10 19:39:47,944:Dropping Experiment: LM59e-1
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line 11, in <module>
+    load_entry_point('espclient', 'console_scripts', 'esp')()
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 662, in main
+    args.func(args)
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 64, in _
+    return func(args)
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 308, in seed
+    model.drop(deep=args.deep)
+  File "/Users/cj/bitrepos/esp/client/esp/models/project.py", line 977, in drop
+    if self.state not in ['pending', 'queued'] and self.sheet.exists():
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/lib/python3.7/site-packages/gems/decorators.py", line 102, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "/Users/cj/bitrepos/esp/client/esp/models/project.py", line 1030, in sheet
+    raise AssertionError('Experiment must be submitted to access sample sheet!')
+AssertionError: Experiment must be submitted to access sample sheet!
+
+Because this error occurred during a `after all` hook we are skipping the remaining tests in the current suite: `59e - archive worksheets wi...`
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/support/index.js:739:13)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

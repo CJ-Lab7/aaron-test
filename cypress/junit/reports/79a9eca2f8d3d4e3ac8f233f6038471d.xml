@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="360.158" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T15:07:29" tests="0" file="cypress/integration/apps/sample_sets/LM58f.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58f - archive worksheets with multiple sample protocols" timestamp="2020-04-16T15:07:29" tests="8" failures="0" time="360.158">
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-1 - Archive after all samples are complete" time="87.348" classname="LM-58f-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-2 - Archive after all samples fail in second protocol" time="24.093" classname="LM-58f-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-3 - Archive after first 3 samples fail in second protocol" time="41.208" classname="LM-58f-3 - Archive after first 3 samples fail in second protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-4 - Archive after last 3 samples fail in second protocol" time="41.552" classname="LM-58f-4 - Archive after last 3 samples fail in second protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-5 - Archive after all samples fail in third protocol" time="32.42" classname="LM-58f-5 - Archive after all samples fail in third protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-6 - Archive after first 3 samples fail in third protocol" time="42.523" classname="LM-58f-6 - Archive after first 3 samples fail in third protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-7 - Archive after last 3 samples fails in third protocol" time="43.279" classname="LM-58f-7 - Archive after last 3 samples fails in third protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-8 - Archive after one sample fails in each sample protocol" time="47.735" classname="LM-58f-8 - Archive after one sample fails in each sample protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

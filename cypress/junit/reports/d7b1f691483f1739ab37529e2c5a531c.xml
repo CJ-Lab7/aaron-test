@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="64.06400000000001" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-02T17:17:03" tests="0" file="cypress/integration/apps/service_types/ST14.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="14 - I can remove a price entry" timestamp="2020-07-02T17:17:03" tests="4" failures="0" time="64.06400000000001">
+    <testcase name="14 - I can remove a price entry ST-14-1 Should display confirmation message" time="20.306" classname="ST-14-1 Should display confirmation message">
+    </testcase>
+    <testcase name="14 - I can remove a price entry ST-14-2 Should delete" time="15.334" classname="ST-14-2 Should delete">
+    </testcase>
+    <testcase name="14 - I can remove a price entry ST-14-3 Should cancel delete" time="14.408" classname="ST-14-3 Should cancel delete">
+    </testcase>
+    <testcase name="14 - I can remove a price entry ST-14-4 Should close modal" time="14.016" classname="ST-14-4 Should close modal">
+    </testcase>
+  </testsuite>
+</testsuites>

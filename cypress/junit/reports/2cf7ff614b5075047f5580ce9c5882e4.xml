@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.615" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T13:38:37" tests="0" file="cypress/integration/apps/data/D03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I should see the total number of data" timestamp="2020-03-22T13:38:37" tests="2" failures="0" time="15.615">
+    <testcase name="3 - I should see the total number of data D-3-1 Should see total number of files listed in the header" time="9.356" classname="D-3-1 Should see total number of files listed in the header">
+    </testcase>
+    <testcase name="3 - I should see the total number of data D-3-2 Should add a file and increase the number by one" time="6.259" classname="D-3-2 Should add a file and increase the number by one">
+    </testcase>
+  </testsuite>
+</testsuites>

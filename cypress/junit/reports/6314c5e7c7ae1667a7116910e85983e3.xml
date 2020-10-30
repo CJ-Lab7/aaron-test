@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="252.69699999999997" tests="18" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-16T16:16:22" tests="0" file="cypress/integration/apps/samples/SP03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can see sample details (right column) after clicking a sample ID" timestamp="2020-04-16T16:16:22" tests="18" failures="0" time="252.69699999999997">
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-1 Should find Data tab" time="29.67" classname="SP-3-1 Should find Data tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-2 Should view experiments and worksheets (Process Data)" time="15.766" classname="SP-3-2 Should view experiments and worksheets (Process Data)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-3 Should find Parents &amp; Children tab" time="13.921" classname="SP-3-3 Should find Parents &amp; Children tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-4 Should view parents/children of sample (Parent&apos;s &amp; Children)" time="13.111" classname="SP-3-4 Should view parents/children of sample (Parent&apos;s &amp; Children)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-5 Should find Attachments tab" time="11.688" classname="SP-3-5 Should find Attachments tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-6 Should view attachments (Attachments)" time="14.675" classname="SP-3-6 Should view attachments (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-7a Should upload attachment (Attachments)" time="15.093" classname="SP-3-7a Should upload attachment (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-7b Should attach file from Data (Attachments)" time="16.034" classname="SP-3-7b Should attach file from Data (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-7c Should attach multiple files from Data (Attachments)" time="18.92" classname="SP-3-7c Should attach multiple files from Data (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-8 Should access attachments (Attachments)" time="14.768" classname="SP-3-8 Should access attachments (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-10 Should delete an attachment (Attachments)" time="14.797" classname="SP-3-10 Should delete an attachment (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-11 Should find History tab" time="12.227" classname="SP-3-11 Should find History tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-12 Should view history (History)" time="14.134" classname="SP-3-12 Should view history (History)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-15 Should find data tab" time="11.645" classname="SP-3-15 Should find data tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-16 Should view columns under data" time="12.329" classname="SP-3-16 Should view columns under data">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-17 Should view column values under data" time="11.636" classname="SP-3-17 Should view column values under data">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-18 Should find no column values under data" time="12.283" classname="SP-3-18 Should find no column values under data">
+    </testcase>
+  </testsuite>
+</testsuites>

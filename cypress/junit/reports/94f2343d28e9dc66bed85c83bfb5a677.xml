@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="207.55" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T23:25:28" tests="0" file="cypress/integration/apps/sample_sets/LM58c.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58c - archive worksheets with multiple sample protocols" timestamp="2020-07-10T23:25:28" tests="5" failures="1" time="207.55">
+    <testcase name="58c - archive worksheets with multiple sample protocols LM-58c-1 - Archive after all samples are complete" time="59.592" classname="LM-58c-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58c - archive worksheets with multiple sample protocols LM-58c-2 - Archive after all samples fail in second protocol" time="19.433" classname="LM-58c-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58c - archive worksheets with multiple sample protocols LM-58c-3 - Archive after first 3 samples fail in second protocol" time="40.1" classname="LM-58c-3 - Archive after first 3 samples fail in second protocol">
+    </testcase>
+    <testcase name="58c - archive worksheets with multiple sample protocols LM-58c-4 - Archive after last sample fails in second protocol" time="39.695" classname="LM-58c-4 - Archive after last sample fails in second protocol">
+    </testcase>
+    <testcase name="58c - archive worksheets with multiple sample protocols LM-58c-5 - Archive after all samples fail in third protocol" time="24.365" classname="LM-58c-5 - Archive after all samples fail in third protocol">
+    </testcase>
+    <testcase name="58c - archive worksheets with multiple sample protocols &quot;after all&quot; hook for &quot;LM-58c-5 - Archive after all samples fail in third protocol&quot;" time="24.365" classname="&quot;after all&quot; hook for &quot;LM-58c-5 - Archive after all samples fail in third protocol&quot;">
+      <failure message="Execution of &quot;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/sample_sets/LM58cseed.yml&quot; failed
+        Exit code: 1
+        Stdout:
+
+        Stderr:
+INFO:root:2020-07-10 18:28:33,938:Dropping SampleSheet: LM58-x c
+INFO:root:2020-07-10 18:28:34,003:Dropping Experiment: LM58c-x
+INFO:root:2020-07-10 18:28:34,837:Dropping Experiment: LM58c-1
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line 11, in &lt;module&gt;
+    load_entry_point(&apos;espclient&apos;, &apos;console_scripts&apos;, &apos;esp&apos;)()
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 662, in main
+    args.func(args)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 64, in _
+    return func(args)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 308, in seed
+    model.drop(deep=args.deep)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/project.py&quot;, line 977, in drop
+    if self.state not in [&apos;pending&apos;, &apos;queued&apos;] and self.sheet.exists():
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/lib/python3.7/site-packages/gems/decorators.py&quot;, line 102, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/project.py&quot;, line 1030, in sheet
+    raise AssertionError(&apos;Experiment must be submitted to access sample sheet!&apos;)
+AssertionError: Experiment must be submitted to access sample sheet!
+
+Because this error occurred during a `after all` hook we are skipping the remaining tests in the current suite: `58c - archive worksheets wi...`" type="Error"><![CDATA[Error: Execution of "esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/sample_sets/LM58cseed.yml" failed
+        Exit code: 1
+        Stdout:
+
+        Stderr:
+INFO:root:2020-07-10 18:28:33,938:Dropping SampleSheet: LM58-x c
+INFO:root:2020-07-10 18:28:34,003:Dropping Experiment: LM58c-x
+INFO:root:2020-07-10 18:28:34,837:Dropping Experiment: LM58c-1
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line 11, in <module>
+    load_entry_point('espclient', 'console_scripts', 'esp')()
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 662, in main
+    args.func(args)
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 64, in _
+    return func(args)
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 308, in seed
+    model.drop(deep=args.deep)
+  File "/Users/cj/bitrepos/esp/client/esp/models/project.py", line 977, in drop
+    if self.state not in ['pending', 'queued'] and self.sheet.exists():
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/lib/python3.7/site-packages/gems/decorators.py", line 102, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "/Users/cj/bitrepos/esp/client/esp/models/project.py", line 1030, in sheet
+    raise AssertionError('Experiment must be submitted to access sample sheet!')
+AssertionError: Experiment must be submitted to access sample sheet!
+
+Because this error occurred during a `after all` hook we are skipping the remaining tests in the current suite: `58c - archive worksheets wi...`
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/support/index.js:739:13)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

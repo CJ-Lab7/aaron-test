@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.771999999999998" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-01T17:03:30" tests="0" file="cypress/integration/apps/vendors/VEN07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I can view inspector details" timestamp="2020-06-01T17:03:30" tests="3" failures="0" time="14.771999999999998">
+    <testcase name="7 - I can view inspector details VEN-7-1 Should find vendor details" time="9.174" classname="VEN-7-1 Should find vendor details">
+    </testcase>
+    <testcase name="7 - I can view inspector details VEN-7-2 Should find vendor billing address" time="3.366" classname="VEN-7-2 Should find vendor billing address">
+    </testcase>
+    <testcase name="7 - I can view inspector details VEN-7-3 Should find vendor shipping address" time="2.232" classname="VEN-7-3 Should find vendor shipping address">
+    </testcase>
+  </testsuite>
+</testsuites>

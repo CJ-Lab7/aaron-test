@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="54.476000000000006" tests="14" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T19:49:12" tests="0" file="cypress/integration/apps/permissions/LP05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - With permission, I can use links on the home page" timestamp="2020-03-22T19:49:12" tests="14" failures="0" time="54.476000000000006">
+    <testcase name="5 - With permission, I can use links on the home page LP-5-1 Should link to admin on home page" time="10.125" classname="LP-5-1 Should link to admin on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-2 Should link to analysis on home page" time="4.659" classname="LP-5-2 Should link to analysis on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-3 Should link to applets on home page" time="3.17" classname="LP-5-3 Should link to applets on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-4 Should link to dashboard on home page" time="3.262" classname="LP-5-4 Should link to dashboard on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-5 Should link to data on home page" time="3.27" classname="LP-5-5 Should link to data on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-6 Should link to entities on home page" time="3.369" classname="LP-5-6 Should link to entities on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-7 Should link to IAM on home page" time="3.773" classname="LP-5-7 Should link to IAM on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-8 Should link to ingest on home page" time="3.448" classname="LP-5-8 Should link to ingest on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-9 Should link to inventory on home page" time="3.121" classname="LP-5-9 Should link to inventory on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-10 Should link to LIMS on home page" time="3.194" classname="LP-5-10 Should link to LIMS on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-11 Should link to location on home page" time="3.237" classname="LP-5-11 Should link to location on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-12 Should link to projects on home page" time="3.537" classname="LP-5-12 Should link to projects on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-13 Should link to samples on home page" time="3.226" classname="LP-5-13 Should link to samples on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-14 Should link to search on home page" time="3.085" classname="LP-5-14 Should link to search on home page">
+    </testcase>
+  </testsuite>
+</testsuites>

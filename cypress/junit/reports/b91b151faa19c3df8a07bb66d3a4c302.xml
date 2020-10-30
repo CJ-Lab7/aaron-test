@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="89.545" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-03T02:39:59" tests="0" file="cypress/integration/apps/service_types/ST15.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="15 - I can edit a service type through the details panel" timestamp="2020-06-03T02:39:59" tests="6" failures="0" time="89.545">
+    <testcase name="15 - I can edit a service type through the details panel ST-15-1 Should edit name" time="16.969" classname="ST-15-1 Should edit name">
+    </testcase>
+    <testcase name="15 - I can edit a service type through the details panel ST-15-2 Should edit description" time="13.434" classname="ST-15-2 Should edit description">
+    </testcase>
+    <testcase name="15 - I can edit a service type through the details panel ST-15-3 Should edit Base Price" time="14.634" classname="ST-15-3 Should edit Base Price">
+    </testcase>
+    <testcase name="15 - I can edit a service type through the details panel ST-15-4 Should edit Scale Price" time="15.731" classname="ST-15-4 Should edit Scale Price">
+    </testcase>
+    <testcase name="15 - I can edit a service type through the details panel ST-15-5 Should edit Scale Units" time="14.479" classname="ST-15-5 Should edit Scale Units">
+    </testcase>
+    <testcase name="15 - I can edit a service type through the details panel ST-15-6 Should edit tags" time="14.298" classname="ST-15-6 Should edit tags">
+    </testcase>
+  </testsuite>
+</testsuites>

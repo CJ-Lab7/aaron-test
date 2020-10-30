@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="112.78799999999998" tests="13" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-22T19:17:22" tests="0" file="cypress/integration/apps/location/LC42.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="42 - I can fill out custom fields under the Data tab" timestamp="2020-03-22T19:17:22" tests="13" failures="0" time="112.78799999999998">
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-1 Should edit text field" time="65.764" classname="LC-42-1 Should edit text field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-2 Should edit numeric field" time="7.872" classname="LC-42-2 Should edit numeric field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-3 Should edit picklist field" time="5.035" classname="LC-42-3 Should edit picklist field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-5 Should edit date field" time="3.689" classname="LC-42-5 Should edit date field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-6 Should edit checkbox field" time="3.668" classname="LC-42-6 Should edit checkbox field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-7 Should edit attachment field" time="5.202" classname="LC-42-7 Should edit attachment field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-8 Should edit QR field" time="4.078" classname="LC-42-8 Should edit QR field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-9 Should edit 1D field" time="3.99" classname="LC-42-9 Should edit 1D field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-10 Should edit mini datamatrix field" time="3.976" classname="LC-42-10 Should edit mini datamatrix field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-11 Should not delete required field" time="3.935" classname="LC-42-11 Should not delete required field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-1 Should find default value" time="2.107" classname="LC-42-1 Should find default value">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-13 Should not edit read only field" time="3.472" classname="LC-42-13 Should not edit read only field">
+    </testcase>
+  </testsuite>
+</testsuites>

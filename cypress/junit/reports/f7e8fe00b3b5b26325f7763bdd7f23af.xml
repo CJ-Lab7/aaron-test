@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.263" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-01T16:04:24" tests="0" file="cypress/integration/apps/customers/CS06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can access Customer Details page by clicking on the name in Inspector Panel" timestamp="2020-06-01T16:04:24" tests="1" failures="0" time="9.263">
+    <testcase name="6 - I can access Customer Details page by clicking on the name in Inspector Panel CS-6-1 Should access customer details page from Inspector header" time="9.263" classname="CS-6-1 Should access customer details page from Inspector header">
+    </testcase>
+  </testsuite>
+</testsuites>

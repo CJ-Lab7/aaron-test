@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="73.401" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T03:49:24" tests="0" file="cypress/integration/apps/projects/PR19.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="19 - I can edit unsubmiteted experiments" timestamp="2020-04-16T03:49:24" tests="4" failures="0" time="73.401">
+    <testcase name="19 - I can edit unsubmiteted experiments PR-19-1 Should edit name" time="23.402" classname="PR-19-1 Should edit name">
+    </testcase>
+    <testcase name="19 - I can edit unsubmiteted experiments PR-19-2 Should edit description" time="18.806" classname="PR-19-2 Should edit description">
+    </testcase>
+    <testcase name="19 - I can edit unsubmiteted experiments PR-19-3 Should add tags" time="15.939" classname="PR-19-3 Should add tags">
+    </testcase>
+    <testcase name="19 - I can edit unsubmiteted experiments PR-19-4 Should delete tags" time="15.254" classname="PR-19-4 Should delete tags">
+    </testcase>
+  </testsuite>
+</testsuites>

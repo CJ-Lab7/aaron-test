@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="99.976" tests="10" failures="1" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-07-11T01:40:32" tests="0" file="cypress/integration/apps/samples/SP31_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I can use all types of data columns in new experiment modal" timestamp="2020-07-11T01:40:32" tests="10" failures="1" time="99.976">
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-1 Should add text" time="18.184" classname="SP-31-1 Should add text">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-2 Should add numeric" time="11.499" classname="SP-31-2 Should add numeric">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-3 Should add picklist" time="9.003" classname="SP-31-3 Should add picklist">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-4 Should add multiselect picklist" time="10.026" classname="SP-31-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-5 Should add date" time="0" classname="SP-31-5 Should add date">
+      <failure message="Timed out retrying: Expected to find content: &apos;/15&apos; within the element: &lt;div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: '/15' within the element: <div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value> but never did.
+    at confirmDetails (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/samples/SP31_1.js:202:69)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/samples/SP31_1.js:112:5)]]></failure>
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-6 Should add checkbox" time="13.217" classname="SP-31-6 Should add checkbox">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-8 Should add qr barcode" time="13.138" classname="SP-31-8 Should add qr barcode">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-9 Should add 1d barcode" time="12.258" classname="SP-31-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-10 Should add mini data matrix" time="12.651" classname="SP-31-10 Should add mini data matrix">
+    </testcase>
+  </testsuite>
+</testsuites>

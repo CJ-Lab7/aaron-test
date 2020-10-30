@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="60.013" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-23T18:51:09" tests="0" file="cypress/integration/apps/entities/EN18.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="18 - I can add different types of barcodes to entities" timestamp="2020-06-23T18:51:09" tests="3" failures="0" time="60.013">
+    <testcase name="18 - I can add different types of barcodes to entities EN-18-1 Should add QR barcode" time="22.768" classname="EN-18-1 Should add QR barcode">
+    </testcase>
+    <testcase name="18 - I can add different types of barcodes to entities EN-18-2 Should add 1D barcode" time="18.547" classname="EN-18-2 Should add 1D barcode">
+    </testcase>
+    <testcase name="18 - I can add different types of barcodes to entities EN-18-3 Should add mini data matrix barcode" time="18.698" classname="EN-18-3 Should add mini data matrix barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

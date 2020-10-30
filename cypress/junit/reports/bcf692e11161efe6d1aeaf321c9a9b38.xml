@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="64.646" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:24:39" tests="0" file="cypress/integration/apps/lims/LM31.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I should be able to restart failed/paused pipelines (pipeline details modal)" timestamp="2020-07-10T21:24:39" tests="4" failures="0" time="64.646">
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) LM-31-1 Should not restart a paused pipeline" time="30.827" classname="LM-31-1 Should not restart a paused pipeline">
+    </testcase>
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) LM-31-2 Should restart a killed pipeline" time="16.928" classname="LM-31-2 Should restart a killed pipeline">
+    </testcase>
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) LM-31-3 Should restart a failed pipeline" time="13.248" classname="LM-31-3 Should restart a failed pipeline">
+    </testcase>
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) LM-31-4 Should not restart a running pipeline" time="3.643" classname="LM-31-4 Should not restart a running pipeline">
+    </testcase>
+  </testsuite>
+</testsuites>

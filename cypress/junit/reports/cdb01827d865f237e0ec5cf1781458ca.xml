@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.929000000000002" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-15T20:02:18" tests="0" file="cypress/integration/apps/analysis/AN05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I should be able to expand and collapse pipeline inspector column under Monitor tab" timestamp="2020-04-15T20:02:18" tests="2" failures="0" time="17.929000000000002">
+    <testcase name="5 - I should be able to expand and collapse pipeline inspector column under Monitor tab AN-5-1/2 Should collapse then expand pipeline inspector column" time="10.275" classname="AN-5-1/2 Should collapse then expand pipeline inspector column">
+    </testcase>
+    <testcase name="5 - I should be able to expand and collapse pipeline inspector column under Monitor tab AN-5-3/4 Should collapse then expand filter column" time="7.654" classname="AN-5-3/4 Should collapse then expand filter column">
+    </testcase>
+  </testsuite>
+</testsuites>

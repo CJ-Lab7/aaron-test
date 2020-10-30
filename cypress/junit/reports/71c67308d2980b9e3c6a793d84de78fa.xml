@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="34.606" tests="6" failures="3">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:35:40" tests="0" file="cypress/integration/apps/permissions/LP26.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - I can have sample permissions" timestamp="2020-07-10T22:35:40" tests="6" failures="3" time="34.606">
+    <testcase name="26 - I can have sample permissions LP-26-6 Should fail to create a sample" time="19.826" classname="LP-26-6 Should fail to create a sample">
+    </testcase>
+    <testcase name="26 - I can have sample permissions LP-26-7 Should fail to update a sample" time="0" classname="LP-26-7 Should fail to update a sample">
+      <failure message="Timed out retrying: Expected to find element: `.body .row`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `.body .row`, but never found it.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/permissions/LP26.js:31:8)]]></failure>
+    </testcase>
+    <testcase name="26 - I can have sample permissions LP-26-8 Should fail to delete a sample" time="8.531" classname="LP-26-8 Should fail to delete a sample">
+    </testcase>
+    <testcase name="26 - I can have sample permissions LP-26-2 Should create a sample" time="6.249" classname="LP-26-2 Should create a sample">
+    </testcase>
+    <testcase name="26 - I can have sample permissions LP-26-3 Should update a sample" time="0" classname="LP-26-3 Should update a sample">
+      <failure message="Timed out retrying: Expected to find element: `.body .row`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `.body .row`, but never found it.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/permissions/LP26.js:46:8)]]></failure>
+    </testcase>
+    <testcase name="26 - I can have sample permissions LP-26-4 Should delete a sample" time="0" classname="LP-26-4 Should delete a sample">
+      <failure message="Timed out retrying: Expected to find content: &apos;LP26 update&apos; within the selector: &apos;.row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'LP26 update' within the selector: '.row a' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/permissions/LP26.js:52:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

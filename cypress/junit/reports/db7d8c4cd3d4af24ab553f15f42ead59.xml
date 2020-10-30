@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.53" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-13T20:44:41" tests="0" file="cypress/integration/apps/data/D22.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="22 - I can use DATA link in the nav bar" timestamp="2020-03-13T20:44:41" tests="1" failures="0" time="9.53">
+    <testcase name="22 - I can use DATA link in the nav bar D-22-1 Should use DATA link" time="9.53" classname="D-22-1 Should use DATA link">
+    </testcase>
+  </testsuite>
+</testsuites>

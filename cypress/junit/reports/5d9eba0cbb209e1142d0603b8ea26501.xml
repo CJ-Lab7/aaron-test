@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.061" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T15:09:24" tests="0" file="cypress/integration/apps/analysis/AN12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I should be able to view code of all tasks within the pipeline under Monitor tab" timestamp="2020-07-10T15:09:24" tests="2" failures="1" time="14.061">
+    <testcase name="12 - I should be able to view code of all tasks within the pipeline under Monitor tab AN-12-1 Should display code for all tasks" time="14.061" classname="AN-12-1 Should display code for all tasks">
+    </testcase>
+    <testcase name="12 - I should be able to view code of all tasks within the pipeline under Monitor tab AN-12-2 Should display Pipeline Details in the Inspector column" time="0" classname="AN-12-2 Should display Pipeline Details in the Inspector column">
+      <failure message="Timed out retrying: Expected to find content: &apos;AN12 description&apos; within the element: &lt;div.content-collapsible&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'AN12 description' within the element: <div.content-collapsible> but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/analysis/AN12.js:36:74)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

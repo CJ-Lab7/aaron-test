@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="76.34200000000001" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-04T14:55:05" tests="0" file="cypress/integration/apps/container_types/CT10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I can create container types that accept different objects" timestamp="2020-06-04T14:55:05" tests="6" failures="1" time="76.34200000000001">
+    <testcase name="10 - I can create container types that accept different objects CT-10-1 Should create single entity container" time="11.503" classname="CT-10-1 Should create single entity container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-2 Should create unlimited entity container" time="11.581" classname="CT-10-2 Should create unlimited entity container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-3 Should create single container container" time="10.467" classname="CT-10-3 Should create single container container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-4 Should create unlimited container container" time="10.294" classname="CT-10-4 Should create unlimited container container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-5 Should create single entity and container container" time="11.179" classname="CT-10-5 Should create single entity and container container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-6 Should create unlimited entity and container container" time="10.659" classname="CT-10-6 Should create unlimited entity and container container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects &quot;after all&quot; hook for &quot;CT-10-6 Should create unlimited entity and container container&quot;" time="10.659" classname="&quot;after all&quot; hook for &quot;CT-10-6 Should create unlimited entity and container container&quot;">
+      <failure message="cy.exec(&apos;esp -s -P 443 -H chris231.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/container_types/CT10teardown.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-06-04 09:56:14,220:Dropping ContainerType: CT10-1
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/lib/python3.7/site-packages/urllib3/connectionpo...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;10 - I can create container...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp -s -P 443 -H chris231.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/container_types/CT10teardown.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-06-04 09:56:14,220:Dropping ContainerType: CT10-1
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/lib/python3.7/site-packages/urllib3/connectionpo...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '10 - I can create container...'
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="110.908" tests="9" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T01:45:53" tests="0" file="cypress/integration/apps/location/LC02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - On the Locations main page, I can filter containers" timestamp="2020-04-16T01:45:53" tests="9" failures="0" time="110.908">
+    <testcase name="2 - On the Locations main page, I can filter containers LC-2-1 Should filter by container name" time="15.263" classname="LC-2-1 Should filter by container name">
+    </testcase>
+    <testcase name="2 - On the Locations main page, I can filter containers LC-2-2 Should filter by owner" time="11.431" classname="LC-2-2 Should filter by owner">
+    </testcase>
+    <testcase name="2 - On the Locations main page, I can filter containers LC-2-3 Should filter by barcode" time="10.223" classname="LC-2-3 Should filter by barcode">
+    </testcase>
+    <testcase name="2 - On the Locations main page, I can filter containers LC-2-4 Should filter by tags" time="11.362" classname="LC-2-4 Should filter by tags">
+    </testcase>
+    <testcase name="2 - On the Locations main page, I can filter containers LC-2-5 Should filter by type" time="12.3" classname="LC-2-5 Should filter by type">
+    </testcase>
+    <testcase name="2 - On the Locations main page, I can filter containers LC-2-6 Should filter by created after" time="10.987" classname="LC-2-6 Should filter by created after">
+    </testcase>
+    <testcase name="2 - On the Locations main page, I can filter containers LC-2-7 Should filter by created before" time="11.042" classname="LC-2-7 Should filter by created before">
+    </testcase>
+    <testcase name="2 - On the Locations main page, I can filter containers LC-2-8 Should filter by name and barcode" time="14.904" classname="LC-2-8 Should filter by name and barcode">
+    </testcase>
+    <testcase name="2 - On the Locations main page, I can filter containers LC-2-9 Should clear filters" time="13.396" classname="LC-2-9 Should clear filters">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.234" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T17:25:49" tests="0" file="cypress/integration/apps/container_types/CT22.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="22 - I can open details of a Container Type in a new tab" timestamp="2020-07-10T17:25:49" tests="1" failures="0" time="12.234">
+    <testcase name="22 - I can open details of a Container Type in a new tab CT-22-1 Should open tab" time="12.234" classname="CT-22-1 Should open tab">
+    </testcase>
+  </testsuite>
+</testsuites>

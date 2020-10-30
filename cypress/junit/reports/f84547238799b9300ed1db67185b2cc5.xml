@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="82.306" tests="13" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-06-01T17:33:23" tests="0" file="cypress/integration/apps/entities/EN29.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="29 - I can use all types of data columns in new entity modal" timestamp="2020-06-01T17:33:23" tests="13" failures="0" time="82.306">
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-1 Should add text" time="16.202" classname="EN-29-1 Should add text">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-2 Should add numeric" time="8.439" classname="EN-29-2 Should add numeric">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-3 Should add picklist" time="6.34" classname="EN-29-3 Should add picklist">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-4 Should add multiselect picklist" time="4.594" classname="EN-29-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-5 Should add date" time="6.123" classname="EN-29-5 Should add date">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-6 Should add checkbox" time="5.802" classname="EN-29-6 Should add checkbox">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-8 Should add qr barcode" time="5.758" classname="EN-29-8 Should add qr barcode">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-9 Should add 1d barcode" time="6.846" classname="EN-29-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-10 Should add mini data matrix" time="6.701" classname="EN-29-10 Should add mini data matrix">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-11 Should require required field" time="6.923" classname="EN-29-11 Should require required field">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-12 Should find default value" time="5.575" classname="EN-29-12 Should find default value">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-13 Should find read only field" time="3.003" classname="EN-29-13 Should find read only field">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="137.933" tests="5" failures="3">
+  <testsuite name="Root Suite" timestamp="2020-06-26T16:32:02" tests="0" file="cypress/integration/apps/sample_sets/LM58d.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58d - archive worksheets with multiple sample protocols" timestamp="2020-06-26T16:32:02" tests="5" failures="3" time="137.933">
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-1 - Archive after all samples are complete" time="62.386" classname="LM-58d-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-2 - Archive after all samples fail in second protocol" time="21.095" classname="LM-58d-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-3 - Archive after first sample fails in second protocol" time="0" classname="LM-58d-3 - Archive after first sample fails in second protocol">
+      <failure message="Timed out retrying: cy.click() failed because this element is disabled:
+
+&lt;button data-v-363ada02=&quot;&quot; data-v-6c7980ce=&quot;&quot; disabled=&quot;disabled&quot; class=&quot;btn primary&quot; data-test=&quot;worksheet-tab--save-continue-button&quot;&gt;...&lt;/button&gt;
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.click() failed because this element is disabled:
+
+<button data-v-363ada02="" data-v-6c7980ce="" disabled="disabled" class="btn primary" data-test="worksheet-tab--save-continue-button">...</button>
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-4 - Archive after last sample fails in second protocol" time="0" classname="LM-58d-4 - Archive after last sample fails in second protocol">
+      <failure message="Timed out retrying: cy.click() failed because this element is disabled:
+
+&lt;button data-v-363ada02=&quot;&quot; data-v-6c7980ce=&quot;&quot; disabled=&quot;disabled&quot; class=&quot;btn primary&quot; data-test=&quot;worksheet-tab--save-continue-button&quot;&gt;...&lt;/button&gt;
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.click() failed because this element is disabled:
+
+<button data-v-363ada02="" data-v-6c7980ce="" disabled="disabled" class="btn primary" data-test="worksheet-tab--save-continue-button">...</button>
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-5 - Archive after all samples fail in third protocol" time="27.226" classname="LM-58d-5 - Archive after all samples fail in third protocol">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols &quot;after all&quot; hook for &quot;LM-58d-5 - Archive after all samples fail in third protocol&quot;" time="27.226" classname="&quot;after all&quot; hook for &quot;LM-58d-5 - Archive after all samples fail in third protocol&quot;">
+      <failure message="cy.exec(&apos;esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/sample_sets/LM58dseed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-06-26 11:34:57,815:Dropping SampleSheet: LM58-x d
+INFO:root:2020-06-26 11:34:57,952:Dropping Experiment: LM58d-x
+INFO:root:2020-06-26 11:34:59,082:Dropping Experiment: LM58d-1
+Traceb...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;58d - archive worksheets wi...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/sample_sets/LM58dseed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-06-26 11:34:57,815:Dropping SampleSheet: LM58-x d
+INFO:root:2020-06-26 11:34:57,952:Dropping Experiment: LM58d-x
+INFO:root:2020-06-26 11:34:59,082:Dropping Experiment: LM58d-1
+Traceb...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '58d - archive worksheets wi...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

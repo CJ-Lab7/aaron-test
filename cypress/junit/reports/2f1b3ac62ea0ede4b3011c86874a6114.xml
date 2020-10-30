@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.211" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:58:37" tests="0" file="cypress/integration/apps/entities/EN33.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="33 - I can create a entity with var groups" timestamp="2020-07-10T19:58:37" tests="1" failures="0" time="13.211">
+    <testcase name="33 - I can create a entity with var groups EN-33-1 Should create a entity with var groups" time="13.211" classname="EN-33-1 Should create a entity with var groups">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.495" tests="15" failures="14">
+  <testsuite name="Root Suite" timestamp="2020-07-10T17:34:42" tests="0" file="cypress/integration/apps/customers/CS09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can edit a customer" timestamp="2020-07-10T17:34:42" tests="15" failures="14" time="23.495">
+    <testcase name="9 - I can edit a customer CS-9-1 Should edit name" time="0" classname="CS-9-1 Should edit name">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 new name&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 new name' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:96:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-2 Should edit description" time="0" classname="CS-9-2 Should edit description">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:112:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-3 Should edit tags" time="0" classname="CS-9-3 Should edit tags">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:131:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-4 Should edit billing street" time="0" classname="CS-9-4 Should edit billing street">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:156:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-5 Should edit billing city" time="0" classname="CS-9-5 Should edit billing city">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:176:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-6 Should edit billing state" time="0" classname="CS-9-6 Should edit billing state">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:194:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-7 Should edit billing country" time="0" classname="CS-9-7 Should edit billing country">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:212:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-8 Should edit billing postal code" time="0" classname="CS-9-8 Should edit billing postal code">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:230:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-9 Should edit shipping street" time="0" classname="CS-9-9 Should edit shipping street">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:251:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-10 Should edit shipping city" time="0" classname="CS-9-10 Should edit shipping city">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:271:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-11 Should edit shipping state" time="0" classname="CS-9-11 Should edit shipping state">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:289:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-12 Should edit shipping country" time="0" classname="CS-9-12 Should edit shipping country">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:307:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-13 Should edit shipping postal code" time="0" classname="CS-9-13 Should edit shipping postal code">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:845:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:325:35)]]></failure>
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-14 Should cancel" time="23.495" classname="CS-9-14 Should cancel">
+    </testcase>
+    <testcase name="9 - I can edit a customer CS-9-15 Should make shipping same as billing address" time="0" classname="CS-9-15 Should make shipping same as billing address">
+      <failure message="Timed out retrying: Expected to find content: &apos;CS09 same&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CS09 same' within the selector: '.ag-center-cols-viewport .ag-row' but never did.
+    at Function.containsCustomerRow (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:840:17)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/customers/CS09.js:361:35)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

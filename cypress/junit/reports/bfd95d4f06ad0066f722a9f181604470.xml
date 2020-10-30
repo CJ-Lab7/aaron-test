@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="301.10600000000005" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-20T20:52:56" tests="0" file="cypress/integration/apps/entities/EN25_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I can see correct processed data in entity details" timestamp="2020-03-20T20:52:56" tests="6" failures="0" time="301.10600000000005">
+    <testcase name="25 - I can see correct processed data in entity details EN-25-1 Should find text column" time="189.321" classname="EN-25-1 Should find text column">
+    </testcase>
+    <testcase name="25 - I can see correct processed data in entity details EN-25-2 Should find number column" time="24.578" classname="EN-25-2 Should find number column">
+    </testcase>
+    <testcase name="25 - I can see correct processed data in entity details EN-25-3 Should find picklist column" time="21.132" classname="EN-25-3 Should find picklist column">
+    </testcase>
+    <testcase name="25 - I can see correct processed data in entity details EN-25-4 Should find date column" time="21.18" classname="EN-25-4 Should find date column">
+    </testcase>
+    <testcase name="25 - I can see correct processed data in entity details EN-25-5 Should find checkbox column" time="23.237" classname="EN-25-5 Should find checkbox column">
+    </testcase>
+    <testcase name="25 - I can see correct processed data in entity details EN-25-6 Should find attachment column" time="21.658" classname="EN-25-6 Should find attachment column">
+    </testcase>
+  </testsuite>
+</testsuites>

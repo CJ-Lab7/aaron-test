@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T20:06:12" tests="0" file="cypress/integration/apps/entity_types/ET06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can sort columns" timestamp="2020-07-10T20:06:12" tests="1" failures="1" time="0">
+    <testcase name="6 - I can sort columns ET-6-1 Should sort all columns" time="0" classname="ET-6-1 Should sort all columns">
+      <failure message="expected [ Array(10) ] to deeply equal [ Array(10) ]" type="AssertionError"><![CDATA[AssertionError: expected [ Array(10) ] to deeply equal [ Array(10) ]
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entity_types/ET06.js:214:39)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

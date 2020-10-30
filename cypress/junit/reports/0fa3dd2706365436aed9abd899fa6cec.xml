@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="125.156" tests="6" failures="1" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-20T18:57:43" tests="0" file="cypress/integration/apps/analysis/AN03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I should be able to use Quick Filter under Monitor page" timestamp="2020-03-20T18:57:43" tests="6" failures="1" time="125.156">
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-1 Should filter pipeline by name" time="104.975" classname="AN-3-1 Should filter pipeline by name">
+    </testcase>
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-2 Should filter pipeline by description" time="6.936" classname="AN-3-2 Should filter pipeline by description">
+    </testcase>
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-3 Should filter pipeline by task" time="6.937" classname="AN-3-3 Should filter pipeline by task">
+    </testcase>
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-4 Should filter pipeline by originating experiment" time="0" classname="AN-3-4 Should filter pipeline by originating experiment">
+      <failure message="Timed out retrying: Expected to find element: &apos;.pipeline-table-row&apos;, but never found it." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.pipeline-table-row', but never found it.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-5 Should filter pipeline by status" time="6.308" classname="AN-3-5 Should filter pipeline by status">
+    </testcase>
+  </testsuite>
+</testsuites>

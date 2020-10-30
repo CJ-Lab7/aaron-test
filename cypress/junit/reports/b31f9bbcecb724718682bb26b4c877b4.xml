@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.975" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T23:43:57" tests="0" file="cypress/integration/apps/samples/SP36.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="36 - I can use SAMPLES link in the nav bar" timestamp="2020-04-03T23:43:57" tests="1" failures="0" time="21.975">
+    <testcase name="36 - I can use SAMPLES link in the nav bar SP-36-1 Should use SAMPLES link" time="21.975" classname="SP-36-1 Should use SAMPLES link">
+    </testcase>
+  </testsuite>
+</testsuites>

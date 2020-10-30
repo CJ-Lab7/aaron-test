@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.174" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T20:50:03" tests="0" file="cypress/integration/apps/inventory/IN25.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I can use INVENTORY link in the nav bar" timestamp="2020-07-10T20:50:03" tests="1" failures="0" time="15.174">
+    <testcase name="25 - I can use INVENTORY link in the nav bar IN-25-1 Should use INVENTORY link" time="15.174" classname="IN-25-1 Should use INVENTORY link">
+    </testcase>
+  </testsuite>
+</testsuites>

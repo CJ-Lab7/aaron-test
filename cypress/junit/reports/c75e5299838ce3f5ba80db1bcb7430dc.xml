@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="38.377" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T13:45:56" tests="0" file="cypress/integration/apps/data/D20.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="20 - I can add files with different types" timestamp="2020-03-22T13:45:56" tests="7" failures="0" time="38.377">
+    <testcase name="20 - I can add files with different types D-20-1 Should add jpg file" time="10.92" classname="D-20-1 Should add jpg file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-2 Should add txt file" time="6.116" classname="D-20-2 Should add txt file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-3 Should add xlsx file" time="4.712" classname="D-20-3 Should add xlsx file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-4 Should add docx file" time="4.327" classname="D-20-4 Should add docx file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-5 Should add png file" time="3.953" classname="D-20-5 Should add png file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-6 Should add csv file" time="4.194" classname="D-20-6 Should add csv file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-7 Should add pdf file" time="4.155" classname="D-20-7 Should add pdf file">
+    </testcase>
+  </testsuite>
+</testsuites>

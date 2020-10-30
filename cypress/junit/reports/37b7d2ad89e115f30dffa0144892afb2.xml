@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="247.81599999999997" tests="14" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-08T17:27:01" tests="0" file="cypress/integration/apps/permissions/LP11.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="11 - I navigate directly to my default app after loggin in" timestamp="2020-06-08T17:27:01" tests="14" failures="1" time="247.81599999999997">
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-2 Should default to analysis" time="39.812" classname="LP-11-2 Should default to analysis">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-3 Should default to applets" time="16.152" classname="LP-11-3 Should default to applets">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-4 Should default to dashboard" time="15.726" classname="LP-11-4 Should default to dashboard">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-5 Should default to data" time="18.3" classname="LP-11-5 Should default to data">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-6 Should default to entities" time="16.509" classname="LP-11-6 Should default to entities">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-7 Should default to iam" time="20.069" classname="LP-11-7 Should default to iam">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-8 Should default to ingest" time="17.031" classname="LP-11-8 Should default to ingest">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-9 Should default to inventory" time="18.234" classname="LP-11-9 Should default to inventory">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-10 Should default to lims" time="16.97" classname="LP-11-10 Should default to lims">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-11 Should default to location" time="18.416" classname="LP-11-11 Should default to location">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-12 Should default to projects" time="16.117" classname="LP-11-12 Should default to projects">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-13 Should default to samples" time="18.025" classname="LP-11-13 Should default to samples">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-14 Should default to search" time="16.455" classname="LP-11-14 Should default to search">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-15 Should default to builders" time="0" classname="LP-11-15 Should default to builders">
+      <failure message="Timed out retrying: expected &apos;https://chris231.test.l7informatics.com/#/admin&apos; to include &apos;builders&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected 'https://chris231.test.l7informatics.com/#/admin' to include 'builders'
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

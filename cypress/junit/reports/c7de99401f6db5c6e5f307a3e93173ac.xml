@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="83.10000000000001" tests="4" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-06-24T01:42:46" tests="0" file="cypress/integration/apps/lims/LM31.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I should be able to restart failed/paused pipelines (pipeline details modal)" timestamp="2020-06-24T01:42:46" tests="4" failures="2" time="83.10000000000001">
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) LM-31-1 Should not restart a paused pipeline" time="66.358" classname="LM-31-1 Should not restart a paused pipeline">
+    </testcase>
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) LM-31-2 Should restart a killed pipeline" time="0" classname="LM-31-2 Should restart a killed pipeline">
+      <failure message="Timed out retrying: cy.click() failed because this element:
+
+&lt;div class=&quot;action-btn more-btn off&quot;&gt;...&lt;/div&gt;
+
+has CSS &apos;pointer-events: none&apos;
+
+&apos;pointer-events: none&apos; prevents user mouse interaction.
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.click() failed because this element:
+
+<div class="action-btn more-btn off">...</div>
+
+has CSS 'pointer-events: none'
+
+'pointer-events: none' prevents user mouse interaction.
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) LM-31-3 Should restart a failed pipeline" time="0" classname="LM-31-3 Should restart a failed pipeline">
+      <failure message="Timed out retrying: cy.click() failed because this element is detached from the DOM.
+
+&lt;button data-v-363ada02=&quot;&quot; data-v-38d7bcb6=&quot;&quot; disabled=&quot;disabled&quot; class=&quot;btn primary&quot; id=&quot;restart-button&quot;&gt;...&lt;/button&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.contains()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.click() failed because this element is detached from the DOM.
+
+<button data-v-363ada02="" data-v-38d7bcb6="" disabled="disabled" class="btn primary" id="restart-button">...</button>
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.contains()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) LM-31-4 Should not restart a running pipeline" time="16.742" classname="LM-31-4 Should not restart a running pipeline">
+    </testcase>
+  </testsuite>
+</testsuites>

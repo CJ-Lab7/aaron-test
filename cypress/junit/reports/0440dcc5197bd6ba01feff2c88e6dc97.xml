@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.888999999999996" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T23:00:22" tests="0" file="cypress/integration/apps/projects/PR24.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="24 - I can only see the correct sample types when making an experiment" timestamp="2020-07-10T23:00:22" tests="4" failures="0" time="27.888999999999996">
+    <testcase name="24 - I can only see the correct sample types when making an experiment PR-24-1 Should show correct sample types (new samples)" time="14.061" classname="PR-24-1 Should show correct sample types (new samples)">
+    </testcase>
+    <testcase name="24 - I can only see the correct sample types when making an experiment PR-24-2 Should show correct sample types (existing samples)" time="5.385" classname="PR-24-2 Should show correct sample types (existing samples)">
+    </testcase>
+    <testcase name="24 - I can only see the correct sample types when making an experiment PR-24-3 Should show correct sample types (editing exp with new samples" time="4.2" classname="PR-24-3 Should show correct sample types (editing exp with new samples">
+    </testcase>
+    <testcase name="24 - I can only see the correct sample types when making an experiment PR-24-4 Should show correct sample types (editing exp with existing samples" time="4.243" classname="PR-24-4 Should show correct sample types (editing exp with existing samples">
+    </testcase>
+  </testsuite>
+</testsuites>

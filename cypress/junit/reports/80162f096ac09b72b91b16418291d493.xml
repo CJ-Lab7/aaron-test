@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.192" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T23:06:49" tests="0" file="cypress/integration/apps/projects/PR33.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="33 - I can see the number of samples added to an experiment" timestamp="2020-07-10T23:06:49" tests="1" failures="0" time="13.192">
+    <testcase name="33 - I can see the number of samples added to an experiment PR-33-1 Should find number of samples" time="13.192" classname="PR-33-1 Should find number of samples">
+    </testcase>
+  </testsuite>
+</testsuites>

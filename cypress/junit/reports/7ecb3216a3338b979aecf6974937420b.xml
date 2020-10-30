@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.877" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-03T02:24:16" tests="0" file="cypress/integration/apps/service_types/ST02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I see a message when no Service Types exist" timestamp="2020-06-03T02:24:16" tests="1" failures="0" time="7.877">
+    <testcase name="2 - I see a message when no Service Types exist ST-2-1 Should find message" time="7.877" classname="ST-2-1 Should find message">
+    </testcase>
+  </testsuite>
+</testsuites>

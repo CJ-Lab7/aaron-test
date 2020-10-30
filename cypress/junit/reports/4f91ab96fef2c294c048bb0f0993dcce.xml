@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="111.40600000000002" tests="11" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-21T22:12:08" tests="0" file="cypress/integration/apps/entities/EN30_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I can use all types of data columns in new experiment modal" timestamp="2020-04-21T22:12:08" tests="11" failures="0" time="111.40600000000002">
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-11 Should require field" time="15.094" classname="EN-30-11 Should require field">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-12 Should find default value" time="5.264" classname="EN-30-12 Should find default value">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-13 Should not edit read only" time="7.9" classname="EN-30-13 Should not edit read only">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-14 Should add Sample Resource Link" time="11.512" classname="EN-30-14 Should add Sample Resource Link">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-16 Should add File Resource Link" time="12.082" classname="EN-30-16 Should add File Resource Link">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-17 Should add Container Resource Link" time="11.908" classname="EN-30-17 Should add Container Resource Link">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-18 Should add Report Resource Link" time="11.977" classname="EN-30-18 Should add Report Resource Link">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-19 Should add Project Resource Link" time="11.935" classname="EN-30-19 Should add Project Resource Link">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-20 Should add Experiment Resource Link" time="12.096" classname="EN-30-20 Should add Experiment Resource Link">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-21 Should add Inventory Resource Link" time="11.638" classname="EN-30-21 Should add Inventory Resource Link">
+    </testcase>
+  </testsuite>
+</testsuites>

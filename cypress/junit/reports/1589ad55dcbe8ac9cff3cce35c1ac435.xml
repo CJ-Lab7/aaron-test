@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="160.30200000000002" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-25T14:20:27" tests="0" file="cypress/integration/apps/samples/SP26_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - I can see correct processed data in sample details" timestamp="2020-06-25T14:20:27" tests="6" failures="0" time="160.30200000000002">
+    <testcase name="26 - I can see correct processed data in sample details SP-26-1 Should find text column" time="65.167" classname="SP-26-1 Should find text column">
+    </testcase>
+    <testcase name="26 - I can see correct processed data in sample details SP-26-2 Should find number column" time="18.075" classname="SP-26-2 Should find number column">
+    </testcase>
+    <testcase name="26 - I can see correct processed data in sample details SP-26-3 Should find picklist column" time="17.34" classname="SP-26-3 Should find picklist column">
+    </testcase>
+    <testcase name="26 - I can see correct processed data in sample details SP-26-4 Should find date column" time="20.058" classname="SP-26-4 Should find date column">
+    </testcase>
+    <testcase name="26 - I can see correct processed data in sample details SP-26-5 Should find checkbox column" time="20.972" classname="SP-26-5 Should find checkbox column">
+    </testcase>
+    <testcase name="26 - I can see correct processed data in sample details SP-26-6 Should find attachment column" time="18.69" classname="SP-26-6 Should find attachment column">
+    </testcase>
+  </testsuite>
+</testsuites>

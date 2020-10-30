@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.538" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T14:19:49" tests="0" file="cypress/integration/apps/container_types/CT05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can access the container type details page" timestamp="2020-06-26T14:19:49" tests="1" failures="0" time="11.538">
+    <testcase name="5 - I can access the container type details page CT-5-1 Should access details page" time="11.538" classname="CT-5-1 Should access details page">
+    </testcase>
+  </testsuite>
+</testsuites>

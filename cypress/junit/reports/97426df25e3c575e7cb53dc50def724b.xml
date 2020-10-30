@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.182" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T23:14:50" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="36 - I can use SAMPLES link in the nav bar" timestamp="2020-02-27T23:14:50" tests="1" failures="0" time="18.182">
+    <testcase name="36 - I can use SAMPLES link in the nav bar SP-36-1 Should use SAMPLES link" time="18.182" classname="SP-36-1 Should use SAMPLES link">
+    </testcase>
+  </testsuite>
+</testsuites>

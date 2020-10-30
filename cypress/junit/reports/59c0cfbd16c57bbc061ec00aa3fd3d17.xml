@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.039000000000001" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-01T16:34:38" tests="0" file="cypress/integration/apps/entity_types/ET04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can open/close panels" timestamp="2020-06-01T16:34:38" tests="2" failures="0" time="11.039000000000001">
+    <testcase name="4 - I can open/close panels ET-4-1/2 Should open/close filter panel" time="7.621" classname="ET-4-1/2 Should open/close filter panel">
+    </testcase>
+    <testcase name="4 - I can open/close panels ET-4-3/4 Should collapse/expand inspector" time="3.418" classname="ET-4-3/4 Should collapse/expand inspector">
+    </testcase>
+  </testsuite>
+</testsuites>

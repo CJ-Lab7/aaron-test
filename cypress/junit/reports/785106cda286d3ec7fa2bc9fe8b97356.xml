@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.961999999999998" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T21:57:42" tests="0" file="cypress/integration/apps/reports/RP06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can view report details" timestamp="2020-03-22T21:57:42" tests="6" failures="0" time="9.961999999999998">
+    <testcase name="6 - I can view report details RP-6-1 Should find report name in header" time="9.44" classname="RP-6-1 Should find report name in header">
+    </testcase>
+    <testcase name="6 - I can view report details RP-6-2 Should find description" time="0.065" classname="RP-6-2 Should find description">
+    </testcase>
+    <testcase name="6 - I can view report details RP-6-3 Should find tags" time="0.029" classname="RP-6-3 Should find tags">
+    </testcase>
+    <testcase name="6 - I can view report details RP-6-4 Should find owner" time="0.026" classname="RP-6-4 Should find owner">
+    </testcase>
+    <testcase name="6 - I can view report details RP-6-6 Should find report content in middle column" time="0.027" classname="RP-6-6 Should find report content in middle column">
+    </testcase>
+    <testcase name="6 - I can view report details RP-6-7 Should open/close details panel" time="0.375" classname="RP-6-7 Should open/close details panel">
+    </testcase>
+  </testsuite>
+</testsuites>

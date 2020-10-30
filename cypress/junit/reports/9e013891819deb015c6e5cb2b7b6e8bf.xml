@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.988" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-29T00:40:06" tests="0" file="cypress/integration/apps/projects/PR21.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="21 - I can see experiment details in the inspector" timestamp="2020-03-29T00:40:06" tests="7" failures="0" time="11.988">
+    <testcase name="21 - I can see experiment details in the inspector PR-21-1 Should find workflow" time="10.629" classname="PR-21-1 Should find workflow">
+    </testcase>
+    <testcase name="21 - I can see experiment details in the inspector PR-21-2 Should find name" time="0.321" classname="PR-21-2 Should find name">
+    </testcase>
+    <testcase name="21 - I can see experiment details in the inspector PR-21-3 Should find description" time="0.084" classname="PR-21-3 Should find description">
+    </testcase>
+    <testcase name="21 - I can see experiment details in the inspector PR-21-4 Should find tags" time="0.21" classname="PR-21-4 Should find tags">
+    </testcase>
+    <testcase name="21 - I can see experiment details in the inspector PR-21-5 Should find owner" time="0.041" classname="PR-21-5 Should find owner">
+    </testcase>
+    <testcase name="21 - I can see experiment details in the inspector PR-21-8 Should find samples list" time="0.039" classname="PR-21-8 Should find samples list">
+    </testcase>
+    <testcase name="21 - I can see experiment details in the inspector PR-21-9 Should access sample details page" time="0.664" classname="PR-21-9 Should access sample details page">
+    </testcase>
+  </testsuite>
+</testsuites>

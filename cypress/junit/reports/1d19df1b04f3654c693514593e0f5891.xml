@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="31.223000000000006" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-28T19:48:15" tests="0" file="cypress/integration/apps/lims/LM36.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="36 - I can see and print barcodes" timestamp="2020-03-28T19:48:15" tests="6" failures="1" time="31.223000000000006">
+    <testcase name="36 - I can see and print barcodes LM-36-1 Should use QR barcode" time="13.252" classname="LM-36-1 Should use QR barcode">
+    </testcase>
+    <testcase name="36 - I can see and print barcodes LM-36-2 Should use mini data matrix barcode" time="4.244" classname="LM-36-2 Should use mini data matrix barcode">
+    </testcase>
+    <testcase name="36 - I can see and print barcodes LM-36-3 Should use 1D barcode" time="2.524" classname="LM-36-3 Should use 1D barcode">
+    </testcase>
+    <testcase name="36 - I can see and print barcodes LM-36-4 Should use all barcodes in one protocol" time="3.043" classname="LM-36-4 Should use all barcodes in one protocol">
+    </testcase>
+    <testcase name="36 - I can see and print barcodes LM-36-5 Should view barcodes in transpose view" time="2.57" classname="LM-36-5 Should view barcodes in transpose view">
+    </testcase>
+    <testcase name="36 - I can see and print barcodes LM-36-6 Should use edit barcodes in transpose view" time="2.795" classname="LM-36-6 Should use edit barcodes in transpose view">
+    </testcase>
+    <testcase name="36 - I can see and print barcodes &quot;after all&quot; hook for &quot;LM-36-6 Should use edit barcodes in transpose view&quot;" time="2.795" classname="&quot;after all&quot; hook for &quot;LM-36-6 Should use edit barcodes in transpose view&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM36seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 14:48:45,627:Saving data in Experiment LM36 for Protocol: Barcode Protocol.
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line 1...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;36 - I can see and print ba...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM36seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 14:48:45,627:Saving data in Experiment LM36 for Protocol: Barcode Protocol.
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line 1...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '36 - I can see and print ba...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.607" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-28T15:35:29" tests="0" file="cypress/integration/apps/customers/CS05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can view customer details in the inspector" timestamp="2020-05-28T15:35:29" tests="3" failures="0" time="14.607">
+    <testcase name="5 - I can view customer details in the inspector CS-5-1 Should find customer details" time="9.024" classname="CS-5-1 Should find customer details">
+    </testcase>
+    <testcase name="5 - I can view customer details in the inspector CS-5-2 Should find customer billing address" time="3.24" classname="CS-5-2 Should find customer billing address">
+    </testcase>
+    <testcase name="5 - I can view customer details in the inspector CS-5-3 Should find customer shipping address" time="2.343" classname="CS-5-3 Should find customer shipping address">
+    </testcase>
+  </testsuite>
+</testsuites>

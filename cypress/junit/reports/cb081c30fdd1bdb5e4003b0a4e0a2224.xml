@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="115.07799999999999" tests="11" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-06-04T20:47:45" tests="0" file="cypress/integration/apps/service_types/ST11.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="11 - I can see service type details" timestamp="2020-06-04T20:47:45" tests="11" failures="2" time="115.07799999999999">
+    <testcase name="11 - I can see service type details ST-11-1 Should find header with name" time="0" classname="ST-11-1 Should find header with name">
+      <failure message="Timed out retrying: Expected to find content: &apos;ST11 type&apos; within the element: &lt;section.view-header__info&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'ST11 type' within the element: <section.view-header__info> but never did.
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-2 Should find subheader" time="0" classname="ST-11-2 Should find subheader">
+      <failure message="Timed out retrying: Expected to find content: &apos; Configure serviceType settings here&apos; within the element: &lt;section.view-header__info&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: ' Configure serviceType settings here' within the element: <section.view-header__info> but never did.
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-3 Should find Archive button" time="11.986" classname="ST-11-3 Should find Archive button">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-4 Should find + New Price Entry button" time="11.552" classname="ST-11-4 Should find + New Price Entry button">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-5 Should find Export History button" time="10.649" classname="ST-11-5 Should find Export History button">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-6 Should find Save button" time="11.941" classname="ST-11-6 Should find Save button">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-7 Should find details panel" time="14.534" classname="ST-11-7 Should find details panel">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-8 Should find Price Entries Tab " time="16.182" classname="ST-11-8 Should find Price Entries Tab ">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-9 Should find Edit icon for Price Entry" time="13.645" classname="ST-11-9 Should find Edit icon for Price Entry">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-10 Should find Delete icon for Price Entry" time="13.053" classname="ST-11-10 Should find Delete icon for Price Entry">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-11 Should find History tab" time="11.536" classname="ST-11-11 Should find History tab">
+    </testcase>
+  </testsuite>
+</testsuites>

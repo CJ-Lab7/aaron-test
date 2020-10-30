@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="176.58800000000002" tests="10" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-09-18T17:18:47" tests="0" file="cypress/integration/apps/location/LC43_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="43 - In Container details page, I should be able to edit Data values" timestamp="2020-09-18T17:18:47" tests="10" failures="0" time="176.58800000000002">
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-1 Should edit text field" time="41.209" classname="LC-43-1 Should edit text field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-2 Should edit numeric field" time="24.665" classname="LC-43-2 Should edit numeric field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-3 Should edit picklist field" time="19.58" classname="LC-43-3 Should edit picklist field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-5 Should edit date field" time="18.649" classname="LC-43-5 Should edit date field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-6 Should edit checkbox field" time="14.869" classname="LC-43-6 Should edit checkbox field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-7 Should edit attachment field" time="15.607" classname="LC-43-7 Should edit attachment field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-8 Should edit QR field" time="14.001" classname="LC-43-8 Should edit QR field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-9 Should edit 1D field" time="13.285" classname="LC-43-9 Should edit 1D field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-10 Should edit mini datamatrix field" time="14.723" classname="LC-43-10 Should edit mini datamatrix field">
+    </testcase>
+  </testsuite>
+</testsuites>

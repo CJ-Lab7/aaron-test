@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="33.024" tests="10" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:24:39" tests="0" file="cypress/integration/apps/entities/EN03_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can see entity details (right column) after clicking a entity ID" timestamp="2020-07-10T19:24:39" tests="10" failures="2" time="33.024">
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-16 Should find view tab" time="0" classname="EN-3-16 Should find view tab">
+      <failure message="Timed out retrying: Expected to find content: &apos;View&apos; within the selector: &apos;.tab&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'View' within the selector: '.tab' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entities/EN03_2.js:68:8)]]></failure>
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-17 Should view columns under data" time="4.545" classname="EN-3-17 Should view columns under data">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-18 Should view column values under data" time="2.76" classname="EN-3-18 Should view column values under data">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-19 Should find no column values under data" time="2.668" classname="EN-3-19 Should find no column values under data">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-20 Should say if enitity is not part of an experiment" time="2.713" classname="EN-3-20 Should say if enitity is not part of an experiment">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-21 Should list experiment under process data" time="3.083" classname="EN-3-21 Should list experiment under process data">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-22 Should link to experiment under process data" time="4.09" classname="EN-3-22 Should link to experiment under process data">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-23 Should link to worksheet under process data" time="4.196" classname="EN-3-23 Should link to worksheet under process data">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-24 Should not attach same file twice" time="8.969" classname="EN-3-24 Should not attach same file twice">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-25 Should sort history (History)" time="0" classname="EN-3-25 Should sort history (History)">
+      <failure message="Timed out retrying: Expected to find content: &apos;created entity&apos; within the element: [ &lt;div.row&gt;, 4 more... ] but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'created entity' within the element: [ <div.row>, 4 more... ] but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entities/EN03_2.js:150:34)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

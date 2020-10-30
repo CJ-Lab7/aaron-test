@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.163" tests="10" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-01T21:31:09" tests="0" file="cypress/integration/apps/container_types/CT08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can use the New Container Type modal" timestamp="2020-05-01T21:31:09" tests="10" failures="0" time="25.163">
+    <testcase name="8 - I can use the New Container Type modal CT-8-1 Should add name" time="7.389" classname="CT-8-1 Should add name">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-2 Should add description" time="3.296" classname="CT-8-2 Should add description">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-3 Should find Contains selector options" time="1.738" classname="CT-8-3 Should find Contains selector options">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-4 Should find Elements per Location options" time="1.526" classname="CT-8-4 Should find Elements per Location options">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-6 Should add tags" time="1.904" classname="CT-8-6 Should add tags">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-7 Should delete tag" time="1.782" classname="CT-8-7 Should delete tag">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-8 Should not save without name" time="1.652" classname="CT-8-8 Should not save without name">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-9 Should Save" time="2.38" classname="CT-8-9 Should Save">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-10 Should cancel" time="1.78" classname="CT-8-10 Should cancel">
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-11 Should close modal" time="1.716" classname="CT-8-11 Should close modal">
+    </testcase>
+  </testsuite>
+</testsuites>

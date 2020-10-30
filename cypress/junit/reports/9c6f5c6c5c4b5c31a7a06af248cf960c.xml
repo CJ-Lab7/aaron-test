@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="47.777" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:51:35" tests="0" file="cypress/integration/apps/lims/LM54_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="54 - I can only use ag-grid functionality in tranpsose view" timestamp="2020-07-10T21:51:35" tests="7" failures="0" time="47.777">
+    <testcase name="54 - I can only use ag-grid functionality in tranpsose view LM-54-10 Should reset columns" time="18.06" classname="LM-54-10 Should reset columns">
+    </testcase>
+    <testcase name="54 - I can only use ag-grid functionality in tranpsose view LM-54-11 Should filter by searching value" time="6.443" classname="LM-54-11 Should filter by searching value">
+    </testcase>
+    <testcase name="54 - I can only use ag-grid functionality in tranpsose view LM-54-12 Should select all for filter column value" time="3.912" classname="LM-54-12 Should select all for filter column value">
+    </testcase>
+    <testcase name="54 - I can only use ag-grid functionality in tranpsose view LM-54-13/14 Should unselect/select all values for filter column value" time="5.569" classname="LM-54-13/14 Should unselect/select all values for filter column value">
+    </testcase>
+    <testcase name="54 - I can only use ag-grid functionality in tranpsose view LM-54-15 Should search for a column under column tab filter" time="4.801" classname="LM-54-15 Should search for a column under column tab filter">
+    </testcase>
+    <testcase name="54 - I can only use ag-grid functionality in tranpsose view LM-54-16 Should remove one column from the table" time="3.632" classname="LM-54-16 Should remove one column from the table">
+    </testcase>
+    <testcase name="54 - I can only use ag-grid functionality in tranpsose view LM-54-17/18 Should remove/add all columns from/to the table" time="5.36" classname="LM-54-17/18 Should remove/add all columns from/to the table">
+    </testcase>
+  </testsuite>
+</testsuites>

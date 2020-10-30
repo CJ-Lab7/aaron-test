@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.526999999999994" tests="9" failures="4">
+  <testsuite name="Root Suite" timestamp="2020-07-10T20:07:16" tests="0" file="cypress/integration/apps/entity_types/ET09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can view Entity Type details" timestamp="2020-07-10T20:07:16" tests="9" failures="4" time="27.526999999999994">
+    <testcase name="9 - I can view Entity Type details ET-9-1 Should find export history button" time="11.629" classname="ET-9-1 Should find export history button">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-2 Should find archive button" time="4.768" classname="ET-9-2 Should find archive button">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-3 Should find custom field button" time="3.76" classname="ET-9-3 Should find custom field button">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-4 Should find save button" time="3.697" classname="ET-9-4 Should find save button">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-5 Should find cancel button" time="3.673" classname="ET-9-5 Should find cancel button">
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-6 Should find details" time="0" classname="ET-9-6 Should find details">
+      <failure message="Timed out retrying: `cy.should()` failed because this element is detached from the DOM.
+
+`&lt;input data-v-2cedc728=&quot;&quot; data-v-a1e7b63e=&quot;&quot; type=&quot;text&quot; placeholder=&quot;Required&quot; class=&quot;error&quot;&gt;`
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; `cy.contains()`
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: `cy.should()` failed because this element is detached from the DOM.
+
+`<input data-v-2cedc728="" data-v-a1e7b63e="" type="text" placeholder="Required" class="error">`
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > `cy.contains()`
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at $Cy.ensureAttached (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159707:24)
+    at applyChainers (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:153336:12)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10130:23)
+    at Function.Promise.attempt.Promise.try (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:7404:29)
+    at Context.shouldFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:153356:26)
+    at Context.should (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:153374:23)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:149165:39
+    at assertions (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:149426:14)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10130:23)
+    at Object.gotValue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:9274:18)
+    at Object.gotAccum (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:9261:25)
+    at Object.tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10130:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8065:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8122:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8159:10)
+    at _drainQueueStep (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:4841:12)
+From Your Spec Code:
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entity_types/ET09.js:105:61)]]></failure>
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-7 Should find custom fields tab" time="0" classname="ET-9-7 Should find custom fields tab">
+      <failure message="Timed out retrying: `cy.click()` failed because this element is detached from the DOM.
+
+`&lt;li data-v-8499af04=&quot;&quot; data-v-55a8ebd1=&quot;&quot; tag=&quot;li&quot; class=&quot;tab tab--selected&quot; data-v-20531c4b=&quot;&quot;&gt;Custom ...&lt;/li&gt;`
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; `cy.contains()`
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: `cy.click()` failed because this element is detached from the DOM.
+
+`<li data-v-8499af04="" data-v-55a8ebd1="" tag="li" class="tab tab--selected" data-v-20531c4b="">Custom ...</li>`
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > `cy.contains()`
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at $Cy.ensureAttached (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159707:24)
+    at runAllChecks (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:148806:12)
+    at retryActionability (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:148865:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10130:23)
+    at Function.Promise.attempt.Promise.try (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:7404:29)
+    at tryFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162938:24)
+    at whenStable (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162979:12)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162502:16
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10130:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8065:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8122:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8167:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8247:18)
+    at Promise._fulfill (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8191:18)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:9805:46
+From Your Spec Code:
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entity_types/ET09.js:116:67)]]></failure>
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-8 Should find sample ID sequences tab" time="0" classname="ET-9-8 Should find sample ID sequences tab">
+      <failure message="Timed out retrying: `cy.click()` failed because this element is detached from the DOM.
+
+`&lt;li data-v-8499af04=&quot;&quot; data-v-55a8ebd1=&quot;&quot; tag=&quot;li&quot; class=&quot;tab&quot; data-v-20531c4b=&quot;&quot;&gt;Sample ...&lt;/li&gt;`
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; `cy.contains()`
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: `cy.click()` failed because this element is detached from the DOM.
+
+`<li data-v-8499af04="" data-v-55a8ebd1="" tag="li" class="tab" data-v-20531c4b="">Sample ...</li>`
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > `cy.contains()`
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at $Cy.ensureAttached (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159707:24)
+    at runAllChecks (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:148806:12)
+    at retryActionability (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:148865:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10130:23)
+    at Function.Promise.attempt.Promise.try (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:7404:29)
+    at tryFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162938:24)
+    at whenStable (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162979:12)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162502:16
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10130:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8065:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8122:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8167:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8247:18)
+    at Promise._fulfill (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8191:18)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:9805:46
+From Your Spec Code:
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entity_types/ET09.js:123:63)]]></failure>
+    </testcase>
+    <testcase name="9 - I can view Entity Type details ET-9-9 Should find history tab" time="0" classname="ET-9-9 Should find history tab">
+      <failure message="Timed out retrying: `cy.click()` failed because this element is detached from the DOM.
+
+`&lt;li data-v-8499af04=&quot;&quot; data-v-55a8ebd1=&quot;&quot; tag=&quot;li&quot; class=&quot;tab&quot; data-v-20531c4b=&quot;&quot;&gt;History&lt;/li&gt;`
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; `cy.contains()`
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: `cy.click()` failed because this element is detached from the DOM.
+
+`<li data-v-8499af04="" data-v-55a8ebd1="" tag="li" class="tab" data-v-20531c4b="">History</li>`
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > `cy.contains()`
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at $Cy.ensureAttached (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159707:24)
+    at runAllChecks (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:148806:12)
+    at retryActionability (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:148865:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10130:23)
+    at Function.Promise.attempt.Promise.try (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:7404:29)
+    at tryFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162938:24)
+    at whenStable (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162979:12)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162502:16
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10130:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8065:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8122:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8167:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8247:18)
+    at Promise._fulfill (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8191:18)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:9805:46
+From Your Spec Code:
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entity_types/ET09.js:128:62)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

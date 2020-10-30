@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.833" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-01T16:07:56" tests="0" file="cypress/integration/apps/customers/CS12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can access and view History details" timestamp="2020-06-01T16:07:56" tests="1" failures="0" time="13.833">
+    <testcase name="12 - I can access and view History details CS-12-2 Changes after editing name/description/tags" time="13.833" classname="CS-12-2 Changes after editing name/description/tags">
+    </testcase>
+  </testsuite>
+</testsuites>

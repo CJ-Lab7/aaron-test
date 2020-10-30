@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.509" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-15T20:12:07" tests="0" file="cypress/integration/apps/analysis/AN31.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I can use ANALYSIS link in the nav bar" timestamp="2020-04-15T20:12:07" tests="2" failures="0" time="28.509">
+    <testcase name="31 - I can use ANALYSIS link in the nav bar AN-31-2 Should use Monitor link" time="17.056" classname="AN-31-2 Should use Monitor link">
+    </testcase>
+    <testcase name="31 - I can use ANALYSIS link in the nav bar AN-31-2 Should use ANALYSIS link" time="11.453" classname="AN-31-2 Should use ANALYSIS link">
+    </testcase>
+  </testsuite>
+</testsuites>

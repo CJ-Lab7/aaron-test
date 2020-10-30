@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="121.23300000000002" tests="14" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-08T23:29:41" tests="0" file="cypress/integration/apps/permissions/LP09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - Without permission, i cannot find links in the app drawer" timestamp="2020-06-08T23:29:41" tests="14" failures="1" time="121.23300000000002">
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-2 Should not link to analysis" time="0" classname="LP-9-2 Should not link to analysis">
+      <failure message="Timed out retrying: Expected to find element: &apos;.navbar .mark img&apos;, but never found it." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.navbar .mark img', but never found it.
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-3 Should not link to applets" time="8.982" classname="LP-9-3 Should not link to applets">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-4 Should not link to dashbaord" time="7.955" classname="LP-9-4 Should not link to dashbaord">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-5 Should not link to data" time="14.476" classname="LP-9-5 Should not link to data">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-6 Should not link to entities" time="8.864" classname="LP-9-6 Should not link to entities">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-7 Should not link to IAM" time="8.246" classname="LP-9-7 Should not link to IAM">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-8 Should not link to ingest" time="7.815" classname="LP-9-8 Should not link to ingest">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-9 Should not link to inventory" time="8.695" classname="LP-9-9 Should not link to inventory">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-10 Should not link to lims" time="10.635" classname="LP-9-10 Should not link to lims">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-11 Should not link to location" time="7.674" classname="LP-9-11 Should not link to location">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-12 Should not link to projects" time="8.533" classname="LP-9-12 Should not link to projects">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-13 Should not link to samples" time="9.79" classname="LP-9-13 Should not link to samples">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-14 Should not link to seach" time="11.54" classname="LP-9-14 Should not link to seach">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-15 Should not link to builders" time="8.028" classname="LP-9-15 Should not link to builders">
+    </testcase>
+  </testsuite>
+</testsuites>

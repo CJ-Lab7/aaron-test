@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-29T18:12:46" tests="0" file="cypress/integration/apps/lims/LM02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I should be able to create a new worksheet" timestamp="2020-03-29T18:12:46" tests="2" failures="1" time="0">
+    <testcase name="2 - I should be able to create a new worksheet &quot;before all&quot; hook for &quot;LM-2-1 Should be able to create a new worksheet in list view&quot;" time="0" classname="&quot;before all&quot; hook for &quot;LM-2-1 Should be able to create a new worksheet in list view&quot;">
+      <failure message="cy.request() failed on:
+
+http://127.0.0.1:8080/login
+
+The response we received from your web server was:
+
+  &gt; 503: Service Unavailable
+
+This was considered a failure because the status code was not &apos;2xx&apos; or &apos;3xx&apos;.
+
+If you do not want status codes to cause failures pass the option: &apos;failOnStatusCode: false&apos;
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: POST
+URL: http://127.0.0.1:8080/login
+Headers: {
+  &quot;Connection&quot;: &quot;keep-alive&quot;,
+  &quot;Content-Type&quot;: &quot;application/json&quot;,
+  &quot;Authorization&quot;: &quot;Basic YWxpY2VAZXhhbXBsZS5jb206TDRiN1IwY2tzIQ==&quot;,
+  &quot;user-agent&quot;: &quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/80.0.3987.149 Safari/537.36&quot;,
+  &quot;accept&quot;: &quot;application/json&quot;,
+  &quot;cookie&quot;: &quot;lab7user=2|1:0|10:1585505389|8:lab7user|48:MzBjZTc4MWQtMzk3MS00MzIyLTlmNmUtNDdiZDM3ZWRjNDdj|5831901dd418b6f1a7b1fcedbab08022dde578d3a45260590c05da17c613b5da&quot;,
+  &quot;accept-encoding&quot;: &quot;gzip, deflate&quot;,
+  &quot;content-length&quot;: 0
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 503 - Service Unavailable
+Headers: {
+  &quot;x-powered-by&quot;: &quot;Express&quot;,
+  &quot;cache-control&quot;: &quot;no-cache&quot;,
+  &quot;connection&quot;: &quot;close&quot;,
+  &quot;content-type&quot;: &quot;text/html&quot;,
+  &quot;date&quot;: &quot;Sun, 29 Mar 2020 18:12:46 GMT&quot;,
+  &quot;transfer-encoding&quot;: &quot;chunked&quot;
+}
+Body: &lt;html&gt;&lt;body&gt;&lt;h1&gt;503 Service Unavailable&lt;/h1&gt;
+No server is available to handle this request.
+&lt;/body&gt;&lt;/html&gt;
+
+Because this error occurred during a &apos;before all&apos; hook we are skipping the remaining tests in the current suite: &apos;2 - I should be able to cre...&apos;" type="CypressError"><![CDATA[CypressError: cy.request() failed on:
+
+http://127.0.0.1:8080/login
+
+The response we received from your web server was:
+
+  > 503: Service Unavailable
+
+This was considered a failure because the status code was not '2xx' or '3xx'.
+
+If you do not want status codes to cause failures pass the option: 'failOnStatusCode: false'
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: POST
+URL: http://127.0.0.1:8080/login
+Headers: {
+  "Connection": "keep-alive",
+  "Content-Type": "application/json",
+  "Authorization": "Basic YWxpY2VAZXhhbXBsZS5jb206TDRiN1IwY2tzIQ==",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/80.0.3987.149 Safari/537.36",
+  "accept": "application/json",
+  "cookie": "lab7user=2|1:0|10:1585505389|8:lab7user|48:MzBjZTc4MWQtMzk3MS00MzIyLTlmNmUtNDdiZDM3ZWRjNDdj|5831901dd418b6f1a7b1fcedbab08022dde578d3a45260590c05da17c613b5da",
+  "accept-encoding": "gzip, deflate",
+  "content-length": 0
+}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 503 - Service Unavailable
+Headers: {
+  "x-powered-by": "Express",
+  "cache-control": "no-cache",
+  "connection": "close",
+  "content-type": "text/html",
+  "date": "Sun, 29 Mar 2020 18:12:46 GMT",
+  "transfer-encoding": "chunked"
+}
+Body: <html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+
+Because this error occurred during a 'before all' hook we are skipping the remaining tests in the current suite: '2 - I should be able to cre...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:127890:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

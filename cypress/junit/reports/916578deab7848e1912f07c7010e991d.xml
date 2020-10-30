@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.143" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-23T01:02:35" tests="0" file="cypress/integration/apps/samples/SP25.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I cannot print barcodes that are not saved or do not exist" timestamp="2020-03-23T01:02:35" tests="2" failures="0" time="20.143">
+    <testcase name="25 - I cannot print barcodes that are not saved or do not exist SP-25-1 Should clear barcode and not find input" time="14.021" classname="SP-25-1 Should clear barcode and not find input">
+    </testcase>
+    <testcase name="25 - I cannot print barcodes that are not saved or do not exist SP-25-2 Should clear barcode and not find input" time="6.122" classname="SP-25-2 Should clear barcode and not find input">
+    </testcase>
+  </testsuite>
+</testsuites>

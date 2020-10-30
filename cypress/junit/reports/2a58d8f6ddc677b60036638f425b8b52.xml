@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="87.505" tests="6" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-04-15T20:05:10" tests="0" file="cypress/integration/apps/analysis/AN09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I should be able to change state of pipeline instance under Monitor tab" timestamp="2020-04-15T20:05:10" tests="6" failures="2" time="87.505">
+    <testcase name="9 - I should be able to change state of pipeline instance under Monitor tab AN-9-1 Should be able to pause a running instance" time="41.436" classname="AN-9-1 Should be able to pause a running instance">
+    </testcase>
+    <testcase name="9 - I should be able to change state of pipeline instance under Monitor tab AN-9-2 Should be able to kill a running instance" time="18.938" classname="AN-9-2 Should be able to kill a running instance">
+    </testcase>
+    <testcase name="9 - I should be able to change state of pipeline instance under Monitor tab AN-9-3 Should be able to resume a paused instance" time="17.037" classname="AN-9-3 Should be able to resume a paused instance">
+    </testcase>
+    <testcase name="9 - I should be able to change state of pipeline instance under Monitor tab AN-9-4 Should be able to restart a failed instance" time="0" classname="AN-9-4 Should be able to restart a failed instance">
+      <failure message="Timed out retrying: Expected to find content: &apos;Running&apos; within the element: &lt;div.pipeline-table-row.failed&gt; and with the selector: &apos;.status&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Running' within the element: <div.pipeline-table-row.failed> and with the selector: '.status' but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="9 - I should be able to change state of pipeline instance under Monitor tab AN-9-5 Should be able to restart a killed instance" time="0" classname="AN-9-5 Should be able to restart a killed instance">
+      <failure message="Timed out retrying: Expected to find content: &apos;Failed&apos; within the element: &lt;div.pipeline-table-row.done&gt; and with the selector: &apos;.status&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Failed' within the element: <div.pipeline-table-row.done> and with the selector: '.status' but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="9 - I should be able to change state of pipeline instance under Monitor tab AN-9-6 Should not be able to do anything to a successfully run instance" time="10.094" classname="AN-9-6 Should not be able to do anything to a successfully run instance">
+    </testcase>
+  </testsuite>
+</testsuites>

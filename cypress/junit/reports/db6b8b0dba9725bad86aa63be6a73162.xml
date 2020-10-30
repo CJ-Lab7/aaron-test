@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.855" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T19:57:16" tests="0" file="cypress/integration/apps/location/LC41.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="41 - I can see container tree relations" timestamp="2020-04-03T19:57:16" tests="1" failures="0" time="17.855">
+    <testcase name="41 - I can see container tree relations LC-41-1 Should view relation of the container with other entities and containers under Tree tab" time="17.855" classname="LC-41-1 Should view relation of the container with other entities and containers under Tree tab">
+    </testcase>
+  </testsuite>
+</testsuites>

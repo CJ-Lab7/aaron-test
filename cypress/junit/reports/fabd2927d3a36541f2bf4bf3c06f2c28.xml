@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="22.52" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:08:55" tests="0" file="cypress/integration/apps/data/D09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can sort data columns" timestamp="2020-07-10T19:08:55" tests="4" failures="1" time="22.52">
+    <testcase name="9 - I can sort data columns D-9-1 Should sort name column" time="11.924" classname="D-9-1 Should sort name column">
+    </testcase>
+    <testcase name="9 - I can sort data columns D-9-2 Should sort registed date column" time="6.172" classname="D-9-2 Should sort registed date column">
+    </testcase>
+    <testcase name="9 - I can sort data columns D-9-3 Should sort description column" time="0" classname="D-9-3 Should sort description column">
+      <failure message="expected &apos;\n  10:10 AM (CDT) Today\n&apos; to equal &apos;\n  1 minute ago\n&apos;" type="AssertionError"><![CDATA[AssertionError: expected '\n  10:10 AM (CDT) Today\n' to equal '\n  1 minute ago\n'
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/support/index.js:480:30)]]></failure>
+    </testcase>
+    <testcase name="9 - I can sort data columns D-9-5 Should sort file type column" time="4.424" classname="D-9-5 Should sort file type column">
+    </testcase>
+  </testsuite>
+</testsuites>

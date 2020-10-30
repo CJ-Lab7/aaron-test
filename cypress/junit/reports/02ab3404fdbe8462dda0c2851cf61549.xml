@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="52.544" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T16:46:37" tests="0" file="cypress/integration/apps/entities/EN08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can add parents and children to entities" timestamp="2020-03-28T16:46:37" tests="7" failures="0" time="52.544">
+    <testcase name="8 - I can add parents and children to entities EN-8-1 Should add parents to a entity" time="15.575" classname="EN-8-1 Should add parents to a entity">
+    </testcase>
+    <testcase name="8 - I can add parents and children to entities EN-8-2 Should add children to a entity" time="6.689" classname="EN-8-2 Should add children to a entity">
+    </testcase>
+    <testcase name="8 - I can add parents and children to entities EN-8-3 Should not add entity as it&apos;s own parent" time="4.212" classname="EN-8-3 Should not add entity as it&apos;s own parent">
+    </testcase>
+    <testcase name="8 - I can add parents and children to entities EN-8-4 Should not add entity as it&apos;s own child" time="4.389" classname="EN-8-4 Should not add entity as it&apos;s own child">
+    </testcase>
+    <testcase name="8 - I can add parents and children to entities EN-8-5 Should add entity as another entities child and parent" time="5.861" classname="EN-8-5 Should add entity as another entities child and parent">
+    </testcase>
+    <testcase name="8 - I can add parents and children to entities EN-8-6 Should access details of parents" time="7.797" classname="EN-8-6 Should access details of parents">
+    </testcase>
+    <testcase name="8 - I can add parents and children to entities EN-8-7 Should access details of children" time="8.021" classname="EN-8-7 Should access details of children">
+    </testcase>
+  </testsuite>
+</testsuites>

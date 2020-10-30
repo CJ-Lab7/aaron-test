@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="55.687999999999995" tests="6" failures="1" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-06-29T16:03:39" tests="0" file="cypress/integration/apps/permissions/LP24.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="24 - I can have experiment permissions" timestamp="2020-06-29T16:03:39" tests="6" failures="1" time="55.687999999999995">
+    <testcase name="24 - I can have experiment permissions LP-24-4 Should fail to create an experiment" time="25.677" classname="LP-24-4 Should fail to create an experiment">
+    </testcase>
+    <testcase name="24 - I can have experiment permissions LP-24-5 Should fail to update an experiment" time="0" classname="LP-24-5 Should fail to update an experiment">
+      <failure message="Timed out retrying: expected &apos;&lt;div.modal-container&gt;&apos; not to be &apos;visible&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '<div.modal-container>' not to be 'visible'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="24 - I can have experiment permissions LP-24-1 Should create an experiment" time="13.742" classname="LP-24-1 Should create an experiment">
+    </testcase>
+    <testcase name="24 - I can have experiment permissions LP-24-2 Should update an experiment" time="16.269" classname="LP-24-2 Should update an experiment">
+    </testcase>
+  </testsuite>
+</testsuites>

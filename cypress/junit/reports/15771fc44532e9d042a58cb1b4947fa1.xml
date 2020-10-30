@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.281" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T13:09:20" tests="0" file="cypress/integration/apps/inventory/IN22.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="22 - Message is deisplayed when more of an item is used than exists" timestamp="2020-03-31T13:09:20" tests="1" failures="0" time="18.281">
+    <testcase name="22 - Message is deisplayed when more of an item is used than exists IN-22-1 Should see error message when too many quantity is used" time="18.281" classname="IN-22-1 Should see error message when too many quantity is used">
+    </testcase>
+  </testsuite>
+</testsuites>

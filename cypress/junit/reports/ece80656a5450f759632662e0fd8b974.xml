@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.176000000000002" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:01:05" tests="0" file="cypress/integration/apps/location/LC18.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="18 - On a container details page, I can use container tabs" timestamp="2020-07-10T22:01:05" tests="2" failures="0" time="21.176000000000002">
+    <testcase name="18 - On a container details page, I can use container tabs LC-18-1 Should toggle between containers" time="13.352" classname="LC-18-1 Should toggle between containers">
+    </testcase>
+    <testcase name="18 - On a container details page, I can use container tabs LC-18-2 Should close all containers" time="7.824" classname="LC-18-2 Should close all containers">
+    </testcase>
+  </testsuite>
+</testsuites>

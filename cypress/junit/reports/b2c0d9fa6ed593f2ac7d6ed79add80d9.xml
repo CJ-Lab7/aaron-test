@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="29.214" tests="6" failures="1" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:33:40" tests="0" file="cypress/integration/apps/permissions/LP24.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="24 - I can have experiment permissions" timestamp="2020-07-10T22:33:40" tests="6" failures="1" time="29.214">
+    <testcase name="24 - I can have experiment permissions LP-24-4 Should fail to create an experiment" time="19.958" classname="LP-24-4 Should fail to create an experiment">
+    </testcase>
+    <testcase name="24 - I can have experiment permissions LP-24-5 Should fail to update an experiment" time="0" classname="LP-24-5 Should fail to update an experiment">
+      <failure message="Timed out retrying: expected &apos;&lt;div.modal-container&gt;&apos; not to be &apos;visible&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected '<div.modal-container>' not to be 'visible'
+    at updateExp (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/permissions/LP24.js:67:54)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/permissions/LP24.js:28:5)]]></failure>
+    </testcase>
+    <testcase name="24 - I can have experiment permissions LP-24-1 Should create an experiment" time="3.876" classname="LP-24-1 Should create an experiment">
+    </testcase>
+    <testcase name="24 - I can have experiment permissions LP-24-2 Should update an experiment" time="5.38" classname="LP-24-2 Should update an experiment">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.493000000000002" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-20T16:02:19" tests="0" file="cypress/integration/apps/container_types/CT10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I can create container types that accept different objects" timestamp="2020-05-20T16:02:19" tests="6" failures="0" time="23.493000000000002">
+    <testcase name="10 - I can create container types that accept different objects CT-10-1 Should create single entity container" time="8.493" classname="CT-10-1 Should create single entity container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-2 Should create unlimited entity container" time="4.206" classname="CT-10-2 Should create unlimited entity container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-3 Should create single container container" time="2.405" classname="CT-10-3 Should create single container container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-4 Should create unlimited container container" time="2.416" classname="CT-10-4 Should create unlimited container container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-5 Should create single entity and container container" time="2.414" classname="CT-10-5 Should create single entity and container container">
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-6 Should create unlimited entity and container container" time="3.559" classname="CT-10-6 Should create unlimited entity and container container">
+    </testcase>
+  </testsuite>
+</testsuites>

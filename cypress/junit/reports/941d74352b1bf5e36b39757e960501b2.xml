@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="219.01099999999997" tests="22" failures="1" skipped="4">
+  <testsuite name="Root Suite" timestamp="2020-03-31T12:43:43" tests="0" file="cypress/integration/apps/expressions/EX06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I should be able to use the LIMS API" timestamp="2020-03-31T12:43:43" tests="22" failures="1" time="219.01099999999997">
+    <testcase name="6 - I should be able to use the LIMS API EX-6-1 Should use column_value(column, sheet=None, generation=0)" time="43.209" classname="EX-6-1 Should use column_value(column, sheet=None, generation=0)">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-2 Should use column_value_for_uuid(uuid, column, sheet)" time="11.161" classname="EX-6-2 Should use column_value_for_uuid(uuid, column, sheet)">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-3 Should use column_values(column, protocol=None)" time="17.328" classname="EX-6-3 Should use column_values(column, protocol=None)">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-4 Should use experiment_name()" time="10.246" classname="EX-6-4 Should use experiment_name()">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-6 Should use hhmm_add(first, second)" time="8.838" classname="EX-6-6 Should use hhmm_add(first, second)">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-7 Should use hhmm_diff(first, second)" time="0" classname="EX-6-7 Should use hhmm_diff(first, second)">
+      <failure message="Timed out retrying: cy.dblclick() failed because this element is detached from the DOM.
+
+&lt;div tabindex=&quot;-1&quot; unselectable=&quot;on&quot; role=&quot;gridcell&quot; comp-id=&quot;111&quot; col-id=&quot;b70ae957-504f-4df7-abba-c3dac4a5a9b0&quot; class=&quot;ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value&quot; style=&quot;width: 200px; left: 0px; background-color: ; &quot;&gt;1410&lt;/div&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.eq()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.dblclick() failed because this element is detached from the DOM.
+
+<div tabindex="-1" unselectable="on" role="gridcell" comp-id="111" col-id="b70ae957-504f-4df7-abba-c3dac4a5a9b0" class="ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value" style="width: 200px; left: 0px; background-color: ; ">1410</div>
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.eq()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-10 Should use project_name()" time="10.219" classname="EX-6-10 Should use project_name()">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-11 Should use tagged_value(tags, generation=0, sample_uuid=None)" time="10.455" classname="EX-6-11 Should use tagged_value(tags, generation=0, sample_uuid=None)">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-13 Should use row_count()" time="10.09" classname="EX-6-13 Should use row_count()">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-14 Should use agent variable" time="8.928" classname="EX-6-14 Should use agent variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-15 Should use sample variable" time="16.835" classname="EX-6-15 Should use sample variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-16 Should use protocol_name variable" time="10.579" classname="EX-6-16 Should use protocol_name variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-17 Should use sample_index variable" time="9.148" classname="EX-6-17 Should use sample_index variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-18 Should use sample_sheet_uuid variable" time="10.557" classname="EX-6-18 Should use sample_sheet_uuid variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-19 Should use sample_sheet_name variable" time="9.922" classname="EX-6-19 Should use sample_sheet_name variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-20 Should use sample_to_row variable" time="10.803" classname="EX-6-20 Should use sample_to_row variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-21 Should use workflow_uuid variable" time="10.593" classname="EX-6-21 Should use workflow_uuid variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-22 Should use workflow_name variable" time="10.1" classname="EX-6-22 Should use workflow_name variable">
+    </testcase>
+  </testsuite>
+</testsuites>

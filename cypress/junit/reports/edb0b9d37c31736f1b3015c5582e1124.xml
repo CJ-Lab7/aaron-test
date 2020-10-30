@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.878" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T16:49:33" tests="0" file="cypress/integration/apps/inventory/IN10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - On the Inventory main page, I can NOT add an item without all required fields" timestamp="2020-03-22T16:49:33" tests="3" failures="0" time="17.878">
+    <testcase name="10 - On the Inventory main page, I can NOT add an item without all required fields IN-10-1a Should not add item without required fields (name)" time="9.983" classname="IN-10-1a Should not add item without required fields (name)">
+    </testcase>
+    <testcase name="10 - On the Inventory main page, I can NOT add an item without all required fields IN-10-1b Should not add item without required fields (item type)" time="4.466" classname="IN-10-1b Should not add item without required fields (item type)">
+    </testcase>
+    <testcase name="10 - On the Inventory main page, I can NOT add an item without all required fields IN-10-1c Should not add item without required fields (original amount)" time="3.429" classname="IN-10-1c Should not add item without required fields (original amount)">
+    </testcase>
+  </testsuite>
+</testsuites>

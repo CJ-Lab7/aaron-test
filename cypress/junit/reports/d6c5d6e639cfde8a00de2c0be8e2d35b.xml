@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="34.687" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T21:23:37" tests="0" file="cypress/integration/apps/projects/PR23.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="23 - I can work with samples in running experiments" timestamp="2020-04-03T21:23:37" tests="2" failures="0" time="34.687">
+    <testcase name="23 - I can work with samples in running experiments PR-23-1 Should not add samples to a running experiment" time="23.136" classname="PR-23-1 Should not add samples to a running experiment">
+    </testcase>
+    <testcase name="23 - I can work with samples in running experiments PR-23-2 Should NOT delete samples from a running experiment" time="11.551" classname="PR-23-2 Should NOT delete samples from a running experiment">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="33.261" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:29:12" tests="0" file="cypress/integration/apps/lims/LM36.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="36 - I can see and print barcodes" timestamp="2020-07-10T21:29:12" tests="6" failures="0" time="33.261">
+    <testcase name="36 - I can see and print barcodes LM-36-1 Should use QR barcode" time="13.477" classname="LM-36-1 Should use QR barcode">
+    </testcase>
+    <testcase name="36 - I can see and print barcodes LM-36-2 Should use mini data matrix barcode" time="4.908" classname="LM-36-2 Should use mini data matrix barcode">
+    </testcase>
+    <testcase name="36 - I can see and print barcodes LM-36-3 Should use 1D barcode" time="3.859" classname="LM-36-3 Should use 1D barcode">
+    </testcase>
+    <testcase name="36 - I can see and print barcodes LM-36-4 Should use all barcodes in one protocol" time="4.286" classname="LM-36-4 Should use all barcodes in one protocol">
+    </testcase>
+    <testcase name="36 - I can see and print barcodes LM-36-5 Should view barcodes in transpose view" time="3.159" classname="LM-36-5 Should view barcodes in transpose view">
+    </testcase>
+    <testcase name="36 - I can see and print barcodes LM-36-6 Should use edit barcodes in transpose view" time="3.572" classname="LM-36-6 Should use edit barcodes in transpose view">
+    </testcase>
+  </testsuite>
+</testsuites>

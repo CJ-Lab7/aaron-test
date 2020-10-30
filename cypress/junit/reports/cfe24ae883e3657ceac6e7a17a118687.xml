@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="67.93799999999999" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T15:20:23" tests="0" file="cypress/integration/apps/projects/PR16.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="16 - I can group experiments by workflow" timestamp="2020-03-31T15:20:23" tests="8" failures="0" time="67.93799999999999">
+    <testcase name="16 - I can group experiments by workflow PR-16-1 Should see experiments grouped by workflow" time="19.136" classname="PR-16-1 Should see experiments grouped by workflow">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-2 Should see list of experiments for each workflow" time="7.895" classname="PR-16-2 Should see list of experiments for each workflow">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-3 Should show correct experiment names" time="6.899" classname="PR-16-3 Should show correct experiment names">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-4 Should show correct status" time="6.55" classname="PR-16-4 Should show correct status">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-5 Should show correct project" time="6.826" classname="PR-16-5 Should show correct project">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-6 Should show correct number of samples" time="7.51" classname="PR-16-6 Should show correct number of samples">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-7 Should show correct owner" time="6.211" classname="PR-16-7 Should show correct owner">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-9 Should show correct number of experiments under each workflow" time="6.911" classname="PR-16-9 Should show correct number of experiments under each workflow">
+    </testcase>
+  </testsuite>
+</testsuites>

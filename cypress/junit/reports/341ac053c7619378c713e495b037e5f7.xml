@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="50.974000000000004" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T17:16:06" tests="0" file="cypress/integration/apps/container_types/CT12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can edit container type details" timestamp="2020-07-10T17:16:06" tests="6" failures="0" time="50.974000000000004">
+    <testcase name="12 - I can edit container type details CT-12-1 Should edit name" time="16.338" classname="CT-12-1 Should edit name">
+    </testcase>
+    <testcase name="12 - I can edit container type details CT-12-2 Should edit description" time="8.786" classname="CT-12-2 Should edit description">
+    </testcase>
+    <testcase name="12 - I can edit container type details CT-12-3 Should edit contains" time="6.318" classname="CT-12-3 Should edit contains">
+    </testcase>
+    <testcase name="12 - I can edit container type details CT-12-4 Should edit elements" time="6.258" classname="CT-12-4 Should edit elements">
+    </testcase>
+    <testcase name="12 - I can edit container type details CT-12-5 Should add tags" time="7.331" classname="CT-12-5 Should add tags">
+    </testcase>
+    <testcase name="12 - I can edit container type details CT-12-6 Should delete tags" time="5.943" classname="CT-12-6 Should delete tags">
+    </testcase>
+  </testsuite>
+</testsuites>

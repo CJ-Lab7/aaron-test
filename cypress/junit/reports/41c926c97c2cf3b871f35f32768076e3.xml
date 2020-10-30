@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.12" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T23:01:49" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I cannot print barcodes that are not saved or do not exist" timestamp="2020-02-27T23:01:49" tests="2" failures="0" time="27.12">
+    <testcase name="25 - I cannot print barcodes that are not saved or do not exist SP-25-1 Should clear barcode and not find input" time="20.779" classname="SP-25-1 Should clear barcode and not find input">
+    </testcase>
+    <testcase name="25 - I cannot print barcodes that are not saved or do not exist SP-25-2 Should clear barcode and not find input" time="6.341" classname="SP-25-2 Should clear barcode and not find input">
+    </testcase>
+  </testsuite>
+</testsuites>

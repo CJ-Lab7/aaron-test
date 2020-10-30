@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="121.492" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-20T19:25:55" tests="0" file="cypress/integration/apps/chains/WF02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I can complete workflows in a chain" timestamp="2020-03-20T19:25:55" tests="2" failures="0" time="121.492">
+    <testcase name="2 - I can complete workflows in a chain WF-2-1 Should move samples to next workflow in a chain" time="100.09" classname="WF-2-1 Should move samples to next workflow in a chain">
+    </testcase>
+    <testcase name="2 - I can complete workflows in a chain WF-2-2 Should move samples to next workflow in a chain (sample type restrictions)" time="21.402" classname="WF-2-2 Should move samples to next workflow in a chain (sample type restrictions)">
+    </testcase>
+  </testsuite>
+</testsuites>

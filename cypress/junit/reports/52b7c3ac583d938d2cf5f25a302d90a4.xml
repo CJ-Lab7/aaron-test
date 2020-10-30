@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="57.42999999999999" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:07:33" tests="0" file="cypress/integration/apps/data/D06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can use Data filters" timestamp="2020-07-10T19:07:33" tests="8" failures="0" time="57.42999999999999">
+    <testcase name="6 - I can use Data filters D-6-1 Should filter by name" time="13.058" classname="D-6-1 Should filter by name">
+    </testcase>
+    <testcase name="6 - I can use Data filters D-6-2 Should filter by owner" time="19.113" classname="D-6-2 Should filter by owner">
+    </testcase>
+    <testcase name="6 - I can use Data filters D-6-3 Should filter by created before" time="4.843" classname="D-6-3 Should filter by created before">
+    </testcase>
+    <testcase name="6 - I can use Data filters D-6-4 Should filter by created after" time="4.797" classname="D-6-4 Should filter by created after">
+    </testcase>
+    <testcase name="6 - I can use Data filters D-6-5 Should filter by description" time="4.497" classname="D-6-5 Should filter by description">
+    </testcase>
+    <testcase name="6 - I can use Data filters D-6-6 Should filter by tags" time="4.235" classname="D-6-6 Should filter by tags">
+    </testcase>
+    <testcase name="6 - I can use Data filters D-6-7 Should filter by file type" time="4.052" classname="D-6-7 Should filter by file type">
+    </testcase>
+    <testcase name="6 - I can use Data filters D-6-10 Should clear filters" time="2.835" classname="D-6-10 Should clear filters">
+    </testcase>
+  </testsuite>
+</testsuites>

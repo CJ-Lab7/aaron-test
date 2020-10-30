@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="447.614" tests="8" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T23:40:09" tests="0" file="cypress/integration/apps/sample_sets/LM58f.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58f - archive worksheets with multiple sample protocols" timestamp="2020-07-10T23:40:09" tests="8" failures="1" time="447.614">
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-1 - Archive after all samples are complete" time="80.44" classname="LM-58f-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-2 - Archive after all samples fail in second protocol" time="23.876" classname="LM-58f-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-3 - Archive after first 3 samples fail in second protocol" time="47.614" classname="LM-58f-3 - Archive after first 3 samples fail in second protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-4 - Archive after last 3 samples fail in second protocol" time="47.882" classname="LM-58f-4 - Archive after last 3 samples fail in second protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-5 - Archive after all samples fail in third protocol" time="33.943" classname="LM-58f-5 - Archive after all samples fail in third protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-6 - Archive after first 3 samples fail in third protocol" time="50.136" classname="LM-58f-6 - Archive after first 3 samples fail in third protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-7 - Archive after last 3 samples fails in third protocol" time="49.505" classname="LM-58f-7 - Archive after last 3 samples fails in third protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols LM-58f-8 - Archive after one sample fails in each sample protocol" time="57.109" classname="LM-58f-8 - Archive after one sample fails in each sample protocol">
+    </testcase>
+    <testcase name="58f - archive worksheets with multiple sample protocols &quot;after all&quot; hook for &quot;LM-58f-8 - Archive after one sample fails in each sample protocol&quot;" time="57.109" classname="&quot;after all&quot; hook for &quot;LM-58f-8 - Archive after one sample fails in each sample protocol&quot;">
+      <failure message="Execution of &quot;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/sample_sets/LM58fseed.yml&quot; failed
+        Exit code: 1
+        Stdout:
+
+        Stderr:
+INFO:root:2020-07-10 18:46:44,423:Dropping SampleSheet: LM58-x f
+INFO:root:2020-07-10 18:46:44,512:Dropping Experiment: LM58f-x
+INFO:root:2020-07-10 18:46:46,132:Dropping Experiment: LM58f-1
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line 11, in &lt;module&gt;
+    load_entry_point(&apos;espclient&apos;, &apos;console_scripts&apos;, &apos;esp&apos;)()
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 662, in main
+    args.func(args)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 64, in _
+    return func(args)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 308, in seed
+    model.drop(deep=args.deep)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/project.py&quot;, line 977, in drop
+    if self.state not in [&apos;pending&apos;, &apos;queued&apos;] and self.sheet.exists():
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/lib/python3.7/site-packages/gems/decorators.py&quot;, line 102, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/project.py&quot;, line 1030, in sheet
+    raise AssertionError(&apos;Experiment must be submitted to access sample sheet!&apos;)
+AssertionError: Experiment must be submitted to access sample sheet!
+
+Because this error occurred during a `after all` hook we are skipping the remaining tests in the current suite: `58f - archive worksheets wi...`" type="Error"><![CDATA[Error: Execution of "esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/sample_sets/LM58fseed.yml" failed
+        Exit code: 1
+        Stdout:
+
+        Stderr:
+INFO:root:2020-07-10 18:46:44,423:Dropping SampleSheet: LM58-x f
+INFO:root:2020-07-10 18:46:44,512:Dropping Experiment: LM58f-x
+INFO:root:2020-07-10 18:46:46,132:Dropping Experiment: LM58f-1
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line 11, in <module>
+    load_entry_point('espclient', 'console_scripts', 'esp')()
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 662, in main
+    args.func(args)
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 64, in _
+    return func(args)
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 308, in seed
+    model.drop(deep=args.deep)
+  File "/Users/cj/bitrepos/esp/client/esp/models/project.py", line 977, in drop
+    if self.state not in ['pending', 'queued'] and self.sheet.exists():
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/lib/python3.7/site-packages/gems/decorators.py", line 102, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "/Users/cj/bitrepos/esp/client/esp/models/project.py", line 1030, in sheet
+    raise AssertionError('Experiment must be submitted to access sample sheet!')
+AssertionError: Experiment must be submitted to access sample sheet!
+
+Because this error occurred during a `after all` hook we are skipping the remaining tests in the current suite: `58f - archive worksheets wi...`
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/support/index.js:739:13)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

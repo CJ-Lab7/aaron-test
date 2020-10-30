@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-05-27T16:45:38" tests="0" file="cypress/integration/apps/container_types/CT27.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="27 - I can delete container types that have containers under the type" timestamp="2020-05-27T16:45:38" tests="1" failures="1" time="0">
+    <testcase name="27 - I can delete container types that have containers under the type CT-27-1 Should delete contain types" time="0" classname="CT-27-1 Should delete contain types">
+      <failure message="_container_types_details.ContainerTypesDetails.getConfirmBtn is not a function" type="TypeError"><![CDATA[TypeError: _container_types_details.ContainerTypesDetails.getConfirmBtn is not a function
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT27.js-654:93:52)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

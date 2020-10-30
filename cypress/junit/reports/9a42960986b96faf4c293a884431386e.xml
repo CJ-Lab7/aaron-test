@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.847" tests="2" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-06-24T21:51:18" tests="0" file="cypress/integration/apps/entities/EN14.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="14 - I can scan barcode to open entity details" timestamp="2020-06-24T21:51:18" tests="2" failures="0" time="23.847">
+    <testcase name="14 - I can scan barcode to open entity details EN-14-1 Should scan uuid barcode and open entity details" time="23.847" classname="EN-14-1 Should scan uuid barcode and open entity details">
+    </testcase>
+  </testsuite>
+</testsuites>

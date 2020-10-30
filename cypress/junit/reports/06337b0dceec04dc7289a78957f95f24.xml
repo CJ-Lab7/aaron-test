@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="255.20699999999997" tests="10" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-23T16:42:18" tests="0" file="cypress/integration/apps/permissions/LP04_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - Admin users can grant user access to specific apps" timestamp="2020-06-23T16:42:18" tests="10" failures="0" time="255.20699999999997">
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-1 Should have access to projects" time="33.999" classname="LP-4-1 Should have access to projects">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-2 Should NOT have access to projects" time="23.96" classname="LP-4-2 Should NOT have access to projects">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-3 Should have access to LIMS" time="25.004" classname="LP-4-3 Should have access to LIMS">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-4 Should NOT have access to LIMS" time="26.032" classname="LP-4-4 Should NOT have access to LIMS">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-5 Should have access to inventory" time="22.54" classname="LP-4-5 Should have access to inventory">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-6 Should NOT have access to inventory" time="24.009" classname="LP-4-6 Should NOT have access to inventory">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-7 Should have access to location" time="24.938" classname="LP-4-7 Should have access to location">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-8 Should NOT have access to location" time="25.136" classname="LP-4-8 Should NOT have access to location">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-9 Should have access to samples" time="23.45" classname="LP-4-9 Should have access to samples">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-10 Should NOT have access to samples" time="26.139" classname="LP-4-10 Should NOT have access to samples">
+    </testcase>
+  </testsuite>
+</testsuites>

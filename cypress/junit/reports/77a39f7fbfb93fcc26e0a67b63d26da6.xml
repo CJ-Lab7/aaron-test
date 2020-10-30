@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="87.19500000000001" tests="17" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-03-22T14:22:20" tests="0" file="cypress/integration/apps/entities/EN32.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="32 - I can attach existing resources to a entity" timestamp="2020-03-22T14:22:20" tests="17" failures="2" time="87.19500000000001">
+    <testcase name="32 - I can attach existing resources to a entity EN-32-1 Should filter by resource type" time="0" classname="EN-32-1 Should filter by resource type">
+      <failure message="Timed out retrying: Expected to find content: &apos;EN32 one&apos; within the element: [ &lt;div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first&gt;, 29 more... ] but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'EN32 one' within the element: [ <div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first>, 29 more... ] but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-2 Should filter by name" time="6.115" classname="EN-32-2 Should filter by name">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-3 Should filter by owner" time="0" classname="EN-32-3 Should filter by owner">
+      <failure message="Timed out retrying: Expected to find content: &apos;EN32 one&apos; within the element: [ &lt;div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first&gt;, 29 more... ] but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'EN32 one' within the element: [ <div.ag-row.ag-row-no-focus.ag-row-even.ag-row-level-0.ag-row-position-absolute.ag-row-first>, 29 more... ] but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-4 Should filter by description" time="5.015" classname="EN-32-4 Should filter by description">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-5 Should filter by tags" time="5.145" classname="EN-32-5 Should filter by tags">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-6 Should filter by created before" time="5.113" classname="EN-32-6 Should filter by created before">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-7 Should filter by created after" time="4.934" classname="EN-32-7 Should filter by created after">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-8 Should clear filters" time="7.888" classname="EN-32-8 Should clear filters">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-9 Should remove link to file" time="7.813" classname="EN-32-9 Should remove link to file">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-11 Should search entity without selecting resource type" time="4.041" classname="EN-32-11 Should search entity without selecting resource type">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-12 Should show message when no resource is found" time="4.97" classname="EN-32-12 Should show message when no resource is found">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-13 Should match all as parents" time="7.392" classname="EN-32-13 Should match all as parents">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-14 Should match all as children" time="7.449" classname="EN-32-14 Should match all as children">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-15 Should submit" time="7.116" classname="EN-32-15 Should submit">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-16 Should show number of selected entities" time="5.684" classname="EN-32-16 Should show number of selected entities">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-17 Should close modal with &apos;X&apos;" time="4.243" classname="EN-32-17 Should close modal with &apos;X&apos;">
+    </testcase>
+    <testcase name="32 - I can attach existing resources to a entity EN-32-18 Should show number of selected entities" time="4.277" classname="EN-32-18 Should show number of selected entities">
+    </testcase>
+  </testsuite>
+</testsuites>

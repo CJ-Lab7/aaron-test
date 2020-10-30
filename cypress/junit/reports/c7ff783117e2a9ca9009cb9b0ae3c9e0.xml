@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="47.463" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-03T02:13:57" tests="0" file="cypress/integration/apps/entity_types/ET01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I can access the Entity Types app" timestamp="2020-06-03T02:13:57" tests="7" failures="1" time="47.463">
+    <testcase name="1 - I can access the Entity Types app ET-1-1 Should find header" time="9.976" classname="ET-1-1 Should find header">
+    </testcase>
+    <testcase name="1 - I can access the Entity Types app ET-1-2 Should find subheader" time="6.622" classname="ET-1-2 Should find subheader">
+    </testcase>
+    <testcase name="1 - I can access the Entity Types app ET-1-3 Should find New Entity Type button" time="6.731" classname="ET-1-3 Should find New Entity Type button">
+    </testcase>
+    <testcase name="1 - I can access the Entity Types app ET-1-5 Should find filter panel" time="7.721" classname="ET-1-5 Should find filter panel">
+    </testcase>
+    <testcase name="1 - I can access the Entity Types app ET-1-6 Should find list of entity types" time="7.806" classname="ET-1-6 Should find list of entity types">
+    </testcase>
+    <testcase name="1 - I can access the Entity Types app ET-1-8 Should find inspector panel" time="8.607" classname="ET-1-8 Should find inspector panel">
+    </testcase>
+    <testcase name="1 - I can access the Entity Types app ET-1-9 Should access entity types app" time="0" classname="ET-1-9 Should access entity types app">
+      <failure message="Timed out retrying: expected &apos;https://chris231.test.l7informatics.com/#/admin/entity-types&apos; to include &apos;/builders/entity-types&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected 'https://chris231.test.l7informatics.com/#/admin/entity-types' to include '/builders/entity-types'
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

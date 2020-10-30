@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="22.269" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T17:44:49" tests="0" file="cypress/integration/apps/inventory/IN20.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="20 - On the Inventory details page, I can edit tags" timestamp="2020-03-28T17:44:49" tests="2" failures="0" time="22.269">
+    <testcase name="20 - On the Inventory details page, I can edit tags IN-20-1 Should add a tag" time="16.924" classname="IN-20-1 Should add a tag">
+    </testcase>
+    <testcase name="20 - On the Inventory details page, I can edit tags IN-20-2 Should delete a tag" time="5.345" classname="IN-20-2 Should delete a tag">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.372" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-04-03T19:46:18" tests="0" file="cypress/integration/apps/location/LC18.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="18 - On a container details page, I can use container tabs" timestamp="2020-04-03T19:46:18" tests="2" failures="1" time="19.372">
+    <testcase name="18 - On a container details page, I can use container tabs LC-18-1 Should toggle between containers" time="19.372" classname="LC-18-1 Should toggle between containers">
+    </testcase>
+    <testcase name="18 - On a container details page, I can use container tabs LC-18-2 Should close all containers" time="0" classname="LC-18-2 Should close all containers">
+      <failure message="Timed out retrying: expected &apos;https://chris.test.l7informatics.com/#/location/detail/216bb4e4-0401-4ec2-8688-6134d3c57233&apos; to not include &apos;detail&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected 'https://chris.test.l7informatics.com/#/location/detail/216bb4e4-0401-4ec2-8688-6134d3c57233' to not include 'detail'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

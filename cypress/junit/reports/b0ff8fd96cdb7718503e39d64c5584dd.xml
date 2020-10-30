@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="30.753" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T20:51:24" tests="0" file="cypress/integration/apps/inventory/IN28.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="28 - On the Inventory details page, I can generate a new barcode" timestamp="2020-07-10T20:51:24" tests="3" failures="0" time="30.753">
+    <testcase name="28 - On the Inventory details page, I can generate a new barcode IN-28-1 Delete existing barcode and generate a new barcode" time="17.751" classname="IN-28-1 Delete existing barcode and generate a new barcode">
+    </testcase>
+    <testcase name="28 - On the Inventory details page, I can generate a new barcode IN-28-2 Save new barcode" time="8.934" classname="IN-28-2 Save new barcode">
+    </testcase>
+    <testcase name="28 - On the Inventory details page, I can generate a new barcode IN-28-3 Cancel saving new barcode" time="4.068" classname="IN-28-3 Cancel saving new barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

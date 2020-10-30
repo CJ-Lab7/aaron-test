@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.893" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-23T15:30:08" tests="0" file="cypress/integration/apps/customers/CS07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I should be able to expand and collapse customers inspector panel" timestamp="2020-06-23T15:30:08" tests="1" failures="0" time="8.893">
+    <testcase name="7 - I should be able to expand and collapse customers inspector panel CS-7-1/2 Should collapse then expand inspector panel" time="8.893" classname="CS-7-1/2 Should collapse then expand inspector panel">
+    </testcase>
+  </testsuite>
+</testsuites>

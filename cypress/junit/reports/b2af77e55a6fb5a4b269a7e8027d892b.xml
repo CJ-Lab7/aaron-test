@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="65.15299999999999" tests="10" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-07-11T01:46:16" tests="0" file="cypress/integration/apps/samples/SP32_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="32 - I can edit all sample type variables" timestamp="2020-07-11T01:46:16" tests="10" failures="2" time="65.15299999999999">
+    <testcase name="32 - I can edit all sample type variables SP-32-1 Should add text" time="16.939" classname="SP-32-1 Should add text">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-2 Should add numeric" time="8.087" classname="SP-32-2 Should add numeric">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-3 Should add picklist" time="5.513" classname="SP-32-3 Should add picklist">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-4 Should add multiselect picklist" time="3.516" classname="SP-32-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-5 Should add date" time="0" classname="SP-32-5 Should add date">
+      <failure message="Timed out retrying: Expected to find content: &apos;/18&apos; within the element: &lt;div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: '/18' within the element: <div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value> but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/samples/SP32_1.js:106:69)]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-6 Should add checkbox" time="0" classname="SP-32-6 Should add checkbox">
+      <failure message="`cy.click()` failed because it requires a DOM element.
+
+The subject received was:
+
+  &gt; `Object{3}`
+
+The previous command that ran was:
+
+  &gt; `cy.should()`" type="CypressError"><![CDATA[CypressError: `cy.click()` failed because it requires a DOM element.
+
+The subject received was:
+
+  > `Object{3}`
+
+The previous command that ran was:
+
+  > `cy.should()`
+    at ensureElement (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159721:24)
+    at validateType (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159545:16)
+    at Object.ensureSubjectByType (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159587:11)
+    at pushSubjectAndValidate (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:167293:15)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:167621:18)
+From Your Spec Code:
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/samples/SP32_1.js:111:108)]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-7 Should add attachment" time="8.055" classname="SP-32-7 Should add attachment">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-8 Should add qr barcode" time="8.129" classname="SP-32-8 Should add qr barcode">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-9 Should add 1d barcode" time="7.458" classname="SP-32-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-10 Should add mini data matrix" time="7.456" classname="SP-32-10 Should add mini data matrix">
+    </testcase>
+  </testsuite>
+</testsuites>

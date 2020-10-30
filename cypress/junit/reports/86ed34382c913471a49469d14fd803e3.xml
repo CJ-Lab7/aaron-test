@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="193.716" tests="8" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-23T16:46:45" tests="0" file="cypress/integration/apps/permissions/LP04_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - Admin users can grant user access to specific apps" timestamp="2020-06-23T16:46:45" tests="8" failures="1" time="193.716">
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-11 Should have access to dashboard" time="32.293" classname="LP-4-11 Should have access to dashboard">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-12 Should NOT have access to dashboard" time="25.53" classname="LP-4-12 Should NOT have access to dashboard">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-13 Should have access to data" time="27.351" classname="LP-4-13 Should have access to data">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-14 Should not have access to data" time="27.007" classname="LP-4-14 Should not have access to data">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-15 Should have access to analysis" time="24.433" classname="LP-4-15 Should have access to analysis">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-16 Should NOT have access to analysis" time="28.6" classname="LP-4-16 Should NOT have access to analysis">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-17 Should have access to builders" time="0" classname="LP-4-17 Should have access to builders">
+      <failure message="Timed out retrying: Expected to find element: &apos;a[href=&quot;#/builders&quot;]&apos;, but never found it. Queried from element: &lt;div.app-picker&gt;" type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: 'a[href="#/builders"]', but never found it. Queried from element: <div.app-picker>
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-18 Should NOT have access to builders" time="28.502" classname="LP-4-18 Should NOT have access to builders">
+    </testcase>
+  </testsuite>
+</testsuites>

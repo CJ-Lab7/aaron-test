@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="68.098" tests="13" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-29T18:45:34" tests="0" file="cypress/integration/apps/samples/SP30.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I can use all types of data columns in new sample modal" timestamp="2020-03-29T18:45:34" tests="13" failures="0" time="68.098">
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-1 Should add text" time="15.211" classname="SP-30-1 Should add text">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-2 Should add numeric" time="7.161" classname="SP-30-2 Should add numeric">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-3 Should add picklist" time="4.701" classname="SP-30-3 Should add picklist">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-4 Should add multiselect picklist" time="3.824" classname="SP-30-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-5 Should add date" time="4.792" classname="SP-30-5 Should add date">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-6 Should add checkbox" time="4.678" classname="SP-30-6 Should add checkbox">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-8 Should add qr barcode" time="5.013" classname="SP-30-8 Should add qr barcode">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-9 Should add 1d barcode" time="4.962" classname="SP-30-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-10 Should add mini data matrix" time="4.984" classname="SP-30-10 Should add mini data matrix">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-11 Should require required field" time="5.557" classname="SP-30-11 Should require required field">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-12 Should find default value" time="4.671" classname="SP-30-12 Should find default value">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-13 Should find read only field" time="2.544" classname="SP-30-13 Should find read only field">
+    </testcase>
+  </testsuite>
+</testsuites>

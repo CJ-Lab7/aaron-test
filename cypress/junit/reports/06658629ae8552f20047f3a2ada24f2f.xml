@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="91.99000000000001" tests="6" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-04-03T19:11:19" tests="0" file="cypress/integration/apps/lims/LM44.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="44 - I can use header complete checkboxes" timestamp="2020-04-03T19:11:19" tests="6" failures="2" time="91.99000000000001">
+    <testcase name="44 - I can use header complete checkboxes LM-44-1/2 Should check complete header and complete/uncomplete all samples" time="43.252" classname="LM-44-1/2 Should check complete header and complete/uncomplete all samples">
+    </testcase>
+    <testcase name="44 - I can use header complete checkboxes LM-44-3 Should uncomplete sample and partially uncheck header" time="16.878" classname="LM-44-3 Should uncomplete sample and partially uncheck header">
+    </testcase>
+    <testcase name="44 - I can use header complete checkboxes LM-44-4 Should check sample and partially check header" time="15.681" classname="LM-44-4 Should check sample and partially check header">
+    </testcase>
+    <testcase name="44 - I can use header complete checkboxes LM-44-5 Should check all samples to check the header" time="16.179" classname="LM-44-5 Should check all samples to check the header">
+    </testcase>
+    <testcase name="44 - I can use header complete checkboxes LM-44-6 Should use checkbox header with required column" time="0" classname="LM-44-6 Should use checkbox header with required column">
+      <failure message="Timed out retrying: expected &apos;&lt;input&gt;&apos; to be &apos;checked&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '<input>' to be 'checked'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="44 - I can use header complete checkboxes LM-44-7 Should use complete header with numeric column" time="0" classname="LM-44-7 Should use complete header with numeric column">
+      <failure message="Timed out retrying: expected &apos;&lt;input&gt;&apos; not to be &apos;checked&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '<input>' not to be 'checked'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

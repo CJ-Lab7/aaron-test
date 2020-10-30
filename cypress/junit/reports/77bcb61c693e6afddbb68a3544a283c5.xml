@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="87.18299999999999" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-09-18T16:37:07" tests="0" file="cypress/integration/apps/location/LC05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - On a container detail page, the correct details are shown" timestamp="2020-09-18T16:37:07" tests="8" failures="0" time="87.18299999999999">
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-1 Should find correct view header info" time="23.837" classname="LC-5-1 Should find correct view header info">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-2 Should find correct container details" time="10.13" classname="LC-5-2 Should find correct container details">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-3 Should click Done" time="8.58" classname="LC-5-3 Should click Done">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-4 Should find export history button" time="9.06" classname="LC-5-4 Should find export history button">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-5 Should find container view tab" time="9.009" classname="LC-5-5 Should find container view tab">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-6 Should find data tab" time="9.335" classname="LC-5-6 Should find data tab">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-7 Should find tree tab" time="8.851" classname="LC-5-7 Should find tree tab">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-7 Should find history tab" time="8.381" classname="LC-5-7 Should find history tab">
+    </testcase>
+  </testsuite>
+</testsuites>

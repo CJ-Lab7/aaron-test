@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.553" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-22T20:31:34" tests="0" file="cypress/integration/apps/projects/PR08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can access experiments in the inspector panel (Projects Cards)" timestamp="2020-03-22T20:31:34" tests="2" failures="1" time="3.553">
+    <testcase name="8 - I can access experiments in the inspector panel (Projects Cards) PR-8-1 Should list experiments and status in inspector" time="0" classname="PR-8-1 Should list experiments and status in inspector">
+      <failure message="Timed out retrying: Expected to find content: &apos;PR08 unsub&apos; within the element: &lt;div.project-details.full-width.full-height&gt; and with the selector: &apos;.item&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'PR08 unsub' within the element: <div.project-details.full-width.full-height> and with the selector: '.item' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="8 - I can access experiments in the inspector panel (Projects Cards) PR-8-2 Should link to experiment details" time="3.553" classname="PR-8-2 Should link to experiment details">
+    </testcase>
+  </testsuite>
+</testsuites>

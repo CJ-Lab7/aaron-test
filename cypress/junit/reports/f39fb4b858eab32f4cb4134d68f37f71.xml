@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="154.828" tests="14" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T02:40:20" tests="0" file="cypress/integration/apps/permissions/LP10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - With permission, i can access apps via the address bar" timestamp="2020-04-16T02:40:20" tests="14" failures="0" time="154.828">
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-1 Should not visit admin" time="11.883" classname="LP-10-1 Should not visit admin">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-2 Should not visit analysis" time="10.338" classname="LP-10-2 Should not visit analysis">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-3 Should not visit applets" time="10.834" classname="LP-10-3 Should not visit applets">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-4 Should not visit dashboard" time="11.385" classname="LP-10-4 Should not visit dashboard">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-5 Should not visit data" time="11.504" classname="LP-10-5 Should not visit data">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-6 Should not visit entities" time="10.894" classname="LP-10-6 Should not visit entities">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-7 Should not visit iam" time="10.552" classname="LP-10-7 Should not visit iam">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-8 Should not visit ingest" time="11.277" classname="LP-10-8 Should not visit ingest">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-9 Should not visit inventory" time="10.434" classname="LP-10-9 Should not visit inventory">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-10 Should not visit lims" time="11.033" classname="LP-10-10 Should not visit lims">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-11 Should not visit location" time="11.597" classname="LP-10-11 Should not visit location">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-12 Should not visit projects" time="10.658" classname="LP-10-12 Should not visit projects">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-13 Should not visit samples" time="10.466" classname="LP-10-13 Should not visit samples">
+    </testcase>
+    <testcase name="10 - With permission, i can access apps via the address bar LP-10-14 Should not visit search" time="11.973" classname="LP-10-14 Should not visit search">
+    </testcase>
+  </testsuite>
+</testsuites>

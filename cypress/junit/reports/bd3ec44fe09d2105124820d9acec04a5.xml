@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="75.171" tests="8" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-03T01:40:17" tests="0" file="cypress/integration/apps/customers/CS10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I should find customer details" timestamp="2020-06-03T01:40:17" tests="8" failures="1" time="75.171">
+    <testcase name="10 - I should find customer details CS-10-1 Should find header" time="12.895" classname="CS-10-1 Should find header">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-2 Should find subheader" time="10.394" classname="CS-10-2 Should find subheader">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-3 Should find archive button" time="8.786" classname="CS-10-3 Should find archive button">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-4 Should find export history button" time="9.428" classname="CS-10-4 Should find export history button">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-5 Should find details panel" time="9.913" classname="CS-10-5 Should find details panel">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-6 Should find same shipping and billing address" time="0" classname="CS-10-6 Should find same shipping and billing address">
+      <failure message="Timed out retrying: cy.click() failed because this element is detached from the DOM.
+
+&lt;div role=&quot;row&quot; row-index=&quot;0&quot; aria-rowindex=&quot;2&quot; row-id=&quot;0&quot; comp-id=&quot;64&quot; class=&quot;ag-row ag-row-no-focus ag-row-even ag-row-level-0 ag-row-position-absolute ag-row-first&quot; style=&quot;height: 36px; transform: translateY(0px); border: none;&quot;&gt;&lt;/div&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.contains()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.click() failed because this element is detached from the DOM.
+
+<div role="row" row-index="0" aria-rowindex="2" row-id="0" comp-id="64" class="ag-row ag-row-no-focus ag-row-even ag-row-level-0 ag-row-position-absolute ag-row-first" style="height: 36px; transform: translateY(0px); border: none;"></div>
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.contains()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-7 Should find different shipping and billing address" time="12.343" classname="CS-10-7 Should find different shipping and billing address">
+    </testcase>
+    <testcase name="10 - I should find customer details CS-10-8 Should find history tab" time="11.412" classname="CS-10-8 Should find history tab">
+    </testcase>
+  </testsuite>
+</testsuites>

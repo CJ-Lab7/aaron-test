@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.49" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T23:03:08" tests="0" file="cypress/integration/apps/chains/WF14.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="14 - I cannot send samples to next wf if they are not all complete" timestamp="2020-06-24T23:03:08" tests="1" failures="0" time="27.49">
+    <testcase name="14 - I cannot send samples to next wf if they are not all complete WF-14-1 Should fail to move samples to next wf when not all samples are complete" time="27.49" classname="WF-14-1 Should fail to move samples to next wf when not all samples are complete">
+    </testcase>
+  </testsuite>
+</testsuites>

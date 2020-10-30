@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.799" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-28T17:49:45" tests="0" file="cypress/integration/apps/service_types/ST06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can access Inspector panel by clicking on a row" timestamp="2020-05-28T17:49:45" tests="1" failures="0" time="9.799">
+    <testcase name="6 - I can access Inspector panel by clicking on a row ST-6-1 Should list with all columns" time="9.799" classname="ST-6-1 Should list with all columns">
+    </testcase>
+  </testsuite>
+</testsuites>

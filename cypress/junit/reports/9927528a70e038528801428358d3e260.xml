@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.430999999999997" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T17:12:40" tests="0" file="cypress/integration/apps/container_types/CT06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can view inspector details" timestamp="2020-07-10T17:12:40" tests="2" failures="0" time="23.430999999999997">
+    <testcase name="6 - I can view inspector details CT-6-1 Should find inspector details" time="14.572" classname="CT-6-1 Should find inspector details">
+    </testcase>
+    <testcase name="6 - I can view inspector details CT-6-2 Should find inspector dimensions" time="8.859" classname="CT-6-2 Should find inspector dimensions">
+    </testcase>
+  </testsuite>
+</testsuites>

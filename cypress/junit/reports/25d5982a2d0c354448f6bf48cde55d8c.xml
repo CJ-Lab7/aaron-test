@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="53.504" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T14:05:07" tests="0" file="cypress/integration/apps/entities/EN23.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="23 - I can generate new barcodes with the barcode modal" timestamp="2020-03-22T14:05:07" tests="8" failures="0" time="53.504">
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-1 Should generate new QR barcode" time="23.995" classname="EN-23-1 Should generate new QR barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-2 Should generate new 1D barcode" time="4.839" classname="EN-23-2 Should generate new 1D barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-3 Should generate new Mini Data Matrix barcode" time="3.327" classname="EN-23-3 Should generate new Mini Data Matrix barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-4 Should edit QR barcode" time="4.956" classname="EN-23-4 Should edit QR barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-5 Should edit 1D barcode" time="4.689" classname="EN-23-5 Should edit 1D barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-6 Should edit Mini Data Matrix barcode" time="4.815" classname="EN-23-6 Should edit Mini Data Matrix barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-8 Should close modal with &apos;X&apos;" time="3.595" classname="EN-23-8 Should close modal with &apos;X&apos;">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-9 Should close modal with Cancel" time="3.288" classname="EN-23-9 Should close modal with Cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.783" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-01T17:07:53" tests="0" file="cypress/integration/apps/vendors/VEN18.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="18 - I cannot archive a vendor when it is used in an Item Type" timestamp="2020-06-01T17:07:53" tests="1" failures="0" time="14.783">
+    <testcase name="18 - I cannot archive a vendor when it is used in an Item Type VEN-18-1 Should not archive vendor that is used in Item Type" time="14.783" classname="VEN-18-1 Should not archive vendor that is used in Item Type">
+    </testcase>
+  </testsuite>
+</testsuites>

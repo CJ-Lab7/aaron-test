@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6337.895" tests="19" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-20T16:47:03" tests="0" file="cypress/integration/load/WU_load.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Seed data" timestamp="2020-07-20T16:47:03" tests="1" failures="0" time="4.795">
+    <testcase name="Seed data seed data" time="4.795" classname="seed data">
+    </testcase>
+  </testsuite>
+  <testsuite name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples " timestamp="2020-07-20T16:47:08" tests="9" failures="0" time="3109.1470000000004">
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-1 Create &amp; Submit an Experiment " time="18.339" classname="0-190-PERF-1 Create &amp; Submit an Experiment ">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-2 Should create first worksheet" time="10.682" classname="0-190-PERF-2 Should create first worksheet">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-3 Should  run and complete first workflow" time="3018.189" classname="0-190-PERF-3 Should  run and complete first workflow">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-2 Should create second worksheet" time="7.608" classname="0-190-PERF-2 Should create second worksheet">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-3 run and complete second workflow" time="17.366" classname="0-190-PERF-3 run and complete second workflow">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-2 Should create third worksheet" time="6.043" classname="0-190-PERF-2 Should create third worksheet">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-3 run and complete third workflow" time="15.503" classname="0-190-PERF-3 run and complete third workflow">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-2 Should create fourth worksheet" time="5.831" classname="0-190-PERF-2 Should create fourth worksheet">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-3 run and complete fourth workflow" time="9.586" classname="0-190-PERF-3 run and complete fourth workflow">
+    </testcase>
+  </testsuite>
+  <testsuite name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples " timestamp="2020-07-20T17:38:58" tests="9" failures="0" time="3223.9530000000004">
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-1 Create &amp; Submit an Experiment " time="13.106" classname="1-190-PERF-1 Create &amp; Submit an Experiment ">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-2 Should create first worksheet" time="10.694" classname="1-190-PERF-2 Should create first worksheet">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-3 Should  run and complete first workflow" time="3138.09" classname="1-190-PERF-3 Should  run and complete first workflow">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-2 Should create second worksheet" time="7.506" classname="1-190-PERF-2 Should create second worksheet">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-3 run and complete second workflow" time="16.687" classname="1-190-PERF-3 run and complete second workflow">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-2 Should create third worksheet" time="5.706" classname="1-190-PERF-2 Should create third worksheet">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-3 run and complete third workflow" time="16.51" classname="1-190-PERF-3 run and complete third workflow">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-2 Should create fourth worksheet" time="5.957" classname="1-190-PERF-2 Should create fourth worksheet">
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-3 run and complete fourth workflow" time="9.697" classname="1-190-PERF-3 run and complete fourth workflow">
+    </testcase>
+  </testsuite>
+</testsuites>

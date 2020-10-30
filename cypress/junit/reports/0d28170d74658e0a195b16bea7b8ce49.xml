@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="50.617" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T02:44:05" tests="0" file="cypress/integration/apps/analysis/AN13.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="13 - I should be able to view Reports for pipeline instances under Monitor tab" timestamp="2020-03-31T02:44:05" tests="3" failures="0" time="50.617">
+    <testcase name="13 - I should be able to view Reports for pipeline instances under Monitor tab AN-13-1 Should run pipeline (Success) with no report" time="31.499" classname="AN-13-1 Should run pipeline (Success) with no report">
+    </testcase>
+    <testcase name="13 - I should be able to view Reports for pipeline instances under Monitor tab AN-13-2 Should run pipeline (Success) with a report" time="9.029" classname="AN-13-2 Should run pipeline (Success) with a report">
+    </testcase>
+    <testcase name="13 - I should be able to view Reports for pipeline instances under Monitor tab AN-13-3 Should run report (Fail) with a report" time="10.089" classname="AN-13-3 Should run report (Fail) with a report">
+    </testcase>
+  </testsuite>
+</testsuites>

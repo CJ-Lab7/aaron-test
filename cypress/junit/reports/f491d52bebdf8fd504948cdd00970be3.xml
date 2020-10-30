@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="71.29299999999999" tests="6" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-03T15:14:01" tests="0" file="cypress/integration/apps/analysis/AN03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I should be able to use Quick Filter under Monitor page" timestamp="2020-04-03T15:14:01" tests="6" failures="0" time="71.29299999999999">
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-1 Should filter pipeline by name" time="42.56" classname="AN-3-1 Should filter pipeline by name">
+    </testcase>
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-2 Should filter pipeline by description" time="7.311" classname="AN-3-2 Should filter pipeline by description">
+    </testcase>
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-3 Should filter pipeline by task" time="6.415" classname="AN-3-3 Should filter pipeline by task">
+    </testcase>
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-4 Should filter pipeline by originating experiment" time="7.529" classname="AN-3-4 Should filter pipeline by originating experiment">
+    </testcase>
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-5 Should filter pipeline by status" time="7.478" classname="AN-3-5 Should filter pipeline by status">
+    </testcase>
+  </testsuite>
+</testsuites>

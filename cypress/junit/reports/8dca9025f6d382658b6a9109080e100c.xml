@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="107.50000000000001" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T16:16:25" tests="0" file="cypress/integration/apps/lims/LM43.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="43 - I can use header checkboxes" timestamp="2020-06-24T16:16:25" tests="5" failures="0" time="107.50000000000001">
+    <testcase name="43 - I can use header checkboxes LM-43-1/2 Should check header and check/uncheck all samples" time="37.478" classname="LM-43-1/2 Should check header and check/uncheck all samples">
+    </testcase>
+    <testcase name="43 - I can use header checkboxes LM-43-3 Should uncheck sample and partially uncheck header" time="17.571" classname="LM-43-3 Should uncheck sample and partially uncheck header">
+    </testcase>
+    <testcase name="43 - I can use header checkboxes LM-43-4 Should check sample and partially check header" time="16.504" classname="LM-43-4 Should check sample and partially check header">
+    </testcase>
+    <testcase name="43 - I can use header checkboxes LM-43-5 Should check all samples to check the header" time="18.882" classname="LM-43-5 Should check all samples to check the header">
+    </testcase>
+    <testcase name="43 - I can use header checkboxes LM-43-6 Should use checkbox header with required column" time="17.065" classname="LM-43-6 Should use checkbox header with required column">
+    </testcase>
+  </testsuite>
+</testsuites>

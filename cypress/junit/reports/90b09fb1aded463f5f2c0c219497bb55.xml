@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="83.916" tests="8" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-03-28T19:55:26" tests="0" file="cypress/integration/apps/lims/LM42_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="42 - I can use approval column in worksheets" timestamp="2020-03-28T19:55:26" tests="8" failures="2" time="83.916">
+    <testcase name="42 - I can use approval column in worksheets LM-42-10 Should unapprove sample if the sample row is modified" time="29.563" classname="LM-42-10 Should unapprove sample if the sample row is modified">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-11 Should fail to complete once changes are made after approval" time="0" classname="LM-42-11 Should fail to complete once changes are made after approval">
+      <failure message="Timed out retrying: Expected to find content: &apos;Worksheet save operation failed&apos; within the selector: &apos;.toast-container&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Worksheet save operation failed' within the selector: '.toast-container' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-12 Should show approval details" time="4.446" classname="LM-42-12 Should show approval details">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-13 Should approve sample in transpose view" time="4.289" classname="LM-42-13 Should approve sample in transpose view">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-15 Should fail approved sample" time="6.877" classname="LM-42-15 Should fail approved sample">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-16 Should not complete sample until all approval columns are approved" time="4.408" classname="LM-42-16 Should not complete sample until all approval columns are approved">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-17 Should use retry button in approval popup" time="4.865" classname="LM-42-17 Should use retry button in approval popup">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-14 Should use multiple approval columns in the same protocol" time="14.734" classname="LM-42-14 Should use multiple approval columns in the same protocol">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets &quot;after all&quot; hook for &quot;LM-42-14 Should use multiple approval columns in the same protocol&quot;" time="14.734" classname="&quot;after all&quot; hook for &quot;LM-42-14 Should use multiple approval columns in the same protocol&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM42_2seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 14:56:56,177:Saving data in Experiment LM42-10 for Protocol: LM42-9 standard.
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;42 - I can use approval col...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM42_2seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 14:56:56,177:Saving data in Experiment LM42-10 for Protocol: LM42-9 standard.
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '42 - I can use approval col...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

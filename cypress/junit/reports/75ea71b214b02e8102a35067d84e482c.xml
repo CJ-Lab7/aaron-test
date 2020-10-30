@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.874000000000002" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-04-03T19:43:32" tests="0" file="cypress/integration/apps/location/LC09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - On a container details page, I can edit details" timestamp="2020-04-03T19:43:32" tests="3" failures="1" time="28.874000000000002">
+    <testcase name="9 - On a container details page, I can edit details LC-9-1 Should add tags" time="17.637" classname="LC-9-1 Should add tags">
+    </testcase>
+    <testcase name="9 - On a container details page, I can edit details LC-9-2 Should remove tags" time="11.237" classname="LC-9-2 Should remove tags">
+    </testcase>
+    <testcase name="9 - On a container details page, I can edit details LC-9-3 Should edit description" time="0" classname="LC-9-3 Should edit description">
+      <failure message="Timed out retrying: expected &apos;&lt;textarea&gt;&apos; to have value &apos;edit desc&apos;, but the value was &apos;tsc&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '<textarea>' to have value 'edit desc', but the value was 'tsc'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="56.504" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T13:15:22" tests="0" file="cypress/integration/apps/reports/RP10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I can edit report details" timestamp="2020-04-16T13:15:22" tests="5" failures="0" time="56.504">
+    <testcase name="10 - I can edit report details RP-10-1 Should edit description" time="15.459" classname="RP-10-1 Should edit description">
+    </testcase>
+    <testcase name="10 - I can edit report details RP-10-2 Should add tag" time="9.965" classname="RP-10-2 Should add tag">
+    </testcase>
+    <testcase name="10 - I can edit report details RP-10-3 Should delete tag" time="10.431" classname="RP-10-3 Should delete tag">
+    </testcase>
+    <testcase name="10 - I can edit report details RP-10-4 Should add report group" time="9.014" classname="RP-10-4 Should add report group">
+    </testcase>
+    <testcase name="10 - I can edit report details RP-10-5 Should delete report group" time="11.635" classname="RP-10-5 Should delete report group">
+    </testcase>
+  </testsuite>
+</testsuites>

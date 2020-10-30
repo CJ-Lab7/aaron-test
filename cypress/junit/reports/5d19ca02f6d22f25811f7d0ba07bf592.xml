@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.38" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T21:09:13" tests="0" file="cypress/integration/apps/projects/PR28.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="28 - I can open/close the experiment details protocol inspector" timestamp="2020-03-22T21:09:13" tests="1" failures="0" time="28.38">
+    <testcase name="28 - I can open/close the experiment details protocol inspector PR-28-1/2 Should open/close inspector" time="28.38" classname="PR-28-1/2 Should open/close inspector">
+    </testcase>
+  </testsuite>
+</testsuites>

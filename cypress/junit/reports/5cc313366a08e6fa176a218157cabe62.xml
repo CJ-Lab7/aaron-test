@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-02-27T23:04:43" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - I can see correct processed data in sample details" timestamp="2020-02-27T23:04:43" tests="6" failures="1" time="0">
+    <testcase name="26 - I can see correct processed data in sample details &quot;before all&quot; hook for &quot;SP-26-7 Should find location column&quot;" time="0" classname="&quot;before all&quot; hook for &quot;SP-26-7 Should find location column&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed --no-overwrite cypress/fixtures/apps/samples/SP26_2seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+/Users/cj/bitrepos/esp/client/esp/__main__.py:309: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load fo...
+
+Because this error occurred during a &apos;before all&apos; hook we are skipping the remaining tests in the current suite: &apos;26 - I can see correct proc...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed --no-overwrite cypress/fixtures/apps/samples/SP26_2seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+/Users/cj/bitrepos/esp/client/esp/__main__.py:309: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load fo...
+
+Because this error occurred during a 'before all' hook we are skipping the remaining tests in the current suite: '26 - I can see correct proc...'
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:55115:23
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129472:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

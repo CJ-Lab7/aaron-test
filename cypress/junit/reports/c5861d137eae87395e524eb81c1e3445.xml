@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="200.152" tests="13" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-25T14:41:58" tests="0" file="cypress/integration/apps/samples/SP32.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="32 - I can edit all sample type variables" timestamp="2020-06-25T14:41:58" tests="13" failures="1" time="200.152">
+    <testcase name="32 - I can edit all sample type variables SP-32-1 Should add text" time="42.496" classname="SP-32-1 Should add text">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-2 Should add numeric" time="26.843" classname="SP-32-2 Should add numeric">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-3 Should add picklist" time="27.874" classname="SP-32-3 Should add picklist">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-4 Should add multiselect picklist" time="19.815" classname="SP-32-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-5 Should add date" time="26.611" classname="SP-32-5 Should add date">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-6 Should add checkbox" time="28.529" classname="SP-32-6 Should add checkbox">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-7 Should add attachment" time="27.984" classname="SP-32-7 Should add attachment">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables &quot;before each&quot; hook for &quot;SP-32-8 Should add qr barcode&quot;" time="0" classname="&quot;before each&quot; hook for &quot;SP-32-8 Should add qr barcode&quot;">
+      <failure message="Timed out after waiting &apos;20000ms&apos; for your remote page to load.
+
+Your page did not fire its &apos;load&apos; event within &apos;20000ms&apos;.
+
+You can try increasing the &apos;pageLoadTimeout&apos; value in &apos;cypress.json&apos; to wait longer.
+
+Browsers will not fire the &apos;load&apos; event until all stylesheets and scripts are done downloading.
+
+When this &apos;load&apos; event occurs, Cypress will continue running commands.
+
+Because this error occurred during a &apos;before each&apos; hook we are skipping the remaining tests in the current suite: &apos;32 - I can edit all sample ...&apos;" type="CypressError"><![CDATA[CypressError: Timed out after waiting '20000ms' for your remote page to load.
+
+Your page did not fire its 'load' event within '20000ms'.
+
+You can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.
+
+Browsers will not fire the 'load' event until all stylesheets and scripts are done downloading.
+
+When this 'load' event occurs, Cypress will continue running commands.
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '32 - I can edit all sample ...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at timedOutWaitingForPageLoad (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:126147:20)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:126943:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:160036:41
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

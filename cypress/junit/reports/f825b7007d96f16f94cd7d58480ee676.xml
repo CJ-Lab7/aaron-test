@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.822" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T16:54:02" tests="0" file="cypress/integration/apps/entities/EN26.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - I can view entity details columns in the data tab" timestamp="2020-03-28T16:54:02" tests="2" failures="0" time="20.822">
+    <testcase name="26 - I can view entity details columns in the data tab EN-26-1 Should find entity type values" time="11.947" classname="EN-26-1 Should find entity type values">
+    </testcase>
+    <testcase name="26 - I can view entity details columns in the data tab EN-26-2 Should edit entity type values" time="8.875" classname="EN-26-2 Should edit entity type values">
+    </testcase>
+  </testsuite>
+</testsuites>

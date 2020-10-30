@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="40.795" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-29T18:37:57" tests="0" file="cypress/integration/apps/samples/SP08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can add parents and children to samples" timestamp="2020-03-29T18:37:57" tests="7" failures="0" time="40.795">
+    <testcase name="8 - I can add parents and children to samples SP-8-1 Should add parents to a sample" time="14.304" classname="SP-8-1 Should add parents to a sample">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-2 Should add children to a sample" time="6.022" classname="SP-8-2 Should add children to a sample">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-3 Should not add sample as it&apos;s own parent" time="2.914" classname="SP-8-3 Should not add sample as it&apos;s own parent">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-4 Should not add sample as it&apos;s own child" time="2.867" classname="SP-8-4 Should not add sample as it&apos;s own child">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-5 Should add sample as another samples child and parent" time="3.89" classname="SP-8-5 Should add sample as another samples child and parent">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-6 Should access details of parents" time="5.206" classname="SP-8-6 Should access details of parents">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-7 Should access details of children" time="5.592" classname="SP-8-7 Should access details of children">
+    </testcase>
+  </testsuite>
+</testsuites>

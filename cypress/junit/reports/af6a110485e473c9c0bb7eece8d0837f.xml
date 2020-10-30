@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.544" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-05-27T16:43:41" tests="0" file="cypress/integration/apps/container_types/CT21.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="21 - I can archive Container Types" timestamp="2020-05-27T16:43:41" tests="2" failures="1" time="7.544">
+    <testcase name="21 - I can archive Container Types CT-21-3 Should archive from details page" time="0" classname="CT-21-3 Should archive from details page">
+      <failure message="_container_types_details.ContainerTypesDetails.getConfirmBtn is not a function" type="TypeError"><![CDATA[TypeError: _container_types_details.ContainerTypesDetails.getConfirmBtn is not a function
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT21.js-117:92:52)]]></failure>
+    </testcase>
+    <testcase name="21 - I can archive Container Types CT-21-5 Should cancel archiving" time="7.544" classname="CT-21-5 Should cancel archiving">
+    </testcase>
+  </testsuite>
+</testsuites>

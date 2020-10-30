@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="39.858999999999995" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T15:22:25" tests="0" file="cypress/integration/apps/lims/LM22.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="22 - I should be able to save changes to the Protocols" timestamp="2020-06-24T15:22:25" tests="2" failures="0" time="39.858999999999995">
+    <testcase name="22 - I should be able to save changes to the Protocols LM-22-1 Should be able to save changes to protocols" time="25.464" classname="LM-22-1 Should be able to save changes to protocols">
+    </testcase>
+    <testcase name="22 - I should be able to save changes to the Protocols LM-22-2 Should be able to save and continue" time="14.395" classname="LM-22-2 Should be able to save and continue">
+    </testcase>
+  </testsuite>
+</testsuites>

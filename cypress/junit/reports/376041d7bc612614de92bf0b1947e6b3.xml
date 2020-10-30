@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.008" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T20:18:17" tests="0" file="cypress/integration/apps/location/LC08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - On a container details page, I can expand/collapse columns" timestamp="2020-03-28T20:18:17" tests="2" failures="0" time="15.008">
+    <testcase name="8 - On a container details page, I can expand/collapse columns LC-8-1/2 Should expand/collapse details panel" time="10.838" classname="LC-8-1/2 Should expand/collapse details panel">
+    </testcase>
+    <testcase name="8 - On a container details page, I can expand/collapse columns LC-8-3/4 Should expand/collapse inspector panel" time="4.17" classname="LC-8-3/4 Should expand/collapse inspector panel">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.293" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-01T16:51:57" tests="0" file="cypress/integration/apps/service_types/ST09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can create per sample service types" timestamp="2020-06-01T16:51:57" tests="6" failures="0" time="23.293">
+    <testcase name="9 - I can create per sample service types ST-9-1 Should add name" time="7.605" classname="ST-9-1 Should add name">
+    </testcase>
+    <testcase name="9 - I can create per sample service types ST-9-2 Should add description" time="3.52" classname="ST-9-2 Should add description">
+    </testcase>
+    <testcase name="9 - I can create per sample service types ST-9-3 Should add price type" time="1.744" classname="ST-9-3 Should add price type">
+    </testcase>
+    <testcase name="9 - I can create per sample service types ST-9-4 Should add base price" time="2.06" classname="ST-9-4 Should add base price">
+    </testcase>
+    <testcase name="9 - I can create per sample service types ST-9-5 Should save" time="5.699" classname="ST-9-5 Should save">
+    </testcase>
+    <testcase name="9 - I can create per sample service types ST-9-6 Should cancel" time="2.665" classname="ST-9-6 Should cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

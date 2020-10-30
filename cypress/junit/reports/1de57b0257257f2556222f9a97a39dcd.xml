@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="38.973" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T20:51:58" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="14 - I can hide completed experiments (Experiment Filters)" timestamp="2020-02-27T20:51:58" tests="1" failures="0" time="38.973">
+    <testcase name="14 - I can hide completed experiments (Experiment Filters) PR-14-1 Should hide completed experiments" time="38.973" classname="PR-14-1 Should hide completed experiments">
+    </testcase>
+  </testsuite>
+</testsuites>

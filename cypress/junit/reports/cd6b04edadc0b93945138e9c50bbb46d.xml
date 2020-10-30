@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="37.492000000000004" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T15:03:53" tests="0" file="cypress/integration/apps/entity_types/ET03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can filter entity types" timestamp="2020-06-26T15:03:53" tests="3" failures="0" time="37.492000000000004">
+    <testcase name="3 - I can filter entity types ET-3-1 Should filter by name" time="15.369" classname="ET-3-1 Should filter by name">
+    </testcase>
+    <testcase name="3 - I can filter entity types ET-3-2 Should filter by description" time="11.506" classname="ET-3-2 Should filter by description">
+    </testcase>
+    <testcase name="3 - I can filter entity types ET-3-3 Should filter by tags" time="10.617" classname="ET-3-3 Should filter by tags">
+    </testcase>
+  </testsuite>
+</testsuites>

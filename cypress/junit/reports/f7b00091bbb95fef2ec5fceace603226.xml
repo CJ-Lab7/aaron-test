@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="74.256" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-20T19:36:25" tests="0" file="cypress/integration/apps/chains/WF12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can move failed samples to the next workflow" timestamp="2020-03-20T19:36:25" tests="1" failures="0" time="74.256">
+    <testcase name="12 - I can move failed samples to the next workflow WF-12-1 Should fail samples and move them to next workflow" time="74.256" classname="WF-12-1 Should fail samples and move them to next workflow">
+    </testcase>
+  </testsuite>
+</testsuites>

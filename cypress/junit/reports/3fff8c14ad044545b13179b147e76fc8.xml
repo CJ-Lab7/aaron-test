@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.692" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T15:14:40" tests="0" file="cypress/integration/apps/lims/LM04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I should NOT be able to archive a worksheet that has experiments in it" timestamp="2020-06-24T15:14:40" tests="2" failures="0" time="25.692">
+    <testcase name="4 - I should NOT be able to archive a worksheet that has experiments in it LM-4-1 Should NOT be able to archive a worksheet with experiments (List)" time="17.795" classname="LM-4-1 Should NOT be able to archive a worksheet with experiments (List)">
+    </testcase>
+    <testcase name="4 - I should NOT be able to archive a worksheet that has experiments in it LM-4-2 Should NOT be able to archive a worksheet with experiment (Cards)" time="7.897" classname="LM-4-2 Should NOT be able to archive a worksheet with experiment (Cards)">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="227.90799999999996" tests="13" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-04T15:05:37" tests="0" file="cypress/integration/apps/container_types/CT17_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can use the custom fields modal" timestamp="2020-06-04T15:05:37" tests="13" failures="1" time="227.90799999999996">
+    <testcase name="17 - I can use the custom fields modal CT-17-1 Should add text" time="24.021" classname="CT-17-1 Should add text">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-2 Should add numeric" time="16.736" classname="CT-17-2 Should add numeric">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-3 Should add picklist" time="19.342" classname="CT-17-3 Should add picklist">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-4 Should add Multi-select picklist" time="19.544" classname="CT-17-4 Should add Multi-select picklist">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-5 Should add ESP Expression for picklist" time="18.316" classname="CT-17-5 Should add ESP Expression for picklist">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-6 Should add date" time="0" classname="CT-17-6 Should add date">
+      <failure message="Timed out retrying: Expected to find content: &apos;CT17 date&apos; within the selector: &apos;.custom-field&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'CT17 date' within the selector: '.custom-field' but never did.
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-7 Should add checkbox" time="17.749" classname="CT-17-7 Should add checkbox">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-8 Should add attachment" time="17.423" classname="CT-17-8 Should add attachment">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-9 Should add barcode QR" time="18.694" classname="CT-17-9 Should add barcode QR">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-10 Should add barcode 1D" time="18.47" classname="CT-17-10 Should add barcode 1D">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-11 Should add barcode mini data matrix" time="18.86" classname="CT-17-11 Should add barcode mini data matrix">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-12 Should add Resource Link Sample" time="18.367" classname="CT-17-12 Should add Resource Link Sample">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-13 Should add Resource Link File" time="20.386" classname="CT-17-13 Should add Resource Link File">
+    </testcase>
+  </testsuite>
+</testsuites>

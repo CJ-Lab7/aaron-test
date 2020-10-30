@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:26:08" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can click Done to close the report details page" timestamp="2020-02-27T21:26:08" tests="1" failures="1" time="0">
+    <testcase name="9 - I can click Done to close the report details page RP-9-1 Should click Done" time="0" classname="RP-9-1 Should click Done">
+      <failure message="Timed out retrying: Expected to find content: &apos;Done&apos; within the selector: &apos;button&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Done' within the selector: 'button' but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

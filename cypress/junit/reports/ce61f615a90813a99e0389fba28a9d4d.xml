@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="61.769999999999996" tests="13" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:27:06" tests="0" file="cypress/integration/apps/entities/EN05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can filter entities on the Entities page" timestamp="2020-07-10T19:27:06" tests="13" failures="1" time="61.769999999999996">
+    <testcase name="5 - I can filter entities on the Entities page EN-5-1 Should filter by entity class" time="17.517" classname="EN-5-1 Should filter by entity class">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-2 Should show all entities" time="5.464" classname="EN-5-2 Should show all entities">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-3 Should show submitted entities" time="0" classname="EN-5-3 Should show submitted entities">
+      <failure message="Timed out retrying: Expected not to find content: &apos;NOTSUB&apos; within the element: [ &lt;div.row&gt;, 33 more... ] but continuously found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected not to find content: 'NOTSUB' within the element: [ <div.row>, 33 more... ] but continuously found it.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entities/EN05.js:40:53)]]></failure>
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-4 Should show unsubmitted entities" time="3.802" classname="EN-5-4 Should show unsubmitted entities">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-5 Should filter by Entity ID" time="3.653" classname="EN-5-5 Should filter by Entity ID">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-6 Should filter by Owner (with entities)" time="5.928" classname="EN-5-6 Should filter by Owner (with entities)">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-7 Should filter by Owner (without entities)" time="3.567" classname="EN-5-7 Should filter by Owner (without entities)">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-8 Should filter by Note" time="3.586" classname="EN-5-8 Should filter by Note">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-9 Should filter by Entity Tags" time="4.138" classname="EN-5-9 Should filter by Entity Tags">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-10 Should filter by Entity Type" time="4.074" classname="EN-5-10 Should filter by Entity Type">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-11 Should filter by Created After" time="4.252" classname="EN-5-11 Should filter by Created After">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-12 Should filter by Created Before" time="3.746" classname="EN-5-12 Should filter by Created Before">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-13 Should clear filters" time="2.043" classname="EN-5-13 Should clear filters">
+    </testcase>
+  </testsuite>
+</testsuites>

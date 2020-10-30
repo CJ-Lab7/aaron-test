@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="54.59" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T03:55:46" tests="0" file="cypress/integration/apps/chains/WF17.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can see column values in samples and projects app" timestamp="2020-03-31T03:55:46" tests="2" failures="0" time="54.59">
+    <testcase name="17 - I can see column values in samples and projects app WF-17-1 Should view worksheet data in sample associated data" time="40.758" classname="WF-17-1 Should view worksheet data in sample associated data">
+    </testcase>
+    <testcase name="17 - I can see column values in samples and projects app WF-17-2 Should view worksheet data in experiment worksheet" time="13.832" classname="WF-17-2 Should view worksheet data in experiment worksheet">
+    </testcase>
+  </testsuite>
+</testsuites>

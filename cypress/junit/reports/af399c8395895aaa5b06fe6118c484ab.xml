@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="101.679" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-20T20:06:20" tests="0" file="cypress/integration/apps/data/D20.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="20 - I can add files with different types" timestamp="2020-03-20T20:06:20" tests="7" failures="1" time="101.679">
+    <testcase name="20 - I can add files with different types D-20-1 Should add jpg file" time="19.813" classname="D-20-1 Should add jpg file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-2 Should add txt file" time="15.966" classname="D-20-2 Should add txt file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-3 Should add xlsx file" time="16.756" classname="D-20-3 Should add xlsx file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-4 Should add docx file" time="16.635" classname="D-20-4 Should add docx file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-5 Should add png file" time="16.189" classname="D-20-5 Should add png file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-6 Should add csv file" time="16.32" classname="D-20-6 Should add csv file">
+    </testcase>
+    <testcase name="20 - I can add files with different types &quot;before each&quot; hook for &quot;D-20-7 Should add pdf file&quot;" time="0" classname="&quot;before each&quot; hook for &quot;D-20-7 Should add pdf file&quot;">
+      <failure message="Timed out after waiting &apos;20000ms&apos; for your remote page to load.
+
+Your page did not fire its &apos;load&apos; event within &apos;20000ms&apos;.
+
+You can try increasing the &apos;pageLoadTimeout&apos; value in &apos;cypress.json&apos; to wait longer.
+
+Browsers will not fire the &apos;load&apos; event until all stylesheets and scripts are done downloading.
+
+When this &apos;load&apos; event occurs, Cypress will continue running commands.
+
+Because this error occurred during a &apos;before each&apos; hook we are skipping the remaining tests in the current suite: &apos;20 - I can add files with d...&apos;" type="CypressError"><![CDATA[CypressError: Timed out after waiting '20000ms' for your remote page to load.
+
+Your page did not fire its 'load' event within '20000ms'.
+
+You can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.
+
+Browsers will not fire the 'load' event until all stylesheets and scripts are done downloading.
+
+When this 'load' event occurs, Cypress will continue running commands.
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '20 - I can add files with d...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at timedOutWaitingForPageLoad (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:126147:20)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:126943:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:160036:41
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

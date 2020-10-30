@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.812000000000001" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T16:09:16" tests="0" file="cypress/integration/apps/data/D01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I should see all files in the Data app" timestamp="2020-03-28T16:09:16" tests="3" failures="0" time="15.812000000000001">
+    <testcase name="1 - I should see all files in the Data app D-1-2 Should see file filters in the left column" time="8.699" classname="D-1-2 Should see file filters in the left column">
+    </testcase>
+    <testcase name="1 - I should see all files in the Data app D-1-3 Should see file details on the right column" time="2.319" classname="D-1-3 Should see file details on the right column">
+    </testcase>
+    <testcase name="1 - I should see all files in the Data app D-1-5 Should have file details in correct columns" time="4.794" classname="D-1-5 Should have file details in correct columns">
+    </testcase>
+  </testsuite>
+</testsuites>

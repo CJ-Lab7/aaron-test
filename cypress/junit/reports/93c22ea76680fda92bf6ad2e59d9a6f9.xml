@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="22.85" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T16:52:31" tests="0" file="cypress/integration/apps/inventory/IN18.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="18 - On the Inventory details page, I can open multiple details pages" timestamp="2020-03-22T16:52:31" tests="1" failures="0" time="22.85">
+    <testcase name="18 - On the Inventory details page, I can open multiple details pages IN-18-1 Should open multiple details pages and navigate between them" time="22.85" classname="IN-18-1 Should open multiple details pages and navigate between them">
+    </testcase>
+  </testsuite>
+</testsuites>

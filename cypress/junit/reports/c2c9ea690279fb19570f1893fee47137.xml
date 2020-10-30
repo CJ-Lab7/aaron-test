@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="32.385000000000005" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-15T14:59:45" tests="0" file="cypress/integration/apps/vendors/VEN09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can use the new vendor modal" timestamp="2020-05-15T14:59:45" tests="5" failures="0" time="32.385000000000005">
+    <testcase name="9 - I can use the new vendor modal VEN-9-1 Should input name" time="12.296" classname="VEN-9-1 Should input name">
+    </testcase>
+    <testcase name="9 - I can use the new vendor modal VEN-9-2 Should input description" time="6.267" classname="VEN-9-2 Should input description">
+    </testcase>
+    <testcase name="9 - I can use the new vendor modal VEN-9-10 Should save vendor" time="5.498" classname="VEN-9-10 Should save vendor">
+    </testcase>
+    <testcase name="9 - I can use the new vendor modal VEN-9-13 Should cancel" time="3.984" classname="VEN-9-13 Should cancel">
+    </testcase>
+    <testcase name="9 - I can use the new vendor modal VEN-9-14 Should close modal" time="4.34" classname="VEN-9-14 Should close modal">
+    </testcase>
+  </testsuite>
+</testsuites>

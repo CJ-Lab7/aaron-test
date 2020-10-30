@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="68.367" tests="6" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-03-31T16:45:25" tests="0" file="cypress/integration/apps/permissions/LP24.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="24 - I can have experiment permissions" timestamp="2020-03-31T16:45:25" tests="6" failures="0" time="68.367">
+    <testcase name="24 - I can have experiment permissions LP-24-4 Should fail to create an experiment" time="24.736" classname="LP-24-4 Should fail to create an experiment">
+    </testcase>
+    <testcase name="24 - I can have experiment permissions LP-24-5 Should fail to update an experiment" time="15.662" classname="LP-24-5 Should fail to update an experiment">
+    </testcase>
+    <testcase name="24 - I can have experiment permissions LP-24-1 Should create an experiment" time="13.31" classname="LP-24-1 Should create an experiment">
+    </testcase>
+    <testcase name="24 - I can have experiment permissions LP-24-2 Should update an experiment" time="14.659" classname="LP-24-2 Should update an experiment">
+    </testcase>
+  </testsuite>
+</testsuites>

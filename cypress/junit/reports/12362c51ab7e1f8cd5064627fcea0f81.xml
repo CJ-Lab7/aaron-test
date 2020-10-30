@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="24.838" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T19:01:51" tests="0" file="cypress/integration/apps/location/LC05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - On a container detail page, the correct details are shown" timestamp="2020-03-22T19:01:51" tests="8" failures="0" time="24.838">
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-1 Should find correct view header info" time="11.615" classname="LC-5-1 Should find correct view header info">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-2 Should find correct container details" time="3.027" classname="LC-5-2 Should find correct container details">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-3 Should click Done" time="1.729" classname="LC-5-3 Should click Done">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-4 Should find export history button" time="1.692" classname="LC-5-4 Should find export history button">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-5 Should find container view tab" time="1.728" classname="LC-5-5 Should find container view tab">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-6 Should find data tab" time="1.655" classname="LC-5-6 Should find data tab">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-7 Should find tree tab" time="1.616" classname="LC-5-7 Should find tree tab">
+    </testcase>
+    <testcase name="5 - On a container detail page, the correct details are shown LC-5-7 Should find history tab" time="1.776" classname="LC-5-7 Should find history tab">
+    </testcase>
+  </testsuite>
+</testsuites>

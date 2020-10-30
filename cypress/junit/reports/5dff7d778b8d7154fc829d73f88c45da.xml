@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.364" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T14:25:08" tests="0" file="cypress/integration/apps/analysis/AN01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I should see Analysis main page with pipeline monitor" timestamp="2020-03-28T14:25:08" tests="2" failures="0" time="12.364">
+    <testcase name="1 - I should see Analysis main page with pipeline monitor AN-1-1 Should see tabs of Monitor (, Pipelines and Tasks)" time="9.91" classname="AN-1-1 Should see tabs of Monitor (, Pipelines and Tasks)">
+    </testcase>
+    <testcase name="1 - I should see Analysis main page with pipeline monitor AN-1-2 Should access Pipeline Instances in List and Card View under Monitor tab" time="2.454" classname="AN-1-2 Should access Pipeline Instances in List and Card View under Monitor tab">
+    </testcase>
+  </testsuite>
+</testsuites>

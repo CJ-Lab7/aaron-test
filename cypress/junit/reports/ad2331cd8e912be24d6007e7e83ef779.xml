@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-03-22T12:53:13" tests="0" file="cypress/integration/apps/chains/WF01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I can submit experiments with workflow chains" timestamp="2020-03-22T12:53:13" tests="2" failures="2" time="0">
+    <testcase name="1 - I can submit experiments with workflow chains WF-1-1 Should submit an experiment with a workflow chain" time="0" classname="WF-1-1 Should submit an experiment with a workflow chain">
+      <failure message="Timed out retrying: Expected to find content: &apos;WF1 straight&apos; within the element: &lt;section.right-pane&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'WF1 straight' within the element: <section.right-pane> but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="1 - I can submit experiments with workflow chains WF-1-2 Should submit an experiment with a workflow chain (specific sample types)" time="0" classname="WF-1-2 Should submit an experiment with a workflow chain (specific sample types)">
+      <failure message="Timed out retrying: cy.select() failed because it could not find a single &lt;option&gt; with value or text matching: &apos;Test Type&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.select() failed because it could not find a single <option> with value or text matching: 'Test Type'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:122880:21
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

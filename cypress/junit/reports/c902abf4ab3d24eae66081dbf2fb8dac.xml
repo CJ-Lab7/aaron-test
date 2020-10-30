@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="13" failures="0" skipped="13">
+  <testsuite name="Root Suite" timestamp="2020-03-04T17:37:45" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I can use all types of data columns in new experiment modal" timestamp="2020-03-04T17:37:45" tests="13" failures="0" time="0">
+  </testsuite>
+</testsuites>

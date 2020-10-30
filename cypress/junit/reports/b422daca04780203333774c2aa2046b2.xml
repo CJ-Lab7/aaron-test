@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="91.936" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T22:50:14" tests="0" file="cypress/integration/apps/samples/SP02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I can see sample details (left column) after clicking a sample ID" timestamp="2020-04-03T22:50:14" tests="8" failures="0" time="91.936">
+    <testcase name="2 - I can see sample details (left column) after clicking a sample ID SP-2-1 Should view sample ID" time="15.801" classname="SP-2-1 Should view sample ID">
+    </testcase>
+    <testcase name="2 - I can see sample details (left column) after clicking a sample ID SP-2-2 Should view sample type" time="10.904" classname="SP-2-2 Should view sample type">
+    </testcase>
+    <testcase name="2 - I can see sample details (left column) after clicking a sample ID SP-2-3 Should view tags" time="10.617" classname="SP-2-3 Should view tags">
+    </testcase>
+    <testcase name="2 - I can see sample details (left column) after clicking a sample ID SP-2-4 Should view description" time="10.48" classname="SP-2-4 Should view description">
+    </testcase>
+    <testcase name="2 - I can see sample details (left column) after clicking a sample ID SP-2-5 Should view owner" time="10.87" classname="SP-2-5 Should view owner">
+    </testcase>
+    <testcase name="2 - I can see sample details (left column) after clicking a sample ID SP-2-6 Should view date of creation" time="11.219" classname="SP-2-6 Should view date of creation">
+    </testcase>
+    <testcase name="2 - I can see sample details (left column) after clicking a sample ID SP-2-7 Should view date of modification" time="11.283" classname="SP-2-7 Should view date of modification">
+    </testcase>
+    <testcase name="2 - I can see sample details (left column) after clicking a sample ID SP-2-8 Should view barcode" time="10.762" classname="SP-2-8 Should view barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+- model: Report
+  data:
+    - name: RP13
+      desc: Dummy report for RP13
+      report_groups: [delete]
+      tags: 
+        - delete
+        - rp13
+        - qa
+      contents: <div id="rp013">RP13 contents</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="33.742999999999995" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-11T03:02:05" tests="0" file="cypress/integration/apps/service_types/ST05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can see the list of all service types" timestamp="2020-07-11T03:02:05" tests="3" failures="0" time="33.742999999999995">
+    <testcase name="5 - I can see the list of all service types ST-5-1 Should list with all columns" time="13.173" classname="ST-5-1 Should list with all columns">
+    </testcase>
+    <testcase name="5 - I can see the list of all service types ST-5-2 Should sort columns" time="16.02" classname="ST-5-2 Should sort columns">
+    </testcase>
+    <testcase name="5 - I can see the list of all service types ST-5-3 Should open details page" time="4.55" classname="ST-5-3 Should open details page">
+    </testcase>
+  </testsuite>
+</testsuites>

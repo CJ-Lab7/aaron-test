@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.029" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T14:48:28" tests="0" file="cypress/integration/apps/customers/CS01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I can access the Customers app" timestamp="2020-06-26T14:48:28" tests="1" failures="0" time="9.029">
+    <testcase name="1 - I can access the Customers app CS-1-1 Should access Customers app" time="9.029" classname="CS-1-1 Should access Customers app">
+    </testcase>
+  </testsuite>
+</testsuites>

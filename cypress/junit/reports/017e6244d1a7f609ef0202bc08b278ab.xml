@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="59.372" tests="13" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-28T16:44:23" tests="0" file="cypress/integration/apps/entities/EN05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can filter entities on the Entities page" timestamp="2020-03-28T16:44:23" tests="13" failures="1" time="59.372">
+    <testcase name="5 - I can filter entities on the Entities page EN-5-1 Should filter by entity class" time="16.636" classname="EN-5-1 Should filter by entity class">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-2 Should show all entities" time="4.675" classname="EN-5-2 Should show all entities">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-3 Should show submitted entities" time="3.267" classname="EN-5-3 Should show submitted entities">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-4 Should show unsubmitted entities" time="3.24" classname="EN-5-4 Should show unsubmitted entities">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-5 Should filter by Entity ID" time="3.271" classname="EN-5-5 Should filter by Entity ID">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-6 Should filter by Owner (with entities)" time="4.442" classname="EN-5-6 Should filter by Owner (with entities)">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-7 Should filter by Owner (without entities)" time="3.11" classname="EN-5-7 Should filter by Owner (without entities)">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-8 Should filter by Note" time="3.175" classname="EN-5-8 Should filter by Note">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-9 Should filter by Entity Tags" time="3.983" classname="EN-5-9 Should filter by Entity Tags">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-10 Should filter by Entity Type" time="3.496" classname="EN-5-10 Should filter by Entity Type">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-11 Should filter by Created After" time="3.555" classname="EN-5-11 Should filter by Created After">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-12 Should filter by Created Before" time="3.238" classname="EN-5-12 Should filter by Created Before">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-13 Should clear filters" time="1.642" classname="EN-5-13 Should clear filters">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page &quot;after all&quot; hook for &quot;EN-5-13 Should clear filters&quot;" time="1.642" classname="&quot;after all&quot; hook for &quot;EN-5-13 Should clear filters&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/entities/EN05seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 11:45:23,907:Saving data in Experiment EN Submitted1 for Protocol: Simple Protocol.
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;5 - I can filter entities o...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/entities/EN05seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 11:45:23,907:Saving data in Experiment EN Submitted1 for Protocol: Simple Protocol.
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp"...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '5 - I can filter entities o...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

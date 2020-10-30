@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="26.127000000000002" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T15:10:04" tests="0" file="cypress/integration/apps/analysis/AN13.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="13 - I should be able to view Reports for pipeline instances under Monitor tab" timestamp="2020-07-10T15:10:04" tests="3" failures="1" time="26.127000000000002">
+    <testcase name="13 - I should be able to view Reports for pipeline instances under Monitor tab AN-13-1 Should run pipeline (Success) with no report" time="21.666" classname="AN-13-1 Should run pipeline (Success) with no report">
+    </testcase>
+    <testcase name="13 - I should be able to view Reports for pipeline instances under Monitor tab AN-13-2 Should run pipeline (Success) with a report" time="0" classname="AN-13-2 Should run pipeline (Success) with a report">
+      <failure message="Timed out retrying: Expected to find content: &apos;1,2,3,4&apos; within the selector: &apos;.center-pane&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: '1,2,3,4' within the selector: '.center-pane' but never did.
+    at findReport (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/analysis/AN13.js:49:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/analysis/AN13.js:30:5)]]></failure>
+    </testcase>
+    <testcase name="13 - I should be able to view Reports for pipeline instances under Monitor tab AN-13-3 Should run report (Fail) with a report" time="4.461" classname="AN-13-3 Should run report (Fail) with a report">
+    </testcase>
+  </testsuite>
+</testsuites>

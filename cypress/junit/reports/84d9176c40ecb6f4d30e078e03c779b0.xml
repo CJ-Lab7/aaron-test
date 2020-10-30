@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.104" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T14:59:27" tests="0" file="cypress/integration/apps/customers/CS12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I cannot archive a customer if it is used in a Service Type" timestamp="2020-06-26T14:59:27" tests="1" failures="0" time="23.104">
+    <testcase name="12 - I cannot archive a customer if it is used in a Service Type CS-12-1 Should not archive customer that is used in a Service type" time="23.104" classname="CS-12-1 Should not archive customer that is used in a Service type">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.347" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T23:14:14" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="35 - I can view sample fields separated by var group" timestamp="2020-02-27T23:14:14" tests="2" failures="0" time="27.347">
+    <testcase name="35 - I can view sample fields separated by var group SP-35-1 Should find separate table of fields for each var group" time="21.506" classname="SP-35-1 Should find separate table of fields for each var group">
+    </testcase>
+    <testcase name="35 - I can view sample fields separated by var group SP-35-2 Should find the default var group to be Data" time="5.841" classname="SP-35-2 Should find the default var group to be Data">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="44.6" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-09-18T17:01:18" tests="0" file="cypress/integration/apps/location/LC28.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="28 - Multiple aliquots works with barcode scanning" timestamp="2020-09-18T17:01:18" tests="2" failures="2" time="44.6">
+    <testcase name="28 - Multiple aliquots works with barcode scanning LC-28-1 Should NOT add sample to multiple slots if multiple aliquots is off" time="22.335" classname="LC-28-1 Should NOT add sample to multiple slots if multiple aliquots is off">
+      <failure message="Timed out retrying: Expected to find content: &apos;LC2820001&apos; within the selector: &apos;.pool .sample_content&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'LC2820001' within the selector: '.pool .sample_content' but never did.
+    at assertPool (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC28.js:570:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC28.js:221:30)]]></failure>
+    </testcase>
+    <testcase name="28 - Multiple aliquots works with barcode scanning LC-28-1 Should add sample to multiple slots if multiple aliquots is on" time="22.265" classname="LC-28-1 Should add sample to multiple slots if multiple aliquots is on">
+      <failure message="Timed out retrying: Expected to find element: `.toggle-wrapper`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `.toggle-wrapper`, but never found it.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC28.js:240:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

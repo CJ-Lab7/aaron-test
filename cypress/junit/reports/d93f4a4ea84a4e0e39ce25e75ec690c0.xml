@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="52.227" tests="6" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:12:35" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="32 - I can edit experiments using the Edit Experiment button" timestamp="2020-02-27T21:12:35" tests="6" failures="2" time="52.227">
+    <testcase name="32 - I can edit experiments using the Edit Experiment button PR-32-1 Should edit name" time="36.295" classname="PR-32-1 Should edit name">
+    </testcase>
+    <testcase name="32 - I can edit experiments using the Edit Experiment button PR-32-2 Should edit description" time="6.029" classname="PR-32-2 Should edit description">
+    </testcase>
+    <testcase name="32 - I can edit experiments using the Edit Experiment button PR-32-3 Should add tag" time="5.791" classname="PR-32-3 Should add tag">
+    </testcase>
+    <testcase name="32 - I can edit experiments using the Edit Experiment button PR-32-4 Should delete tag" time="0" classname="PR-32-4 Should delete tag">
+      <failure message="Timed out retrying: Expected not to find content: &apos;delete&apos; within the selector: &apos;.tag-input-tag&apos; but continuously found it." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected not to find content: 'delete' within the selector: '.tag-input-tag' but continuously found it.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit experiments using the Edit Experiment button PR-32-5 Should add samples" time="0" classname="PR-32-5 Should add samples">
+      <failure message="Timed out retrying: Expected to find content: &apos;Existing Samples&apos; within the element: &lt;div.options-bar&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Existing Samples' within the element: <div.options-bar> but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit experiments using the Edit Experiment button PR-32-6 Should remove samples" time="4.112" classname="PR-32-6 Should remove samples">
+    </testcase>
+  </testsuite>
+</testsuites>

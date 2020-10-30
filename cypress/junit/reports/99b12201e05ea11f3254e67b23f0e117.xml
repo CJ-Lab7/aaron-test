@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="317.767" tests="13" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-04-03T16:57:39" tests="0" file="cypress/integration/apps/entities/EN31.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I can edit all entity type variables" timestamp="2020-04-03T16:57:39" tests="13" failures="1" time="317.767">
+    <testcase name="31 - I can edit all entity type variables EN-31-1 Should add text" time="44.969" classname="EN-31-1 Should add text">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-2 Should add numeric" time="27.662" classname="EN-31-2 Should add numeric">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-3 Should add picklist" time="25.113" classname="EN-31-3 Should add picklist">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-4 Should add multiselect picklist" time="18.671" classname="EN-31-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-5 Should add date" time="27.132" classname="EN-31-5 Should add date">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-6 Should add checkbox" time="25.113" classname="EN-31-6 Should add checkbox">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-7 Should add attachment" time="29.148" classname="EN-31-7 Should add attachment">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-8 Should add qr barcode" time="26.276" classname="EN-31-8 Should add qr barcode">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-9 Should add 1d barcode" time="26.97" classname="EN-31-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-10 Should add mini data matrix" time="0" classname="EN-31-10 Should add mini data matrix">
+      <failure message="Timed out retrying: Expected to find content: &apos;EN3100010&apos; within the selector: &apos;.row a&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'EN3100010' within the selector: '.row a' but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-11 Should require field" time="28.248" classname="EN-31-11 Should require field">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-12 Should find default" time="19.022" classname="EN-31-12 Should find default">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-13 Should find read only" time="19.443" classname="EN-31-13 Should find read only">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="41.917" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T13:22:09" tests="0" file="cypress/integration/apps/lims/LM23.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="23 - I should be able to fail samples" timestamp="2020-03-31T13:22:09" tests="2" failures="0" time="41.917">
+    <testcase name="23 - I should be able to fail samples LM-23-1 Should be able to fail a sample row" time="33.312" classname="LM-23-1 Should be able to fail a sample row">
+    </testcase>
+    <testcase name="23 - I should be able to fail samples LM-23-2 Should not fail samples that are completed" time="8.605" classname="LM-23-2 Should not fail samples that are completed">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.847" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-28T17:10:04" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can search by custom field data" timestamp="2020-02-28T17:10:04" tests="1" failures="0" time="21.847">
+    <testcase name="8 - I can search by custom field data SR-8-1 Should search by data value" time="21.847" classname="SR-8-1 Should search by data value">
+    </testcase>
+  </testsuite>
+</testsuites>

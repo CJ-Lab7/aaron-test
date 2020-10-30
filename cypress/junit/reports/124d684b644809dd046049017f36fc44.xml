@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="47.168" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T20:55:32" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can group experiments by owner" timestamp="2020-02-27T20:55:32" tests="8" failures="0" time="47.168">
+    <testcase name="17 - I can group experiments by owner PR-17-1 Should see experiments grouped by owner" time="31.421" classname="PR-17-1 Should see experiments grouped by owner">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-2 Should see list of experiments for each owner" time="4.134" classname="PR-17-2 Should see list of experiments for each owner">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-3 Should show correct experiment names" time="1.99" classname="PR-17-3 Should show correct experiment names">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-4 Should show correct status" time="2.039" classname="PR-17-4 Should show correct status">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-5 Should show correct workflow" time="1.927" classname="PR-17-5 Should show correct workflow">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-6 Should show correct number of samples" time="1.933" classname="PR-17-6 Should show correct number of samples">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-7 Should show correct project" time="1.803" classname="PR-17-7 Should show correct project">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-9 Should show correct number of experiments" time="1.921" classname="PR-17-9 Should show correct number of experiments">
+    </testcase>
+  </testsuite>
+</testsuites>

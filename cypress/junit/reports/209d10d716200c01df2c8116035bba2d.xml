@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.841" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T03:40:08" tests="0" file="cypress/integration/apps/projects/PR12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can open/close the advanced filters panel (Experiments tab)" timestamp="2020-04-16T03:40:08" tests="1" failures="0" time="11.841">
+    <testcase name="12 - I can open/close the advanced filters panel (Experiments tab) PR-12-1/2 Should collapse and expand filters column" time="11.841" classname="PR-12-1/2 Should collapse and expand filters column">
+    </testcase>
+  </testsuite>
+</testsuites>

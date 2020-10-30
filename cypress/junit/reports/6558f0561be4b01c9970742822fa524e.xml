@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.169000000000004" tests="9" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-13T14:55:27" tests="0" file="cypress/integration/apps/dashboard/DB05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - On the dashboard tab, all graphs/charts are visible and correct size" timestamp="2020-07-13T14:55:27" tests="9" failures="0" time="10.169000000000004">
+    <testcase name="5 - On the dashboard tab, all graphs/charts are visible and correct size DB-5-1 Should see sample count by sample type chart" time="9.851" classname="DB-5-1 Should see sample count by sample type chart">
+    </testcase>
+    <testcase name="5 - On the dashboard tab, all graphs/charts are visible and correct size DB-5-2 Should see samples assigned to workflows chart" time="0.07" classname="DB-5-2 Should see samples assigned to workflows chart">
+    </testcase>
+    <testcase name="5 - On the dashboard tab, all graphs/charts are visible and correct size DB-5-3 Should see sample movement by week chart" time="0.037" classname="DB-5-3 Should see sample movement by week chart">
+    </testcase>
+    <testcase name="5 - On the dashboard tab, all graphs/charts are visible and correct size DB-5-4 Should see completes by project by week chart" time="0.039" classname="DB-5-4 Should see completes by project by week chart">
+    </testcase>
+    <testcase name="5 - On the dashboard tab, all graphs/charts are visible and correct size DB-5-5 Should see sample fails by project by week chart" time="0.038" classname="DB-5-5 Should see sample fails by project by week chart">
+    </testcase>
+    <testcase name="5 - On the dashboard tab, all graphs/charts are visible and correct size DB-5-6 Should see experiment starts by project by week chart" time="0.031" classname="DB-5-6 Should see experiment starts by project by week chart">
+    </testcase>
+    <testcase name="5 - On the dashboard tab, all graphs/charts are visible and correct size DB-5-7 Should see in need of restock chart" time="0.034" classname="DB-5-7 Should see in need of restock chart">
+    </testcase>
+    <testcase name="5 - On the dashboard tab, all graphs/charts are visible and correct size DB-5-8 Should see sequences/sequencable chart" time="0.035" classname="DB-5-8 Should see sequences/sequencable chart">
+    </testcase>
+    <testcase name="5 - On the dashboard tab, all graphs/charts are visible and correct size DB-5-9 Should see workflow TAT chart" time="0.034" classname="DB-5-9 Should see workflow TAT chart">
+    </testcase>
+  </testsuite>
+</testsuites>

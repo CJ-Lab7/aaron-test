@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="96.10000000000001" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-23T18:49:23" tests="0" file="cypress/integration/apps/entities/EN17_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can use the entity relation table" timestamp="2020-06-23T18:49:23" tests="4" failures="0" time="96.10000000000001">
+    <testcase name="17 - I can use the entity relation table EN-17-7 Should show entities parents and children" time="28.215" classname="EN-17-7 Should show entities parents and children">
+    </testcase>
+    <testcase name="17 - I can use the entity relation table EN-17-8 Should use dropdowns for parents and children" time="18.125" classname="EN-17-8 Should use dropdowns for parents and children">
+    </testcase>
+    <testcase name="17 - I can use the entity relation table EN-17-9 Should sort columns" time="19.798" classname="EN-17-9 Should sort columns">
+    </testcase>
+    <testcase name="17 - I can use the entity relation table EN-17-10 Should link to parent and children details" time="29.962" classname="EN-17-10 Should link to parent and children details">
+    </testcase>
+  </testsuite>
+</testsuites>

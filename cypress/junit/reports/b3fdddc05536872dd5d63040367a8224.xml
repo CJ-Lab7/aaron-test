@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="97.83800000000002" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:47:19" tests="0" file="cypress/integration/apps/lims/LM52_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="52 - I can use group all with every column type" timestamp="2020-07-10T21:47:19" tests="8" failures="0" time="97.83800000000002">
+    <testcase name="52 - I can use group all with every column type LM-52-7 Should use group all protocol with barcode column (rows different)" time="40.295" classname="LM-52-7 Should use group all protocol with barcode column (rows different)">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-8 Should use group all protocol with barcode column (rows same)" time="12.196" classname="LM-52-8 Should use group all protocol with barcode column (rows same)">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-9 Should use group all protocol with item quntity column" time="5.391" classname="LM-52-9 Should use group all protocol with item quntity column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-10 Should use group all protocol with approval column" time="5.354" classname="LM-52-10 Should use group all protocol with approval column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-11 Should use group all protocol with checkbox column" time="6.47" classname="LM-52-11 Should use group all protocol with checkbox column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-12 Should use group all protocol with complete column" time="3.43" classname="LM-52-12 Should use group all protocol with complete column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-13 Should unapprove header when any row is unapproved" time="6.406" classname="LM-52-13 Should unapprove header when any row is unapproved">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-14 Should use grouped pipeline protocol" time="18.296" classname="LM-52-14 Should use grouped pipeline protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

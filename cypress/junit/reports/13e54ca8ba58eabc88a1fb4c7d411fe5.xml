@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.487000000000002" tests="8" failures="3">
+  <testsuite name="Root Suite" timestamp="2020-03-02T21:26:13" tests="0" file="cypress/integration/apps/lims/LM41.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="41 - I can use inventory item use column in worksheets" timestamp="2020-03-02T21:26:13" tests="8" failures="3" time="28.487000000000002">
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-1 Should add item quantity" time="0" classname="LM-41-1 Should add item quantity">
+      <failure message="Timed out retrying: Expected to find content: &apos;-20&apos; within the element: &lt;div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value.ag-cell-focus.ag-cell-range-selected.ag-cell-range-selected-1.ag-cell-range-single-cell&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: '-20' within the element: <div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value.ag-cell-focus.ag-cell-range-selected.ag-cell-range-selected-1.ag-cell-range-single-cell> but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-2 Should remove item quantity" time="10.361" classname="LM-41-2 Should remove item quantity">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-3 Should add note" time="0" classname="LM-41-3 Should add note">
+      <failure message="Timed out retrying: Expected to find content: &apos;.ag-row&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: '.ag-row' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-4 Should show remaining quantity" time="3.387" classname="LM-41-4 Should show remaining quantity">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-5 Should find item details in drop down menu" time="4.172" classname="LM-41-5 Should find item details in drop down menu">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-8 Should close window" time="2.473" classname="LM-41-8 Should close window">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-9 Should update inventory in transpose view" time="8.094" classname="LM-41-9 Should update inventory in transpose view">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-10 Should use multiple approval columns in the same protocol" time="0" classname="LM-41-10 Should use multiple approval columns in the same protocol">
+      <failure message="Timed out retrying: Expected to find content: &apos;-20&apos; within the element: &lt;div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: '-20' within the element: <div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value> but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

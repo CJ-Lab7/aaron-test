@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.009" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-23T02:45:48" tests="0" file="cypress/integration/apps/search/SR09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can use SEARCH link in the nav bar" timestamp="2020-03-23T02:45:48" tests="1" failures="0" time="8.009">
+    <testcase name="9 - I can use SEARCH link in the nav bar SR-9-1 Should use DATA link" time="8.009" classname="SR-9-1 Should use DATA link">
+    </testcase>
+  </testsuite>
+</testsuites>

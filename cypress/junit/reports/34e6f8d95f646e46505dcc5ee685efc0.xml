@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.805" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T01:16:28" tests="0" file="cypress/integration/apps/analysis/AN02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I should see Header, Metadata and Quick Filter at the top of page under Monitor tab" timestamp="2020-03-22T01:16:28" tests="3" failures="0" time="23.805">
+    <testcase name="2 - I should see Header, Metadata and Quick Filter at the top of page under Monitor tab AN-2-1 Should have Pipeline Monitor as the header" time="20.575" classname="AN-2-1 Should have Pipeline Monitor as the header">
+    </testcase>
+    <testcase name="2 - I should see Header, Metadata and Quick Filter at the top of page under Monitor tab AN-2-3 Should display metadata" time="2.348" classname="AN-2-3 Should display metadata">
+    </testcase>
+    <testcase name="2 - I should see Header, Metadata and Quick Filter at the top of page under Monitor tab AN-2-5 Should find filter panel" time="0.882" classname="AN-2-5 Should find filter panel">
+    </testcase>
+  </testsuite>
+</testsuites>

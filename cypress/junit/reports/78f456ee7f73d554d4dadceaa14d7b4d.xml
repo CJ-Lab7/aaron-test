@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.204" tests="4" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-02-27T16:55:23" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="24 - I can only see the correct sample types when making an experiment" timestamp="2020-02-27T16:55:23" tests="4" failures="2" time="23.204">
+    <testcase name="24 - I can only see the correct sample types when making an experiment PR-24-1 Should show correct sample types (new samples)" time="0" classname="PR-24-1 Should show correct sample types (new samples)">
+      <failure message="Timed out after waiting &apos;20000ms&apos; for your remote page to load.
+
+Your page did not fire its &apos;load&apos; event within &apos;20000ms&apos;.
+
+You can try increasing the &apos;pageLoadTimeout&apos; value in &apos;cypress.json&apos; to wait longer.
+
+Browsers will not fire the &apos;load&apos; event until all stylesheets and scripts are done downloading.
+
+When this &apos;load&apos; event occurs, Cypress will continue running commands." type="CypressError"><![CDATA[CypressError: Timed out after waiting '20000ms' for your remote page to load.
+
+Your page did not fire its 'load' event within '20000ms'.
+
+You can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.
+
+Browsers will not fire the 'load' event until all stylesheets and scripts are done downloading.
+
+When this 'load' event occurs, Cypress will continue running commands.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at timedOutWaitingForPageLoad (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:55648:17)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:56297:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126583:41
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="24 - I can only see the correct sample types when making an experiment PR-24-2 Should show correct sample types (existing samples)" time="19.706" classname="PR-24-2 Should show correct sample types (existing samples)">
+    </testcase>
+    <testcase name="24 - I can only see the correct sample types when making an experiment PR-24-3 Should show correct sample types (editing exp with new samples" time="0" classname="PR-24-3 Should show correct sample types (editing exp with new samples">
+      <failure message="Timed out retrying: Expected to find content: &apos;Add New Samples&apos; within the selector: &apos;button&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Add New Samples' within the selector: 'button' but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="24 - I can only see the correct sample types when making an experiment PR-24-4 Should show correct sample types (editing exp with existing samples" time="3.498" classname="PR-24-4 Should show correct sample types (editing exp with existing samples">
+    </testcase>
+  </testsuite>
+</testsuites>

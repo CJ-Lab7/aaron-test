@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="32.894" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:17:10" tests="0" file="cypress/integration/apps/navbar/NB09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can access the menu bar" timestamp="2020-07-10T22:17:10" tests="5" failures="1" time="32.894">
+    <testcase name="9 - I can access the menu bar NB-9-1 Should find correct menu header" time="7.113" classname="NB-9-1 Should find correct menu header">
+    </testcase>
+    <testcase name="9 - I can access the menu bar NB-9-2 Should find list of apps" time="2.81" classname="NB-9-2 Should find list of apps">
+    </testcase>
+    <testcase name="9 - I can access the menu bar NB-9-3 Should access apps via menu" time="18.912" classname="NB-9-3 Should access apps via menu">
+    </testcase>
+    <testcase name="9 - I can access the menu bar NB-9-4 Should access system apps via menu" time="0" classname="NB-9-4 Should access system apps via menu">
+      <failure message="Timed out retrying: Expected to find element: `a[href=&quot;#/admin&quot;]`, but never found it. Queried from element: &lt;div.app-drawer&gt;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `a[href="#/admin"]`, but never found it. Queried from element: <div.app-drawer>
+    at accessApp (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/navbar/NB09.js:70:47)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/navbar/NB09.js:51:5)]]></failure>
+    </testcase>
+    <testcase name="9 - I can access the menu bar NB-9-5 Should use recent activity" time="4.059" classname="NB-9-5 Should use recent activity">
+    </testcase>
+  </testsuite>
+</testsuites>

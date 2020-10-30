@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="50.18" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-28T15:52:10" tests="0" file="cypress/integration/apps/service_types/ST12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can add a price entry" timestamp="2020-05-28T15:52:10" tests="8" failures="0" time="50.18">
+    <testcase name="12 - I can add a price entry ST-12-1 Should open modal" time="12.056" classname="ST-12-1 Should open modal">
+    </testcase>
+    <testcase name="12 - I can add a price entry ST-12-2 Should use customer select" time="6.261" classname="ST-12-2 Should use customer select">
+    </testcase>
+    <testcase name="12 - I can add a price entry ST-12-3 Should use base price input" time="5.191" classname="ST-12-3 Should use base price input">
+    </testcase>
+    <testcase name="12 - I can add a price entry ST-12-4 Should use scale price input" time="5.151" classname="ST-12-4 Should use scale price input">
+    </testcase>
+    <testcase name="12 - I can add a price entry ST-12-5 Should save" time="5.986" classname="ST-12-5 Should save">
+    </testcase>
+    <testcase name="12 - I can add a price entry ST-12-6 Should cancel" time="5.323" classname="ST-12-6 Should cancel">
+    </testcase>
+    <testcase name="12 - I can add a price entry ST-12-7 Should close modal" time="5.274" classname="ST-12-7 Should close modal">
+    </testcase>
+    <testcase name="12 - I can add a price entry ST-12-8 Should not find scale price for sample type" time="4.938" classname="ST-12-8 Should not find scale price for sample type">
+    </testcase>
+  </testsuite>
+</testsuites>

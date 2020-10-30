@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="125.44300000000001" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T18:52:26" tests="0" file="cypress/integration/apps/lims/LM40.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="40 - I should be able to run pipelines" timestamp="2020-04-03T18:52:26" tests="3" failures="0" time="125.44300000000001">
+    <testcase name="40 - I should be able to run pipelines LM-40-1 Should run a pipeline with only one sample" time="40.759" classname="LM-40-1 Should run a pipeline with only one sample">
+    </testcase>
+    <testcase name="40 - I should be able to run pipelines LM-40-2 Should run multiple pipelines simultaneously" time="39.016" classname="LM-40-2 Should run multiple pipelines simultaneously">
+    </testcase>
+    <testcase name="40 - I should be able to run pipelines LM-40-3 Should run multiple pipelines one at a time" time="45.668" classname="LM-40-3 Should run multiple pipelines one at a time">
+    </testcase>
+  </testsuite>
+</testsuites>

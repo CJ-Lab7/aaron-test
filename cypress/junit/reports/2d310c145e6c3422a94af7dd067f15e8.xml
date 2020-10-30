@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-11T01:53:46" tests="0" file="cypress/integration/apps/samples/SP34.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="34 - I can create a sample with var groups" timestamp="2020-07-11T01:53:46" tests="1" failures="1" time="0">
+    <testcase name="34 - I can create a sample with var groups SP-34-1 Should create a sample with var groups" time="0" classname="SP-34-1 Should create a sample with var groups">
+      <failure message="Timed out retrying: `cy.select()` failed because it could not find a single `&lt;option&gt;` with value or text matching: `TEST SEQUENCE`
+
+https://on.cypress.io/select" type="CypressError"><![CDATA[CypressError: Timed out retrying: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `TEST SEQUENCE`
+
+https://on.cypress.io/select
+    at getOptions (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:151782:21)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10130:23)
+    at Function.Promise.attempt.Promise.try (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:7404:29)
+    at retryOptions (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:151820:30)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10130:23)
+    at Function.Promise.attempt.Promise.try (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:7404:29)
+    at tryFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162938:24)
+    at whenStable (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162979:12)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162502:16
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:10130:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8065:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8122:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8167:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8247:18)
+    at Promise._fulfill (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:8191:18)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:9805:46
+From Your Spec Code:
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/samples/SP34.js:51:53)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

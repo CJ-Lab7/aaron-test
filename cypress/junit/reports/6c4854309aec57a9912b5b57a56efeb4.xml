@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="143.018" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T19:26:58" tests="0" file="cypress/integration/apps/lims/LM53_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="53 - I can only use ag-grid functionality in regular view" timestamp="2020-04-03T19:26:58" tests="7" failures="0" time="143.018">
+    <testcase name="53 - I can only use ag-grid functionality in regular view LM-53-10 Should reset columns" time="33.691" classname="LM-53-10 Should reset columns">
+    </testcase>
+    <testcase name="53 - I can only use ag-grid functionality in regular view LM-53-11 Should filter by searching value" time="18.34" classname="LM-53-11 Should filter by searching value">
+    </testcase>
+    <testcase name="53 - I can only use ag-grid functionality in regular view LM-53-12 Should select all for filter column value" time="16.741" classname="LM-53-12 Should select all for filter column value">
+    </testcase>
+    <testcase name="53 - I can only use ag-grid functionality in regular view LM-53-13/14 Should unselect/select all values for filter column value" time="19.317" classname="LM-53-13/14 Should unselect/select all values for filter column value">
+    </testcase>
+    <testcase name="53 - I can only use ag-grid functionality in regular view LM-53-15 Should search for a column under column tab filter" time="17.639" classname="LM-53-15 Should search for a column under column tab filter">
+    </testcase>
+    <testcase name="53 - I can only use ag-grid functionality in regular view LM-53-16 Should remove one column from the table" time="17.058" classname="LM-53-16 Should remove one column from the table">
+    </testcase>
+    <testcase name="53 - I can only use ag-grid functionality in regular view LM-53-17/18 Should remove/add all columns from/to the table" time="20.232" classname="LM-53-17/18 Should remove/add all columns from/to the table">
+    </testcase>
+  </testsuite>
+</testsuites>

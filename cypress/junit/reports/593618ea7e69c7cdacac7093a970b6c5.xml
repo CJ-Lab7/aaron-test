@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="103.784" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T15:39:32" tests="0" file="cypress/integration/apps/projects/PR32.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="32 - I can edit experiments using the Edit Experiment button" timestamp="2020-03-31T15:39:32" tests="6" failures="0" time="103.784">
+    <testcase name="32 - I can edit experiments using the Edit Experiment button PR-32-1 Should edit name" time="25.681" classname="PR-32-1 Should edit name">
+    </testcase>
+    <testcase name="32 - I can edit experiments using the Edit Experiment button PR-32-2 Should edit description" time="13.757" classname="PR-32-2 Should edit description">
+    </testcase>
+    <testcase name="32 - I can edit experiments using the Edit Experiment button PR-32-3 Should add tag" time="15.021" classname="PR-32-3 Should add tag">
+    </testcase>
+    <testcase name="32 - I can edit experiments using the Edit Experiment button PR-32-4 Should delete tag" time="15.742" classname="PR-32-4 Should delete tag">
+    </testcase>
+    <testcase name="32 - I can edit experiments using the Edit Experiment button PR-32-5 Should add samples" time="18.075" classname="PR-32-5 Should add samples">
+    </testcase>
+    <testcase name="32 - I can edit experiments using the Edit Experiment button PR-32-6 Should remove samples" time="15.508" classname="PR-32-6 Should remove samples">
+    </testcase>
+  </testsuite>
+</testsuites>

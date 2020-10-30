@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="238.563" tests="22" failures="0" skipped="4">
+  <testsuite name="Root Suite" timestamp="2020-04-03T17:17:48" tests="0" file="cypress/integration/apps/expressions/EX06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I should be able to use the LIMS API" timestamp="2020-04-03T17:17:48" tests="22" failures="0" time="238.563">
+    <testcase name="6 - I should be able to use the LIMS API EX-6-1 Should use column_value(column, sheet=None, generation=0)" time="46.772" classname="EX-6-1 Should use column_value(column, sheet=None, generation=0)">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-2 Should use column_value_for_uuid(uuid, column, sheet)" time="10.573" classname="EX-6-2 Should use column_value_for_uuid(uuid, column, sheet)">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-3 Should use column_values(column, protocol=None)" time="16.878" classname="EX-6-3 Should use column_values(column, protocol=None)">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-4 Should use experiment_name()" time="10.436" classname="EX-6-4 Should use experiment_name()">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-6 Should use hhmm_add(first, second)" time="9.679" classname="EX-6-6 Should use hhmm_add(first, second)">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-7 Should use hhmm_diff(first, second)" time="9.648" classname="EX-6-7 Should use hhmm_diff(first, second)">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-10 Should use project_name()" time="10.018" classname="EX-6-10 Should use project_name()">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-11 Should use tagged_value(tags, generation=0, sample_uuid=None)" time="10.438" classname="EX-6-11 Should use tagged_value(tags, generation=0, sample_uuid=None)">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-13 Should use row_count()" time="10.758" classname="EX-6-13 Should use row_count()">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-14 Should use agent variable" time="10.326" classname="EX-6-14 Should use agent variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-15 Should use sample variable" time="17.053" classname="EX-6-15 Should use sample variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-16 Should use protocol_name variable" time="11.438" classname="EX-6-16 Should use protocol_name variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-17 Should use sample_index variable" time="9.916" classname="EX-6-17 Should use sample_index variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-18 Should use sample_sheet_uuid variable" time="10.849" classname="EX-6-18 Should use sample_sheet_uuid variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-19 Should use sample_sheet_name variable" time="11.06" classname="EX-6-19 Should use sample_sheet_name variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-20 Should use sample_to_row variable" time="10.907" classname="EX-6-20 Should use sample_to_row variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-21 Should use workflow_uuid variable" time="10.443" classname="EX-6-21 Should use workflow_uuid variable">
+    </testcase>
+    <testcase name="6 - I should be able to use the LIMS API EX-6-22 Should use workflow_name variable" time="11.371" classname="EX-6-22 Should use workflow_name variable">
+    </testcase>
+  </testsuite>
+</testsuites>

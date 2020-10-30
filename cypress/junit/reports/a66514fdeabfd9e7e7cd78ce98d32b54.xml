@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="19" failures="19">
+  <testsuite name="Root Suite" timestamp="2020-08-04T01:01:03" tests="0" file="cypress/integration/load/WU_load.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Seed data" timestamp="2020-08-04T01:01:03" tests="1" failures="1" time="0">
+    <testcase name="Seed data seed data" time="0" classname="seed data">
+      <failure message="`cy.exec(&apos;esp -s -P 443 -H washumgi-qa.l7esp.com -u admin@localhost -p L4b7R0cks! seed --no-overwrite cypress/fixtures/load/WUseed.yml&apos;)` failed because the command exited with a non-zero code.
+
+Pass `{failOnNonZeroExit: false}` to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-08-03 20:01:04,463:Creating ContainerType: WU container type
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/client/esp/base.py&quot;, line 75, in _
+    self.login()
+  F...
+
+https://on.cypress.io/exec" type="CypressError"><![CDATA[CypressError: `cy.exec('esp -s -P 443 -H washumgi-qa.l7esp.com -u admin@localhost -p L4b7R0cks! seed --no-overwrite cypress/fixtures/load/WUseed.yml')` failed because the command exited with a non-zero code.
+
+Pass `{failOnNonZeroExit: false}` to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-08-03 20:01:04,463:Creating ContainerType: WU container type
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/client/esp/base.py", line 75, in _
+    self.login()
+  F...
+
+https://on.cypress.io/exec
+    at https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:154871:26
+    at tryCatcher (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:10130:23)
+    at Promise._settlePromiseFromHandler (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8065:31)
+    at Promise._settlePromise (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8122:18)
+    at Promise._settlePromise0 (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8167:10)
+    at Promise._settlePromises (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8247:18)
+    at _drainQueueStep (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:4837:12)
+    at _drainQueue (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:4830:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:4846:5)
+    at Async.drainQueues (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:4716:14)
+From Your Spec Code:
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/support/index.js:235:6)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples " timestamp="2020-08-04T01:01:05" tests="9" failures="9" time="0">
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-1 Create &amp; Submit an Experiment " time="0" classname="0-190-PERF-1 Create &amp; Submit an Experiment ">
+      <failure message="Timed out retrying: `cy.select()` failed because it could not find a single `&lt;option&gt;` with value or text matching: `WU chain`
+
+https://on.cypress.io/select" type="CypressError"><![CDATA[CypressError: Timed out retrying: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `WU chain`
+
+https://on.cypress.io/select
+    at getOptions (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:151782:21)
+    at tryCatcher (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:10130:23)
+    at Function.Promise.attempt.Promise.try (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:7404:29)
+    at retryOptions (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:151820:30)
+    at tryCatcher (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:10130:23)
+    at Function.Promise.attempt.Promise.try (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:7404:29)
+    at tryFn (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:162938:24)
+    at whenStable (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:162979:12)
+    at https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:162502:16
+    at tryCatcher (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:10130:23)
+    at Promise._settlePromiseFromHandler (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8065:31)
+    at Promise._settlePromise (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8122:18)
+    at Promise._settlePromise0 (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8167:10)
+    at Promise._settlePromises (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8247:18)
+    at Promise._fulfill (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8191:18)
+    at https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:9805:46
+From Your Spec Code:
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:72:62)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-2 Should create first worksheet" time="0" classname="0-190-PERF-2 Should create first worksheet">
+      <failure message="Timed out retrying: Expected to find content: &apos;WU chain&apos; within the selector: &apos;[data-test=&quot;lab-submissions__experiments--instance&quot;]&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'WU chain' within the selector: '[data-test="lab-submissions__experiments--instance"]' but never did.
+    at createWorksheet (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:202:10)
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:95:7)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-3 Should  run and complete first workflow" time="0" classname="0-190-PERF-3 Should  run and complete first workflow">
+      <failure message="Timed out retrying: Expected to find content: &apos;PERF-190-8414-0-1&apos; within the selector: &apos;.ag-row .ag-cell a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'PERF-190-8414-0-1' within the selector: '.ag-row .ag-cell a' but never did.
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/support/index.js:1048:6)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-2 Should create second worksheet" time="0" classname="0-190-PERF-2 Should create second worksheet">
+      <failure message="Timed out retrying: Expected to find content: &apos;WU chain&apos; within the selector: &apos;[data-test=&quot;lab-submissions__experiments--instance&quot;]&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'WU chain' within the selector: '[data-test="lab-submissions__experiments--instance"]' but never did.
+    at createWorksheet (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:202:10)
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:160:7)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-3 run and complete second workflow" time="0" classname="0-190-PERF-3 run and complete second workflow">
+      <failure message="Timed out retrying: Expected to find content: &apos;PERF-190-8414-0-2&apos; within the selector: &apos;.ag-row .ag-cell a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'PERF-190-8414-0-2' within the selector: '.ag-row .ag-cell a' but never did.
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/support/index.js:1048:6)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-2 Should create third worksheet" time="0" classname="0-190-PERF-2 Should create third worksheet">
+      <failure message="Timed out retrying: Expected to find content: &apos;WU chain&apos; within the selector: &apos;[data-test=&quot;lab-submissions__experiments--instance&quot;]&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'WU chain' within the selector: '[data-test="lab-submissions__experiments--instance"]' but never did.
+    at createWorksheet (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:202:10)
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:173:7)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-3 run and complete third workflow" time="0" classname="0-190-PERF-3 run and complete third workflow">
+      <failure message="Timed out retrying: Expected to find content: &apos;PERF-190-8414-0-3&apos; within the selector: &apos;.ag-row .ag-cell a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'PERF-190-8414-0-3' within the selector: '.ag-row .ag-cell a' but never did.
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/support/index.js:1048:6)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-2 Should create fourth worksheet" time="0" classname="0-190-PERF-2 Should create fourth worksheet">
+      <failure message="Timed out retrying: Expected to find content: &apos;WU chain&apos; within the selector: &apos;[data-test=&quot;lab-submissions__experiments--instance&quot;]&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'WU chain' within the selector: '[data-test="lab-submissions__experiments--instance"]' but never did.
+    at createWorksheet (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:202:10)
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:186:7)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  0-190-PERF-3 run and complete fourth workflow" time="0" classname="0-190-PERF-3 run and complete fourth workflow">
+      <failure message="Timed out retrying: Expected to find content: &apos;PERF-190-8414-0-4&apos; within the selector: &apos;.ag-row .ag-cell a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'PERF-190-8414-0-4' within the selector: '.ag-row .ag-cell a' but never did.
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/support/index.js:1048:6)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples " timestamp="2020-08-04T01:03:10" tests="9" failures="9" time="0">
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-1 Create &amp; Submit an Experiment " time="0" classname="1-190-PERF-1 Create &amp; Submit an Experiment ">
+      <failure message="Timed out retrying: `cy.select()` failed because it could not find a single `&lt;option&gt;` with value or text matching: `WU chain`
+
+https://on.cypress.io/select" type="CypressError"><![CDATA[CypressError: Timed out retrying: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `WU chain`
+
+https://on.cypress.io/select
+    at getOptions (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:151782:21)
+    at tryCatcher (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:10130:23)
+    at Function.Promise.attempt.Promise.try (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:7404:29)
+    at retryOptions (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:151820:30)
+    at tryCatcher (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:10130:23)
+    at Function.Promise.attempt.Promise.try (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:7404:29)
+    at tryFn (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:162938:24)
+    at whenStable (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:162979:12)
+    at https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:162502:16
+    at tryCatcher (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:10130:23)
+    at Promise._settlePromiseFromHandler (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8065:31)
+    at Promise._settlePromise (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8122:18)
+    at Promise._settlePromise0 (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8167:10)
+    at Promise._settlePromises (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8247:18)
+    at Promise._fulfill (https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:8191:18)
+    at https://washumgi-qa.l7esp.com/__cypress/runner/cypress_runner.js:9805:46
+From Your Spec Code:
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:72:62)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-2 Should create first worksheet" time="0" classname="1-190-PERF-2 Should create first worksheet">
+      <failure message="Timed out retrying: Expected to find content: &apos;WU chain&apos; within the selector: &apos;[data-test=&quot;lab-submissions__experiments--instance&quot;]&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'WU chain' within the selector: '[data-test="lab-submissions__experiments--instance"]' but never did.
+    at createWorksheet (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:202:10)
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:95:7)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-3 Should  run and complete first workflow" time="0" classname="1-190-PERF-3 Should  run and complete first workflow">
+      <failure message="Timed out retrying: Expected to find content: &apos;PERF-190-1106-1-1&apos; within the selector: &apos;.ag-row .ag-cell a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'PERF-190-1106-1-1' within the selector: '.ag-row .ag-cell a' but never did.
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/support/index.js:1048:6)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-2 Should create second worksheet" time="0" classname="1-190-PERF-2 Should create second worksheet">
+      <failure message="Timed out retrying: Expected to find content: &apos;WU chain&apos; within the selector: &apos;[data-test=&quot;lab-submissions__experiments--instance&quot;]&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'WU chain' within the selector: '[data-test="lab-submissions__experiments--instance"]' but never did.
+    at createWorksheet (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:202:10)
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:160:7)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-3 run and complete second workflow" time="0" classname="1-190-PERF-3 run and complete second workflow">
+      <failure message="Timed out retrying: Expected to find content: &apos;PERF-190-1106-1-2&apos; within the selector: &apos;.ag-row .ag-cell a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'PERF-190-1106-1-2' within the selector: '.ag-row .ag-cell a' but never did.
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/support/index.js:1048:6)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-2 Should create third worksheet" time="0" classname="1-190-PERF-2 Should create third worksheet">
+      <failure message="Timed out retrying: Expected to find content: &apos;WU chain&apos; within the selector: &apos;[data-test=&quot;lab-submissions__experiments--instance&quot;]&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'WU chain' within the selector: '[data-test="lab-submissions__experiments--instance"]' but never did.
+    at createWorksheet (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:202:10)
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:173:7)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-3 run and complete third workflow" time="0" classname="1-190-PERF-3 run and complete third workflow">
+      <failure message="Timed out retrying: Expected to find content: &apos;PERF-190-1106-1-3&apos; within the selector: &apos;.ag-row .ag-cell a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'PERF-190-1106-1-3' within the selector: '.ag-row .ag-cell a' but never did.
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/support/index.js:1048:6)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-2 Should create fourth worksheet" time="0" classname="1-190-PERF-2 Should create fourth worksheet">
+      <failure message="Timed out retrying: Expected to find content: &apos;WU chain&apos; within the selector: &apos;[data-test=&quot;lab-submissions__experiments--instance&quot;]&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'WU chain' within the selector: '[data-test="lab-submissions__experiments--instance"]' but never did.
+    at createWorksheet (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:202:10)
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/integration/load/WU_load.js:186:7)]]></failure>
+    </testcase>
+    <testcase name="10-SAMPLES-LOAD - Test for processing a workflow chain with n-samples  1-190-PERF-3 run and complete fourth workflow" time="0" classname="1-190-PERF-3 run and complete fourth workflow">
+      <failure message="Timed out retrying: Expected to find content: &apos;PERF-190-1106-1-4&apos; within the selector: &apos;.ag-row .ag-cell a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'PERF-190-1106-1-4' within the selector: '.ag-row .ag-cell a' but never did.
+    at Context.eval (https://washumgi-qa.l7esp.com/__cypress/tests?p=cypress/support/index.js:1048:6)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.070999999999998" tests="6" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-05-20T20:03:36" tests="0" file="cypress/integration/apps/service_types/ST10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I can create per duration service types" timestamp="2020-05-20T20:03:36" tests="6" failures="2" time="18.070999999999998">
+    <testcase name="10 - I can create per duration service types ST-10-1 Should add name" time="8.235" classname="ST-10-1 Should add name">
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-2 Should add description" time="3.697" classname="ST-10-2 Should add description">
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-3 Should add price type" time="1.967" classname="ST-10-3 Should add price type">
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-4 Should add base price" time="0" classname="ST-10-4 Should add base price">
+      <failure message="Timed out retrying: cy.clear() failed because this element is detached from the DOM.
+
+&lt;input data-v-40f18ef8=&quot;&quot; type=&quot;number&quot; placeholder=&quot;enter base price here&quot; class=&quot;form-input&quot;&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.find()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.clear() failed because this element is detached from the DOM.
+
+<input data-v-40f18ef8="" type="number" placeholder="enter base price here" class="form-input">
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.find()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132798:12)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-5 Should save" time="0" classname="ST-10-5 Should save">
+      <failure message="Timed out retrying: expected &apos;4&apos; to equal &apos;3.5&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '4' to equal '3.5'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-6 Should cancel" time="4.172" classname="ST-10-6 Should cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

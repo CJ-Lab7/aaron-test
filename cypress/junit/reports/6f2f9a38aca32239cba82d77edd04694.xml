@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="53.081" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-24T18:45:28" tests="0" file="cypress/integration/apps/expressions/EX04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I should be able to use the File API" timestamp="2020-06-24T18:45:28" tests="5" failures="1" time="53.081">
+    <testcase name="4 - I should be able to use the File API EX-4-1 Should use basename(path)" time="0" classname="EX-4-1 Should use basename(path)">
+      <failure message="Timed out retrying: cy.dblclick() failed because this element is detached from the DOM.
+
+&lt;div tabindex=&quot;-1&quot; unselectable=&quot;on&quot; role=&quot;gridcell&quot; comp-id=&quot;153&quot; col-id=&quot;6afccba7-909f-43b7-8969-155536dbfc89&quot; class=&quot;ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value&quot; style=&quot;width: 200px; left: 0px; background-color: ; &quot;&gt;&lt;/div&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.eq()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.dblclick() failed because this element is detached from the DOM.
+
+<div tabindex="-1" unselectable="on" role="gridcell" comp-id="153" col-id="6afccba7-909f-43b7-8969-155536dbfc89" class="ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value" style="width: 200px; left: 0px; background-color: ; "></div>
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.eq()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="4 - I should be able to use the File API EX-4-2 Should use dirname(path)" time="13.085" classname="EX-4-2 Should use dirname(path)">
+    </testcase>
+    <testcase name="4 - I should be able to use the File API EX-4-3 Should use file_ext(file_path)" time="12.96" classname="EX-4-3 Should use file_ext(file_path)">
+    </testcase>
+    <testcase name="4 - I should be able to use the File API EX-4-4 Should use remove_ext(file_path, ext=None)" time="13.841" classname="EX-4-4 Should use remove_ext(file_path, ext=None)">
+    </testcase>
+    <testcase name="4 - I should be able to use the File API EX-4-5 Should use replace_ext(file_path, new_ext, old_ext=None)" time="13.195" classname="EX-4-5 Should use replace_ext(file_path, new_ext, old_ext=None)">
+    </testcase>
+  </testsuite>
+</testsuites>

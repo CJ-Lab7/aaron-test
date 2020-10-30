@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.412" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T17:45:47" tests="0" file="cypress/integration/apps/customers/CS14.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="14 - I can switch between the customer detail pages by clicking on the tabs" timestamp="2020-07-10T17:45:47" tests="1" failures="0" time="23.412">
+    <testcase name="14 - I can switch between the customer detail pages by clicking on the tabs CS-14-1 Should switch customer detail pages by clicking on the tabs" time="23.412" classname="CS-14-1 Should switch customer detail pages by clicking on the tabs">
+    </testcase>
+  </testsuite>
+</testsuites>

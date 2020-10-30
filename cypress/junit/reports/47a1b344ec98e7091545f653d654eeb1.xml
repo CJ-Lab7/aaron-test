@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.718" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:45:36" tests="0" file="cypress/integration/apps/projects/PR04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can see and access experiments in the inspector panel after clicking a project&apos;s name" timestamp="2020-07-10T22:45:36" tests="2" failures="1" time="10.718">
+    <testcase name="4 - I can see and access experiments in the inspector panel after clicking a project&apos;s name PR-4-1 Should view project details from inspector" time="10.718" classname="PR-4-1 Should view project details from inspector">
+    </testcase>
+    <testcase name="4 - I can see and access experiments in the inspector panel after clicking a project&apos;s name PR-4-2 Should access experiment details by clicking experiment name" time="0" classname="PR-4-2 Should access experiment details by clicking experiment name">
+      <failure message="`cy.find()` failed because this element is detached from the DOM.
+
+`&lt;div data-v-67f49d24=&quot;&quot; class=&quot;item&quot;&gt;...&lt;/div&gt;`
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; `cy.find()`
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+All 2 subject validations failed on this subject.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: `cy.find()` failed because this element is detached from the DOM.
+
+`<div data-v-67f49d24="" class="item">...</div>`
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > `cy.find()`
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+All 2 subject validations failed on this subject.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at ensureAttached (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159707:24)
+    at validateType (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159541:11)
+    at Object.ensureSubjectByType (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159587:11)
+    at pushSubjectAndValidate (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:167293:15)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:167621:18)
+From Your Spec Code:
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/projects/PR04.js:31:46)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

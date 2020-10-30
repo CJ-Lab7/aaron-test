@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-04-16T00:35:49" tests="0" file="cypress/integration/apps/expressions/EX11.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="11 - I should be able to use the Container API" timestamp="2020-04-16T00:35:49" tests="3" failures="1" time="0">
+    <testcase name="11 - I should be able to use the Container API &quot;before all&quot; hook for &quot;EX-11-1 Should use formatted_location(value)&quot;" time="0" classname="&quot;before all&quot; hook for &quot;EX-11-1 Should use formatted_location(value)&quot;">
+      <failure message="cy.exec(&apos;esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed --no-overwrite cypress/fixtures/apps/expressions/EX11seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-04-15 19:35:50,795:Creating Container: EX11 sample
+INFO:root:2020-04-15 19:35:51,258:Creating Protocol: EX11 standard
+INFO:root:2020-04-15 19:35:51,620:Creating Workflow: EX11 workfl...
+
+Because this error occurred during a &apos;before all&apos; hook we are skipping the remaining tests in the current suite: &apos;11 - I should be able to us...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed --no-overwrite cypress/fixtures/apps/expressions/EX11seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-04-15 19:35:50,795:Creating Container: EX11 sample
+INFO:root:2020-04-15 19:35:51,258:Creating Protocol: EX11 standard
+INFO:root:2020-04-15 19:35:51,620:Creating Workflow: EX11 workfl...
+
+Because this error occurred during a 'before all' hook we are skipping the remaining tests in the current suite: '11 - I should be able to us...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

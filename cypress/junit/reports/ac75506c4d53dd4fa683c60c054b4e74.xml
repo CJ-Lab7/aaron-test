@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="123.047" tests="8" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-04-03T18:28:25" tests="0" file="cypress/integration/apps/lims/LM25_2a.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I should be able to render columns correctly when protocol is run" timestamp="2020-04-03T18:28:25" tests="8" failures="0" time="123.047">
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-13 Should be able to use Link option" time="51.642" classname="LM-25a-13 Should be able to use Link option">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-14 Should be able to use Pick List option" time="16.123" classname="LM-25a-14 Should be able to use Pick List option">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-17 Should not save without required columns" time="18.088" classname="LM-25a-17 Should not save without required columns">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-18 Should find default value" time="12.606" classname="LM-25a-18 Should find default value">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-19 Should not edit read only column" time="12.184" classname="LM-25a-19 Should not edit read only column">
+    </testcase>
+    <testcase name="25 - I should be able to render columns correctly when protocol is run LM-25a-20 Should complete sample" time="12.404" classname="LM-25a-20 Should complete sample">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="113.357" tests="10" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:47:16" tests="0" file="cypress/integration/apps/entities/EN30_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I can use all types of data columns in new experiment modal" timestamp="2020-07-10T19:47:16" tests="10" failures="0" time="113.357">
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-1 Should add text" time="23.821" classname="EN-30-1 Should add text">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-2 Should add numeric" time="13.146" classname="EN-30-2 Should add numeric">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-3 Should add picklist" time="11.233" classname="EN-30-3 Should add picklist">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-4 Should add multiselect picklist" time="10.717" classname="EN-30-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-5 Should add date" time="10.624" classname="EN-30-5 Should add date">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-6 Should add checkbox" time="11.222" classname="EN-30-6 Should add checkbox">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-8 Should add qr barcode" time="11.724" classname="EN-30-8 Should add qr barcode">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-9 Should add 1d barcode" time="10.289" classname="EN-30-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-10 Should add mini data matrix" time="10.581" classname="EN-30-10 Should add mini data matrix">
+    </testcase>
+  </testsuite>
+</testsuites>

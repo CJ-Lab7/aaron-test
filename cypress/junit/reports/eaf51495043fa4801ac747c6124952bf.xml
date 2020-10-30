@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.912" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T16:49:13" tests="0" file="cypress/integration/apps/inventory/IN09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - On the Inventory main page, I can add a new item" timestamp="2020-03-22T16:49:13" tests="2" failures="0" time="16.912">
+    <testcase name="9 - On the Inventory main page, I can add a new item IN-9-1 Should add an item" time="11.742" classname="IN-9-1 Should add an item">
+    </testcase>
+    <testcase name="9 - On the Inventory main page, I can add a new item IN-9-2 Should cancel making an item" time="5.17" classname="IN-9-2 Should cancel making an item">
+    </testcase>
+  </testsuite>
+</testsuites>

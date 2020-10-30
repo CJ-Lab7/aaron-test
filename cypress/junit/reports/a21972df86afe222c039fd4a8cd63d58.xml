@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="3" failures="3">
+  <testsuite name="Root Suite" timestamp="2020-07-13T16:48:40" tests="0" file="cypress/integration/apps/applets/APL02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I should see applets in list and card views" timestamp="2020-07-13T16:48:40" tests="3" failures="3" time="0">
+    <testcase name="2 - I should see applets in list and card views APL-2-1 Should find applet list" time="0" classname="APL-2-1 Should find applet list">
+      <failure message="Timed out retrying: Expected to find content: &apos;APL2-1&apos; within the selector: &apos;.description&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'APL2-1' within the selector: '.description' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/applets/APL02.js:18:8)]]></failure>
+    </testcase>
+    <testcase name="2 - I should see applets in list and card views APL-2-2 Should find applet cards" time="0" classname="APL-2-2 Should find applet cards">
+      <failure message="Timed out retrying: Expected to find content: &apos;APL2-1&apos; within the selector: &apos;.item&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'APL2-1' within the selector: '.item' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/applets/APL02.js:24:8)]]></failure>
+    </testcase>
+    <testcase name="2 - I should see applets in list and card views APL-2-3 Should find applet groups" time="0" classname="APL-2-3 Should find applet groups">
+      <failure message="Timed out retrying: Expected to find content: &apos;group1&apos; within the selector: &apos;.data-group&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'group1' within the selector: '.data-group' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/applets/APL02.js:31:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

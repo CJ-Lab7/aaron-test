@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="44.367999999999995" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T19:51:21" tests="0" file="cypress/integration/apps/location/LC27.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="27 - I can scan sample into consecutive slots without selecting them" timestamp="2020-04-03T19:51:21" tests="2" failures="0" time="44.367999999999995">
+    <testcase name="27 - I can scan sample into consecutive slots without selecting them LC-27-1 Should add uuid sample to location when sample is in item pool" time="25.752" classname="LC-27-1 Should add uuid sample to location when sample is in item pool">
+    </testcase>
+    <testcase name="27 - I can scan sample into consecutive slots without selecting them LC-27-2 Should add non-uuid sample to location when sample is in item pool" time="18.616" classname="LC-27-2 Should add non-uuid sample to location when sample is in item pool">
+    </testcase>
+  </testsuite>
+</testsuites>

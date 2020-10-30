@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="22.714" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-03T02:47:17" tests="0" file="cypress/integration/apps/vendors/VEN03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can use filters in the left panel" timestamp="2020-06-03T02:47:17" tests="2" failures="0" time="22.714">
+    <testcase name="3 - I can use filters in the left panel VEN-3-1 Should filter by Name" time="13.395" classname="VEN-3-1 Should filter by Name">
+    </testcase>
+    <testcase name="3 - I can use filters in the left panel VEN-3-2 Should filter by Description" time="9.319" classname="VEN-3-2 Should filter by Description">
+    </testcase>
+  </testsuite>
+</testsuites>

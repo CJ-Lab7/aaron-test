@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.756" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:23:21" tests="0" file="cypress/integration/apps/lims/LM29.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="29 - I can rearrange the pipeline modal" timestamp="2020-07-10T21:23:21" tests="2" failures="0" time="23.756">
+    <testcase name="29 - I can rearrange the pipeline modal LM-29-1/2 Should make modal full screen then smaller" time="18.871" classname="LM-29-1/2 Should make modal full screen then smaller">
+    </testcase>
+    <testcase name="29 - I can rearrange the pipeline modal LM-29-3 Should close window" time="4.885" classname="LM-29-3 Should close window">
+    </testcase>
+  </testsuite>
+</testsuites>

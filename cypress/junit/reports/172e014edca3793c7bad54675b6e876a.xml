@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.56" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T15:22:04" tests="0" file="cypress/integration/apps/analysis/AN12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I should be able to view code of all tasks within the pipeline under Monitor tab" timestamp="2020-04-03T15:22:04" tests="2" failures="0" time="25.56">
+    <testcase name="12 - I should be able to view code of all tasks within the pipeline under Monitor tab AN-12-1 Should display code for all tasks" time="17.656" classname="AN-12-1 Should display code for all tasks">
+    </testcase>
+    <testcase name="12 - I should be able to view code of all tasks within the pipeline under Monitor tab AN-12-2 Should display Pipeline Details in the Inspector column" time="7.904" classname="AN-12-2 Should display Pipeline Details in the Inspector column">
+    </testcase>
+  </testsuite>
+</testsuites>

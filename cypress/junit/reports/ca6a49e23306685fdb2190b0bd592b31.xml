@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.604" tests="3" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-05-01T16:21:41" tests="0" file="cypress/integration/apps/inventory/IN02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - On the Inventory main page, I can see inventory listed" timestamp="2020-05-01T16:21:41" tests="3" failures="0" time="17.604">
+    <testcase name="2 - On the Inventory main page, I can see inventory listed IN-2-1 Should find all items listed" time="12.319" classname="IN-2-1 Should find all items listed">
+    </testcase>
+    <testcase name="2 - On the Inventory main page, I can see inventory listed IN-2-3 Inventory is grouped by Item Type" time="5.285" classname="IN-2-3 Inventory is grouped by Item Type">
+    </testcase>
+  </testsuite>
+</testsuites>

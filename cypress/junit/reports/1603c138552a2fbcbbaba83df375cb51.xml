@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="39.043" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-09-18T16:57:58" tests="0" file="cypress/integration/apps/location/LC27.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="27 - I can scan sample into consecutive slots without selecting them" timestamp="2020-09-18T16:57:58" tests="2" failures="2" time="39.043">
+    <testcase name="27 - I can scan sample into consecutive slots without selecting them LC-27-1 Should add uuid sample to location when sample is in item pool" time="19.236" classname="LC-27-1 Should add uuid sample to location when sample is in item pool">
+      <failure message="Timed out retrying: Expected to find content: &apos;A01&apos; within the selector: &apos;.container&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'A01' within the selector: '.container' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC27.js:222:8)]]></failure>
+    </testcase>
+    <testcase name="27 - I can scan sample into consecutive slots without selecting them LC-27-2 Should add non-uuid sample to location when sample is in item pool" time="19.807" classname="LC-27-2 Should add non-uuid sample to location when sample is in item pool">
+      <failure message="Timed out retrying: Expected to find content: &apos;A01&apos; within the selector: &apos;.container&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'A01' within the selector: '.container' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/location/LC27.js:248:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

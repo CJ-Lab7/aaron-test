@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="248.355" tests="10" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-29T01:54:43" tests="0" file="cypress/integration/apps/sample_sets/LM59a.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="59a - archive worksheets with multiple sample protocols" timestamp="2020-03-29T01:54:43" tests="10" failures="1" time="248.355">
+    <testcase name="59a - archive worksheets with multiple sample protocols LM-59a-1 - Archive after all samples are complete" time="58.62" classname="LM-59a-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="59a - archive worksheets with multiple sample protocols LM-59a-2 - Archive after failing all samples in the second protocol" time="11.569" classname="LM-59a-2 - Archive after failing all samples in the second protocol">
+    </testcase>
+    <testcase name="59a - archive worksheets with multiple sample protocols LM-59a-3 - Archive after failing first sample in the second protocol" time="20.336" classname="LM-59a-3 - Archive after failing first sample in the second protocol">
+    </testcase>
+    <testcase name="59a - archive worksheets with multiple sample protocols LM-59a-4 - Archive after failing last sample in the second protocol" time="21.835" classname="LM-59a-4 - Archive after failing last sample in the second protocol">
+    </testcase>
+    <testcase name="59a - archive worksheets with multiple sample protocols LM-59a-5 - Archive after failing all samples in the third protocol" time="13.519" classname="LM-59a-5 - Archive after failing all samples in the third protocol">
+    </testcase>
+    <testcase name="59a - archive worksheets with multiple sample protocols LM-59a-6 - Archive after first sample in the third protocol" time="21.252" classname="LM-59a-6 - Archive after first sample in the third protocol">
+    </testcase>
+    <testcase name="59a - archive worksheets with multiple sample protocols LM-59a-7 - Archive after last sample in the third protocol" time="20.286" classname="LM-59a-7 - Archive after last sample in the third protocol">
+    </testcase>
+    <testcase name="59a - archive worksheets with multiple sample protocols LM-59a-8 - Archive after failing all samples in the fourth protocol" time="16.729" classname="LM-59a-8 - Archive after failing all samples in the fourth protocol">
+    </testcase>
+    <testcase name="59a - archive worksheets with multiple sample protocols LM-59a-9 - Archive after first sample in the fourth protocol" time="21.333" classname="LM-59a-9 - Archive after first sample in the fourth protocol">
+    </testcase>
+    <testcase name="59a - archive worksheets with multiple sample protocols LM-59a-10 - Archive after last sample in the fourth protocol" time="21.438" classname="LM-59a-10 - Archive after last sample in the fourth protocol">
+    </testcase>
+    <testcase name="59a - archive worksheets with multiple sample protocols &quot;after all&quot; hook for &quot;LM-59a-10 - Archive after last sample in the fourth protocol&quot;" time="21.438" classname="&quot;after all&quot; hook for &quot;LM-59a-10 - Archive after last sample in the fourth protocol&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/sample_sets/LM59aseed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 20:58:32,689:Saving data in Experiment LM59a-x for Protocol: Simple Protocol.
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;59a - archive worksheets wi...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/sample_sets/LM59aseed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 20:58:32,689:Saving data in Experiment LM59a-x for Protocol: Simple Protocol.
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '59a - archive worksheets wi...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

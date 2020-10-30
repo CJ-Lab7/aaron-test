@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="55.379000000000005" tests="11" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-28T17:52:01" tests="0" file="cypress/integration/apps/service_types/ST11.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="11 - I can see service type details" timestamp="2020-05-28T17:52:01" tests="11" failures="0" time="55.379000000000005">
+    <testcase name="11 - I can see service type details ST-11-1 Should find header with name" time="11.126" classname="ST-11-1 Should find header with name">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-2 Should find subheader" time="5.091" classname="ST-11-2 Should find subheader">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-3 Should find Archive button" time="4.023" classname="ST-11-3 Should find Archive button">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-4 Should find + New Price Entry button" time="4.033" classname="ST-11-4 Should find + New Price Entry button">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-5 Should find Export History button" time="4.03" classname="ST-11-5 Should find Export History button">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-6 Should find Save button" time="4.04" classname="ST-11-6 Should find Save button">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-7 Should find details panel" time="4.392" classname="ST-11-7 Should find details panel">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-8 Should find Price Entries Tab " time="4.106" classname="ST-11-8 Should find Price Entries Tab ">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-9 Should find Edit icon for Price Entry" time="5.269" classname="ST-11-9 Should find Edit icon for Price Entry">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-10 Should find Delete icon for Price Entry" time="5.239" classname="ST-11-10 Should find Delete icon for Price Entry">
+    </testcase>
+    <testcase name="11 - I can see service type details ST-11-11 Should find History tab" time="4.03" classname="ST-11-11 Should find History tab">
+    </testcase>
+  </testsuite>
+</testsuites>

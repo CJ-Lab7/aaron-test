@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.094" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-11T02:13:09" tests="0" file="cypress/integration/apps/search/SR05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can use the search box (top left) while viewing search results" timestamp="2020-07-11T02:13:09" tests="1" failures="0" time="14.094">
+    <testcase name="5 - I can use the search box (top left) while viewing search results SR-5-1 Should search and display correct tabs" time="14.094" classname="SR-5-1 Should search and display correct tabs">
+    </testcase>
+  </testsuite>
+</testsuites>

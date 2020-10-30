@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="30.016" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T22:48:38" tests="0" file="cypress/integration/apps/permissions/LP19.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="19 - I can have pipeline instance permissions" timestamp="2020-03-28T22:48:38" tests="4" failures="0" time="30.016">
+    <testcase name="19 - I can have pipeline instance permissions LP-19-3 Should fail to update a pipeline (kill)" time="17.63" classname="LP-19-3 Should fail to update a pipeline (kill)">
+    </testcase>
+    <testcase name="19 - I can have pipeline instance permissions LP-19-4 Should fail to delete a pipeline" time="5.014" classname="LP-19-4 Should fail to delete a pipeline">
+    </testcase>
+    <testcase name="19 - I can have pipeline instance permissions LP-19-1 Should update a pipeline (kill)" time="4.28" classname="LP-19-1 Should update a pipeline (kill)">
+    </testcase>
+    <testcase name="19 - I can have pipeline instance permissions LP-19-2 Should delete a pipeline" time="3.092" classname="LP-19-2 Should delete a pipeline">
+    </testcase>
+  </testsuite>
+</testsuites>

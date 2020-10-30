@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="29.232" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-04T22:00:37" tests="0" file="cypress/integration/apps/vendors/VEN14.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="14 - I see History tab added and updated" timestamp="2020-06-04T22:00:37" tests="2" failures="0" time="29.232">
+    <testcase name="14 - I see History tab added and updated VEN-14-1 History tab shows when the vendor is created" time="15.576" classname="VEN-14-1 History tab shows when the vendor is created">
+    </testcase>
+    <testcase name="14 - I see History tab added and updated VEN-14-2 History tab shows vendor edit information" time="13.656" classname="VEN-14-2 History tab shows vendor edit information">
+    </testcase>
+  </testsuite>
+</testsuites>

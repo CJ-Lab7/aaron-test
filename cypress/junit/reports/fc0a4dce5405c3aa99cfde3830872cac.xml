@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.354" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T20:41:03" tests="0" file="cypress/integration/apps/inventory/IN01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - On the Inventory main page, I can see the header and metadata on the top left" timestamp="2020-07-10T20:41:03" tests="2" failures="0" time="16.354">
+    <testcase name="1 - On the Inventory main page, I can see the header and metadata on the top left IN-1-2 Should find &apos;Inventory&apos; and total items in the header" time="13.076" classname="IN-1-2 Should find &apos;Inventory&apos; and total items in the header">
+    </testcase>
+    <testcase name="1 - On the Inventory main page, I can see the header and metadata on the top left IN-1-3 Should find &apos;Track and manage inventory items&apos; in the header" time="3.278" classname="IN-1-3 Should find &apos;Track and manage inventory items&apos; in the header">
+    </testcase>
+  </testsuite>
+</testsuites>

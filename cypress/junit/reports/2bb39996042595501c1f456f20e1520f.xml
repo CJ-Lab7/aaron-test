@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="62.192" tests="14" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:23:28" tests="0" file="cypress/integration/apps/entities/EN03_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can see entity details (right column) after clicking a entity ID" timestamp="2020-07-10T19:23:28" tests="14" failures="0" time="62.192">
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-1 Should find Data tab" time="18.737" classname="EN-3-1 Should find Data tab">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-2 Should view experiments and worksheets (Process Data)" time="4.071" classname="EN-3-2 Should view experiments and worksheets (Process Data)">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-3 Should find Parents &amp; Children tab" time="2.333" classname="EN-3-3 Should find Parents &amp; Children tab">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-4 Should view parents/children of entity (Parent&apos;s &amp; Children)" time="3.175" classname="EN-3-4 Should view parents/children of entity (Parent&apos;s &amp; Children)">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-5 Should find Attachments tab" time="2.287" classname="EN-3-5 Should find Attachments tab">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-6 Should view attachments (Attachments)" time="3.285" classname="EN-3-6 Should view attachments (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-7a Should upload attachment (Attachments)" time="4.307" classname="EN-3-7a Should upload attachment (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-7b Should attach file from Data (Attachments)" time="4.908" classname="EN-3-7b Should attach file from Data (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-7c Should attach multiple files from Data (Attachments)" time="5.98" classname="EN-3-7c Should attach multiple files from Data (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-8 Should access attachments (Attachments)" time="4.06" classname="EN-3-8 Should access attachments (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-10 Should delete an attachment (Attachments)" time="4.138" classname="EN-3-10 Should delete an attachment (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-11 Should find History tab" time="2.374" classname="EN-3-11 Should find History tab">
+    </testcase>
+    <testcase name="3 - I can see entity details (right column) after clicking a entity ID EN-3-12 Should view history (History)" time="2.537" classname="EN-3-12 Should view history (History)">
+    </testcase>
+  </testsuite>
+</testsuites>

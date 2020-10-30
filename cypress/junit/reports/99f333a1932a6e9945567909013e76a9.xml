@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="52.443" tests="14" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-28T19:39:13" tests="0" file="cypress/integration/apps/permissions/LP06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - With permission, i can use links in the app drawer" timestamp="2020-04-28T19:39:13" tests="14" failures="0" time="52.443">
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-1 Should link to admin on home page" time="9.73" classname="LP-6-1 Should link to admin on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-2 Should link to analysis on home page" time="4.645" classname="LP-6-2 Should link to analysis on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-3 Should link to applets on home page" time="2.766" classname="LP-6-3 Should link to applets on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-4 Should link to dashboard on home page" time="2.86" classname="LP-6-4 Should link to dashboard on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-5 Should link to data on home page" time="3.247" classname="LP-6-5 Should link to data on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-6 Should link to entities on home page" time="3.691" classname="LP-6-6 Should link to entities on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-7 Should link to IAM on home page" time="3.297" classname="LP-6-7 Should link to IAM on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-8 Should link to ingest on home page" time="3.322" classname="LP-6-8 Should link to ingest on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-9 Should link to inventory on home page" time="3.04" classname="LP-6-9 Should link to inventory on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-10 Should link to LIMS on home page" time="3.095" classname="LP-6-10 Should link to LIMS on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-11 Should link to location on home page" time="3.341" classname="LP-6-11 Should link to location on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-12 Should link to projects on home page" time="3.302" classname="LP-6-12 Should link to projects on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-13 Should link to samples on home page" time="3.238" classname="LP-6-13 Should link to samples on home page">
+    </testcase>
+    <testcase name="6 - With permission, i can use links in the app drawer LP-6-14 Should link to search on home page" time="2.869" classname="LP-6-14 Should link to search on home page">
+    </testcase>
+  </testsuite>
+</testsuites>

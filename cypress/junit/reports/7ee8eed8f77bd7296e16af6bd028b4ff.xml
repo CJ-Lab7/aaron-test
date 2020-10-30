@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="149.055" tests="8" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-08T14:56:00" tests="0" file="cypress/integration/apps/entities/EN23.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="23 - I can generate new barcodes with the barcode modal" timestamp="2020-06-08T14:56:00" tests="8" failures="1" time="149.055">
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-1 Should generate new QR barcode" time="24.429" classname="EN-23-1 Should generate new QR barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-2 Should generate new 1D barcode" time="19.622" classname="EN-23-2 Should generate new 1D barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-3 Should generate new Mini Data Matrix barcode" time="19.643" classname="EN-23-3 Should generate new Mini Data Matrix barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-4 Should edit QR barcode" time="23.529" classname="EN-23-4 Should edit QR barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-5 Should edit 1D barcode" time="20.194" classname="EN-23-5 Should edit 1D barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-6 Should edit Mini Data Matrix barcode" time="23.201" classname="EN-23-6 Should edit Mini Data Matrix barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-8 Should close modal with &apos;X&apos;" time="18.437" classname="EN-23-8 Should close modal with &apos;X&apos;">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal &quot;before each&quot; hook for &quot;EN-23-9 Should close modal with Cancel&quot;" time="0" classname="&quot;before each&quot; hook for &quot;EN-23-9 Should close modal with Cancel&quot;">
+      <failure message="Timed out after waiting &apos;20000ms&apos; for your remote page to load.
+
+Your page did not fire its &apos;load&apos; event within &apos;20000ms&apos;.
+
+You can try increasing the &apos;pageLoadTimeout&apos; value in &apos;cypress.json&apos; to wait longer.
+
+Browsers will not fire the &apos;load&apos; event until all stylesheets and scripts are done downloading.
+
+When this &apos;load&apos; event occurs, Cypress will continue running commands.
+
+Because this error occurred during a &apos;before each&apos; hook we are skipping the remaining tests in the current suite: &apos;23 - I can generate new bar...&apos;" type="CypressError"><![CDATA[CypressError: Timed out after waiting '20000ms' for your remote page to load.
+
+Your page did not fire its 'load' event within '20000ms'.
+
+You can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.
+
+Browsers will not fire the 'load' event until all stylesheets and scripts are done downloading.
+
+When this 'load' event occurs, Cypress will continue running commands.
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '23 - I can generate new bar...'
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at timedOutWaitingForPageLoad (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:126147:20)
+    at https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:126943:16
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:160036:41
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="176.924" tests="10" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-03-31T12:49:59" tests="0" file="cypress/integration/apps/expressions/EX09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I should be able to use the Sample API" timestamp="2020-03-31T12:50:00" tests="10" failures="0" time="176.924">
+    <testcase name="9 - I should be able to use the Sample API EX-9-1 Should use sample_parents(uuid, flatten=False)" time="34.836" classname="EX-9-1 Should use sample_parents(uuid, flatten=False)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-2 Should use sample_parent_uuids(uuid)" time="11.118" classname="EX-9-2 Should use sample_parent_uuids(uuid)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-3 Should use sample_children(uuid, flatten=False)" time="17.132" classname="EX-9-3 Should use sample_children(uuid, flatten=False)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-4 Should use sample_children_uuid(uuid)" time="11.176" classname="EX-9-4 Should use sample_children_uuid(uuid)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-5 Should use sample_generation(generation, sample_uuid=None, uuids_only=False, flatten=True)" time="49.584" classname="EX-9-5 Should use sample_generation(generation, sample_uuid=None, uuids_only=False, flatten=True)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-8 Should use sample_type_name(sample_type_def_uuid=None, sample_uuid=None)" time="16.927" classname="EX-9-8 Should use sample_type_name(sample_type_def_uuid=None, sample_uuid=None)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-9 Should use sample_types(tags=None, namesonly=True)" time="24.222" classname="EX-9-9 Should use sample_types(tags=None, namesonly=True)">
+    </testcase>
+    <testcase name="9 - I should be able to use the Sample API EX-9-10 Should use list_samples(sample_type)" time="11.929" classname="EX-9-10 Should use list_samples(sample_type)">
+    </testcase>
+  </testsuite>
+</testsuites>

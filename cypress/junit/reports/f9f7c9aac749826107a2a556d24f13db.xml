@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="84.15300000000002" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T16:35:58" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I can see a summary of all projects (Projects Cards)" timestamp="2020-02-27T16:35:58" tests="7" failures="0" time="84.15300000000002">
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-1 Should see project names" time="70.309" classname="PR-7-1 Should see project names">
+    </testcase>
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-2 Should see number of chains per project" time="4.116" classname="PR-7-2 Should see number of chains per project">
+    </testcase>
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-3 Should see number of experiments per project" time="1.873" classname="PR-7-3 Should see number of experiments per project">
+    </testcase>
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-4 Should see total samples per project" time="1.855" classname="PR-7-4 Should see total samples per project">
+    </testcase>
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-5 Should view project details from card view" time="1.852" classname="PR-7-5 Should view project details from card view">
+    </testcase>
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-6 Should find new experiment button" time="1.962" classname="PR-7-6 Should find new experiment button">
+    </testcase>
+    <testcase name="7 - I can see a summary of all projects (Projects Cards) PR-7-7 Should list experiments in the inspector panel" time="2.186" classname="PR-7-7 Should list experiments in the inspector panel">
+    </testcase>
+  </testsuite>
+</testsuites>

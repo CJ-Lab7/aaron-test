@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.596" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T18:10:59" tests="0" file="cypress/integration/apps/lims/LM15.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="15 - I should be able to view Worksheet Details " timestamp="2020-04-03T18:10:59" tests="2" failures="0" time="28.596">
+    <testcase name="15 - I should be able to view Worksheet Details  LM-15-2 Should view columns on the right" time="18.148" classname="LM-15-2 Should view columns on the right">
+    </testcase>
+    <testcase name="15 - I should be able to view Worksheet Details  LM-15-3 Should collapse/expand columns" time="10.448" classname="LM-15-3 Should collapse/expand columns">
+    </testcase>
+  </testsuite>
+</testsuites>

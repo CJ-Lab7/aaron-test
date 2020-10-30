@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="39.533" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T14:54:01" tests="0" file="cypress/integration/apps/location/LC28.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="28 - Multiple aliquots works with barcode scanning" timestamp="2020-03-31T14:54:01" tests="2" failures="0" time="39.533">
+    <testcase name="28 - Multiple aliquots works with barcode scanning LC-28-1 Should NOT add sample to multiple slots if multiple aliquots is off" time="23.893" classname="LC-28-1 Should NOT add sample to multiple slots if multiple aliquots is off">
+    </testcase>
+    <testcase name="28 - Multiple aliquots works with barcode scanning LC-28-1 Should add sample to multiple slots if multiple aliquots is on" time="15.64" classname="LC-28-1 Should add sample to multiple slots if multiple aliquots is on">
+    </testcase>
+  </testsuite>
+</testsuites>

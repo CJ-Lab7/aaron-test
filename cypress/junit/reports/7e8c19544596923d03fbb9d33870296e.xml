@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="26.181" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T19:33:28" tests="0" file="cypress/integration/apps/lims/LM57.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="57 - I can use LIMS link in the nav bar" timestamp="2020-04-03T19:33:28" tests="1" failures="0" time="26.181">
+    <testcase name="57 - I can use LIMS link in the nav bar LM-57-1 Should use LIMS link" time="26.181" classname="LM-57-1 Should use LIMS link">
+    </testcase>
+  </testsuite>
+</testsuites>

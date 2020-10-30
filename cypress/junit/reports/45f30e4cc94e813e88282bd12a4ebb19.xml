@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.213" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-20T16:21:19" tests="0" file="cypress/integration/apps/container_types/CT04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can find a list of container types" timestamp="2020-05-20T16:21:19" tests="4" failures="0" time="27.213">
+    <testcase name="4 - I can find a list of container types CT-4-1 Should find list of all container types" time="9.795" classname="CT-4-1 Should find list of all container types">
+    </testcase>
+    <testcase name="4 - I can find a list of container types CT-4-2 Should sort columns" time="10.466" classname="CT-4-2 Should sort columns">
+    </testcase>
+    <testcase name="4 - I can find a list of container types CT-4-3 Should open inspector" time="3.495" classname="CT-4-3 Should open inspector">
+    </testcase>
+    <testcase name="4 - I can find a list of container types CT-4-4 Should click container type name to visit details page" time="3.457" classname="CT-4-4 Should click container type name to visit details page">
+    </testcase>
+  </testsuite>
+</testsuites>

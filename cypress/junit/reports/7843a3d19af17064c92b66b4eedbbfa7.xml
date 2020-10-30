@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="32.797" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-29T00:32:34" tests="0" file="cypress/integration/apps/projects/PR13.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="13 - I can add/remove filter options (Experiments Advanced Filters)" timestamp="2020-03-29T00:32:34" tests="5" failures="0" time="32.797">
+    <testcase name="13 - I can add/remove filter options (Experiments Advanced Filters) PR-13-3 Should filter by experiment name" time="12.875" classname="PR-13-3 Should filter by experiment name">
+    </testcase>
+    <testcase name="13 - I can add/remove filter options (Experiments Advanced Filters) PR-13-4 Should filter by status" time="6.033" classname="PR-13-4 Should filter by status">
+    </testcase>
+    <testcase name="13 - I can add/remove filter options (Experiments Advanced Filters) PR-13-5 Should filter by project" time="5.324" classname="PR-13-5 Should filter by project">
+    </testcase>
+    <testcase name="13 - I can add/remove filter options (Experiments Advanced Filters) PR-13-7 Should filter by experiment workflow" time="8.565" classname="PR-13-7 Should filter by experiment workflow">
+    </testcase>
+  </testsuite>
+</testsuites>

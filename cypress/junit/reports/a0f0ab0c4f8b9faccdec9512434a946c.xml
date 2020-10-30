@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="78.323" tests="9" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:37:44" tests="0" file="cypress/integration/apps/lims/LM42.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="42 - I can use approval column in worksheets" timestamp="2020-07-10T21:37:44" tests="9" failures="0" time="78.323">
+    <testcase name="42 - I can use approval column in worksheets LM-42-1 Should approve and autosave" time="29.812" classname="LM-42-1 Should approve and autosave">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-2 Should approve, complete, and save sheet" time="8.091" classname="LM-42-2 Should approve, complete, and save sheet">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-3 Should fail to complete and save without approval" time="3.514" classname="LM-42-3 Should fail to complete and save without approval">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-4 Should fail samples then approve a different sample" time="10.251" classname="LM-42-4 Should fail samples then approve a different sample">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-5 Should move approved samples to next protocol" time="6.937" classname="LM-42-5 Should move approved samples to next protocol">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-6 Should fail to approve with user not in workgroup" time="5.411" classname="LM-42-6 Should fail to approve with user not in workgroup">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-7 Should fail to approve when user is not logged in" time="3.65" classname="LM-42-7 Should fail to approve when user is not logged in">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-8 Should fail to approve with incorrect password" time="4.542" classname="LM-42-8 Should fail to approve with incorrect password">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-9 Should fail to approve before all required columns have values" time="6.115" classname="LM-42-9 Should fail to approve before all required columns have values">
+    </testcase>
+  </testsuite>
+</testsuites>

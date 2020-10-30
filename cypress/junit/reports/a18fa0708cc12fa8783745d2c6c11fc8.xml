@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-05-01T19:40:04" tests="0" file="cypress/integration/apps/container_types/CT09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can create container types" timestamp="2020-05-01T19:40:04" tests="2" failures="2" time="0">
+    <testcase name="9 - I can create container types CT-9-1 Should create a container type with tags" time="0" classname="CT-9-1 Should create a container type with tags">
+      <failure message="props is not defined" type="ReferenceError"><![CDATA[ReferenceError: props is not defined
+    at Function.createContainerType (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT09.js-330:684:7)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT09.js-330:83:44)]]></failure>
+    </testcase>
+    <testcase name="9 - I can create container types CT-9-2 Should create a container type with description" time="0" classname="CT-9-2 Should create a container type with description">
+      <failure message="props is not defined" type="ReferenceError"><![CDATA[ReferenceError: props is not defined
+    at Function.createContainerType (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT09.js-330:684:7)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT09.js-330:99:44)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

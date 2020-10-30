@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.296" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-27T21:34:41" tests="0" file="cypress/integration/apps/inventory/IN29.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="29 - On the Inventory details page, I cannot print a barcode if the barcode field is empty" timestamp="2020-04-27T21:34:41" tests="1" failures="0" time="12.296">
+    <testcase name="29 - On the Inventory details page, I cannot print a barcode if the barcode field is empty IN-29-1 Print icon is missing if barcode field is empty" time="12.296" classname="IN-29-1 Print icon is missing if barcode field is empty">
+    </testcase>
+  </testsuite>
+</testsuites>

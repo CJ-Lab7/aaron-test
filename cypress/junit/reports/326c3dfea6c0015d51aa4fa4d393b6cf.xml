@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="26.016" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T20:50:15" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="11 - The header should be correct (Experiments tab)" timestamp="2020-02-27T20:50:15" tests="4" failures="0" time="26.016">
+    <testcase name="11 - The header should be correct (Experiments tab) PR-11-1 Should say Experiments in header" time="25.741" classname="PR-11-1 Should say Experiments in header">
+    </testcase>
+    <testcase name="11 - The header should be correct (Experiments tab) PR-11-2 Should observe the correct # of experiments monitored" time="0.226" classname="PR-11-2 Should observe the correct # of experiments monitored">
+    </testcase>
+    <testcase name="11 - The header should be correct (Experiments tab) PR-11-4 Should have buttons for new experiment" time="0.033" classname="PR-11-4 Should have buttons for new experiment">
+    </testcase>
+    <testcase name="11 - The header should be correct (Experiments tab) PR-11-5 Should have buttons for new project" time="0.016" classname="PR-11-5 Should have buttons for new project">
+    </testcase>
+  </testsuite>
+</testsuites>

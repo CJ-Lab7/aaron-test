@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.137" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T21:08:22" tests="0" file="cypress/integration/apps/navbar/NB03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can generate an API key" timestamp="2020-03-28T21:08:22" tests="1" failures="0" time="9.137">
+    <testcase name="3 - I can generate an API key NB-3-1 Should generate API Key" time="9.137" classname="NB-3-1 Should generate API Key">
+    </testcase>
+  </testsuite>
+</testsuites>

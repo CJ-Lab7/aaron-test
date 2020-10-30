@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="41.539" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:11:46" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I can cancel, reset, minimize, and maximize the new experiment modal" timestamp="2020-02-27T21:11:46" tests="6" failures="0" time="41.539">
+    <testcase name="31 - I can cancel, reset, minimize, and maximize the new experiment modal PR-31-1 Should Cancel a new experiment" time="18.771" classname="PR-31-1 Should Cancel a new experiment">
+    </testcase>
+    <testcase name="31 - I can cancel, reset, minimize, and maximize the new experiment modal PR-31-2 Should Reset a new experiment at Define Experiment" time="5.751" classname="PR-31-2 Should Reset a new experiment at Define Experiment">
+    </testcase>
+    <testcase name="31 - I can cancel, reset, minimize, and maximize the new experiment modal PR-31-3 Should Reset a new experiment at Add Samples" time="5.741" classname="PR-31-3 Should Reset a new experiment at Add Samples">
+    </testcase>
+    <testcase name="31 - I can cancel, reset, minimize, and maximize the new experiment modal PR-31-4 Should Reset a new experiment at Review &amp; Save" time="5.687" classname="PR-31-4 Should Reset a new experiment at Review &amp; Save">
+    </testcase>
+    <testcase name="31 - I can cancel, reset, minimize, and maximize the new experiment modal PR-31-5/6 Should minimize/maximize a new experiment modal" time="2.701" classname="PR-31-5/6 Should minimize/maximize a new experiment modal">
+    </testcase>
+    <testcase name="31 - I can cancel, reset, minimize, and maximize the new experiment modal PR-31-7 Should close with &apos;x&apos;" time="2.888" classname="PR-31-7 Should close with &apos;x&apos;">
+    </testcase>
+  </testsuite>
+</testsuites>

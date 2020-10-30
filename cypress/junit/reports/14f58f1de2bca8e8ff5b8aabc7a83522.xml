@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.146" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-29T00:57:55" tests="0" file="cypress/integration/apps/reports/RP02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I can see reports in the list tab and card tab" timestamp="2020-03-29T00:57:55" tests="2" failures="0" time="11.146">
+    <testcase name="2 - I can see reports in the list tab and card tab RP-2-1 Should view list tab details" time="8.634" classname="RP-2-1 Should view list tab details">
+    </testcase>
+    <testcase name="2 - I can see reports in the list tab and card tab RP-2-2 Should view cards tab details" time="2.512" classname="RP-2-2 Should view cards tab details">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="8" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-25T00:04:53" tests="0" file="cypress/integration/apps/inventory/IN04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - On the Inventory main page, I can filter results" timestamp="2020-06-25T00:04:53" tests="8" failures="1" time="0">
+    <testcase name="4 - On the Inventory main page, I can filter results &quot;before all&quot; hook for &quot;IN-4-1 Should filter by name&quot;" time="0" classname="&quot;before all&quot; hook for &quot;IN-4-1 Should filter by name&quot;">
+      <failure message="cy.request() failed on:
+
+https://chris.test.l7informatics.com/api/items?name=IN-4%20item1
+
+The response we received from your web server was:
+
+  &gt; 401: Unauthorized
+
+This was considered a failure because the status code was not &apos;2xx&apos; or &apos;3xx&apos;.
+
+If you do not want status codes to cause failures pass the option: &apos;failOnStatusCode: false&apos;
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: GET
+URL: https://chris.test.l7informatics.com/api/items?name=IN-4%20item1
+Headers: {
+  &quot;Connection&quot;: &quot;keep-alive&quot;,
+  &quot;user-agent&quot;: &quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36&quot;,
+  &quot;accept&quot;: &quot;*/*&quot;,
+  &quot;accept-encoding&quot;: &quot;gzip, deflate&quot;,
+  &quot;content-type&quot;: &quot;application/json&quot;,
+  &quot;content-length&quot;: 29
+}
+Body: {&quot;Accept&quot;:&quot;application/json&quot;}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 401 - Unauthorized
+Headers: {
+  &quot;expires&quot;: &quot;0&quot;,
+  &quot;cache-control&quot;: &quot;no-cache, no-store&quot;,
+  &quot;content-type&quot;: &quot;application/json; charset=UTF-8&quot;,
+  &quot;date&quot;: &quot;Thu, 25 Jun 2020 00:04:58 GMT&quot;,
+  &quot;login-url&quot;: &quot;/login&quot;,
+  &quot;access-control-allow-methods&quot;: &quot;GET, PUT, POST, DELETE, OPTIONS&quot;,
+  &quot;server&quot;: &quot;Lab7_ESP/2.3.1.RC3.20200623071314&quot;,
+  &quot;vary&quot;: &quot;Accept-Encoding&quot;,
+  &quot;access-control-allow-credentials&quot;: &quot;true&quot;,
+  &quot;session-token-expires-minutes&quot;: &quot;120&quot;,
+  &quot;access-control-allow-headers&quot;: &quot;access-control-allow-origin,authorization,content-type&quot;,
+  &quot;access-control-allow-origin&quot;: &quot;*, *&quot;,
+  &quot;content-length&quot;: &quot;57&quot;,
+  &quot;server-execution-time-ms&quot;: &quot;3.4830570220947266&quot;,
+  &quot;pragma&quot;: &quot;no-cache&quot;,
+  &quot;x-server&quot;: &quot;server_8004&quot;,
+  &quot;x-frame-options&quot;: &quot;sameorigin&quot;,
+  &quot;x-content-type-options&quot;: &quot;nosniff&quot;,
+  &quot;x-xss-protection&quot;: &quot;1; mode=block&quot;,
+  &quot;set-cookie&quot;: [
+    &quot;l7_esp_server_id=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/&quot;
+  ]
+}
+Body: {
+  &quot;error&quot;: &quot;A user with those credentials was not found.&quot;
+}
+
+
+Because this error occurred during a &apos;before all&apos; hook we are skipping the remaining tests in the current suite: &apos;4 - On the Inventory main p...&apos;" type="CypressError"><![CDATA[CypressError: cy.request() failed on:
+
+https://chris.test.l7informatics.com/api/items?name=IN-4%20item1
+
+The response we received from your web server was:
+
+  > 401: Unauthorized
+
+This was considered a failure because the status code was not '2xx' or '3xx'.
+
+If you do not want status codes to cause failures pass the option: 'failOnStatusCode: false'
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: GET
+URL: https://chris.test.l7informatics.com/api/items?name=IN-4%20item1
+Headers: {
+  "Connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.116 Safari/537.36",
+  "accept": "*/*",
+  "accept-encoding": "gzip, deflate",
+  "content-type": "application/json",
+  "content-length": 29
+}
+Body: {"Accept":"application/json"}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 401 - Unauthorized
+Headers: {
+  "expires": "0",
+  "cache-control": "no-cache, no-store",
+  "content-type": "application/json; charset=UTF-8",
+  "date": "Thu, 25 Jun 2020 00:04:58 GMT",
+  "login-url": "/login",
+  "access-control-allow-methods": "GET, PUT, POST, DELETE, OPTIONS",
+  "server": "Lab7_ESP/2.3.1.RC3.20200623071314",
+  "vary": "Accept-Encoding",
+  "access-control-allow-credentials": "true",
+  "session-token-expires-minutes": "120",
+  "access-control-allow-headers": "access-control-allow-origin,authorization,content-type",
+  "access-control-allow-origin": "*, *",
+  "content-length": "57",
+  "server-execution-time-ms": "3.4830570220947266",
+  "pragma": "no-cache",
+  "x-server": "server_8004",
+  "x-frame-options": "sameorigin",
+  "x-content-type-options": "nosniff",
+  "x-xss-protection": "1; mode=block",
+  "set-cookie": [
+    "l7_esp_server_id=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/"
+  ]
+}
+Body: {
+  "error": "A user with those credentials was not found."
+}
+
+
+Because this error occurred during a 'before all' hook we are skipping the remaining tests in the current suite: '4 - On the Inventory main p...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:127890:21
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

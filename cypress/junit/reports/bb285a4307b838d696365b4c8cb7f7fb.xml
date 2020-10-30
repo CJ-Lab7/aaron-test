@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="2" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-03-20T19:36:21" tests="0" file="cypress/integration/apps/chains/WF04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can see visualization for workflow chaining" timestamp="2020-03-20T19:36:21" tests="2" failures="0" time="0">
+  </testsuite>
+</testsuites>

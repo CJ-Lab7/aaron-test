@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.139000000000003" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T15:07:12" tests="0" file="cypress/integration/apps/projects/PR02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I see the correct header on the Projects page" timestamp="2020-03-31T15:07:12" tests="4" failures="0" time="28.139000000000003">
+    <testcase name="2 - I see the correct header on the Projects page PR-2-1 Should observe the correct # of projects monitored" time="12.674" classname="PR-2-1 Should observe the correct # of projects monitored">
+    </testcase>
+    <testcase name="2 - I see the correct header on the Projects page PR-2-2 Should click New Project button" time="5.367" classname="PR-2-2 Should click New Project button">
+    </testcase>
+    <testcase name="2 - I see the correct header on the Projects page PR-2-4 Should List projects" time="5.274" classname="PR-2-4 Should List projects">
+    </testcase>
+    <testcase name="2 - I see the correct header on the Projects page PR-2-5 Should show project cards" time="4.824" classname="PR-2-5 Should show project cards">
+    </testcase>
+  </testsuite>
+</testsuites>

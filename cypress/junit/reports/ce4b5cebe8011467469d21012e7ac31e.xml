@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.32" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T15:32:30" tests="0" file="cypress/integration/apps/applets/APL10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I should access applet inspector in group tab" timestamp="2020-04-03T15:32:30" tests="3" failures="0" time="23.32">
+    <testcase name="10 - I should access applet inspector in group tab APL-10-1 Should find applet inspector" time="11.608" classname="APL-10-1 Should find applet inspector">
+    </testcase>
+    <testcase name="10 - I should access applet inspector in group tab APL-10-2 Should find applet details" time="6.078" classname="APL-10-2 Should find applet details">
+    </testcase>
+    <testcase name="10 - I should access applet inspector in group tab APL-10-3 Should find details link" time="5.634" classname="APL-10-3 Should find details link">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.232" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T01:13:32" tests="0" file="cypress/integration/apps/lims/LM18.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="18 - I should be able to view protocol details in Inspector " timestamp="2020-06-24T01:13:32" tests="1" failures="0" time="18.232">
+    <testcase name="18 - I should be able to view protocol details in Inspector  LM-18-1 Should be able to view protocol details in Inspector" time="18.232" classname="LM-18-1 Should be able to view protocol details in Inspector">
+    </testcase>
+  </testsuite>
+</testsuites>

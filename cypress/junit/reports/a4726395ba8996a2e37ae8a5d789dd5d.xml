@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.738" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-04T14:52:39" tests="0" file="cypress/integration/apps/container_types/CT07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I collapse and expand the inspector" timestamp="2020-06-04T14:52:39" tests="1" failures="0" time="15.738">
+    <testcase name="7 - I collapse and expand the inspector CT-7-1/2 Should collapse/expand inspector" time="15.738" classname="CT-7-1/2 Should collapse/expand inspector">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.76" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T14:44:01" tests="0" file="cypress/integration/apps/applets/APL07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I should access applet details page" timestamp="2020-03-28T14:44:01" tests="2" failures="0" time="11.76">
+    <testcase name="7 - I should access applet details page APL-7-1 Should find details page header" time="8.372" classname="APL-7-1 Should find details page header">
+    </testcase>
+    <testcase name="7 - I should access applet details page APL-7-2 Should find details page applet details" time="3.388" classname="APL-7-2 Should find details page applet details">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="99.023" tests="13" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T17:21:25" tests="0" file="cypress/integration/apps/container_types/CT16_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="16 - I can use the custom fields modal" timestamp="2020-07-10T17:21:25" tests="13" failures="0" time="99.023">
+    <testcase name="16 - I can use the custom fields modal CT-16-14 Should add Resource Link Container" time="15.642" classname="CT-16-14 Should add Resource Link Container">
+    </testcase>
+    <testcase name="16 - I can use the custom fields modal CT-16-15 Should add Resource Link Report" time="8.223" classname="CT-16-15 Should add Resource Link Report">
+    </testcase>
+    <testcase name="16 - I can use the custom fields modal CT-16-16 Should add Resource Link Project" time="7.049" classname="CT-16-16 Should add Resource Link Project">
+    </testcase>
+    <testcase name="16 - I can use the custom fields modal CT-16-17 Should add Resource Link Experiment" time="7.095" classname="CT-16-17 Should add Resource Link Experiment">
+    </testcase>
+    <testcase name="16 - I can use the custom fields modal CT-16-18 Should add Resource Link Inventory" time="7.104" classname="CT-16-18 Should add Resource Link Inventory">
+    </testcase>
+    <testcase name="16 - I can use the custom fields modal CT-16-19 Should add read only" time="7.142" classname="CT-16-19 Should add read only">
+    </testcase>
+    <testcase name="16 - I can use the custom fields modal CT-16-20 Should add required" time="7.184" classname="CT-16-20 Should add required">
+    </testcase>
+    <testcase name="16 - I can use the custom fields modal CT-16-21 Should add default value" time="7.523" classname="CT-16-21 Should add default value">
+    </testcase>
+    <testcase name="16 - I can use the custom fields modal CT-16-22 Should add default value in pop out window" time="9.081" classname="CT-16-22 Should add default value in pop out window">
+    </testcase>
+    <testcase name="16 - I can use the custom fields modal CT-16-23 Should add var group" time="7.225" classname="CT-16-23 Should add var group">
+    </testcase>
+    <testcase name="16 - I can use the custom fields modal CT-16-24 Should add description" time="7.283" classname="CT-16-24 Should add description">
+    </testcase>
+    <testcase name="16 - I can use the custom fields modal CT-11-26 &amp; CT-11-27 Should cancel and close modal" time="4.276" classname="CT-11-26 &amp; CT-11-27 Should cancel and close modal">
+    </testcase>
+    <testcase name="16 - I can use the custom fields modal CT-11-27 Should close modal" time="4.196" classname="CT-11-27 Should close modal">
+    </testcase>
+  </testsuite>
+</testsuites>

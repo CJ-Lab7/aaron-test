@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="78.055" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T20:10:01" tests="0" file="cypress/integration/apps/lims/LM64.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="64 - I can fan-in samples from multiple experiments" timestamp="2020-03-28T20:10:01" tests="1" failures="0" time="78.055">
+    <testcase name="64 - I can fan-in samples from multiple experiments LM-64-1 Should fan-in from multiple experiments" time="78.055" classname="LM-64-1 Should fan-in from multiple experiments">
+    </testcase>
+  </testsuite>
+</testsuites>

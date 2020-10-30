@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.464" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:17:47" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="39 - I cannot archive a project" timestamp="2020-02-27T21:17:47" tests="1" failures="0" time="14.464">
+    <testcase name="39 - I cannot archive a project PR-39-1 Should not be able to archive a project" time="14.464" classname="PR-39-1 Should not be able to archive a project">
+    </testcase>
+  </testsuite>
+</testsuites>

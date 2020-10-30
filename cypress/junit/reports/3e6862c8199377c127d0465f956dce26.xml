@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="253.02499999999998" tests="14" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-29T15:56:49" tests="0" file="cypress/integration/apps/permissions/LP11.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="11 - I navigate directly to my default app after loggin in" timestamp="2020-06-29T15:56:49" tests="14" failures="0" time="253.02499999999998">
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-2 Should default to analysis" time="40.471" classname="LP-11-2 Should default to analysis">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-3 Should default to applets" time="15.458" classname="LP-11-3 Should default to applets">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-4 Should default to dashboard" time="15.852" classname="LP-11-4 Should default to dashboard">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-5 Should default to data" time="16.009" classname="LP-11-5 Should default to data">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-6 Should default to entities" time="16.917" classname="LP-11-6 Should default to entities">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-7 Should default to iam" time="16.761" classname="LP-11-7 Should default to iam">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-8 Should default to ingest" time="16.634" classname="LP-11-8 Should default to ingest">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-9 Should default to inventory" time="16.784" classname="LP-11-9 Should default to inventory">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-10 Should default to lims" time="15.619" classname="LP-11-10 Should default to lims">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-11 Should default to location" time="16.113" classname="LP-11-11 Should default to location">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-12 Should default to projects" time="18.186" classname="LP-11-12 Should default to projects">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-13 Should default to samples" time="16.171" classname="LP-11-13 Should default to samples">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-14 Should default to search" time="15.556" classname="LP-11-14 Should default to search">
+    </testcase>
+    <testcase name="11 - I navigate directly to my default app after loggin in LP-11-15 Should default to builders" time="16.494" classname="LP-11-15 Should default to builders">
+    </testcase>
+  </testsuite>
+</testsuites>

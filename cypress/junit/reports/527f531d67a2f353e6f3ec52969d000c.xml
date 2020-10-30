@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="24.778" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T17:12:06" tests="0" file="cypress/integration/apps/entities/EN35.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="35 - I can use ENTITIES link in the nav bar" timestamp="2020-04-03T17:12:06" tests="1" failures="0" time="24.778">
+    <testcase name="35 - I can use ENTITIES link in the nav bar EN-35-1 Should use ENTITIES link" time="24.778" classname="EN-35-1 Should use ENTITIES link">
+    </testcase>
+  </testsuite>
+</testsuites>

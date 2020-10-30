@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.238" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T01:04:47" tests="0" file="cypress/integration/apps/lims/LM02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I should be able to create a new worksheet" timestamp="2020-06-24T01:04:47" tests="2" failures="0" time="15.238">
+    <testcase name="2 - I should be able to create a new worksheet LM-2-1 Should be able to create a new worksheet in list view" time="8.471" classname="LM-2-1 Should be able to create a new worksheet in list view">
+    </testcase>
+    <testcase name="2 - I should be able to create a new worksheet LM-2-2 Should be able to create a new worksheet in card view" time="6.767" classname="LM-2-2 Should be able to create a new worksheet in card view">
+    </testcase>
+  </testsuite>
+</testsuites>

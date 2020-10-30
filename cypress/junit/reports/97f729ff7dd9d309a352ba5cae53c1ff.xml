@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="79.331" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-29T00:43:15" tests="0" file="cypress/integration/apps/projects/PR27.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="27 - I can add new samples when editing an experiment " timestamp="2020-03-29T00:43:15" tests="7" failures="0" time="79.331">
+    <testcase name="27 - I can add new samples when editing an experiment  PR-27-1 Should add existing samples without submitting" time="23.724" classname="PR-27-1 Should add existing samples without submitting">
+    </testcase>
+    <testcase name="27 - I can add new samples when editing an experiment  PR-27-2 Should add existing samples and submit" time="10.694" classname="PR-27-2 Should add existing samples and submit">
+    </testcase>
+    <testcase name="27 - I can add new samples when editing an experiment  PR-27-3 Should add new samples without submitting" time="6.979" classname="PR-27-3 Should add new samples without submitting">
+    </testcase>
+    <testcase name="27 - I can add new samples when editing an experiment  PR-27-4 Should add new samples and submit" time="8.426" classname="PR-27-4 Should add new samples and submit">
+    </testcase>
+    <testcase name="27 - I can add new samples when editing an experiment  PR-27-5 Should add existing and new samples without submitting" time="11.487" classname="PR-27-5 Should add existing and new samples without submitting">
+    </testcase>
+    <testcase name="27 - I can add new samples when editing an experiment  PR-27-6 Should add existing and new samples and submit" time="12.106" classname="PR-27-6 Should add existing and new samples and submit">
+    </testcase>
+    <testcase name="27 - I can add new samples when editing an experiment  PR-27-7 Should delete samples" time="5.915" classname="PR-27-7 Should delete samples">
+    </testcase>
+  </testsuite>
+</testsuites>

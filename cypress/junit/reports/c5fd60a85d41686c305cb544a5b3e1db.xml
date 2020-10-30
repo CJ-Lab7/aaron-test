@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="63.529999999999994" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T20:47:52" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards)" timestamp="2020-02-27T20:47:52" tests="5" failures="0" time="63.529999999999994">
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-1 Should see project details on the left" time="50.452" classname="PR-9-1 Should see project details on the left">
+    </testcase>
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-2 Should access/use Chains tab" time="5.097" classname="PR-9-2 Should access/use Chains tab">
+    </testcase>
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-3 Should access/view Experiments tab" time="2.882" classname="PR-9-3 Should access/view Experiments tab">
+    </testcase>
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-4 Should access/view Samples tab" time="2.644" classname="PR-9-4 Should access/view Samples tab">
+    </testcase>
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-5 Should access/view History tab" time="2.455" classname="PR-9-5 Should access/view History tab">
+    </testcase>
+  </testsuite>
+</testsuites>

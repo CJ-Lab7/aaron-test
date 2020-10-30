@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="166.251" tests="10" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-09-18T17:22:05" tests="0" file="cypress/integration/apps/location/LC43_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="43 - In Container details page, I should be able to edit Data values" timestamp="2020-09-18T17:22:05" tests="10" failures="0" time="166.251">
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-11 Should not delete required field" time="39.707" classname="LC-43-11 Should not delete required field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-12 Should find default value" time="10.224" classname="LC-43-12 Should find default value">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-13 Should not edit read only field" time="10.512" classname="LC-43-13 Should not edit read only field">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-14 Should edit Sample Resource Link" time="15.577" classname="LC-43-14 Should edit Sample Resource Link">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-16 Should edit File Resource Link" time="15.583" classname="LC-43-16 Should edit File Resource Link">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-17 Should edit Container Resource Link" time="16.713" classname="LC-43-17 Should edit Container Resource Link">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-18 Should edit Report Resource Link" time="15.77" classname="LC-43-18 Should edit Report Resource Link">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-19 Should edit Project Resource Link" time="13.332" classname="LC-43-19 Should edit Project Resource Link">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-20 Should edit Experiment Resource Link" time="13.745" classname="LC-43-20 Should edit Experiment Resource Link">
+    </testcase>
+    <testcase name="43 - In Container details page, I should be able to edit Data values LC-43-21 Should edit Inventory Resource Link" time="15.088" classname="LC-43-21 Should edit Inventory Resource Link">
+    </testcase>
+  </testsuite>
+</testsuites>

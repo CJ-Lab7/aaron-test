@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.073" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T20:52:24" tests="0" file="cypress/integration/apps/inventory/IN30.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - On the Inventory details page, I open and close barcode modal" timestamp="2020-07-10T20:52:24" tests="1" failures="0" time="15.073">
+    <testcase name="30 - On the Inventory details page, I open and close barcode modal IN-30-1, IN-30-2 &amp; IN-30-3 - Open, close and cancel barcode modal" time="15.073" classname="IN-30-1, IN-30-2 &amp; IN-30-3 - Open, close and cancel barcode modal">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T16:45:58" tests="0" file="cypress/integration/apps/container_types/CT01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I can access the Container Types app" timestamp="2020-07-10T16:45:58" tests="1" failures="1" time="0">
+    <testcase name="1 - I can access the Container Types app CT-1-1 Should access container types app" time="0" classname="CT-1-1 Should access container types app">
+      <failure message="Timed out retrying: Expected to find content: &apos;Container Types&apos; within the selector: &apos;a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'Container Types' within the selector: 'a' but never did.
+    at Function.getContainerTypesBtn (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT01.js:218:17)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT01.js:79:33)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

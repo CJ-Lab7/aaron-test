@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="54.675000000000004" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-15T20:11:01" tests="0" file="cypress/integration/apps/analysis/AN30.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I should see tasks colored correctly in the inspector" timestamp="2020-04-15T20:11:01" tests="4" failures="0" time="54.675000000000004">
+    <testcase name="30 - I should see tasks colored correctly in the inspector AN-30-1 Should find running tasks in green" time="24.699" classname="AN-30-1 Should find running tasks in green">
+    </testcase>
+    <testcase name="30 - I should see tasks colored correctly in the inspector AN-30-3 Should find killed tasks in red" time="9.373" classname="AN-30-3 Should find killed tasks in red">
+    </testcase>
+    <testcase name="30 - I should see tasks colored correctly in the inspector AN-30-4 Should find queued tasks in grey" time="10.732" classname="AN-30-4 Should find queued tasks in grey">
+    </testcase>
+    <testcase name="30 - I should see tasks colored correctly in the inspector AN-30-5 Should find complete tasks in black" time="9.871" classname="AN-30-5 Should find complete tasks in black">
+    </testcase>
+  </testsuite>
+</testsuites>

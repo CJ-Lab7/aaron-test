@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.655" tests="13" failures="9">
+  <testsuite name="Root Suite" timestamp="2020-02-27T23:05:51" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="32 - I can edit all sample type variables" timestamp="2020-02-27T23:05:51" tests="13" failures="9" time="18.655">
+    <testcase name="32 - I can edit all sample type variables SP-32-1 Should add text" time="0" classname="SP-32-1 Should add text">
+      <failure message="Timed out retrying: Expected to find content: &apos;SP3200001&apos; within the selector: &apos;.row a&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'SP3200001' within the selector: '.row a' but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-2 Should add numeric" time="0" classname="SP-32-2 Should add numeric">
+      <failure message="Timed out retrying: Expected to find content: &apos;SP3200002&apos; within the selector: &apos;.row a&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'SP3200002' within the selector: '.row a' but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-3 Should add picklist" time="0" classname="SP-32-3 Should add picklist">
+      <failure message="Timed out retrying: Expected to find content: &apos;SP3200003&apos; within the selector: &apos;.row a&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'SP3200003' within the selector: '.row a' but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-4 Should add multiselect picklist" time="0" classname="SP-32-4 Should add multiselect picklist">
+      <failure message="Timed out retrying: Expected to find content: &apos;SP3200004&apos; within the selector: &apos;.row a&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'SP3200004' within the selector: '.row a' but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-5 Should add date" time="0" classname="SP-32-5 Should add date">
+      <failure message="Timed out retrying: Expected to find content: &apos;SP3200005&apos; within the selector: &apos;.row a&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'SP3200005' within the selector: '.row a' but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-6 Should add checkbox" time="0" classname="SP-32-6 Should add checkbox">
+      <failure message="Timed out retrying: Expected to find content: &apos;SP3200006&apos; within the selector: &apos;.row a&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'SP3200006' within the selector: '.row a' but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-7 Should add attachment" time="0" classname="SP-32-7 Should add attachment">
+      <failure message="Timed out retrying: Expected to find content: &apos;SP3200007&apos; within the selector: &apos;.row a&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'SP3200007' within the selector: '.row a' but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-8 Should add qr barcode" time="0" classname="SP-32-8 Should add qr barcode">
+      <failure message="Timed out retrying: Expected to find content: &apos;SP3200008&apos; within the selector: &apos;.row a&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'SP3200008' within the selector: '.row a' but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-9 Should add 1d barcode" time="0" classname="SP-32-9 Should add 1d barcode">
+      <failure message="Timed out retrying: Expected to find content: &apos;SP3200009&apos; within the selector: &apos;.row a&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'SP3200009' within the selector: '.row a' but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-10 Should add mini data matrix" time="6.068" classname="SP-32-10 Should add mini data matrix">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-11 Should require field" time="5.753" classname="SP-32-11 Should require field">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-12 Should find default" time="3.397" classname="SP-32-12 Should find default">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-13 Should find read only" time="3.437" classname="SP-32-13 Should find read only">
+    </testcase>
+  </testsuite>
+</testsuites>

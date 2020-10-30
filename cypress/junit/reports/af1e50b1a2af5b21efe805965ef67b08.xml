@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="103.435" tests="6" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-02T16:20:15" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I should be able to use Quick Filter under Monitor page" timestamp="2020-03-02T16:20:15" tests="6" failures="0" time="103.435">
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-1 Should filter pipeline by name" time="86.901" classname="AN-3-1 Should filter pipeline by name">
+    </testcase>
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-2 Should filter pipeline by description" time="6.146" classname="AN-3-2 Should filter pipeline by description">
+    </testcase>
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-3 Should filter pipeline by task" time="3.54" classname="AN-3-3 Should filter pipeline by task">
+    </testcase>
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-4 Should filter pipeline by originating experiment" time="3.54" classname="AN-3-4 Should filter pipeline by originating experiment">
+    </testcase>
+    <testcase name="3 - I should be able to use Quick Filter under Monitor page AN-3-5 Should filter pipeline by status" time="3.308" classname="AN-3-5 Should filter pipeline by status">
+    </testcase>
+  </testsuite>
+</testsuites>

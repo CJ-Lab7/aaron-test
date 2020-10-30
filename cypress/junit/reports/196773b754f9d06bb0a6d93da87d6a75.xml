@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="44.995" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-31T02:45:06" tests="0" file="cypress/integration/apps/analysis/AN30.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I should see tasks colored correctly in the inspector" timestamp="2020-03-31T02:45:06" tests="4" failures="1" time="44.995">
+    <testcase name="30 - I should see tasks colored correctly in the inspector AN-30-1 Should find running tasks in green" time="32.302" classname="AN-30-1 Should find running tasks in green">
+    </testcase>
+    <testcase name="30 - I should see tasks colored correctly in the inspector AN-30-3 Should find killed tasks in red" time="0" classname="AN-30-3 Should find killed tasks in red">
+      <failure message="Timed out retrying: expected &apos;&lt;rect&gt;&apos; to have CSS property &apos;fill&apos; with the value &apos;rgb(212, 64, 60)&apos;, but the value was &apos;rgb(0, 0, 0)&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '<rect>' to have CSS property 'fill' with the value 'rgb(212, 64, 60)', but the value was 'rgb(0, 0, 0)'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I should see tasks colored correctly in the inspector AN-30-4 Should find queued tasks in grey" time="6.875" classname="AN-30-4 Should find queued tasks in grey">
+    </testcase>
+    <testcase name="30 - I should see tasks colored correctly in the inspector AN-30-5 Should find complete tasks in black" time="5.818" classname="AN-30-5 Should find complete tasks in black">
+    </testcase>
+  </testsuite>
+</testsuites>

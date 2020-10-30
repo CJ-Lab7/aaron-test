@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.893" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-11T03:03:14" tests="0" file="cypress/integration/apps/service_types/ST07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I can access Service Type Details page by clicking on the name in Inspector Panel" timestamp="2020-07-11T03:03:14" tests="1" failures="0" time="15.893">
+    <testcase name="7 - I can access Service Type Details page by clicking on the name in Inspector Panel ST-7-1 Should access details page from Inspector header" time="15.893" classname="ST-7-1 Should access details page from Inspector header">
+    </testcase>
+  </testsuite>
+</testsuites>

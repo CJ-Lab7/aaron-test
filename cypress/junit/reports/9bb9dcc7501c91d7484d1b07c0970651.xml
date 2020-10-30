@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="3" failures="0" skipped="3">
+  <testsuite name="Root Suite" timestamp="2020-03-29T18:17:39" tests="0" file="cypress/integration/apps/lims/LM49.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="49 - I can add a sample to a worksheet by scanning a barcode" timestamp="2020-03-29T18:17:39" tests="3" failures="0" time="0">
+  </testsuite>
+</testsuites>

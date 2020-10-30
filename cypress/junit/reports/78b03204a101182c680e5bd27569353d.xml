@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2020-07-10T16:49:05" tests="0" file="cypress/integration/apps/container_types/CT04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can find a list of container types" timestamp="2020-07-10T16:49:05" tests="4" failures="4" time="0">
+    <testcase name="4 - I can find a list of container types CT-4-1 Should find list of all container types" time="0" classname="CT-4-1 Should find list of all container types">
+      <failure message="Timed out retrying: Expected to find content: &apos;CT04 one&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CT04 one' within the selector: '.ag-center-cols-viewport .ag-row' but never did.
+    at Function.containsContainerTypeRow (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT04.js:359:17)
+    at Function.containsRowList (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT04.js:388:32)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT04.js:84:46)]]></failure>
+    </testcase>
+    <testcase name="4 - I can find a list of container types CT-4-2 Should sort columns" time="0" classname="CT-4-2 Should sort columns">
+      <failure message="Timed out retrying: Expected to find element: `.ag-header-cell`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `.ag-header-cell`, but never found it.
+    at sortAgColumn (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT04.js:198:8)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT04.js:88:36)]]></failure>
+    </testcase>
+    <testcase name="4 - I can find a list of container types CT-4-3 Should open inspector" time="0" classname="CT-4-3 Should open inspector">
+      <failure message="Timed out retrying: Expected to find content: &apos;CT04 one&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CT04 one' within the selector: '.ag-center-cols-viewport .ag-row' but never did.
+    at Function.containsContainerTypeRow (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT04.js:359:17)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT04.js:97:46)]]></failure>
+    </testcase>
+    <testcase name="4 - I can find a list of container types CT-4-4 Should click container type name to visit details page" time="0" classname="CT-4-4 Should click container type name to visit details page">
+      <failure message="Timed out retrying: Expected to find content: &apos;CT04 one&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CT04 one' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT04.js:364:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT04.js:103:46)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

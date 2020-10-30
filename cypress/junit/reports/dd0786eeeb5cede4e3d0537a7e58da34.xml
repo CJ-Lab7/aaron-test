@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="36.504" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-28T17:26:46" tests="0" file="cypress/integration/apps/expressions/EX04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I should be able to use the File API" timestamp="2020-03-28T17:26:46" tests="5" failures="1" time="36.504">
+    <testcase name="4 - I should be able to use the File API EX-4-1 Should use basename(path)" time="16.661" classname="EX-4-1 Should use basename(path)">
+    </testcase>
+    <testcase name="4 - I should be able to use the File API EX-4-2 Should use dirname(path)" time="5.553" classname="EX-4-2 Should use dirname(path)">
+    </testcase>
+    <testcase name="4 - I should be able to use the File API EX-4-3 Should use file_ext(file_path)" time="3.553" classname="EX-4-3 Should use file_ext(file_path)">
+    </testcase>
+    <testcase name="4 - I should be able to use the File API EX-4-4 Should use remove_ext(file_path, ext=None)" time="3.595" classname="EX-4-4 Should use remove_ext(file_path, ext=None)">
+    </testcase>
+    <testcase name="4 - I should be able to use the File API EX-4-5 Should use replace_ext(file_path, new_ext, old_ext=None)" time="3.571" classname="EX-4-5 Should use replace_ext(file_path, new_ext, old_ext=None)">
+    </testcase>
+    <testcase name="4 - I should be able to use the File API &quot;after all&quot; hook for &quot;EX-4-5 Should use replace_ext(file_path, new_ext, old_ext=None)&quot;" time="3.571" classname="&quot;after all&quot; hook for &quot;EX-4-5 Should use replace_ext(file_path, new_ext, old_ext=None)&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/expressions/EX04seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 12:27:21,208:Saving data in Experiment EX4 for Protocol: EX4 standard.
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line 11, in...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;4 - I should be able to use...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/expressions/EX04seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 12:27:21,208:Saving data in Experiment EX4 for Protocol: EX4 standard.
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line 11, in...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '4 - I should be able to use...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="102.885" tests="13" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-03-02T19:43:53" tests="0" file="cypress/integration/apps/entities/EN30.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I can use all types of data columns in new experiment modal" timestamp="2020-03-02T19:43:53" tests="13" failures="2" time="102.885">
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-1 Should add text" time="43.981" classname="EN-30-1 Should add text">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-2 Should add numeric" time="9.862" classname="EN-30-2 Should add numeric">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-3 Should add picklist" time="5.926" classname="EN-30-3 Should add picklist">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-4 Should add multiselect picklist" time="6.051" classname="EN-30-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-5 Should add date" time="0" classname="EN-30-5 Should add date">
+      <failure message="Timed out retrying: Expected to find element: &apos;.day&apos;, but never found it. Queried from element: [ &lt;span.cell.day.weekend.sun&gt;, 30 more... ]" type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.day', but never found it. Queried from element: [ <span.cell.day.weekend.sun>, 30 more... ]
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-6 Should add checkbox" time="6.152" classname="EN-30-6 Should add checkbox">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-7 Should add attachment" time="0" classname="EN-30-7 Should add attachment">
+      <failure message="Timed out retrying: Expected to find content: &apos;en30.txt&apos; within the selector: &apos;.modal-container .ag-center-cols-container .ag-cell:nth-child(2)&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'en30.txt' within the selector: '.modal-container .ag-center-cols-container .ag-cell:nth-child(2)' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-8 Should add qr barcode" time="6.044" classname="EN-30-8 Should add qr barcode">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-9 Should add 1d barcode" time="6.32" classname="EN-30-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-10 Should add mini data matrix" time="6.237" classname="EN-30-10 Should add mini data matrix">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-11 Should require field" time="3.247" classname="EN-30-11 Should require field">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-12 Should find default value" time="3.061" classname="EN-30-12 Should find default value">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-13 Should not edit read only" time="6.004" classname="EN-30-13 Should not edit read only">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="3" failures="0" skipped="3">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:11:43" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I can add existing sample to an existing experiment by scanning barcode" timestamp="2020-02-27T21:11:43" tests="3" failures="0" time="0">
+  </testsuite>
+</testsuites>

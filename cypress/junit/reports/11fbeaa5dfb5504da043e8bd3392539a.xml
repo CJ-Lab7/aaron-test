@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.499" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-23T16:12:50" tests="0" file="cypress/integration/apps/service_types/ST19.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="19 - I can open details of a Service Types in a new tab" timestamp="2020-06-23T16:12:50" tests="1" failures="0" time="14.499">
+    <testcase name="19 - I can open details of a Service Types in a new tab ST-19-1 Should open details in new tab" time="14.499" classname="ST-19-1 Should open details in new tab">
+    </testcase>
+  </testsuite>
+</testsuites>

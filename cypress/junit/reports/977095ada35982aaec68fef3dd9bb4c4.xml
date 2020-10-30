@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="52.365" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T03:33:51" tests="0" file="cypress/integration/apps/projects/PR06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can create a new experiment, + Experiment (Projects List)" timestamp="2020-04-16T03:33:51" tests="3" failures="0" time="52.365">
+    <testcase name="6 - I can create a new experiment, + Experiment (Projects List) PR-6-1 Should create a submitted experiment (existing samples)" time="21.623" classname="PR-6-1 Should create a submitted experiment (existing samples)">
+    </testcase>
+    <testcase name="6 - I can create a new experiment, + Experiment (Projects List) PR-6-2 Should create a submitted experiment (new samples)" time="16.233" classname="PR-6-2 Should create a submitted experiment (new samples)">
+    </testcase>
+    <testcase name="6 - I can create a new experiment, + Experiment (Projects List) PR-6-3 Should create a pending experiment" time="14.509" classname="PR-6-3 Should create a pending experiment">
+    </testcase>
+  </testsuite>
+</testsuites>

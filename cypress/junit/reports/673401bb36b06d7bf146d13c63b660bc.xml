@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.124" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T00:18:09" tests="0" file="cypress/integration/apps/data/D12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can download a file (file details)" timestamp="2020-04-16T00:18:09" tests="1" failures="0" time="16.124">
+    <testcase name="12 - I can download a file (file details) D-12-1 Should download a file" time="16.124" classname="D-12-1 Should download a file">
+    </testcase>
+  </testsuite>
+</testsuites>

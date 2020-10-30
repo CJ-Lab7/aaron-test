@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="160.16199999999998" tests="13" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T21:41:52" tests="0" file="cypress/integration/apps/entities/EN05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can filter entities on the Entities page" timestamp="2020-06-24T21:41:52" tests="13" failures="0" time="160.16199999999998">
+    <testcase name="5 - I can filter entities on the Entities page EN-5-1 Should filter by entity class" time="27.131" classname="EN-5-1 Should filter by entity class">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-2 Should show all entities" time="11.403" classname="EN-5-2 Should show all entities">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-3 Should show submitted entities" time="11.824" classname="EN-5-3 Should show submitted entities">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-4 Should show unsubmitted entities" time="10.789" classname="EN-5-4 Should show unsubmitted entities">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-5 Should filter by Entity ID" time="10.697" classname="EN-5-5 Should filter by Entity ID">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-6 Should filter by Owner (with entities)" time="11.781" classname="EN-5-6 Should filter by Owner (with entities)">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-7 Should filter by Owner (without entities)" time="11.257" classname="EN-5-7 Should filter by Owner (without entities)">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-8 Should filter by Note" time="10.927" classname="EN-5-8 Should filter by Note">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-9 Should filter by Entity Tags" time="10.697" classname="EN-5-9 Should filter by Entity Tags">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-10 Should filter by Entity Type" time="10.826" classname="EN-5-10 Should filter by Entity Type">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-11 Should filter by Created After" time="11.142" classname="EN-5-11 Should filter by Created After">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-12 Should filter by Created Before" time="11.866" classname="EN-5-12 Should filter by Created Before">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-13 Should clear filters" time="9.822" classname="EN-5-13 Should clear filters">
+    </testcase>
+  </testsuite>
+</testsuites>

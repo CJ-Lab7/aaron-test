@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.327" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T15:04:41" tests="0" file="cypress/integration/apps/analysis/AN04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I should be able to view pipeline instances in List view under Monitor tab" timestamp="2020-07-10T15:04:41" tests="2" failures="0" time="13.327">
+    <testcase name="4 - I should be able to view pipeline instances in List view under Monitor tab AN-4-1 Should display name, status and number of tasks in each instance" time="10.494" classname="AN-4-1 Should display name, status and number of tasks in each instance">
+    </testcase>
+    <testcase name="4 - I should be able to view pipeline instances in List view under Monitor tab AN-4-2 Should take you to the pipeline when user clicks on the name link" time="2.833" classname="AN-4-2 Should take you to the pipeline when user clicks on the name link">
+    </testcase>
+  </testsuite>
+</testsuites>

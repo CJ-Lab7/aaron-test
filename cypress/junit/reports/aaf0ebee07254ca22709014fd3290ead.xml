@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="29.347" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:10:51" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="28 - I can open/close the experiment details protocol inspector" timestamp="2020-02-27T21:10:51" tests="1" failures="0" time="29.347">
+    <testcase name="28 - I can open/close the experiment details protocol inspector PR-28-1/2 Should open/close inspector" time="29.347" classname="PR-28-1/2 Should open/close inspector">
+    </testcase>
+  </testsuite>
+</testsuites>

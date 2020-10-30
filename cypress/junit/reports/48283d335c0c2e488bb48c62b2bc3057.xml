@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.767" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-15T23:31:22" tests="0" file="cypress/integration/apps/entities/EN09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can return to Entities page by clicking &apos;Done&apos;" timestamp="2020-04-15T23:31:22" tests="1" failures="0" time="20.767">
+    <testcase name="9 - I can return to Entities page by clicking &apos;Done&apos; EN-9-1 Should return to Entities main page" time="20.767" classname="EN-9-1 Should return to Entities main page">
+    </testcase>
+  </testsuite>
+</testsuites>

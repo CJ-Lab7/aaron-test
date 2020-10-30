@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="53.384" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T21:59:07" tests="0" file="cypress/integration/apps/entities/EN22.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="22 - I can edit entity barcodes" timestamp="2020-06-24T21:59:07" tests="2" failures="0" time="53.384">
+    <testcase name="22 - I can edit entity barcodes EN-22-1 Should edit barcode and accept" time="28.642" classname="EN-22-1 Should edit barcode and accept">
+    </testcase>
+    <testcase name="22 - I can edit entity barcodes EN-22-2 Should edit barcode and cancel" time="24.742" classname="EN-22-2 Should edit barcode and cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

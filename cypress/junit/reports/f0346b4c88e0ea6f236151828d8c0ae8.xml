@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="31.795" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-25T01:28:25" tests="0" file="cypress/integration/apps/location/LC44.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="44 - I can use var groups with container fields" timestamp="2020-06-25T01:28:25" tests="2" failures="0" time="31.795">
+    <testcase name="44 - I can use var groups with container fields LC-44-1 Should find fields separated by var groups" time="17.199" classname="LC-44-1 Should find fields separated by var groups">
+    </testcase>
+    <testcase name="44 - I can use var groups with container fields LC-44-2 Should find Data as the default var group" time="14.596" classname="LC-44-2 Should find Data as the default var group">
+    </testcase>
+  </testsuite>
+</testsuites>

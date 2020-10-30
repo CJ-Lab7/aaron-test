@@ -1,0 +1,47 @@
+# experiment
+- model: Experiment
+  data:
+    - LM23-1:
+        desc: Experiment for LM23 worksheet
+        submit: true
+        sheet: LM23-1
+        workflow: LM23 workflow
+        project: LM
+        samples:
+          - name: LM230001
+            type: QA sample
+          - name: LM230002
+            type: QA sample
+          - name: LM230003
+            type: QA sample
+
+    - LM23-2:
+        desc: Experiment for LM23 worksheet
+        submit: true
+        sheet: LM23-2
+        workflow: LM23 workflow
+        project: LM
+        samples:
+          - name: LM230004
+            type: QA sample
+          - name: LM230005
+            type: QA sample
+          - name: LM230006
+            type: QA sample
+        protocols:
+            - LM23:
+                complete: true
+
+# workflow
+- model: Workflow
+  data:
+    LM23 workflow:
+      desc: workflow for LM-23
+      protocols:
+        - LM23:
+            protocol: standard
+            desc: standard protocol for LM23
+            variables:
+              - Text Column:
+                  rule: text
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.084" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-03T02:54:16" tests="0" file="cypress/integration/apps/vendors/VEN16.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="16 - View Vendors tab and close tab" timestamp="2020-06-03T02:54:16" tests="2" failures="0" time="27.084">
+    <testcase name="16 - View Vendors tab and close tab VEN-16-1 Should open one vendor tab and view header" time="14.623" classname="VEN-16-1 Should open one vendor tab and view header">
+    </testcase>
+    <testcase name="16 - View Vendors tab and close tab VEN-16-3 Should close vendor tab" time="12.461" classname="VEN-16-3 Should close vendor tab">
+    </testcase>
+  </testsuite>
+</testsuites>

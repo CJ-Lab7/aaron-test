@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="78.56700000000001" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T21:16:29" tests="0" file="cypress/integration/apps/projects/PR17.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can group experiments by owner" timestamp="2020-04-03T21:16:29" tests="8" failures="0" time="78.56700000000001">
+    <testcase name="17 - I can group experiments by owner PR-17-1 Should see experiments grouped by owner" time="18.201" classname="PR-17-1 Should see experiments grouped by owner">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-2 Should see list of experiments for each owner" time="8.822" classname="PR-17-2 Should see list of experiments for each owner">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-3 Should show correct experiment names" time="8.39" classname="PR-17-3 Should show correct experiment names">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-4 Should show correct status" time="8.462" classname="PR-17-4 Should show correct status">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-5 Should show correct workflow" time="9.001" classname="PR-17-5 Should show correct workflow">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-6 Should show correct number of samples" time="7.52" classname="PR-17-6 Should show correct number of samples">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-7 Should show correct project" time="8.86" classname="PR-17-7 Should show correct project">
+    </testcase>
+    <testcase name="17 - I can group experiments by owner PR-17-9 Should show correct number of experiments" time="9.311" classname="PR-17-9 Should show correct number of experiments">
+    </testcase>
+  </testsuite>
+</testsuites>

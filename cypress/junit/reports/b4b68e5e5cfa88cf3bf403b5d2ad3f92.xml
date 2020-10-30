@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="36.503" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:42:51" tests="0" file="cypress/integration/apps/lims/LM48.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="48 - I can use complete checkboxes only if later protocols are not complete" timestamp="2020-07-10T21:42:51" tests="4" failures="1" time="36.503">
+    <testcase name="48 - I can use complete checkboxes only if later protocols are not complete LM-48-1 Should find disabled complete checkbox if later protocols are complete" time="26.423" classname="LM-48-1 Should find disabled complete checkbox if later protocols are complete">
+    </testcase>
+    <testcase name="48 - I can use complete checkboxes only if later protocols are not complete LM-48-2 Should find disabled complete header if later protocols are complete" time="0" classname="LM-48-2 Should find disabled complete header if later protocols are complete">
+      <failure message="Timed out retrying: expected &apos;[ &lt;input.ag-hidden&gt;, 1 more... ]&apos; to be &apos;disabled&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected '[ <input.ag-hidden>, 1 more... ]' to be 'disabled'
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/lims/LM48.js:72:56)]]></failure>
+    </testcase>
+    <testcase name="48 - I can use complete checkboxes only if later protocols are not complete LM-48-3 Should find enabled complete checkbox if later protocols are not complete" time="5.99" classname="LM-48-3 Should find enabled complete checkbox if later protocols are not complete">
+    </testcase>
+    <testcase name="48 - I can use complete checkboxes only if later protocols are not complete LM-48-4 Should find enabled complete header if later protocols are not complete" time="4.09" classname="LM-48-4 Should find enabled complete header if later protocols are not complete">
+    </testcase>
+  </testsuite>
+</testsuites>

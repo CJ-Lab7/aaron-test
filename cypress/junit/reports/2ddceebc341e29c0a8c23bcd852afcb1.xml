@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:05:30" tests="0" file="cypress/integration/apps/lims/LM07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I should be able to filter experiments" timestamp="2020-07-10T21:05:30" tests="2" failures="2" time="0">
+    <testcase name="7 - I should be able to filter experiments LM-7-6 Should group by experiment then filter by sample name" time="0" classname="LM-7-6 Should group by experiment then filter by sample name">
+      <failure message="Timed out retrying: Expected to find element: `.sample-group-select`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `.sample-group-select`, but never found it.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/lims/LM07.js:57:8)]]></failure>
+    </testcase>
+    <testcase name="7 - I should be able to filter experiments LM-7-7 Should group by experiment then filter by sample name" time="0" classname="LM-7-7 Should group by experiment then filter by sample name">
+      <failure message="Timed out retrying: Expected to find element: `.sample-group-select`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `.sample-group-select`, but never found it.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/lims/LM07.js:68:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

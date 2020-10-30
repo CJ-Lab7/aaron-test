@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="42.565" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-04-03T18:39:23" tests="0" file="cypress/integration/apps/lims/LM30.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I should NOT be able to restart a completed pipeline (pipeline details modal)" timestamp="2020-04-03T18:39:23" tests="2" failures="1" time="42.565">
+    <testcase name="30 - I should NOT be able to restart a completed pipeline (pipeline details modal) LM-30-1 Should find disabled restart pipeline button" time="42.565" classname="LM-30-1 Should find disabled restart pipeline button">
+    </testcase>
+    <testcase name="30 - I should NOT be able to restart a completed pipeline (pipeline details modal) LM-30-2 Should resubmit pipeline" time="0" classname="LM-30-2 Should resubmit pipeline">
+      <failure message="cy.click() failed because this element is detached from the DOM.
+
+&lt;input type=&quot;checkbox&quot; checked=&quot;&quot;&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.find()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: cy.click() failed because this element is detached from the DOM.
+
+<input type="checkbox" checked="">
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.find()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at ensureAttached (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:129702:24)
+    at validateType (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:129581:11)
+    at Object.ensureSubjectByType (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:129612:9)
+    at pushSubjectAndValidate (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:136688:15)
+    at Context.<anonymous> (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:136976:18)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:136453:33
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

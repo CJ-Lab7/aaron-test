@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="95.402" tests="10" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:08:40" tests="0" file="cypress/integration/apps/location/LC42_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="42 - I can fill out custom fields under the Data tab" timestamp="2020-07-10T22:08:40" tests="10" failures="0" time="95.402">
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-11 Should not delete required field" time="22.69" classname="LC-42-11 Should not delete required field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-12 Should find default value" time="4.185" classname="LC-42-12 Should find default value">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-13 Should not add read only field" time="4.576" classname="LC-42-13 Should not add read only field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-14 Should add Sample Resource Link" time="9.166" classname="LC-42-14 Should add Sample Resource Link">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-16 Should add File Resource Link" time="8.961" classname="LC-42-16 Should add File Resource Link">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-17 Should add Container Resource Link" time="9.196" classname="LC-42-17 Should add Container Resource Link">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-18 Should add Report Resource Link" time="8.913" classname="LC-42-18 Should add Report Resource Link">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-19 Should add Project Resource Link" time="9.512" classname="LC-42-19 Should add Project Resource Link">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-20 Should add Experiment Resource Link" time="9.078" classname="LC-42-20 Should add Experiment Resource Link">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-21 Should add Inventory Resource Link" time="9.125" classname="LC-42-21 Should add Inventory Resource Link">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,27 @@
+# experiment
+- model: Experiment
+  data:
+    - LM23-1:
+        desc: Experiment for LM23 worksheet
+        submit: true
+        sheet: LM23-1
+        workflow: LM23 workflow
+        project: LM
+
+    - LM23-2:
+        desc: Experiment for LM23 worksheet
+        submit: true
+        sheet: LM23-2
+        workflow: LM23 workflow
+        project: LM
+        samples:
+          - name: LM230004
+          - name: LM230005
+          - name: LM230006
+
+# workflow
+- model: Workflow
+  data:
+    LM23 workflow:
+      desc: workflow for LM-23
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.594" tests="2" failures="1" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-03T16:30:12" tests="0" file="cypress/integration/apps/entities/EN14.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="14 - I can scan barcode to open entity details" timestamp="2020-04-03T16:30:12" tests="2" failures="1" time="20.594">
+    <testcase name="14 - I can scan barcode to open entity details EN-14-1 Should scan uuid barcode and open entity details" time="20.594" classname="EN-14-1 Should scan uuid barcode and open entity details">
+    </testcase>
+    <testcase name="14 - I can scan barcode to open entity details &quot;after all&quot; hook for &quot;EN-14-2 Should scan non-uuid barcode and open entity details&quot;" time="0" classname="&quot;after all&quot; hook for &quot;EN-14-2 Should scan non-uuid barcode and open entity details&quot;">
+      <failure message="cy.exec(&apos;esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/entities/EN14seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-04-03 11:30:34,691:Dropping Sample: EN140001
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/lib/python3.7/site-packages/urllib3/connectionpool.py...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;14 - I can scan barcode to ...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/entities/EN14seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-04-03 11:30:34,691:Dropping Sample: EN140001
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/lib/python3.7/site-packages/urllib3/connectionpool.py...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '14 - I can scan barcode to ...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.242" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-29T14:37:53" tests="0" file="cypress/integration/apps/entity_types/ET05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can find the entity types list" timestamp="2020-05-29T14:37:53" tests="1" failures="0" time="9.242">
+    <testcase name="5 - I can find the entity types list ET-5-1 Should find list of entity types" time="9.242" classname="ET-5-1 Should find list of entity types">
+    </testcase>
+  </testsuite>
+</testsuites>

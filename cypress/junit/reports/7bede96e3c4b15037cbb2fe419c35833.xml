@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.866" tests="8" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:22:19" tests="0" file="cypress/integration/apps/entities/EN01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I should see entities on the entities page" timestamp="2020-07-10T19:22:19" tests="8" failures="0" time="23.866">
+    <testcase name="1 - I should see entities on the entities page EN-1-2 Should view entities" time="12.983" classname="EN-1-2 Should view entities">
+    </testcase>
+    <testcase name="1 - I should see entities on the entities page EN-1-5 Should view Entity filters in left column" time="3.171" classname="EN-1-5 Should view Entity filters in left column">
+    </testcase>
+    <testcase name="1 - I should see entities on the entities page EN-1-6 Should view Entity details in right column" time="3.143" classname="EN-1-6 Should view Entity details in right column">
+    </testcase>
+    <testcase name="1 - I should see entities on the entities page EN-1-8 Should collapse/expand filters column" time="1.81" classname="EN-1-8 Should collapse/expand filters column">
+    </testcase>
+    <testcase name="1 - I should see entities on the entities page EN-1-10 Should see the header" time="1.403" classname="EN-1-10 Should see the header">
+    </testcase>
+    <testcase name="1 - I should see entities on the entities page EN-1-11 Should see the metadata" time="1.356" classname="EN-1-11 Should see the metadata">
+    </testcase>
+  </testsuite>
+</testsuites>

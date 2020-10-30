@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="178.628" tests="8" failures="2" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-03-22T18:20:44" tests="0" file="cypress/integration/apps/lims/LM52_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="52 - I can use group all with every column type" timestamp="2020-03-22T18:20:44" tests="8" failures="2" time="178.628">
+    <testcase name="52 - I can use group all with every column type LM-52-7 Should use group all protocol with barcode column (rows different)" time="163.545" classname="LM-52-7 Should use group all protocol with barcode column (rows different)">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-8 Should use group all protocol with barcode column (rows same)" time="8.731" classname="LM-52-8 Should use group all protocol with barcode column (rows same)">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-10 Should use group all protocol with approval column" time="3.784" classname="LM-52-10 Should use group all protocol with approval column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-11 Should use group all protocol with checkbox column" time="0" classname="LM-52-11 Should use group all protocol with checkbox column">
+      <failure message="Timed out retrying: Expected &lt;input&gt; not to exist in the DOM, but it was continuously found. Queried from element: &lt;div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value&gt;" type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected <input> not to exist in the DOM, but it was continuously found. Queried from element: <div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value>
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-12 Should use group all protocol with complete column" time="2.568" classname="LM-52-12 Should use group all protocol with complete column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-14 Should use grouped pipeline protocol" time="0" classname="LM-52-14 Should use grouped pipeline protocol">
+      <failure message="Timed out retrying: Expected to find content: &apos;LM52-14 (Experiment)&apos; within the selector: &apos;[data-test=&quot;content-collapsible__section&quot;]&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'LM52-14 (Experiment)' within the selector: '[data-test="content-collapsible__section"]' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

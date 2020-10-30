@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.924" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T20:20:45" tests="0" file="cypress/integration/apps/expressions/EX13.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="13 - I should be able to use the Project API" timestamp="2020-07-10T20:20:45" tests="1" failures="0" time="25.924">
+    <testcase name="13 - I should be able to use the Project API EX-13-1 Should use project_list(tags=None, namesonly=True)" time="25.924" classname="EX-13-1 Should use project_list(tags=None, namesonly=True)">
+    </testcase>
+  </testsuite>
+</testsuites>

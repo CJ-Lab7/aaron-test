@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="64.61699999999999" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T23:54:14" tests="0" file="cypress/integration/apps/search/SR02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I can use the search box" timestamp="2020-04-03T23:54:14" tests="6" failures="0" time="64.61699999999999">
+    <testcase name="2 - I can use the search box SR-2-1 Should search and display all results" time="23.086" classname="SR-2-1 Should search and display all results">
+    </testcase>
+    <testcase name="2 - I can use the search box SR-2-2 Should confirm correct search results" time="8.745" classname="SR-2-2 Should confirm correct search results">
+    </testcase>
+    <testcase name="2 - I can use the search box SR-2-3 Should confirm total number of results for each tab" time="7.599" classname="SR-2-3 Should confirm total number of results for each tab">
+    </testcase>
+    <testcase name="2 - I can use the search box SR-2-4 Should find tabs for each search category" time="7.486" classname="SR-2-4 Should find tabs for each search category">
+    </testcase>
+    <testcase name="2 - I can use the search box SR-2-5 Should find a link for each search result" time="8.757" classname="SR-2-5 Should find a link for each search result">
+    </testcase>
+    <testcase name="2 - I can use the search box SR-2-6 Should find correct icons for search results" time="8.944" classname="SR-2-6 Should find correct icons for search results">
+    </testcase>
+  </testsuite>
+</testsuites>

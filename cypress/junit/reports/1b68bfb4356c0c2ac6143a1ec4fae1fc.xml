@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="335.01300000000003" tests="8" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-26T19:56:07" tests="0" file="cypress/integration/apps/sample_sets/LM58a.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58a - archive worksheets with multiple sample protocols" timestamp="2020-06-26T19:56:07" tests="8" failures="1" time="335.01300000000003">
+    <testcase name="58a - archive worksheets with multiple sample protocols LM-58a-1 - Archive after all samples are complete" time="79.526" classname="LM-58a-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58a - archive worksheets with multiple sample protocols LM-58a-2 - Archive after all samples fail in second protocol" time="21.304" classname="LM-58a-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58a - archive worksheets with multiple sample protocols LM-58a-3 - Archive after first sample fails in second protocol" time="33.578" classname="LM-58a-3 - Archive after first sample fails in second protocol">
+    </testcase>
+    <testcase name="58a - archive worksheets with multiple sample protocols LM-58a-4 - Archive after last sample fails in second protocol" time="33.915" classname="LM-58a-4 - Archive after last sample fails in second protocol">
+    </testcase>
+    <testcase name="58a - archive worksheets with multiple sample protocols LM-58a-5 - Archive after all samples fail in third protocol" time="27.03" classname="LM-58a-5 - Archive after all samples fail in third protocol">
+    </testcase>
+    <testcase name="58a - archive worksheets with multiple sample protocols LM-58a-6 - Archive after first sample fails in third protocol" time="33.68" classname="LM-58a-6 - Archive after first sample fails in third protocol">
+    </testcase>
+    <testcase name="58a - archive worksheets with multiple sample protocols LM-58a-7 - Archive after last sample fails in third protocol" time="34.266" classname="LM-58a-7 - Archive after last sample fails in third protocol">
+    </testcase>
+    <testcase name="58a - archive worksheets with multiple sample protocols LM-58a-8 - Archive after one sample fails in each sample protocol" time="35.857" classname="LM-58a-8 - Archive after one sample fails in each sample protocol">
+    </testcase>
+    <testcase name="58a - archive worksheets with multiple sample protocols &quot;after all&quot; hook for &quot;LM-58a-8 - Archive after one sample fails in each sample protocol&quot;" time="35.857" classname="&quot;after all&quot; hook for &quot;LM-58a-8 - Archive after one sample fails in each sample protocol&quot;">
+      <failure message="cy.exec(&apos;esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/sample_sets/LM58aseed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-06-26 15:01:09,827:Dropping SampleSheet: LM58-x a
+INFO:root:2020-06-26 15:01:09,960:Dropping Experiment: LM58a-x
+INFO:root:2020-06-26 15:01:11,121:Dropping Experiment: LM58a-1
+Traceb...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;58a - archive worksheets wi...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/sample_sets/LM58aseed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-06-26 15:01:09,827:Dropping SampleSheet: LM58-x a
+INFO:root:2020-06-26 15:01:09,960:Dropping Experiment: LM58a-x
+INFO:root:2020-06-26 15:01:11,121:Dropping Experiment: LM58a-1
+Traceb...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '58a - archive worksheets wi...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

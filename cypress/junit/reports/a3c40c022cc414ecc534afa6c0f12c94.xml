@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="59.71600000000001" tests="10" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:07:28" tests="0" file="cypress/integration/apps/location/LC42_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="42 - I can fill out custom fields under the Data tab" timestamp="2020-07-10T22:07:28" tests="10" failures="0" time="59.71600000000001">
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-1 Should add text field" time="16.625" classname="LC-42-1 Should add text field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-2 Should add numeric field" time="9.258" classname="LC-42-2 Should add numeric field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-3 Should add picklist field" time="5.066" classname="LC-42-3 Should add picklist field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-5 Should add date field" time="4.207" classname="LC-42-5 Should add date field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-6 Should add checkbox field" time="4.298" classname="LC-42-6 Should add checkbox field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-7 Should add attachment field" time="5.234" classname="LC-42-7 Should add attachment field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-8 Should add QR field" time="4.737" classname="LC-42-8 Should add QR field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-9 Should add 1D field" time="4.835" classname="LC-42-9 Should add 1D field">
+    </testcase>
+    <testcase name="42 - I can fill out custom fields under the Data tab LC-42-10 Should add mini datamatrix field" time="5.456" classname="LC-42-10 Should add mini datamatrix field">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="32.582" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:48:58" tests="0" file="cypress/integration/apps/projects/PR09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards)" timestamp="2020-07-10T22:48:58" tests="5" failures="0" time="32.582">
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-1 Should see project details on the left" time="16.892" classname="PR-9-1 Should see project details on the left">
+    </testcase>
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-2 Should access/use Chains tab" time="5.468" classname="PR-9-2 Should access/use Chains tab">
+    </testcase>
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-3 Should access/view Experiments tab" time="3.735" classname="PR-9-3 Should access/view Experiments tab">
+    </testcase>
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-4 Should access/view Samples tab" time="3.623" classname="PR-9-4 Should access/view Samples tab">
+    </testcase>
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-5 Should access/view History tab" time="2.864" classname="PR-9-5 Should access/view History tab">
+    </testcase>
+  </testsuite>
+</testsuites>

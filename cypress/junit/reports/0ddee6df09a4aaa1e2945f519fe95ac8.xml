@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.544" tests="3" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-15T20:33:24" tests="0" file="cypress/integration/apps/lims/LM10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - Remove samples from worksheets" timestamp="2020-04-15T20:33:24" tests="3" failures="0" time="19.544">
+    <testcase name="10 - Remove samples from worksheets LM-10-2 Should remove a sample from a worksheet with all samples from an experiment" time="10.112" classname="LM-10-2 Should remove a sample from a worksheet with all samples from an experiment">
+    </testcase>
+    <testcase name="10 - Remove samples from worksheets LM-10-3 Should not be able to remove a sample from a started worksheet" time="9.432" classname="LM-10-3 Should not be able to remove a sample from a started worksheet">
+    </testcase>
+  </testsuite>
+</testsuites>

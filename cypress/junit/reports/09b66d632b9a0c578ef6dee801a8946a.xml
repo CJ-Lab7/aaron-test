@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="92.317" tests="13" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:15:50" tests="0" file="cypress/integration/apps/data/D21.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="21 - I can link entities to data" timestamp="2020-07-10T19:15:50" tests="13" failures="0" time="92.317">
+    <testcase name="21 - I can link entities to data D-21-1 Should filter by resource type" time="24.642" classname="D-21-1 Should filter by resource type">
+    </testcase>
+    <testcase name="21 - I can link entities to data D-21-2 Should filter by name" time="5.747" classname="D-21-2 Should filter by name">
+    </testcase>
+    <testcase name="21 - I can link entities to data D-21-3 Should filter by owner" time="7.132" classname="D-21-3 Should filter by owner">
+    </testcase>
+    <testcase name="21 - I can link entities to data D-21-4 Should filter by description" time="4.53" classname="D-21-4 Should filter by description">
+    </testcase>
+    <testcase name="21 - I can link entities to data D-21-5 Should filter by tags" time="4.41" classname="D-21-5 Should filter by tags">
+    </testcase>
+    <testcase name="21 - I can link entities to data D-21-6 Should filter by created before" time="4.509" classname="D-21-6 Should filter by created before">
+    </testcase>
+    <testcase name="21 - I can link entities to data D-21-7 Should filter by created after" time="4.577" classname="D-21-7 Should filter by created after">
+    </testcase>
+    <testcase name="21 - I can link entities to data D-21-8 Should clear filters" time="7.016" classname="D-21-8 Should clear filters">
+    </testcase>
+    <testcase name="21 - I can link entities to data D-21-9 Should remove link" time="12.966" classname="D-21-9 Should remove link">
+    </testcase>
+    <testcase name="21 - I can link entities to data D-21-10 Should not remove auto generated entities" time="4.313" classname="D-21-10 Should not remove auto generated entities">
+    </testcase>
+    <testcase name="21 - I can link entities to data D-21-11 Should search entity without selecting resource type" time="3.634" classname="D-21-11 Should search entity without selecting resource type">
+    </testcase>
+    <testcase name="21 - I can link entities to data D-21-12 Should show message when no resource is found" time="4.354" classname="D-21-12 Should show message when no resource is found">
+    </testcase>
+    <testcase name="21 - I can link entities to data D-21-15 Should show number of selected entities" time="4.487" classname="D-21-15 Should show number of selected entities">
+    </testcase>
+  </testsuite>
+</testsuites>

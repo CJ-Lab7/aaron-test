@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="195.017" tests="5" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-06-26T20:07:29" tests="0" file="cypress/integration/apps/sample_sets/LM58c.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58c - archive worksheets with multiple sample protocols" timestamp="2020-06-26T20:07:29" tests="5" failures="2" time="195.017">
+    <testcase name="58c - archive worksheets with multiple sample protocols LM-58c-1 - Archive after all samples are complete" time="67.61" classname="LM-58c-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58c - archive worksheets with multiple sample protocols LM-58c-2 - Archive after all samples fail in second protocol" time="23.904" classname="LM-58c-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58c - archive worksheets with multiple sample protocols LM-58c-3 - Archive after first 3 samples fail in second protocol" time="0" classname="LM-58c-3 - Archive after first 3 samples fail in second protocol">
+      <failure message="Timed out retrying: Expected to find element: &apos;.ag-pinned-left-cols-container .ag-row:not(.ag-hidden)&apos;, but never found it." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: '.ag-pinned-left-cols-container .ag-row:not(.ag-hidden)', but never found it.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="58c - archive worksheets with multiple sample protocols LM-58c-4 - Archive after last sample fails in second protocol" time="42.441" classname="LM-58c-4 - Archive after last sample fails in second protocol">
+    </testcase>
+    <testcase name="58c - archive worksheets with multiple sample protocols LM-58c-5 - Archive after all samples fail in third protocol" time="30.531" classname="LM-58c-5 - Archive after all samples fail in third protocol">
+    </testcase>
+    <testcase name="58c - archive worksheets with multiple sample protocols &quot;after all&quot; hook for &quot;LM-58c-5 - Archive after all samples fail in third protocol&quot;" time="30.531" classname="&quot;after all&quot; hook for &quot;LM-58c-5 - Archive after all samples fail in third protocol&quot;">
+      <failure message="cy.exec(&apos;esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/sample_sets/LM58cseed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-06-26 15:10:52,822:Dropping SampleSheet: LM58-x c
+INFO:root:2020-06-26 15:10:52,956:Dropping Experiment: LM58c-x
+INFO:root:2020-06-26 15:10:54,424:Dropping Experiment: LM58c-1
+Traceb...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;58c - archive worksheets wi...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/sample_sets/LM58cseed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-06-26 15:10:52,822:Dropping SampleSheet: LM58-x c
+INFO:root:2020-06-26 15:10:52,956:Dropping Experiment: LM58c-x
+INFO:root:2020-06-26 15:10:54,424:Dropping Experiment: LM58c-1
+Traceb...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '58c - archive worksheets wi...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

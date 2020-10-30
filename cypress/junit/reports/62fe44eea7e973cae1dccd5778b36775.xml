@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="96.43299999999999" tests="12" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-11T01:15:15" tests="0" file="cypress/integration/apps/samples/SP05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can filter samples on the Samples page" timestamp="2020-07-11T01:15:15" tests="12" failures="1" time="96.43299999999999">
+    <testcase name="5 - I can filter samples on the Samples page SP-5-1 Should show all samples" time="16.957" classname="SP-5-1 Should show all samples">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-2 Should show submitted samples" time="8.623" classname="SP-5-2 Should show submitted samples">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-3 Should show unsubmitted samples" time="0" classname="SP-5-3 Should show unsubmitted samples">
+      <failure message="Timed out retrying: Expected not to find content: &apos;SUBMITTED&apos; within the element: [ &lt;div.row&gt;, 199 more... ] but continuously found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected not to find content: 'SUBMITTED' within the element: [ <div.row>, 199 more... ] but continuously found it.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/samples/SP05.js:36:56)]]></failure>
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-4 Should filter by Sample ID" time="4.627" classname="SP-5-4 Should filter by Sample ID">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-5 Should filter by Owner (with samples)" time="31.757" classname="SP-5-5 Should filter by Owner (with samples)">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-6 Should filter by Owner (without samples)" time="4.516" classname="SP-5-6 Should filter by Owner (without samples)">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-7 Should filter by Note" time="5.735" classname="SP-5-7 Should filter by Note">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-8 Should filter by Sample Tags" time="4.378" classname="SP-5-8 Should filter by Sample Tags">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-9 Should filter by Sample Type" time="5.087" classname="SP-5-9 Should filter by Sample Type">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-10 Should filter by Created After" time="6.07" classname="SP-5-10 Should filter by Created After">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-11 Should filter by Created Before" time="4.329" classname="SP-5-11 Should filter by Created Before">
+    </testcase>
+    <testcase name="5 - I can filter samples on the Samples page SP-5-12 Should clear filters" time="4.354" classname="SP-5-12 Should clear filters">
+    </testcase>
+  </testsuite>
+</testsuites>

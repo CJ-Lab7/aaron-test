@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-29T18:17:17" tests="0" file="cypress/integration/apps/lims/LM46.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="46 - I can check/uncheck boxes and the header reacts accordingly" timestamp="2020-03-29T18:17:17" tests="1" failures="1" time="0">
+    <testcase name="46 - I can check/uncheck boxes and the header reacts accordingly &quot;before all&quot; hook for &quot;LM-46-1/2 Should not check checkbox when sample is complete&quot;" time="0" classname="&quot;before all&quot; hook for &quot;LM-46-1/2 Should not check checkbox when sample is complete&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed --no-overwrite cypress/fixtures/apps/lims/LM46seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-29 13:17:18,093:Creating Protocol: LM46 Standard Checkbox
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/client/esp/base.py&quot;, line 75, in _
+    self.login()
+  F...
+
+Because this error occurred during a &apos;before all&apos; hook we are skipping the remaining tests in the current suite: &apos;46 - I can check/uncheck bo...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed --no-overwrite cypress/fixtures/apps/lims/LM46seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-29 13:17:18,093:Creating Protocol: LM46 Standard Checkbox
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/client/esp/base.py", line 75, in _
+    self.login()
+  F...
+
+Because this error occurred during a 'before all' hook we are skipping the remaining tests in the current suite: '46 - I can check/uncheck bo...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

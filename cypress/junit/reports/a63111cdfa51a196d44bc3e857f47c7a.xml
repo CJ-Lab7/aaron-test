@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="46.553000000000004" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:14:20" tests="0" file="cypress/integration/apps/data/D20.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="20 - I can add files with different types" timestamp="2020-07-10T19:14:20" tests="7" failures="1" time="46.553000000000004">
+    <testcase name="20 - I can add files with different types D-20-1 Should add jpg file" time="11.17" classname="D-20-1 Should add jpg file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-2 Should add txt file" time="7.845" classname="D-20-2 Should add txt file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-3 Should add xlsx file" time="7.581" classname="D-20-3 Should add xlsx file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-4 Should add docx file" time="7.037" classname="D-20-4 Should add docx file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-5 Should add png file" time="5.774" classname="D-20-5 Should add png file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-6 Should add csv file" time="7.146" classname="D-20-6 Should add csv file">
+    </testcase>
+    <testcase name="20 - I can add files with different types D-20-7 Should add pdf file" time="0" classname="D-20-7 Should add pdf file">
+      <failure message="Timed out retrying: Expected to find element: `canvas`, but never found it. Queried from element: &lt;div.contents&gt;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `canvas`, but never found it. Queried from element: <div.contents>
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/data/D20.js:107:25)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

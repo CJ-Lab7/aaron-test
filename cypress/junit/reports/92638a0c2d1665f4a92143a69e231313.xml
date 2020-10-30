@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="45.199" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T16:04:17" tests="0" file="cypress/integration/apps/data/D10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I can access file details" timestamp="2020-04-03T16:04:18" tests="4" failures="0" time="45.199">
+    <testcase name="10 - I can access file details D-10-1 Should open details page" time="15.189" classname="D-10-1 Should open details page">
+    </testcase>
+    <testcase name="10 - I can access file details D-10-2 Should observe correct file name" time="9.741" classname="D-10-2 Should observe correct file name">
+    </testcase>
+    <testcase name="10 - I can access file details D-10-3 Should see correct file details in the left column" time="10.519" classname="D-10-3 Should see correct file details in the left column">
+    </testcase>
+    <testcase name="10 - I can access file details D-10-4 Should find tabs" time="9.75" classname="D-10-4 Should find tabs">
+    </testcase>
+  </testsuite>
+</testsuites>

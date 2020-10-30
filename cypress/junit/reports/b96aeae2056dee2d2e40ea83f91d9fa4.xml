@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="152.17899999999997" tests="12" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-20T20:24:06" tests="0" file="cypress/integration/apps/entities/EN04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can add new entities on the Entities page" timestamp="2020-03-20T20:24:06" tests="12" failures="0" time="152.17899999999997">
+    <testcase name="4 - I can add new entities on the Entities page EN-4-2 Should require number of entities" time="14.946" classname="EN-4-2 Should require number of entities">
+    </testcase>
+    <testcase name="4 - I can add new entities on the Entities page EN-4-3 Should require entity class" time="12.202" classname="EN-4-3 Should require entity class">
+    </testcase>
+    <testcase name="4 - I can add new entities on the Entities page EN-4-4 Should require entity type" time="13.84" classname="EN-4-4 Should require entity type">
+    </testcase>
+    <testcase name="4 - I can add new entities on the Entities page EN-4-5 Should require sample sequence" time="15.088" classname="EN-4-5 Should require sample sequence">
+    </testcase>
+    <testcase name="4 - I can add new entities on the Entities page EN-4-6 Should create entity with tags" time="15.376" classname="EN-4-6 Should create entity with tags">
+    </testcase>
+    <testcase name="4 - I can add new entities on the Entities page EN-4-7 Should create entity with description" time="15.88" classname="EN-4-7 Should create entity with description">
+    </testcase>
+    <testcase name="4 - I can add new entities on the Entities page EN-4-8 Should show message before selecting number of entities" time="12.011" classname="EN-4-8 Should show message before selecting number of entities">
+    </testcase>
+    <testcase name="4 - I can add new entities on the Entities page EN-4-9 Should show entities in table" time="13.497" classname="EN-4-9 Should show entities in table">
+    </testcase>
+    <testcase name="4 - I can add new entities on the Entities page EN-4-10 Should close with &apos;x&apos;" time="13.061" classname="EN-4-10 Should close with &apos;x&apos;">
+    </testcase>
+    <testcase name="4 - I can add new entities on the Entities page EN-4-11 Should cancel" time="11.813" classname="EN-4-11 Should cancel">
+    </testcase>
+    <testcase name="4 - I can add new entities on the Entities page EN-4-12 Should register entity" time="14.465" classname="EN-4-12 Should register entity">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="39.995" tests="3" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-03-22T19:04:01" tests="0" file="cypress/integration/apps/location/LC10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - On a container details page, I can filter items" timestamp="2020-03-22T19:04:01" tests="3" failures="0" time="39.995">
+    <testcase name="10 - On a container details page, I can filter items LC-10-1 Should filter item pool by name" time="39.995" classname="LC-10-1 Should filter item pool by name">
+    </testcase>
+  </testsuite>
+</testsuites>

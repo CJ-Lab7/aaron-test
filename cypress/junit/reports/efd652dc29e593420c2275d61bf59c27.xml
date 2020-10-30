@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="45.043" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T16:00:57" tests="0" file="cypress/integration/apps/data/D05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can add a file to Data" timestamp="2020-04-03T16:00:57" tests="5" failures="0" time="45.043">
+    <testcase name="5 - I can add a file to Data D-5-1 Should open modal" time="8.633" classname="D-5-1 Should open modal">
+    </testcase>
+    <testcase name="5 - I can add a file to Data D-5-2 Should add description" time="8.572" classname="D-5-2 Should add description">
+    </testcase>
+    <testcase name="5 - I can add a file to Data D-5-3 Should add file tags" time="9.962" classname="D-5-3 Should add file tags">
+    </testcase>
+    <testcase name="5 - I can add a file to Data D-5-4 Should upload a file" time="11.645" classname="D-5-4 Should upload a file">
+    </testcase>
+    <testcase name="5 - I can add a file to Data D-5-5 Should cancel uploading a file" time="6.231" classname="D-5-5 Should cancel uploading a file">
+    </testcase>
+  </testsuite>
+</testsuites>

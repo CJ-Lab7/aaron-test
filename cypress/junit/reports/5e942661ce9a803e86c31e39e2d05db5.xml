@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="41.769" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-15T20:03:20" tests="0" file="cypress/integration/apps/analysis/AN07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I should be able to access pipeline inspector under Monitor tab" timestamp="2020-04-15T20:03:20" tests="3" failures="0" time="41.769">
+    <testcase name="7 - I should be able to access pipeline inspector under Monitor tab AN-7-1 Should display pipeline instance details" time="25.485" classname="AN-7-1 Should display pipeline instance details">
+    </testcase>
+    <testcase name="7 - I should be able to access pipeline inspector under Monitor tab AN-7-2 Should show options for More Actions button" time="8.324" classname="AN-7-2 Should show options for More Actions button">
+    </testcase>
+    <testcase name="7 - I should be able to access pipeline inspector under Monitor tab AN-7-3 Should link to report" time="7.96" classname="AN-7-3 Should link to report">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="146.587" tests="13" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-06-08T14:34:19" tests="0" file="cypress/integration/apps/entities/EN05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can filter entities on the Entities page" timestamp="2020-06-08T14:34:19" tests="13" failures="2" time="146.587">
+    <testcase name="5 - I can filter entities on the Entities page EN-5-1 Should filter by entity class" time="27.322" classname="EN-5-1 Should filter by entity class">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-2 Should show all entities" time="11.928" classname="EN-5-2 Should show all entities">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-3 Should show submitted entities" time="11.691" classname="EN-5-3 Should show submitted entities">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-4 Should show unsubmitted entities" time="12.208" classname="EN-5-4 Should show unsubmitted entities">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-5 Should filter by Entity ID" time="0" classname="EN-5-5 Should filter by Entity ID">
+      <failure message="Timed out retrying: Expected to find content: &apos;NOT&apos; within the element: &lt;div.row&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'NOT' within the element: <div.row> but never did.
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-6 Should filter by Owner (with entities)" time="12.988" classname="EN-5-6 Should filter by Owner (with entities)">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-7 Should filter by Owner (without entities)" time="0" classname="EN-5-7 Should filter by Owner (without entities)">
+      <failure message="Timed out retrying: Expected [ &lt;div.row&gt;, 23 more... ] not to exist in the DOM, but it was continuously found." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected [ <div.row>, 23 more... ] not to exist in the DOM, but it was continuously found.
+    at cypressErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris231.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-8 Should filter by Note" time="11.928" classname="EN-5-8 Should filter by Note">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-9 Should filter by Entity Tags" time="11.475" classname="EN-5-9 Should filter by Entity Tags">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-10 Should filter by Entity Type" time="11.66" classname="EN-5-10 Should filter by Entity Type">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-11 Should filter by Created After" time="11.714" classname="EN-5-11 Should filter by Created After">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-12 Should filter by Created Before" time="12.458" classname="EN-5-12 Should filter by Created Before">
+    </testcase>
+    <testcase name="5 - I can filter entities on the Entities page EN-5-13 Should clear filters" time="11.215" classname="EN-5-13 Should clear filters">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="5" failures="5">
+  <testsuite name="Root Suite" timestamp="2020-05-15T14:50:09" tests="0" file="cypress/integration/apps/vendors/VEN09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can use the new vendor modal" timestamp="2020-05-15T14:50:09" tests="5" failures="5" time="0">
+    <testcase name="9 - I can use the new vendor modal VEN-9-1 Should input name" time="0" classname="VEN-9-1 Should input name">
+      <failure message="VendorMain is not defined" type="ReferenceError"><![CDATA[ReferenceError: VendorMain is not defined
+    at Function.openModal (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN09.js-349:605:7)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN09.js-349:83:34)]]></failure>
+    </testcase>
+    <testcase name="9 - I can use the new vendor modal VEN-9-2 Should input description" time="0" classname="VEN-9-2 Should input description">
+      <failure message="VendorMain is not defined" type="ReferenceError"><![CDATA[ReferenceError: VendorMain is not defined
+    at Function.openModal (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN09.js-349:605:7)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN09.js-349:90:34)]]></failure>
+    </testcase>
+    <testcase name="9 - I can use the new vendor modal VEN-9-10 Should save vendor" time="0" classname="VEN-9-10 Should save vendor">
+      <failure message="VendorMain is not defined" type="ReferenceError"><![CDATA[ReferenceError: VendorMain is not defined
+    at Function.openModal (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN09.js-349:605:7)
+    at Function.createVendor (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN09.js-349:581:22)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN09.js-349:98:31)]]></failure>
+    </testcase>
+    <testcase name="9 - I can use the new vendor modal VEN-9-13 Should cancel" time="0" classname="VEN-9-13 Should cancel">
+      <failure message="VendorMain is not defined" type="ReferenceError"><![CDATA[ReferenceError: VendorMain is not defined
+    at Function.openModal (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN09.js-349:605:7)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN09.js-349:105:34)]]></failure>
+    </testcase>
+    <testcase name="9 - I can use the new vendor modal VEN-9-14 Should close modal" time="0" classname="VEN-9-14 Should close modal">
+      <failure message="VendorMain is not defined" type="ReferenceError"><![CDATA[ReferenceError: VendorMain is not defined
+    at Function.openModal (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN09.js-349:605:7)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN09.js-349:118:34)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

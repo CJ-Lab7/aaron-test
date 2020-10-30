@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.559" tests="4" failures="2" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-28T19:26:09" tests="0" file="cypress/integration/apps/lims/LM05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I should be able to sort experiments" timestamp="2020-03-28T19:26:09" tests="4" failures="2" time="15.559">
+    <testcase name="5 - I should be able to sort experiments LM-5-1 Should be able to sort experiments by Name" time="15.559" classname="LM-5-1 Should be able to sort experiments by Name">
+    </testcase>
+    <testcase name="5 - I should be able to sort experiments LM-5-3 Should be able to sort experiments by Workflow" time="0" classname="LM-5-3 Should be able to sort experiments by Workflow">
+      <failure message="expected 0 to equal 1" type="AssertionError"><![CDATA[AssertionError: expected 0 to equal 1
+    at callback (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125015:20)
+    at getRet (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:124653:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162170:29)
+    at thenFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:124667:23)
+    at yieldItem (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125022:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Object.gotValue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164037:18)
+    at Object.gotAccum (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164026:25)
+    at Object.tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)]]></failure>
+    </testcase>
+    <testcase name="5 - I should be able to sort experiments LM-5-4 Should reset sort" time="0" classname="LM-5-4 Should reset sort">
+      <failure message="expected 0 to equal 1" type="AssertionError"><![CDATA[AssertionError: expected 0 to equal 1
+    at callback (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125015:20)
+    at getRet (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:124653:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162170:29)
+    at thenFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:124667:23)
+    at yieldItem (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125022:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Object.gotValue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164037:18)
+    at Object.gotAccum (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164026:25)
+    at Object.tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

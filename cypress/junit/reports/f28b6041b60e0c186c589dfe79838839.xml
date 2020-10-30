@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="105.22400000000002" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T03:44:03" tests="0" file="cypress/integration/apps/projects/PR16.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="16 - I can group experiments by workflow" timestamp="2020-04-16T03:44:03" tests="8" failures="0" time="105.22400000000002">
+    <testcase name="16 - I can group experiments by workflow PR-16-1 Should see experiments grouped by workflow" time="21.6" classname="PR-16-1 Should see experiments grouped by workflow">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-2 Should see list of experiments for each workflow" time="13.086" classname="PR-16-2 Should see list of experiments for each workflow">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-3 Should show correct experiment names" time="11.289" classname="PR-16-3 Should show correct experiment names">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-4 Should show correct status" time="11.919" classname="PR-16-4 Should show correct status">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-5 Should show correct project" time="12.454" classname="PR-16-5 Should show correct project">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-6 Should show correct number of samples" time="11.14" classname="PR-16-6 Should show correct number of samples">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-7 Should show correct owner" time="10.994" classname="PR-16-7 Should show correct owner">
+    </testcase>
+    <testcase name="16 - I can group experiments by workflow PR-16-9 Should show correct number of experiments under each workflow" time="12.742" classname="PR-16-9 Should show correct number of experiments under each workflow">
+    </testcase>
+  </testsuite>
+</testsuites>

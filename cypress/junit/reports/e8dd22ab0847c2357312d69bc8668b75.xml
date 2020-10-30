@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.124" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T20:12:20" tests="0" file="cypress/integration/apps/reports/RP04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can view report details in the inspector panel (List tab)" timestamp="2020-06-24T20:12:20" tests="3" failures="0" time="27.124">
+    <testcase name="4 - I can view report details in the inspector panel (List tab) RP-4-1 Should open inspector" time="12.129" classname="RP-4-1 Should open inspector">
+    </testcase>
+    <testcase name="4 - I can view report details in the inspector panel (List tab) RP-4-2 Should find details of inspector panel" time="7.118" classname="RP-4-2 Should find details of inspector panel">
+    </testcase>
+    <testcase name="4 - I can view report details in the inspector panel (List tab) RP-4-3 Should click view details link" time="7.877" classname="RP-4-3 Should click view details link">
+    </testcase>
+  </testsuite>
+</testsuites>

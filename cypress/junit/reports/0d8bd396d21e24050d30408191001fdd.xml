@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.447000000000003" tests="14" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-28T17:57:10" tests="0" file="cypress/integration/apps/permissions/LP09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - Without permission, i cannot find links in the app drawer" timestamp="2020-04-28T17:57:10" tests="14" failures="0" time="25.447000000000003">
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-1 Should not link to admin" time="7.783" classname="LP-9-1 Should not link to admin">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-2 Should not link to analysis" time="3.175" classname="LP-9-2 Should not link to analysis">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-3 Should not link to applets" time="1.241" classname="LP-9-3 Should not link to applets">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-4 Should not link to dashbaord" time="1.221" classname="LP-9-4 Should not link to dashbaord">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-5 Should not link to data" time="1.172" classname="LP-9-5 Should not link to data">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-6 Should not link to entities" time="1.137" classname="LP-9-6 Should not link to entities">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-7 Should not link to IAM" time="1.135" classname="LP-9-7 Should not link to IAM">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-8 Should not link to ingest" time="1.331" classname="LP-9-8 Should not link to ingest">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-9 Should not link to inventory" time="1.245" classname="LP-9-9 Should not link to inventory">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-10 Should not link to lims" time="1.199" classname="LP-9-10 Should not link to lims">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-11 Should not link to location" time="1.262" classname="LP-9-11 Should not link to location">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-12 Should not link to projects" time="1.174" classname="LP-9-12 Should not link to projects">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-13 Should not link to samples" time="1.179" classname="LP-9-13 Should not link to samples">
+    </testcase>
+    <testcase name="9 - Without permission, i cannot find links in the app drawer LP-9-14 Should not link to seach" time="1.193" classname="LP-9-14 Should not link to seach">
+    </testcase>
+  </testsuite>
+</testsuites>

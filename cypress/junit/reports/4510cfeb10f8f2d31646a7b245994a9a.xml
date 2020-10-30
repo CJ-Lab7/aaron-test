@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.581" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-11T02:12:15" tests="0" file="cypress/integration/apps/search/SR03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can see search results by clicking items in Search History" timestamp="2020-07-11T02:12:15" tests="1" failures="0" time="9.581">
+    <testcase name="3 - I can see search results by clicking items in Search History SR-3-1 Should link to the correct search" time="9.581" classname="SR-3-1 Should link to the correct search">
+    </testcase>
+  </testsuite>
+</testsuites>

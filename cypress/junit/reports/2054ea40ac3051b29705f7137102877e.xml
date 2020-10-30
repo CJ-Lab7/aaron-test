@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="34.557" tests="6" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-04-28T19:47:46" tests="0" file="cypress/integration/apps/permissions/LP32.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="32 - I can have container permissions" timestamp="2020-04-28T19:47:46" tests="6" failures="0" time="34.557">
+    <testcase name="32 - I can have container permissions LP-32-6 Should fail to create a container" time="12.738" classname="LP-32-6 Should fail to create a container">
+    </testcase>
+    <testcase name="32 - I can have container permissions LP-32-7 Should fail to update a container" time="9.852" classname="LP-32-7 Should fail to update a container">
+    </testcase>
+    <testcase name="32 - I can have container permissions LP-32-2 Should create a container" time="3.538" classname="LP-32-2 Should create a container">
+    </testcase>
+    <testcase name="32 - I can have container permissions LP-32-3 Should update a container" time="8.429" classname="LP-32-3 Should update a container">
+    </testcase>
+  </testsuite>
+</testsuites>

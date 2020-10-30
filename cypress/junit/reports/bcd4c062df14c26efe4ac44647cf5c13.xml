@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.803" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T16:52:11" tests="0" file="cypress/integration/apps/inventory/IN17.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - On the Inventory details page, I can add usage entry" timestamp="2020-03-22T16:52:11" tests="1" failures="0" time="15.803">
+    <testcase name="17 - On the Inventory details page, I can add usage entry IN-17-1 Should add usage entry" time="15.803" classname="IN-17-1 Should add usage entry">
+    </testcase>
+  </testsuite>
+</testsuites>

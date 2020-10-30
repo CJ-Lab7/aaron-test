@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="222.026" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-15T21:57:42" tests="0" file="cypress/integration/apps/lims/LM41.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="41 - I can use inventory item use column in worksheets" timestamp="2020-04-15T21:57:42" tests="8" failures="0" time="222.026">
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-1 Should add item quantity" time="58.665" classname="LM-41-1 Should add item quantity">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-2 Should remove item quantity" time="25.632" classname="LM-41-2 Should remove item quantity">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-3 Should add note" time="23.825" classname="LM-41-3 Should add note">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-4 Should show remaining quantity" time="16.97" classname="LM-41-4 Should show remaining quantity">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-5 Should find item details in drop down menu" time="18.976" classname="LM-41-5 Should find item details in drop down menu">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-8 Should close window" time="17.143" classname="LM-41-8 Should close window">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-9 Should update inventory in transpose view" time="23.652" classname="LM-41-9 Should update inventory in transpose view">
+    </testcase>
+    <testcase name="41 - I can use inventory item use column in worksheets LM-41-10 Should use multiple approval columns in the same protocol" time="37.163" classname="LM-41-10 Should use multiple approval columns in the same protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

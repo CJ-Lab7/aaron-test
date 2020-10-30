@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.933" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T20:47:11" tests="0" file="cypress/integration/apps/inventory/IN19.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="19 - On the Inventory details page, I can close all open tabs" timestamp="2020-07-10T20:47:11" tests="1" failures="0" time="12.933">
+    <testcase name="19 - On the Inventory details page, I can close all open tabs IN-19-1 Should close all open tabs" time="12.933" classname="IN-19-1 Should close all open tabs">
+    </testcase>
+  </testsuite>
+</testsuites>

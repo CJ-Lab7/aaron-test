@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="51.044" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-09-18T17:05:15" tests="0" file="cypress/integration/apps/location/LC33.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="33 - I can use the column management modal" timestamp="2020-09-18T17:05:15" tests="6" failures="0" time="51.044">
+    <testcase name="33 - I can use the column management modal LC-33-1 Should find modal heading" time="13.655" classname="LC-33-1 Should find modal heading">
+    </testcase>
+    <testcase name="33 - I can use the column management modal LC-33-2 Should find modal subheading" time="7.697" classname="LC-33-2 Should find modal subheading">
+    </testcase>
+    <testcase name="33 - I can use the column management modal LC-33-3 Should find list of columns" time="7.862" classname="LC-33-3 Should find list of columns">
+    </testcase>
+    <testcase name="33 - I can use the column management modal LC-33-4 Should find done button" time="6.91" classname="LC-33-4 Should find done button">
+    </testcase>
+    <testcase name="33 - I can use the column management modal LC-33-5 Should find cancel button" time="7.686" classname="LC-33-5 Should find cancel button">
+    </testcase>
+    <testcase name="33 - I can use the column management modal LC-33-6 Should find x button" time="7.234" classname="LC-33-6 Should find x button">
+    </testcase>
+  </testsuite>
+</testsuites>

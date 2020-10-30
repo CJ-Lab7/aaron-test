@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="84.72" tests="12" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-05-27T16:19:28" tests="0" file="cypress/integration/apps/container_types/CT17_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can use the custom fields modal" timestamp="2020-05-27T16:19:28" tests="12" failures="1" time="84.72">
+    <testcase name="17 - I can use the custom fields modal CT-17-14 Should add Resource Link Container" time="15.887" classname="CT-17-14 Should add Resource Link Container">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-15 Should add Resource Link Report" time="7.9" classname="CT-17-15 Should add Resource Link Report">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-16 Should add Resource Link Project" time="6.825" classname="CT-17-16 Should add Resource Link Project">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-17 Should add Resource Link Experiment" time="6.787" classname="CT-17-17 Should add Resource Link Experiment">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-18 Should add Resource Link Inventory" time="6.838" classname="CT-17-18 Should add Resource Link Inventory">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-19 Should add read only" time="6.637" classname="CT-17-19 Should add read only">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-20 Should add required" time="6.706" classname="CT-17-20 Should add required">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-21 Should add default value" time="6.966" classname="CT-17-21 Should add default value">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-22 Should add default value in pop out window" time="0" classname="CT-17-22 Should add default value in pop out window">
+      <failure message="cy.type() cannot accept an empty String. You need to actually type something." type="CypressError"><![CDATA[CypressError: cy.type() cannot accept an empty String. You need to actually type something.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Context.type (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:123337:17)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:136977:21)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:136453:33
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-23 Should add var group" time="7.472" classname="CT-17-23 Should add var group">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-24 Should add description" time="7.649" classname="CT-17-24 Should add description">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-11-26 &amp; CT-11-27 Should cancel and close modal" time="5.053" classname="CT-11-26 &amp; CT-11-27 Should cancel and close modal">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="31.195" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T01:09:53" tests="0" file="cypress/integration/apps/lims/LM08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I should be able to filter worksheets" timestamp="2020-06-24T01:09:53" tests="2" failures="0" time="31.195">
+    <testcase name="8 - I should be able to filter worksheets LM-8-1 Should filter worksheets by Name in list view" time="22.973" classname="LM-8-1 Should filter worksheets by Name in list view">
+    </testcase>
+    <testcase name="8 - I should be able to filter worksheets LM-8-4 Should filter worksheets by Name in cards view" time="8.222" classname="LM-8-4 Should filter worksheets by Name in cards view">
+    </testcase>
+  </testsuite>
+</testsuites>

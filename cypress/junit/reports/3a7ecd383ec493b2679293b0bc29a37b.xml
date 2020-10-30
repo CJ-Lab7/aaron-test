@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2020-05-01T19:40:22" tests="0" file="cypress/integration/apps/container_types/CT10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I can create container types that accept different objects" timestamp="2020-05-01T19:40:22" tests="6" failures="6" time="0">
+    <testcase name="10 - I can create container types that accept different objects CT-10-1 Should create single entity container" time="0" classname="CT-10-1 Should create single entity container">
+      <failure message="props is not defined" type="ReferenceError"><![CDATA[ReferenceError: props is not defined
+    at Function.createContainerType (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT10.js-942:734:7)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT10.js-942:84:44)]]></failure>
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-2 Should create unlimited entity container" time="0" classname="CT-10-2 Should create unlimited entity container">
+      <failure message="props is not defined" type="ReferenceError"><![CDATA[ReferenceError: props is not defined
+    at Function.createContainerType (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT10.js-942:734:7)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT10.js-942:96:44)]]></failure>
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-3 Should create single container container" time="0" classname="CT-10-3 Should create single container container">
+      <failure message="props is not defined" type="ReferenceError"><![CDATA[ReferenceError: props is not defined
+    at Function.createContainerType (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT10.js-942:734:7)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT10.js-942:108:44)]]></failure>
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-4 Should create unlimited container container" time="0" classname="CT-10-4 Should create unlimited container container">
+      <failure message="props is not defined" type="ReferenceError"><![CDATA[ReferenceError: props is not defined
+    at Function.createContainerType (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT10.js-942:734:7)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT10.js-942:120:44)]]></failure>
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-5 Should create single entity and container container" time="0" classname="CT-10-5 Should create single entity and container container">
+      <failure message="props is not defined" type="ReferenceError"><![CDATA[ReferenceError: props is not defined
+    at Function.createContainerType (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT10.js-942:734:7)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT10.js-942:132:44)]]></failure>
+    </testcase>
+    <testcase name="10 - I can create container types that accept different objects CT-10-6 Should create unlimited entity and container container" time="0" classname="CT-10-6 Should create unlimited entity and container container">
+      <failure message="props is not defined" type="ReferenceError"><![CDATA[ReferenceError: props is not defined
+    at Function.createContainerType (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT10.js-942:734:7)
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT10.js-942:144:44)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

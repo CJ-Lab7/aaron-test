@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="82.321" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T14:50:12" tests="0" file="cypress/integration/apps/location/LC25.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I can add items to item pool by scanning barcodes" timestamp="2020-03-31T14:50:12" tests="7" failures="0" time="82.321">
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-1 Should add sample to item pool by scanning uuid barcode" time="22.951" classname="LC-25-1 Should add sample to item pool by scanning uuid barcode">
+    </testcase>
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-2 Should add sample to item pool by scanning non-uuid barcode" time="10.961" classname="LC-25-2 Should add sample to item pool by scanning non-uuid barcode">
+    </testcase>
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-3 Should add container to item pool by scanning uuid barcode" time="10.266" classname="LC-25-3 Should add container to item pool by scanning uuid barcode">
+    </testcase>
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-4 Should add container to item pool by scanning non-uuid barcode" time="9.825" classname="LC-25-4 Should add container to item pool by scanning non-uuid barcode">
+    </testcase>
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-7 Should not add container to itself" time="9.681" classname="LC-25-7 Should not add container to itself">
+    </testcase>
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-8 Should not add sample to container container" time="9.099" classname="LC-25-8 Should not add sample to container container">
+    </testcase>
+    <testcase name="25 - I can add items to item pool by scanning barcodes LC-25-9 Should not add container to sample container" time="9.538" classname="LC-25-9 Should not add container to sample container">
+    </testcase>
+  </testsuite>
+</testsuites>

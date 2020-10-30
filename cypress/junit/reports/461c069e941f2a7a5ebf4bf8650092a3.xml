@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="53.32599999999999" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T16:19:42" tests="0" file="cypress/integration/apps/lims/LM45.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="45 - I can use checkboxes with grouped samples" timestamp="2020-06-24T16:19:42" tests="2" failures="0" time="53.32599999999999">
+    <testcase name="45 - I can use checkboxes with grouped samples LM-45-1 Should not be able to check boxes for grouped samples if all samples aren&apos;t complete in previous protocol" time="33.266" classname="LM-45-1 Should not be able to check boxes for grouped samples if all samples aren&apos;t complete in previous protocol">
+    </testcase>
+    <testcase name="45 - I can use checkboxes with grouped samples LM-45-2 Should not be able to check complete for grouped samples if all samples aren&apos;t complete in previous protocol" time="20.06" classname="LM-45-2 Should not be able to check complete for grouped samples if all samples aren&apos;t complete in previous protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

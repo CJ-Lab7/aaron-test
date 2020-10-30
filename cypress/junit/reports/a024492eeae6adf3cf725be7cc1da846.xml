@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="59.212999999999994" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:05:25" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I can check the state of experiments" timestamp="2020-02-27T21:05:25" tests="4" failures="0" time="59.212999999999994">
+    <testcase name="25 - I can check the state of experiments PR-25-1 Should find pending experiment" time="51.832" classname="PR-25-1 Should find pending experiment">
+    </testcase>
+    <testcase name="25 - I can check the state of experiments PR-25-2 Should find queued experiment" time="3.897" classname="PR-25-2 Should find queued experiment">
+    </testcase>
+    <testcase name="25 - I can check the state of experiments PR-25-3 Should find running experiment" time="1.666" classname="PR-25-3 Should find running experiment">
+    </testcase>
+    <testcase name="25 - I can check the state of experiments PR-25-4 Should find done experiment" time="1.818" classname="PR-25-4 Should find done experiment">
+    </testcase>
+  </testsuite>
+</testsuites>

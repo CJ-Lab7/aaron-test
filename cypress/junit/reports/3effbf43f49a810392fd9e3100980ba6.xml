@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="57.994" tests="4" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-03T17:22:00" tests="0" file="cypress/integration/apps/expressions/EX08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I should be able to use the Resource API" timestamp="2020-04-03T17:22:00" tests="4" failures="0" time="57.994">
+    <testcase name="8 - I should be able to use the Resource API EX-8-1 Should use resource_dict(resource_uuid=None, resource_name=None)" time="20.333" classname="EX-8-1 Should use resource_dict(resource_uuid=None, resource_name=None)">
+    </testcase>
+    <testcase name="8 - I should be able to use the Resource API EX-8-3 Should use json_dumps(obj)" time="12.715" classname="EX-8-3 Should use json_dumps(obj)">
+    </testcase>
+    <testcase name="8 - I should be able to use the Resource API EX-8-4 Should use current_datetime(format_=None)" time="24.946" classname="EX-8-4 Should use current_datetime(format_=None)">
+    </testcase>
+  </testsuite>
+</testsuites>

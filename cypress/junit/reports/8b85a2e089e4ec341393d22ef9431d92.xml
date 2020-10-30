@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="57.80199999999999" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T15:23:00" tests="0" file="cypress/integration/apps/projects/PR18.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="18 - I can list experiments" timestamp="2020-03-31T15:23:00" tests="6" failures="0" time="57.80199999999999">
+    <testcase name="18 - I can list experiments PR-18-1 Should show correct experiment names" time="16.987" classname="PR-18-1 Should show correct experiment names">
+    </testcase>
+    <testcase name="18 - I can list experiments PR-18-2 Should show correct status" time="7.953" classname="PR-18-2 Should show correct status">
+    </testcase>
+    <testcase name="18 - I can list experiments PR-18-3 Should see correct workflow for each experiment" time="7.794" classname="PR-18-3 Should see correct workflow for each experiment">
+    </testcase>
+    <testcase name="18 - I can list experiments PR-18-4 Should show correct number of samples" time="7.768" classname="PR-18-4 Should show correct number of samples">
+    </testcase>
+    <testcase name="18 - I can list experiments PR-18-5 Should show correct project" time="9.449" classname="PR-18-5 Should show correct project">
+    </testcase>
+    <testcase name="18 - I can list experiments PR-18-6 Should show correct owner" time="7.851" classname="PR-18-6 Should show correct owner">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="62.85399999999999" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T16:44:05" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="15 - I can group experiments by projects" timestamp="2020-02-27T16:44:05" tests="8" failures="0" time="62.85399999999999">
+    <testcase name="15 - I can group experiments by projects PR-15-1 Should see experiments grouped by project" time="45.711" classname="PR-15-1 Should see experiments grouped by project">
+    </testcase>
+    <testcase name="15 - I can group experiments by projects PR-15-2 Should see list of experiments for each project" time="4.469" classname="PR-15-2 Should see list of experiments for each project">
+    </testcase>
+    <testcase name="15 - I can group experiments by projects PR-15-3 Should show correct experiment names" time="2.105" classname="PR-15-3 Should show correct experiment names">
+    </testcase>
+    <testcase name="15 - I can group experiments by projects PR-15-4 Should show correct status" time="2.16" classname="PR-15-4 Should show correct status">
+    </testcase>
+    <testcase name="15 - I can group experiments by projects PR-15-5 Should show correct workflow" time="2.034" classname="PR-15-5 Should show correct workflow">
+    </testcase>
+    <testcase name="15 - I can group experiments by projects PR-15-6 Should show correct number of samples" time="1.874" classname="PR-15-6 Should show correct number of samples">
+    </testcase>
+    <testcase name="15 - I can group experiments by projects PR-15-7 Should show correct owner" time="1.974" classname="PR-15-7 Should show correct owner">
+    </testcase>
+    <testcase name="15 - I can group experiments by projects PR-15-9 Should show correct number of experiments under each project" time="2.527" classname="PR-15-9 Should show correct number of experiments under each project">
+    </testcase>
+  </testsuite>
+</testsuites>

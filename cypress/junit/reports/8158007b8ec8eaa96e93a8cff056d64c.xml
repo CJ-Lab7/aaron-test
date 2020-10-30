@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="104.69" tests="17" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-29T18:50:23" tests="0" file="cypress/integration/apps/samples/SP33.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="33 - I can attach existing resources to a sample" timestamp="2020-03-29T18:50:23" tests="17" failures="0" time="104.69">
+    <testcase name="33 - I can attach existing resources to a sample SP-33-1 Should filter by resource type" time="16.393" classname="SP-33-1 Should filter by resource type">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-2 Should filter by name" time="6.268" classname="SP-33-2 Should filter by name">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-3 Should filter by owner" time="5.636" classname="SP-33-3 Should filter by owner">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-4 Should filter by description" time="4.746" classname="SP-33-4 Should filter by description">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-5 Should filter by tags" time="4.925" classname="SP-33-5 Should filter by tags">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-6 Should filter by created before" time="4.921" classname="SP-33-6 Should filter by created before">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-7 Should filter by created after" time="4.869" classname="SP-33-7 Should filter by created after">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-8 Should clear filters" time="7.005" classname="SP-33-8 Should clear filters">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-9 Should remove link to file" time="7.164" classname="SP-33-9 Should remove link to file">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-11 Should search entity without selecting resource type" time="4.229" classname="SP-33-11 Should search entity without selecting resource type">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-12 Should show message when no resource is found" time="4.877" classname="SP-33-12 Should show message when no resource is found">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-13 Should match all as parents" time="6.522" classname="SP-33-13 Should match all as parents">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-14 Should match all as children" time="6.866" classname="SP-33-14 Should match all as children">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-15 Should submit" time="6.365" classname="SP-33-15 Should submit">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-16 Should show number of selected entities" time="4.975" classname="SP-33-16 Should show number of selected entities">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-17 Should close modal with &apos;X&apos;" time="4.423" classname="SP-33-17 Should close modal with &apos;X&apos;">
+    </testcase>
+    <testcase name="33 - I can attach existing resources to a sample SP-33-18 Should show number of selected entities" time="4.506" classname="SP-33-18 Should show number of selected entities">
+    </testcase>
+  </testsuite>
+</testsuites>

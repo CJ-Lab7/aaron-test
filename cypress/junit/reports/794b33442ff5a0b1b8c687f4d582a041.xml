@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.143" tests="2" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-16T00:13:00" tests="0" file="cypress/integration/apps/data/D04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can add/remove columns from the gear menu " timestamp="2020-04-16T00:13:00" tests="2" failures="0" time="13.143">
+    <testcase name="4 - I can add/remove columns from the gear menu  D-4-1/2 Should remove/add columns" time="13.143" classname="D-4-1/2 Should remove/add columns">
+    </testcase>
+  </testsuite>
+</testsuites>

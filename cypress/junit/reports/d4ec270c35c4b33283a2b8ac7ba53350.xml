@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.284" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-02T16:11:08" tests="0" file="cypress/integration/apps/customers/CS15.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="15 - I can close all tabs and go back to to Customers main page" timestamp="2020-07-02T16:11:08" tests="1" failures="0" time="14.284">
+    <testcase name="15 - I can close all tabs and go back to to Customers main page CS-15-1 Should close tabs and go back to Customers main page" time="14.284" classname="CS-15-1 Should close tabs and go back to Customers main page">
+    </testcase>
+  </testsuite>
+</testsuites>

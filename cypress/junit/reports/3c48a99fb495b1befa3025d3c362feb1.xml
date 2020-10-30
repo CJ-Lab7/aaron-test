@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-09-23T15:25:06" tests="0" file="cypress/integration/apps/analysis/AN13.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="13 - I should be able to view Reports for pipeline instances under Monitor tab" timestamp="2020-09-23T15:25:06" tests="3" failures="1" time="0">
+    <testcase name="13 - I should be able to view Reports for pipeline instances under Monitor tab &quot;before all&quot; hook for &quot;AN-13-1 Should run pipeline (Success) with no report&quot;" time="0" classname="&quot;before all&quot; hook for &quot;AN-13-1 Should run pipeline (Success) with no report&quot;">
+      <failure message="Execution of &quot;esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed --no-overwrite cypress/fixtures/apps//analysis/AN13seed.yml&quot; failed
+        Exit code: 1
+        Stdout:
+
+        Stderr:
+INFO:root:2020-09-23 10:25:07,300:Creating Task: AN13 CSV task
+INFO:root:2020-09-23 10:25:08,685:Creating Pipeline: AN13 report pipeline
+INFO:root:2020-09-23 10:25:09,375:Creating PipelineReport: AN13 report
+INFO:root:2020-09-23 10:25:09,854:Running pipeline: AN13 report pipeline
+INFO:root:2020-09-23 10:25:12,212:Creating Task: AN13 Echo
+INFO:root:2020-09-23 10:25:12,543:Creating Pipeline: AN13 no report
+INFO:root:2020-09-23 10:25:13,231:Running pipeline: AN13 no report
+INFO:root:2020-09-23 10:25:15,146:Creating Task: AN13 CSV fail task
+INFO:root:2020-09-23 10:25:15,457:Creating Pipeline: AN13 fail report pipeline
+INFO:root:2020-09-23 10:25:16,209:Creating PipelineReport: AN13 fail report
+INFO:root:2020-09-23 10:25:16,955:Creating Protocol: AN13 fail
+INFO:root:2020-09-23 10:25:17,363:Creating Workflow: AN13 Fail Workflow
+INFO:root:2020-09-23 10:25:18,774:Creating Sample: AN130001
+INFO:root:2020-09-23 10:25:18,949:Object &lt;Sample(name=AN130001)&gt; already exists; will not overwrite.
+INFO:root:2020-09-23 10:25:18,949:Creating Experiment: AN13 fail exp
+INFO:root:2020-09-23 10:25:19,361:Submitting Experiment: AN13 Fail Workflow
+INFO:root:2020-09-23 10:25:19,900:Creating SampleSheet: AN13 fail
+INFO:root:2020-09-23 10:25:20,092:Overwriting existing object &lt;SampleSheet(name=AN13 fail)&gt;
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line 33, in &lt;module&gt;
+    sys.exit(load_entry_point(&apos;espclient&apos;, &apos;console_scripts&apos;, &apos;esp&apos;)())
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 663, in main
+    args.func(args)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 64, in _
+    return func(args)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/__main__.py&quot;, line 325, in seed
+    data = get_model(item[&apos;model&apos;]).create(item[&apos;data&apos;], overwrite=overwrite)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/__base__.py&quot;, line 801, in create
+    created.append(cls._create_model(item, overwrite=overwrite))
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/__base__.py&quot;, line 837, in _create_model
+    return cls.parse_response(result.json(), overwrite=overwrite)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/project.py&quot;, line 758, in parse_response
+    self.submit(sheet=sheet)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/project.py&quot;, line 999, in submit
+    sheet = self.create_sheet(name=sheet)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/project.py&quot;, line 1008, in create_sheet
+    return SampleSheet.create(
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/__base__.py&quot;, line 817, in create
+    created.append(cls._overwrite_model(obj, item, overwrite=overwrite))
+  File &quot;/Users/cj/bitrepos/esp/client/esp/models/__base__.py&quot;, line 830, in _overwrite_model
+    result = base.SESSION.put(&apos;/api/{}/{}&apos;.format(cls.__api__, obj.uuid), json=item)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/base.py&quot;, line 81, in _
+    return func(self, endpoint, **kwargs)
+  File &quot;/Users/cj/bitrepos/esp/client/esp/base.py&quot;, line 58, in _
+    raise AssertionError(&apos;\n\n&apos;.join([
+AssertionError: Response from server (500) different from expected (200,)
+
+SERVER ERROR: unhashable type: &apos;dict&apos;
+
+SERVER TRACEBACK: Traceback (most recent call last):
+  File &quot;/home/esp/Lab7_ESP/Lab7_ESP-2.3.0.20200317235323/sys/lib/python3.5/site-packages/tornado-5.1.1-py3.5-linux-x86_64.egg/tornado/web.py&quot;, line 1548, in _stack_context_handle_exception
+    raise_exc_info((type, value, traceback))
+  File &quot;&lt;string&gt;&quot;, line 4, in raise_exc_info
+  File &quot;/home/esp/Lab7_ESP/Lab7_ESP-2.3.0.20200317235323/sys/lib/python3.5/site-packages/tornado-5.1.1-py3.5-linux-x86_64.egg/tornado/web.py&quot;, line 1756, in wrapper
+    result = method(self, *args, **kwargs)
+  File &quot;/home/esp/Lab7_ESP/Lab7_ESP-2.3.0.20200317235323/lab7/lims/app.py&quot;, line 1713, in put
+    **other_opts
+  File &quot;/home/esp/Lab7_ESP/Lab7_ESP-2.3.0.20200317235323/lab7/logger_config.py&quot;, line 179, in f_timer
+    result = func(*args, **kwargs)
+  File &quot;/home/esp/Lab7_ESP/Lab7_ESP-2.3.0.20200317235323/lab7/resource/utils.py&quot;, line 346, in wrapped_fn
+    result = fn(**callargs)
+  File &quot;/home/esp/Lab7_ESP/Lab7_ESP-2.3.0.20200317235323/lab7/lims/api.py&quot;, line 5730, in update_sample_sheet
+    new_sample_set = set(values[&apos;samples&apos;][0])
+TypeError: unhashable type: &apos;dict&apos;
+
+Because this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `13 - I should be able to vi...`
+
+Although you have test retries enabled, we do not retry tests when `before all` or `after all` hooks fail" type="Error"><![CDATA[Error: Execution of "esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed --no-overwrite cypress/fixtures/apps//analysis/AN13seed.yml" failed
+        Exit code: 1
+        Stdout:
+
+        Stderr:
+INFO:root:2020-09-23 10:25:07,300:Creating Task: AN13 CSV task
+INFO:root:2020-09-23 10:25:08,685:Creating Pipeline: AN13 report pipeline
+INFO:root:2020-09-23 10:25:09,375:Creating PipelineReport: AN13 report
+INFO:root:2020-09-23 10:25:09,854:Running pipeline: AN13 report pipeline
+INFO:root:2020-09-23 10:25:12,212:Creating Task: AN13 Echo
+INFO:root:2020-09-23 10:25:12,543:Creating Pipeline: AN13 no report
+INFO:root:2020-09-23 10:25:13,231:Running pipeline: AN13 no report
+INFO:root:2020-09-23 10:25:15,146:Creating Task: AN13 CSV fail task
+INFO:root:2020-09-23 10:25:15,457:Creating Pipeline: AN13 fail report pipeline
+INFO:root:2020-09-23 10:25:16,209:Creating PipelineReport: AN13 fail report
+INFO:root:2020-09-23 10:25:16,955:Creating Protocol: AN13 fail
+INFO:root:2020-09-23 10:25:17,363:Creating Workflow: AN13 Fail Workflow
+INFO:root:2020-09-23 10:25:18,774:Creating Sample: AN130001
+INFO:root:2020-09-23 10:25:18,949:Object <Sample(name=AN130001)> already exists; will not overwrite.
+INFO:root:2020-09-23 10:25:18,949:Creating Experiment: AN13 fail exp
+INFO:root:2020-09-23 10:25:19,361:Submitting Experiment: AN13 Fail Workflow
+INFO:root:2020-09-23 10:25:19,900:Creating SampleSheet: AN13 fail
+INFO:root:2020-09-23 10:25:20,092:Overwriting existing object <SampleSheet(name=AN13 fail)>
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line 33, in <module>
+    sys.exit(load_entry_point('espclient', 'console_scripts', 'esp')())
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 663, in main
+    args.func(args)
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 64, in _
+    return func(args)
+  File "/Users/cj/bitrepos/esp/client/esp/__main__.py", line 325, in seed
+    data = get_model(item['model']).create(item['data'], overwrite=overwrite)
+  File "/Users/cj/bitrepos/esp/client/esp/models/__base__.py", line 801, in create
+    created.append(cls._create_model(item, overwrite=overwrite))
+  File "/Users/cj/bitrepos/esp/client/esp/models/__base__.py", line 837, in _create_model
+    return cls.parse_response(result.json(), overwrite=overwrite)
+  File "/Users/cj/bitrepos/esp/client/esp/models/project.py", line 758, in parse_response
+    self.submit(sheet=sheet)
+  File "/Users/cj/bitrepos/esp/client/esp/models/project.py", line 999, in submit
+    sheet = self.create_sheet(name=sheet)
+  File "/Users/cj/bitrepos/esp/client/esp/models/project.py", line 1008, in create_sheet
+    return SampleSheet.create(
+  File "/Users/cj/bitrepos/esp/client/esp/models/__base__.py", line 817, in create
+    created.append(cls._overwrite_model(obj, item, overwrite=overwrite))
+  File "/Users/cj/bitrepos/esp/client/esp/models/__base__.py", line 830, in _overwrite_model
+    result = base.SESSION.put('/api/{}/{}'.format(cls.__api__, obj.uuid), json=item)
+  File "/Users/cj/bitrepos/esp/client/esp/base.py", line 81, in _
+    return func(self, endpoint, **kwargs)
+  File "/Users/cj/bitrepos/esp/client/esp/base.py", line 58, in _
+    raise AssertionError('\n\n'.join([
+AssertionError: Response from server (500) different from expected (200,)
+
+SERVER ERROR: unhashable type: 'dict'
+
+SERVER TRACEBACK: Traceback (most recent call last):
+  File "/home/esp/Lab7_ESP/Lab7_ESP-2.3.0.20200317235323/sys/lib/python3.5/site-packages/tornado-5.1.1-py3.5-linux-x86_64.egg/tornado/web.py", line 1548, in _stack_context_handle_exception
+    raise_exc_info((type, value, traceback))
+  File "<string>", line 4, in raise_exc_info
+  File "/home/esp/Lab7_ESP/Lab7_ESP-2.3.0.20200317235323/sys/lib/python3.5/site-packages/tornado-5.1.1-py3.5-linux-x86_64.egg/tornado/web.py", line 1756, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/esp/Lab7_ESP/Lab7_ESP-2.3.0.20200317235323/lab7/lims/app.py", line 1713, in put
+    **other_opts
+  File "/home/esp/Lab7_ESP/Lab7_ESP-2.3.0.20200317235323/lab7/logger_config.py", line 179, in f_timer
+    result = func(*args, **kwargs)
+  File "/home/esp/Lab7_ESP/Lab7_ESP-2.3.0.20200317235323/lab7/resource/utils.py", line 346, in wrapped_fn
+    result = fn(**callargs)
+  File "/home/esp/Lab7_ESP/Lab7_ESP-2.3.0.20200317235323/lab7/lims/api.py", line 5730, in update_sample_sheet
+    new_sample_set = set(values['samples'][0])
+TypeError: unhashable type: 'dict'
+
+Because this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `13 - I should be able to vi...`
+
+Although you have test retries enabled, we do not retry tests when `before all` or `after all` hooks fail
+    at Context.eval (https://chris.test.l7informatics.com/__cypress/tests?p=cypress/support/index.js:899:13)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

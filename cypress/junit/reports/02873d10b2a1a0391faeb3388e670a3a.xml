@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="79.387" tests="6" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-04-16T02:53:09" tests="0" file="cypress/integration/apps/permissions/LP25.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I can have sample sheet permissions" timestamp="2020-04-16T02:53:09" tests="6" failures="0" time="79.387">
+    <testcase name="25 - I can have sample sheet permissions LP-25-4 Should fail to create a sample sheet" time="27.787" classname="LP-25-4 Should fail to create a sample sheet">
+    </testcase>
+    <testcase name="25 - I can have sample sheet permissions LP-25-5 Should fail to update a sample sheet" time="18.474" classname="LP-25-5 Should fail to update a sample sheet">
+    </testcase>
+    <testcase name="25 - I can have sample sheet permissions LP-25-1 Should create a sample sheet" time="14.909" classname="LP-25-1 Should create a sample sheet">
+    </testcase>
+    <testcase name="25 - I can have sample sheet permissions LP-25-2 Should update a sample sheet" time="18.217" classname="LP-25-2 Should update a sample sheet">
+    </testcase>
+  </testsuite>
+</testsuites>

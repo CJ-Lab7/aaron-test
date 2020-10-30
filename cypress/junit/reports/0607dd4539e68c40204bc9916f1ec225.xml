@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="112.173" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-08T14:47:01" tests="0" file="cypress/integration/apps/entities/EN17_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can use the entity relation tree" timestamp="2020-06-08T14:47:01" tests="5" failures="0" time="112.173">
+    <testcase name="17 - I can use the entity relation tree EN-17-1 Should highlight entity and show connections to parents/children" time="27.966" classname="EN-17-1 Should highlight entity and show connections to parents/children">
+    </testcase>
+    <testcase name="17 - I can use the entity relation tree EN-17-2 Should use entity tree dropdowns" time="18.738" classname="EN-17-2 Should use entity tree dropdowns">
+    </testcase>
+    <testcase name="17 - I can use the entity relation tree EN-17-3 Should find table columns" time="18.387" classname="EN-17-3 Should find table columns">
+    </testcase>
+    <testcase name="17 - I can use the entity relation tree EN-17-6 Should link to entity details page" time="29.827" classname="EN-17-6 Should link to entity details page">
+    </testcase>
+    <testcase name="17 - I can use the entity relation tree EN-17-7 Should highlight entity and show connections to parents/children" time="17.255" classname="EN-17-7 Should highlight entity and show connections to parents/children">
+    </testcase>
+  </testsuite>
+</testsuites>

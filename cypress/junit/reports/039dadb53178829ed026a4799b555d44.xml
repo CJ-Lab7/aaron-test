@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.801" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-03T01:23:47" tests="0" file="cypress/integration/apps/container_types/CT26.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - I can close all tabs and go back to to Container Types main page" timestamp="2020-06-03T01:23:47" tests="1" failures="0" time="18.801">
+    <testcase name="26 - I can close all tabs and go back to to Container Types main page CT-26-1 Should close all tabs and go back to to Container Types main page" time="18.801" classname="CT-26-1 Should close all tabs and go back to to Container Types main page">
+    </testcase>
+  </testsuite>
+</testsuites>

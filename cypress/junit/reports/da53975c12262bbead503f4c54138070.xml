@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.783" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-01T16:57:57" tests="0" file="cypress/integration/apps/service_types/ST16.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="16 - I can access and view History details" timestamp="2020-06-01T16:57:57" tests="2" failures="0" time="18.783">
+    <testcase name="16 - I can access and view History details ST-16-1 Should update history when service type is created" time="11.711" classname="ST-16-1 Should update history when service type is created">
+    </testcase>
+    <testcase name="16 - I can access and view History details ST-16-2 Changes after editing name/description/tags" time="7.072" classname="ST-16-2 Changes after editing name/description/tags">
+    </testcase>
+  </testsuite>
+</testsuites>

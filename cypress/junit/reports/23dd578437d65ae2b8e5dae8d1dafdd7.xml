@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.321" tests="4" failures="2" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-04-03T18:32:40" tests="0" file="cypress/integration/apps/lims/LM25_3a.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25a_3 - I should be able to render columns correctly when protocol is run" timestamp="2020-04-03T18:32:40" tests="4" failures="2" time="16.321">
+    <testcase name="25a_3 - I should be able to render columns correctly when protocol is run LM-25a-21 Should use multiselect picklist column" time="0" classname="LM-25a-21 Should use multiselect picklist column">
+      <failure message="Timed out retrying: cy.click() failed because this element is not visible:
+
+&lt;span data-select=&quot;&quot; data-selected=&quot;selected&quot; data-deselect=&quot;click to remove&quot; class=&quot;multiselect__option&quot;&gt;...&lt;/span&gt;
+
+This element &apos;&lt;span.multiselect__option&gt;&apos; is not visible because its parent &apos;&lt;div.multiselect__content-wrapper&gt;&apos; has CSS property: &apos;display: none&apos;
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.click() failed because this element is not visible:
+
+<span data-select="" data-selected="selected" data-deselect="click to remove" class="multiselect__option">...</span>
+
+This element '<span.multiselect__option>' is not visible because its parent '<div.multiselect__content-wrapper>' has CSS property: 'display: none'
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="25a_3 - I should be able to render columns correctly when protocol is run LM-25a-22 Should not complete sample with invalid numeric input (complete sample)" time="0" classname="LM-25a-22 Should not complete sample with invalid numeric input (complete sample)">
+      <failure message="cy.click() can only be called on a single element. Your subject contained 2 elements. Pass { multiple: true } if you want to serially click each element." type="CypressError"><![CDATA[CypressError: cy.click() can only be called on a single element. Your subject contained 2 elements. Pass { multiple: true } if you want to serially click each element.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at mouseAction (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:121919:17)
+    at Context.click (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:122062:14)
+    at Context.<anonymous> (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:136977:21)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:136453:33
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromiseCtx (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162925:10)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159625:12)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="25a_3 - I should be able to render columns correctly when protocol is run LM-25a-24 Should use barcode column" time="16.321" classname="LM-25a-24 Should use barcode column">
+    </testcase>
+  </testsuite>
+</testsuites>

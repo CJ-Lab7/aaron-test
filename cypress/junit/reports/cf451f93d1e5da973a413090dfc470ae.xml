@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="45.292" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T20:57:33" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="19 - I can edit unsubmiteted experiments" timestamp="2020-02-27T20:57:33" tests="4" failures="0" time="45.292">
+    <testcase name="19 - I can edit unsubmiteted experiments PR-19-1 Should edit name" time="33.606" classname="PR-19-1 Should edit name">
+    </testcase>
+    <testcase name="19 - I can edit unsubmiteted experiments PR-19-2 Should edit description" time="5.776" classname="PR-19-2 Should edit description">
+    </testcase>
+    <testcase name="19 - I can edit unsubmiteted experiments PR-19-3 Should add tags" time="3.043" classname="PR-19-3 Should add tags">
+    </testcase>
+    <testcase name="19 - I can edit unsubmiteted experiments PR-19-4 Should delete tags" time="2.867" classname="PR-19-4 Should delete tags">
+    </testcase>
+  </testsuite>
+</testsuites>

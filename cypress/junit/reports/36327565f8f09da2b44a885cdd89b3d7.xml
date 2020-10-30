@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.705" tests="7" failures="6">
+  <testsuite name="Root Suite" timestamp="2020-07-11T03:17:10" tests="0" file="cypress/integration/apps/vendors/VEN12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can edit vendor details" timestamp="2020-07-11T03:17:10" tests="7" failures="6" time="14.705">
+    <testcase name="12 - I can edit vendor details VEN-12-1 Should edit name" time="0" classname="VEN-12-1 Should edit name">
+      <failure message="Timed out retrying: Expected to find content: &apos;VEN12 new name&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'VEN12 new name' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN12.js:723:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN12.js:100:31)]]></failure>
+    </testcase>
+    <testcase name="12 - I can edit vendor details VEN-12-2 Should edit description" time="0" classname="VEN-12-2 Should edit description">
+      <failure message="Timed out retrying: Expected to find content: &apos;VEN12 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'VEN12 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN12.js:723:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN12.js:116:31)]]></failure>
+    </testcase>
+    <testcase name="12 - I can edit vendor details VEN-12-3 Should edit tags" time="0" classname="VEN-12-3 Should edit tags">
+      <failure message="Timed out retrying: Expected to find content: &apos;VEN12 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'VEN12 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN12.js:723:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN12.js:137:31)]]></failure>
+    </testcase>
+    <testcase name="12 - I can edit vendor details VEN-12-4 Should edit billing address" time="0" classname="VEN-12-4 Should edit billing address">
+      <failure message="Timed out retrying: Expected to find content: &apos;VEN12 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'VEN12 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN12.js:723:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN12.js:180:31)]]></failure>
+    </testcase>
+    <testcase name="12 - I can edit vendor details VEN-12-5 Should edit shipping address" time="0" classname="VEN-12-5 Should edit shipping address">
+      <failure message="Timed out retrying: Expected to find content: &apos;VEN12 edit&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'VEN12 edit' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN12.js:723:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN12.js:226:31)]]></failure>
+    </testcase>
+    <testcase name="12 - I can edit vendor details VEN-12-6 Should save" time="0" classname="VEN-12-6 Should save">
+      <failure message="Timed out retrying: expected &apos;VEN-12 Description&apos; to equal &apos;VEN12 new desc2&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected 'VEN-12 Description' to equal 'VEN12 new desc2'
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/vendors/VEN12.js:255:66)]]></failure>
+    </testcase>
+    <testcase name="12 - I can edit vendor details VEN-12-7 Should Cancel" time="14.705" classname="VEN-12-7 Should Cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

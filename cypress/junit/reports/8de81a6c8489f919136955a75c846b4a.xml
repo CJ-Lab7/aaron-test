@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.323" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-01T16:51:46" tests="0" file="cypress/integration/apps/service_types/ST08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can open and close the Inspector Panel" timestamp="2020-06-01T16:51:46" tests="1" failures="0" time="7.323">
+    <testcase name="8 - I can open and close the Inspector Panel ST-8-1 &amp; ST-8-2 Should open and close the Inspector Panel" time="7.323" classname="ST-8-1 &amp; ST-8-2 Should open and close the Inspector Panel">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.697" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-27T16:05:57" tests="0" file="cypress/integration/apps/container_types/CT23.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="23 - I cannot archive a container type if it is used in a protocol" timestamp="2020-05-27T16:05:57" tests="1" failures="0" time="13.697">
+    <testcase name="23 - I cannot archive a container type if it is used in a protocol CT-23-1 Should not archive container type when it is used in a protocol" time="13.697" classname="CT-23-1 Should not archive container type when it is used in a protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

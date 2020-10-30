@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="153.05599999999998" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-08T14:43:24" tests="0" file="cypress/integration/apps/entities/EN13.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="13 - I can use all aspects of the entity parent/child modal" timestamp="2020-06-08T14:43:24" tests="8" failures="0" time="153.05599999999998">
+    <testcase name="13 - I can use all aspects of the entity parent/child modal EN-13-1 Should have entity name in header" time="20.487" classname="EN-13-1 Should have entity name in header">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the entity parent/child modal EN-13-2 Should have header metadata" time="16.663" classname="EN-13-2 Should have header metadata">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the entity parent/child modal EN-13-3 Should filter by entity ID" time="21.418" classname="EN-13-3 Should filter by entity ID">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the entity parent/child modal EN-13-4 Should sort columns" time="19.922" classname="EN-13-4 Should sort columns">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the entity parent/child modal EN-13-5 Should resize window" time="17.964" classname="EN-13-5 Should resize window">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the entity parent/child modal EN-13-6 Should close window with &apos;X&apos;" time="19.353" classname="EN-13-6 Should close window with &apos;X&apos;">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the entity parent/child modal EN-13-7 Should cancel" time="18.581" classname="EN-13-7 Should cancel">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the entity parent/child modal EN-13-8 Should connect entities" time="18.668" classname="EN-13-8 Should connect entities">
+    </testcase>
+  </testsuite>
+</testsuites>

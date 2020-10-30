@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="126.621" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-25T14:06:40" tests="0" file="cypress/integration/apps/samples/SP13.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="13 - I can use all aspects of the sample parent/child modal" timestamp="2020-06-25T14:06:40" tests="7" failures="0" time="126.621">
+    <testcase name="13 - I can use all aspects of the sample parent/child modal SP-13-1 Should have sample name in header" time="20.587" classname="SP-13-1 Should have sample name in header">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the sample parent/child modal SP-13-3 Should filter by sample ID" time="19.669" classname="SP-13-3 Should filter by sample ID">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the sample parent/child modal SP-13-4 Should sort columns" time="17.647" classname="SP-13-4 Should sort columns">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the sample parent/child modal SP-13-5 Should resize window" time="16.457" classname="SP-13-5 Should resize window">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the sample parent/child modal SP-13-6 Should close window with &apos;X&apos;" time="16.859" classname="SP-13-6 Should close window with &apos;X&apos;">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the sample parent/child modal SP-13-7 Should cancel" time="17.468" classname="SP-13-7 Should cancel">
+    </testcase>
+    <testcase name="13 - I can use all aspects of the sample parent/child modal SP-13-8 Should Connect Entities" time="17.934" classname="SP-13-8 Should Connect Entities">
+    </testcase>
+  </testsuite>
+</testsuites>

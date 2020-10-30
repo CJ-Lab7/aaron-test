@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="211.593" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-08T17:07:26" tests="0" file="cypress/integration/apps/permissions/LP04_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - Admin users can grant user access to specific apps" timestamp="2020-06-08T17:07:26" tests="8" failures="0" time="211.593">
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-11 Should have access to dashboard" time="33.116" classname="LP-4-11 Should have access to dashboard">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-12 Should NOT have access to dashboard" time="26.991" classname="LP-4-12 Should NOT have access to dashboard">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-13 Should have access to data" time="26.114" classname="LP-4-13 Should have access to data">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-14 Should not have access to data" time="24.814" classname="LP-4-14 Should not have access to data">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-15 Should have access to analysis" time="22.422" classname="LP-4-15 Should have access to analysis">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-16 Should NOT have access to analysis" time="26.71" classname="LP-4-16 Should NOT have access to analysis">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-17 Should have access to builders" time="24.51" classname="LP-4-17 Should have access to builders">
+    </testcase>
+    <testcase name="4 - Admin users can grant user access to specific apps LP-4-18 Should NOT have access to builders" time="26.916" classname="LP-4-18 Should NOT have access to builders">
+    </testcase>
+  </testsuite>
+</testsuites>

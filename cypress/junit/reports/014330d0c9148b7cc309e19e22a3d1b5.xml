@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="79.657" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T14:42:26" tests="0" file="cypress/integration/apps/location/LC03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - On the Locations main page, I can create a new container" timestamp="2020-03-31T14:42:26" tests="8" failures="0" time="79.657">
+    <testcase name="3 - On the Locations main page, I can create a new container LC-3-1 Should add new container with sample type and one element per location" time="12.62" classname="LC-3-1 Should add new container with sample type and one element per location">
+    </testcase>
+    <testcase name="3 - On the Locations main page, I can create a new container LC-3-2 Should add new container with sample type and multiple elements per location" time="9.045" classname="LC-3-2 Should add new container with sample type and multiple elements per location">
+    </testcase>
+    <testcase name="3 - On the Locations main page, I can create a new container LC-3-3 Should add new container with container type with one element per location" time="9.722" classname="LC-3-3 Should add new container with container type with one element per location">
+    </testcase>
+    <testcase name="3 - On the Locations main page, I can create a new container LC-3-4 Should add new container with container type with multiple elements per location" time="9.318" classname="LC-3-4 Should add new container with container type with multiple elements per location">
+    </testcase>
+    <testcase name="3 - On the Locations main page, I can create a new container LC-3-5 Should add new container for sample and container type with one element per location" time="9.79" classname="LC-3-5 Should add new container for sample and container type with one element per location">
+    </testcase>
+    <testcase name="3 - On the Locations main page, I can create a new container LC-3-6 Should add new container for sample and container type with multiple elements per location" time="8.644" classname="LC-3-6 Should add new container for sample and container type with multiple elements per location">
+    </testcase>
+    <testcase name="3 - On the Locations main page, I can create a new container LC-3-7 Should cancel adding new container" time="7.223" classname="LC-3-7 Should cancel adding new container">
+    </testcase>
+    <testcase name="3 - On the Locations main page, I can create a new container LC-3-8 Should save and add another container" time="13.295" classname="LC-3-8 Should save and add another container">
+    </testcase>
+  </testsuite>
+</testsuites>

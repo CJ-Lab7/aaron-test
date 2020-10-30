@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.373" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-11T03:04:19" tests="0" file="cypress/integration/apps/service_types/ST10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I can create per duration service types" timestamp="2020-07-11T03:04:19" tests="6" failures="1" time="21.373">
+    <testcase name="10 - I can create per duration service types ST-10-1 Should add name" time="8.454" classname="ST-10-1 Should add name">
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-2 Should add description" time="3.895" classname="ST-10-2 Should add description">
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-3 Should add price type" time="1.788" classname="ST-10-3 Should add price type">
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-5 Should add base price" time="3.221" classname="ST-10-5 Should add base price">
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-7 Should save" time="0" classname="ST-10-7 Should save">
+      <failure message="Timed out retrying: expected &apos;4&apos; to equal &apos;3.5&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected '4' to equal '3.5'
+    at Function.assertDetails (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/service_types/ST10.js:486:63)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/service_types/ST10.js:138:48)]]></failure>
+    </testcase>
+    <testcase name="10 - I can create per duration service types ST-10-8 Should cancel" time="4.015" classname="ST-10-8 Should cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T16:51:00" tests="0" file="cypress/integration/apps/container_types/CT05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I can access the container type details page" timestamp="2020-07-10T16:51:00" tests="1" failures="1" time="0">
+    <testcase name="5 - I can access the container type details page CT-5-1 Should access details page" time="0" classname="CT-5-1 Should access details page">
+      <failure message="Timed out retrying: Expected to find content: &apos;CT05&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CT05' within the selector: '.ag-center-cols-viewport .ag-row a' but never did.
+    at Function.openDetailsPage (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT05.js:261:10)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT05.js:83:46)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

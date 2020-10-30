@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="89.16" tests="13" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-03-03T16:59:38" tests="0" file="cypress/integration/apps/samples/SP30.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I can use all types of data columns in new sample modal" timestamp="2020-03-03T16:59:38" tests="13" failures="2" time="89.16">
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-1 Should add text" time="36.618" classname="SP-30-1 Should add text">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-2 Should add numeric" time="6.634" classname="SP-30-2 Should add numeric">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-3 Should add picklist" time="4.495" classname="SP-30-3 Should add picklist">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-4 Should add multiselect picklist" time="3.56" classname="SP-30-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-5 Should add date" time="4.491" classname="SP-30-5 Should add date">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-6 Should add checkbox" time="4.501" classname="SP-30-6 Should add checkbox">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-7 Should add attachment" time="0" classname="SP-30-7 Should add attachment">
+      <failure message="Timed out retrying: Expected to find content: &apos;sp30.txt&apos; within the element: &lt;div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value.ag-column-hover.ag-cell-focus.ag-cell-range-selected.ag-cell-range-selected-1.ag-cell-range-single-cell.ag-cell-popup-editing&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'sp30.txt' within the element: <div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value.ag-column-hover.ag-cell-focus.ag-cell-range-selected.ag-cell-range-selected-1.ag-cell-range-single-cell.ag-cell-popup-editing> but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-8 Should add qr barcode" time="5.685" classname="SP-30-8 Should add qr barcode">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-9 Should add 1d barcode" time="6.548" classname="SP-30-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-10 Should add mini data matrix" time="6.066" classname="SP-30-10 Should add mini data matrix">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-11 Should require required field" time="5.491" classname="SP-30-11 Should require required field">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-12 Should find default value" time="5.071" classname="SP-30-12 Should find default value">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new sample modal SP-30-13 Should find read only field" time="0" classname="SP-30-13 Should find read only field">
+      <failure message="Timed out retrying: Expected to find content: &apos;EN29 read only&apos; within the selector: &apos;option&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'EN29 read only' within the selector: 'option' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

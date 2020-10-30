@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="206.236" tests="8" failures="3">
+  <testsuite name="Root Suite" timestamp="2020-04-15T22:01:43" tests="0" file="cypress/integration/apps/lims/LM42_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="42 - I can use approval column in worksheets" timestamp="2020-04-15T22:01:43" tests="8" failures="3" time="206.236">
+    <testcase name="42 - I can use approval column in worksheets LM-42-10 Should unapprove sample if the sample row is modified" time="56.503" classname="LM-42-10 Should unapprove sample if the sample row is modified">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-11 Should fail to complete once changes are made after approval" time="0" classname="LM-42-11 Should fail to complete once changes are made after approval">
+      <failure message="Timed out retrying: Expected to find content: &apos;Worksheet save operation failed&apos; within the selector: &apos;.toast-container&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Worksheet save operation failed' within the selector: '.toast-container' but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-12 Should show approval details" time="20.03" classname="LM-42-12 Should show approval details">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-13 Should approve sample in transpose view" time="19.441" classname="LM-42-13 Should approve sample in transpose view">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-15 Should fail approved sample" time="23.944" classname="LM-42-15 Should fail approved sample">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-16 Should not complete sample until all approval columns are approved" time="20.105" classname="LM-42-16 Should not complete sample until all approval columns are approved">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-17 Should use retry button in approval popup" time="20.756" classname="LM-42-17 Should use retry button in approval popup">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-14 Should use multiple approval columns in the same protocol" time="0" classname="LM-42-14 Should use multiple approval columns in the same protocol">
+      <failure message="Timed out retrying: Expected to find content: &apos;Approved&apos; within the element: &lt;div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value.ag-cell-focus.ag-cell-range-selected.ag-cell-range-selected-1.ag-cell-range-single-cell.ag-cell-popup-editing&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Approved' within the element: <div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value.ag-cell-focus.ag-cell-range-selected.ag-cell-range-selected-1.ag-cell-range-single-cell.ag-cell-popup-editing> but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets &quot;after all&quot; hook for &quot;LM-42-14 Should use multiple approval columns in the same protocol&quot;" time="45.457" classname="&quot;after all&quot; hook for &quot;LM-42-14 Should use multiple approval columns in the same protocol&quot;">
+      <failure message="cy.exec(&apos;esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/lims/LM42_2seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-04-15 17:05:45,592:Dropping SampleSheet: LM42-10 sheet
+INFO:root:2020-04-15 17:05:45,741:Dropping Experiment: LM42-10
+INFO:root:2020-04-15 17:05:46,794:Dropping SampleSheet: LM42-11 ...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;42 - I can use approval col...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/lims/LM42_2seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-04-15 17:05:45,592:Dropping SampleSheet: LM42-10 sheet
+INFO:root:2020-04-15 17:05:45,741:Dropping Experiment: LM42-10
+INFO:root:2020-04-15 17:05:46,794:Dropping SampleSheet: LM42-11 ...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '42 - I can use approval col...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

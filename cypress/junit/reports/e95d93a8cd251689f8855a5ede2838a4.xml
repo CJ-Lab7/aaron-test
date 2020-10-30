@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.848" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-29T18:38:44" tests="0" file="cypress/integration/apps/samples/SP09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I can return to Samples page by clicking &apos;Done&apos;" timestamp="2020-03-29T18:38:44" tests="1" failures="0" time="10.848">
+    <testcase name="9 - I can return to Samples page by clicking &apos;Done&apos; SP-9-1 Should return to Samples main page" time="10.848" classname="SP-9-1 Should return to Samples main page">
+    </testcase>
+  </testsuite>
+</testsuites>

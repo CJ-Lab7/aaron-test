@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.058999999999997" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T16:51:06" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="21 - I can see experiment details in the inspector" timestamp="2020-02-27T16:51:06" tests="7" failures="0" time="27.058999999999997">
+    <testcase name="21 - I can see experiment details in the inspector PR-21-1 Should find workflow" time="26.718" classname="PR-21-1 Should find workflow">
+    </testcase>
+    <testcase name="21 - I can see experiment details in the inspector PR-21-2 Should find name" time="0.069" classname="PR-21-2 Should find name">
+    </testcase>
+    <testcase name="21 - I can see experiment details in the inspector PR-21-3 Should find description" time="0.024" classname="PR-21-3 Should find description">
+    </testcase>
+    <testcase name="21 - I can see experiment details in the inspector PR-21-4 Should find tags" time="0.026" classname="PR-21-4 Should find tags">
+    </testcase>
+    <testcase name="21 - I can see experiment details in the inspector PR-21-5 Should find owner" time="0.019" classname="PR-21-5 Should find owner">
+    </testcase>
+    <testcase name="21 - I can see experiment details in the inspector PR-21-8 Should find samples list" time="0.025" classname="PR-21-8 Should find samples list">
+    </testcase>
+    <testcase name="21 - I can see experiment details in the inspector PR-21-9 Should access sample details page" time="0.178" classname="PR-21-9 Should access sample details page">
+    </testcase>
+  </testsuite>
+</testsuites>

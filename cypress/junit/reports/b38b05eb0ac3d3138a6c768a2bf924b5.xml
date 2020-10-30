@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.334" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-15T21:52:22" tests="0" file="cypress/integration/apps/lims/LM38.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="38 - I can hide and show worksheet columns" timestamp="2020-04-15T21:52:22" tests="1" failures="0" time="27.334">
+    <testcase name="38 - I can hide and show worksheet columns LM-38-1/2 Should remove then add worksheet columns" time="27.334" classname="LM-38-1/2 Should remove then add worksheet columns">
+    </testcase>
+  </testsuite>
+</testsuites>

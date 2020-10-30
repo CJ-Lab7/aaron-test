@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.297" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-07T16:45:09" tests="0" file="cypress/integration/apps/vendors/VEN01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I can access the main vendors page" timestamp="2020-05-07T16:45:09" tests="6" failures="0" time="21.297">
+    <testcase name="1 - I can access the main vendors page VEN-1-1 Should find the header" time="9.35" classname="VEN-1-1 Should find the header">
+    </testcase>
+    <testcase name="1 - I can access the main vendors page VEN-1-2 Should find the subheader" time="2.844" classname="VEN-1-2 Should find the subheader">
+    </testcase>
+    <testcase name="1 - I can access the main vendors page VEN-1-3 Should find the + New Vendor button" time="1.663" classname="VEN-1-3 Should find the + New Vendor button">
+    </testcase>
+    <testcase name="1 - I can access the main vendors page VEN-1-4 Should find the Vendor Filters" time="2.486" classname="VEN-1-4 Should find the Vendor Filters">
+    </testcase>
+    <testcase name="1 - I can access the main vendors page VEN-1-5 Should find the list in the middle panel" time="2.027" classname="VEN-1-5 Should find the list in the middle panel">
+    </testcase>
+    <testcase name="1 - I can access the main vendors page VEN-1-6 Should find the the inspector on the right panel" time="2.927" classname="VEN-1-6 Should find the the inspector on the right panel">
+    </testcase>
+  </testsuite>
+</testsuites>

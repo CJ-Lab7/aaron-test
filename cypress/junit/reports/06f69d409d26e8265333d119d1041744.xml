@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="35.006" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-02T16:30:56" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="11 - I should see tasks in Pipeline View under Monitor tab" timestamp="2020-03-02T16:30:56" tests="2" failures="0" time="35.006">
+    <testcase name="11 - I should see tasks in Pipeline View under Monitor tab AN-11-1 Should view tasks" time="27.283" classname="AN-11-1 Should view tasks">
+    </testcase>
+    <testcase name="11 - I should see tasks in Pipeline View under Monitor tab AN-11-2 Should display Pipeline Details in the Inspector column" time="7.723" classname="AN-11-2 Should display Pipeline Details in the Inspector column">
+    </testcase>
+  </testsuite>
+</testsuites>

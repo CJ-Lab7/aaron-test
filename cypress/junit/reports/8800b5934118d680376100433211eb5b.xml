@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="130.166" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T15:39:25" tests="0" file="cypress/integration/apps/vendors/VEN12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can edit vendor details" timestamp="2020-06-26T15:39:25" tests="7" failures="0" time="130.166">
+    <testcase name="12 - I can edit vendor details VEN-12-1 Should edit name" time="20.675" classname="VEN-12-1 Should edit name">
+    </testcase>
+    <testcase name="12 - I can edit vendor details VEN-12-2 Should edit description" time="17.548" classname="VEN-12-2 Should edit description">
+    </testcase>
+    <testcase name="12 - I can edit vendor details VEN-12-3 Should edit tags" time="16.019" classname="VEN-12-3 Should edit tags">
+    </testcase>
+    <testcase name="12 - I can edit vendor details VEN-12-4 Should edit billing address" time="20.839" classname="VEN-12-4 Should edit billing address">
+    </testcase>
+    <testcase name="12 - I can edit vendor details VEN-12-5 Should edit shipping address" time="21.161" classname="VEN-12-5 Should edit shipping address">
+    </testcase>
+    <testcase name="12 - I can edit vendor details VEN-12-6 Should save" time="17.725" classname="VEN-12-6 Should save">
+    </testcase>
+    <testcase name="12 - I can edit vendor details VEN-12-7 Should Cancel" time="16.199" classname="VEN-12-7 Should Cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

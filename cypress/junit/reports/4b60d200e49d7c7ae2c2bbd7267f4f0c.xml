@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="79.349" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T17:14:05" tests="0" file="cypress/integration/apps/lims/LM24.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="24 - I should be able to run sample protocols with all options" timestamp="2020-03-22T17:14:05" tests="3" failures="0" time="79.349">
+    <testcase name="24 - I should be able to run sample protocols with all options LM-24-1 Should be able to run Sample Protocol with 1:1 relation" time="70.897" classname="LM-24-1 Should be able to run Sample Protocol with 1:1 relation">
+    </testcase>
+    <testcase name="24 - I should be able to run sample protocols with all options LM-24-2 Should be able to run Sample Protocol with 1:N relation" time="5.222" classname="LM-24-2 Should be able to run Sample Protocol with 1:N relation">
+    </testcase>
+    <testcase name="24 - I should be able to run sample protocols with all options LM-24-3 Should be able to run Sample Protocol with N:1 relation" time="3.23" classname="LM-24-3 Should be able to run Sample Protocol with N:1 relation">
+    </testcase>
+  </testsuite>
+</testsuites>

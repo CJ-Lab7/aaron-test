@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="41.103" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T16:52:14" tests="0" file="cypress/integration/apps/entities/EN23.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="23 - I can generate new barcodes with the barcode modal" timestamp="2020-03-28T16:52:14" tests="8" failures="0" time="41.103">
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-1 Should generate new QR barcode" time="11.841" classname="EN-23-1 Should generate new QR barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-2 Should generate new 1D barcode" time="4.632" classname="EN-23-2 Should generate new 1D barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-3 Should generate new Mini Data Matrix barcode" time="3.328" classname="EN-23-3 Should generate new Mini Data Matrix barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-4 Should edit QR barcode" time="4.797" classname="EN-23-4 Should edit QR barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-5 Should edit 1D barcode" time="4.762" classname="EN-23-5 Should edit 1D barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-6 Should edit Mini Data Matrix barcode" time="4.868" classname="EN-23-6 Should edit Mini Data Matrix barcode">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-8 Should close modal with &apos;X&apos;" time="3.355" classname="EN-23-8 Should close modal with &apos;X&apos;">
+    </testcase>
+    <testcase name="23 - I can generate new barcodes with the barcode modal EN-23-9 Should close modal with Cancel" time="3.52" classname="EN-23-9 Should close modal with Cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

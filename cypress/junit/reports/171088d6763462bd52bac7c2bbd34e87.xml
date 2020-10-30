@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.415" tests="3" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-03-22T19:14:38" tests="0" file="cypress/integration/apps/location/LC36.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="36 - I can add items to item pool by scanning barcodes" timestamp="2020-03-22T19:14:38" tests="3" failures="2" time="2.415">
+    <testcase name="36 - I can add items to item pool by scanning barcodes LC-36-1 Should add samples with the same barcode to the item pool" time="0" classname="LC-36-1 Should add samples with the same barcode to the item pool">
+      <failure message="Timed out retrying: Expected to find content: &apos;LC3610001&apos; within the selector: &apos;.pool .sample_content&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'LC3610001' within the selector: '.pool .sample_content' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="36 - I can add items to item pool by scanning barcodes LC-36-2 Should add containers with the same barcode to the item pool " time="0" classname="LC-36-2 Should add containers with the same barcode to the item pool ">
+      <failure message="Timed out retrying: Expected to find content: &apos;LC-36-2b&apos; within the selector: &apos;.pool .sample_content&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'LC-36-2b' within the selector: '.pool .sample_content' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="36 - I can add items to item pool by scanning barcodes LC-36-3 Should add sample and container with same barcode to the item pool" time="2.415" classname="LC-36-3 Should add sample and container with same barcode to the item pool">
+    </testcase>
+  </testsuite>
+</testsuites>

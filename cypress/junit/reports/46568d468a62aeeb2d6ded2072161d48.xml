@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="98.984" tests="13" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-18T23:07:46" tests="0" file="cypress/integration/apps/container_types/CT17_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can use the custom fields modal" timestamp="2020-05-18T23:07:46" tests="13" failures="0" time="98.984">
+    <testcase name="17 - I can use the custom fields modal CT-17-1 Should add text" time="14.027" classname="CT-17-1 Should add text">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-2 Should add numeric" time="7.475" classname="CT-17-2 Should add numeric">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-3 Should add picklist" time="9.191" classname="CT-17-3 Should add picklist">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-4 Should add Multi-select picklist" time="7.006" classname="CT-17-4 Should add Multi-select picklist">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-5 Should add ESP Expression for picklist" time="7.46" classname="CT-17-5 Should add ESP Expression for picklist">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-6 Should add date" time="6.422" classname="CT-17-6 Should add date">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-7 Should add checkbox" time="6.508" classname="CT-17-7 Should add checkbox">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-8 Should add attachment" time="6.446" classname="CT-17-8 Should add attachment">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-9 Should add barcode QR" time="6.811" classname="CT-17-9 Should add barcode QR">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-10 Should add barcode 1D" time="6.899" classname="CT-17-10 Should add barcode 1D">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-11 Should add barcode mini data matrix" time="7.02" classname="CT-17-11 Should add barcode mini data matrix">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-12 Should add Resource Link Sample" time="6.942" classname="CT-17-12 Should add Resource Link Sample">
+    </testcase>
+    <testcase name="17 - I can use the custom fields modal CT-17-13 Should add Resource Link File" time="6.777" classname="CT-17-13 Should add Resource Link File">
+    </testcase>
+  </testsuite>
+</testsuites>

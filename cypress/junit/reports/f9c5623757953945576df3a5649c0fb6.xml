@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.517" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-29T00:48:56" tests="0" file="cypress/integration/apps/projects/PR39.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="39 - I cannot archive a project" timestamp="2020-03-29T00:48:56" tests="1" failures="0" time="8.517">
+    <testcase name="39 - I cannot archive a project PR-39-1 Should not be able to archive a project" time="8.517" classname="PR-39-1 Should not be able to archive a project">
+    </testcase>
+  </testsuite>
+</testsuites>

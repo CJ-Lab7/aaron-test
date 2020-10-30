@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="123.63799999999999" tests="12" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T14:24:09" tests="0" file="cypress/integration/apps/container_types/CT11.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="11 - I can create container types" timestamp="2020-06-26T14:24:09" tests="12" failures="0" time="123.63799999999999">
+    <testcase name="11 - I can create container types CT-11-1 Should find details header" time="14.041" classname="CT-11-1 Should find details header">
+    </testcase>
+    <testcase name="11 - I can create container types CT-11-2 Should find details subheader" time="9.854" classname="CT-11-2 Should find details subheader">
+    </testcase>
+    <testcase name="11 - I can create container types CT-11-3 Should find export history button" time="10.037" classname="CT-11-3 Should find export history button">
+    </testcase>
+    <testcase name="11 - I can create container types CT-11-4 Should find archive button" time="9.474" classname="CT-11-4 Should find archive button">
+    </testcase>
+    <testcase name="11 - I can create container types CT-11-5 Should find dimensions button" time="10.05" classname="CT-11-5 Should find dimensions button">
+    </testcase>
+    <testcase name="11 - I can create container types CT-11-6 Should find custom field button" time="9.943" classname="CT-11-6 Should find custom field button">
+    </testcase>
+    <testcase name="11 - I can create container types CT-11-7 Should find cancel button" time="10.508" classname="CT-11-7 Should find cancel button">
+    </testcase>
+    <testcase name="11 - I can create container types CT-11-8 Should find save button" time="9.639" classname="CT-11-8 Should find save button">
+    </testcase>
+    <testcase name="11 - I can create container types CT-11-9 Should find details panel" time="9.963" classname="CT-11-9 Should find details panel">
+    </testcase>
+    <testcase name="11 - I can create container types CT-11-10 Should find dimensions tab" time="9.718" classname="CT-11-10 Should find dimensions tab">
+    </testcase>
+    <testcase name="11 - I can create container types CT-11-11 Should find history tab" time="10.093" classname="CT-11-11 Should find history tab">
+    </testcase>
+    <testcase name="11 - I can create container types CT-11-12 Should find custom field tab" time="10.318" classname="CT-11-12 Should find custom field tab">
+    </testcase>
+  </testsuite>
+</testsuites>

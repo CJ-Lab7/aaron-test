@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="60.157999999999994" tests="13" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:46:03" tests="0" file="cypress/integration/apps/projects/PR05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I see a project&apos;s details page by clicking View Details (List tab)" timestamp="2020-07-10T22:46:03" tests="13" failures="0" time="60.157999999999994">
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-1 Should see project details on the left" time="22.523" classname="PR-5-1 Should see project details on the left">
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-2 Should access/use Chains tab" time="4.48" classname="PR-5-2 Should access/use Chains tab">
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-3 Should access Chains tab with no chains" time="2.524" classname="PR-5-3 Should access Chains tab with no chains">
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-4 Should access/view Experiments tab" time="3.203" classname="PR-5-4 Should access/view Experiments tab">
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-5 Should view project details with unsubmitted experiment" time="2.297" classname="PR-5-5 Should view project details with unsubmitted experiment">
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-6 Should view project details with submitted experiment" time="3.332" classname="PR-5-6 Should view project details with submitted experiment">
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-7 Should view project details with submitted experiment that has worked on samples" time="2.757" classname="PR-5-7 Should view project details with submitted experiment that has worked on samples">
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-8 Should view project details with no experiment" time="2.553" classname="PR-5-8 Should view project details with no experiment">
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-9 Should access/view Samples tab" time="3.248" classname="PR-5-9 Should access/view Samples tab">
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-10 Should view samples tab with no samples" time="2.199" classname="PR-5-10 Should view samples tab with no samples">
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-11 Should access/view History tab" time="2.212" classname="PR-5-11 Should access/view History tab">
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-12 Should order history by column" time="2.921" classname="PR-5-12 Should order history by column">
+    </testcase>
+    <testcase name="5 - I see a project&apos;s details page by clicking View Details (List tab) PR-5-13 Should update history after adding an experiment to the project" time="5.909" classname="PR-5-13 Should update history after adding an experiment to the project">
+    </testcase>
+  </testsuite>
+</testsuites>

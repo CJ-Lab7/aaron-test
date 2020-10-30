@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="10" failures="10">
+  <testsuite name="Root Suite" timestamp="2020-05-11T15:49:56" tests="0" file="cypress/integration/apps/container_types/CT08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can use the New Container Type modal" timestamp="2020-05-11T15:49:56" tests="10" failures="10" time="0">
+    <testcase name="8 - I can use the New Container Type modal CT-8-1 Should add name" time="0" classname="CT-8-1 Should add name">
+      <failure message="Cannot read property &apos;openModal&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'openModal' of undefined
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT08.js-708:81:49)]]></failure>
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-2 Should add description" time="0" classname="CT-8-2 Should add description">
+      <failure message="Cannot read property &apos;openModal&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'openModal' of undefined
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT08.js-708:88:49)]]></failure>
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-3 Should find Contains selector options" time="0" classname="CT-8-3 Should find Contains selector options">
+      <failure message="Cannot read property &apos;openModal&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'openModal' of undefined
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT08.js-708:95:49)]]></failure>
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-4 Should find Elements per Location options" time="0" classname="CT-8-4 Should find Elements per Location options">
+      <failure message="Cannot read property &apos;openModal&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'openModal' of undefined
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT08.js-708:106:49)]]></failure>
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-6 Should add tags" time="0" classname="CT-8-6 Should add tags">
+      <failure message="Cannot read property &apos;openModal&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'openModal' of undefined
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT08.js-708:125:49)]]></failure>
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-7 Should delete tag" time="0" classname="CT-8-7 Should delete tag">
+      <failure message="Cannot read property &apos;openModal&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'openModal' of undefined
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT08.js-708:144:49)]]></failure>
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-8 Should not save without name" time="0" classname="CT-8-8 Should not save without name">
+      <failure message="Cannot read property &apos;openModal&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'openModal' of undefined
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT08.js-708:153:49)]]></failure>
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-9 Should Save" time="0" classname="CT-8-9 Should Save">
+      <failure message="Cannot read property &apos;openModal&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'openModal' of undefined
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT08.js-708:162:49)]]></failure>
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-10 Should cancel" time="0" classname="CT-8-10 Should cancel">
+      <failure message="Cannot read property &apos;openModal&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'openModal' of undefined
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT08.js-708:174:49)]]></failure>
+    </testcase>
+    <testcase name="8 - I can use the New Container Type modal CT-8-11 Should close modal" time="0" classname="CT-8-11 Should close modal">
+      <failure message="Cannot read property &apos;openModal&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'openModal' of undefined
+    at Context.<anonymous> (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT08.js-708:181:49)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

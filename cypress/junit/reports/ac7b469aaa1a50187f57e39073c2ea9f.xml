@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="33.650000000000006" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T12:39:55" tests="0" file="cypress/integration/apps/entities/EN37.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="37 - I can access list view" timestamp="2020-03-31T12:39:55" tests="2" failures="0" time="33.650000000000006">
+    <testcase name="37 - I can access list view EN-37-1 Should access view tab" time="20.193" classname="EN-37-1 Should access view tab">
+    </testcase>
+    <testcase name="37 - I can access list view EN-37-2 Should access list tab" time="13.457" classname="EN-37-2 Should access list tab">
+    </testcase>
+  </testsuite>
+</testsuites>

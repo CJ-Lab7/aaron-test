@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="117.14099999999999" tests="9" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:00:00" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="22 - I can access the experiment details page" timestamp="2020-02-27T21:00:00" tests="9" failures="0" time="117.14099999999999">
+    <testcase name="22 - I can access the experiment details page PR-22-1 Should see details on the left" time="88.143" classname="PR-22-1 Should see details on the left">
+    </testcase>
+    <testcase name="22 - I can access the experiment details page PR-22-2 Should see visualization" time="4.962" classname="PR-22-2 Should see visualization">
+    </testcase>
+    <testcase name="22 - I can access the experiment details page PR-22-3 Should see worksheet" time="4.279" classname="PR-22-3 Should see worksheet">
+    </testcase>
+    <testcase name="22 - I can access the experiment details page PR-22-4 Should see reports" time="2.812" classname="PR-22-4 Should see reports">
+    </testcase>
+    <testcase name="22 - I can access the experiment details page PR-22-5 Should see history" time="2.415" classname="PR-22-5 Should see history">
+    </testcase>
+    <testcase name="22 - I can access the experiment details page PR-22-6 Should order history by column" time="3.211" classname="PR-22-6 Should order history by column">
+    </testcase>
+    <testcase name="22 - I can access the experiment details page PR-22-7 Should update history" time="7.725" classname="PR-22-7 Should update history">
+    </testcase>
+    <testcase name="22 - I can access the experiment details page PR-22-9 Should submit experiment" time="3.594" classname="PR-22-9 Should submit experiment">
+    </testcase>
+  </testsuite>
+</testsuites>

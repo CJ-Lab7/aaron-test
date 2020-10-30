@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="82.375" tests="18" failures="1" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-23T00:48:19" tests="0" file="cypress/integration/apps/samples/SP03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can see sample details (right column) after clicking a sample ID" timestamp="2020-03-23T00:48:19" tests="18" failures="1" time="82.375">
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-1 Should find Data tab" time="38.496" classname="SP-3-1 Should find Data tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-2 Should view experiments and worksheets (Process Data)" time="0" classname="SP-3-2 Should view experiments and worksheets (Process Data)">
+      <failure message="Timed out retrying: Expected to find content: &apos;SP3 (Experiment)&apos; within the selector: &apos;.section&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'SP3 (Experiment)' within the selector: '.section' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-3 Should find Parents &amp; Children tab" time="2.249" classname="SP-3-3 Should find Parents &amp; Children tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-4 Should view parents/children of sample (Parent&apos;s &amp; Children)" time="2.786" classname="SP-3-4 Should view parents/children of sample (Parent&apos;s &amp; Children)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-5 Should find Attachments tab" time="2.052" classname="SP-3-5 Should find Attachments tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-6 Should view attachments (Attachments)" time="2.849" classname="SP-3-6 Should view attachments (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-7a Should upload attachment (Attachments)" time="4.128" classname="SP-3-7a Should upload attachment (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-7b Should attach file from Data (Attachments)" time="4.491" classname="SP-3-7b Should attach file from Data (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-7c Should attach multiple files from Data (Attachments)" time="4.705" classname="SP-3-7c Should attach multiple files from Data (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-8 Should access attachments (Attachments)" time="3.781" classname="SP-3-8 Should access attachments (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-10 Should delete an attachment (Attachments)" time="3.918" classname="SP-3-10 Should delete an attachment (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-11 Should find History tab" time="2.042" classname="SP-3-11 Should find History tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-12 Should view history (History)" time="2.446" classname="SP-3-12 Should view history (History)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-15 Should find data tab" time="2.085" classname="SP-3-15 Should find data tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-16 Should view columns under data" time="2.142" classname="SP-3-16 Should view columns under data">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-17 Should view column values under data" time="2.134" classname="SP-3-17 Should view column values under data">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-18 Should find no column values under data" time="2.071" classname="SP-3-18 Should find no column values under data">
+    </testcase>
+  </testsuite>
+</testsuites>

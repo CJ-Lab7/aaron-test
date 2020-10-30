@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.648" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:01:32" tests="0" file="cypress/integration/apps/location/LC21.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="21 - I can open container details by scanning a barcode" timestamp="2020-07-10T22:01:32" tests="1" failures="0" time="12.648">
+    <testcase name="21 - I can open container details by scanning a barcode LC-21-1 Should scan barcode and open container details" time="12.648" classname="LC-21-1 Should scan barcode and open container details">
+    </testcase>
+  </testsuite>
+</testsuites>

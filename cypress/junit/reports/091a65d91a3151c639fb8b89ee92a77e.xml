@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.597" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T15:36:05" tests="0" file="cypress/integration/apps/vendors/VEN04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I should be able to expand and collapse filter and inspector panels" timestamp="2020-06-26T15:36:05" tests="2" failures="0" time="16.597">
+    <testcase name="4 - I should be able to expand and collapse filter and inspector panels VEN-4-1/2 Should collapse then expand filter column" time="9.249" classname="VEN-4-1/2 Should collapse then expand filter column">
+    </testcase>
+    <testcase name="4 - I should be able to expand and collapse filter and inspector panels VEN-4-3/4 Should collapse then expand vendors inspector column" time="7.348" classname="VEN-4-3/4 Should collapse then expand vendors inspector column">
+    </testcase>
+  </testsuite>
+</testsuites>

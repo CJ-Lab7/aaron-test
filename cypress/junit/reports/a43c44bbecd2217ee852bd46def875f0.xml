@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.165" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T18:49:30" tests="0" file="cypress/integration/apps/samples/SP28.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="28 - I can see sample type details after creating with new experiment modal" timestamp="2020-03-31T18:49:30" tests="1" failures="0" time="28.165">
+    <testcase name="28 - I can see sample type details after creating with new experiment modal SP-28-1 Should find sample type values" time="28.165" classname="SP-28-1 Should find sample type values">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="43.300999999999995" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T18:15:33" tests="0" file="cypress/integration/apps/lims/LM51.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="51 - I can use barcodes column in a group all protocol" timestamp="2020-03-22T18:15:33" tests="4" failures="0" time="43.300999999999995">
+    <testcase name="51 - I can use barcodes column in a group all protocol LM-51-1 Should show barcode in header when all samples have the same barcode" time="32.504" classname="LM-51-1 Should show barcode in header when all samples have the same barcode">
+    </testcase>
+    <testcase name="51 - I can use barcodes column in a group all protocol LM-51-2 Should say multiple barcodes in header when samples have different barcodes" time="5.212" classname="LM-51-2 Should say multiple barcodes in header when samples have different barcodes">
+    </testcase>
+    <testcase name="51 - I can use barcodes column in a group all protocol LM-51-3 Should say multiple barcodes in header when samples have missing barcodes" time="3.423" classname="LM-51-3 Should say multiple barcodes in header when samples have missing barcodes">
+    </testcase>
+    <testcase name="51 - I can use barcodes column in a group all protocol LM-51-4 Should have empty header when no samples have barcode" time="2.162" classname="LM-51-4 Should have empty header when no samples have barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

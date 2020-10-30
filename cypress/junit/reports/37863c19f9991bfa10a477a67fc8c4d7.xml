@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="26.138" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-02T17:06:47" tests="0" file="cypress/integration/apps/service_types/ST04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can use Filters panel" timestamp="2020-07-02T17:06:47" tests="3" failures="0" time="26.138">
+    <testcase name="4 - I can use Filters panel ST-4-1 Should filter by name " time="11.718" classname="ST-4-1 Should filter by name ">
+    </testcase>
+    <testcase name="4 - I can use Filters panel ST-4-2 Should filter by description " time="8.265" classname="ST-4-2 Should filter by description ">
+    </testcase>
+    <testcase name="4 - I can use Filters panel VEN-4-3 &amp; VEN-4-4 Should collapse then expand filter column" time="6.155" classname="VEN-4-3 &amp; VEN-4-4 Should collapse then expand filter column">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.647" tests="7" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-05-20T21:52:29" tests="0" file="cypress/integration/apps/service_types/ST03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can view Service Type details on the main page" timestamp="2020-05-20T21:52:29" tests="7" failures="0" time="16.647">
+    <testcase name="3 - I can view Service Type details on the main page ST-3-1 Should find header" time="8.473" classname="ST-3-1 Should find header">
+    </testcase>
+    <testcase name="3 - I can view Service Type details on the main page ST-3-2 Should find subheader" time="2.501" classname="ST-3-2 Should find subheader">
+    </testcase>
+    <testcase name="3 - I can view Service Type details on the main page ST-3-3 Should find New Service Type button" time="1.318" classname="ST-3-3 Should find New Service Type button">
+    </testcase>
+    <testcase name="3 - I can view Service Type details on the main page ST-3-5 Should find filters column" time="1.353" classname="ST-3-5 Should find filters column">
+    </testcase>
+    <testcase name="3 - I can view Service Type details on the main page ST-3-6 Should find list of service types" time="1.58" classname="ST-3-6 Should find list of service types">
+    </testcase>
+    <testcase name="3 - I can view Service Type details on the main page ST-3-7 Should find inspector" time="1.422" classname="ST-3-7 Should find inspector">
+    </testcase>
+  </testsuite>
+</testsuites>

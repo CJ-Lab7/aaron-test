@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="41.239999999999995" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T20:44:26" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can create a new experiment, + Experiment (Projects List)" timestamp="2020-02-27T20:44:26" tests="3" failures="0" time="41.239999999999995">
+    <testcase name="6 - I can create a new experiment, + Experiment (Projects List) PR-6-1 Should create a submitted experiment (existing samples)" time="27.43" classname="PR-6-1 Should create a submitted experiment (existing samples)">
+    </testcase>
+    <testcase name="6 - I can create a new experiment, + Experiment (Projects List) PR-6-2 Should create a submitted experiment (new samples)" time="9.159" classname="PR-6-2 Should create a submitted experiment (new samples)">
+    </testcase>
+    <testcase name="6 - I can create a new experiment, + Experiment (Projects List) PR-6-3 Should create a pending experiment" time="4.651" classname="PR-6-3 Should create a pending experiment">
+    </testcase>
+  </testsuite>
+</testsuites>

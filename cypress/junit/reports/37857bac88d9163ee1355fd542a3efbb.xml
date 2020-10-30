@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.927" tests="3" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:03:04" tests="0" file="cypress/integration/apps/lims/LM05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - I should be able to sort experiments" timestamp="2020-07-10T21:03:04" tests="3" failures="2" time="25.927">
+    <testcase name="5 - I should be able to sort experiments LM-5-1 Should be able to sort experiments by Name" time="25.927" classname="LM-5-1 Should be able to sort experiments by Name">
+    </testcase>
+    <testcase name="5 - I should be able to sort experiments LM-5-3 Should be able to sort experiments by Workflow" time="0" classname="LM-5-3 Should be able to sort experiments by Workflow">
+      <failure message="expected 0 to equal 1" type="AssertionError"><![CDATA[AssertionError: expected 0 to equal 1
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/lims/LM05.js:54:48)]]></failure>
+    </testcase>
+    <testcase name="5 - I should be able to sort experiments LM-5-4 Should reset sort" time="0" classname="LM-5-4 Should reset sort">
+      <failure message="expected 0 to equal 1" type="AssertionError"><![CDATA[AssertionError: expected 0 to equal 1
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/lims/LM05.js:54:48)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

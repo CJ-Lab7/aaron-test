@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="40.885" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T17:32:23" tests="0" file="cypress/integration/apps/customers/CS04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can see the list of all customers" timestamp="2020-07-10T17:32:23" tests="4" failures="0" time="40.885">
+    <testcase name="4 - I can see the list of all customers CS-4-1 Should list all customers columns" time="9.201" classname="CS-4-1 Should list all customers columns">
+    </testcase>
+    <testcase name="4 - I can see the list of all customers CS-4-2 Should sort columns" time="19.689" classname="CS-4-2 Should sort columns">
+    </testcase>
+    <testcase name="4 - I can see the list of all customers CS-4-3 Should find the inspector on the right panel" time="8.54" classname="CS-4-3 Should find the inspector on the right panel">
+    </testcase>
+    <testcase name="4 - I can see the list of all customers CS-4-4 Should be able view customer detail page" time="3.455" classname="CS-4-4 Should be able view customer detail page">
+    </testcase>
+  </testsuite>
+</testsuites>

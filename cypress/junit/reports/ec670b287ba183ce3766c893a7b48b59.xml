@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="221.73700000000002" tests="9" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-15T20:41:30" tests="0" file="cypress/integration/apps/lims/LM25_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25_1 - I should be able to render columns correctly when protocol is run" timestamp="2020-04-15T20:41:30" tests="9" failures="0" time="221.73700000000002">
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-1 Should use free text column" time="64.408" classname="LM-25-1 Should use free text column">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-2 Should not be able to allow non-numeric values when column is set for numeric numbers" time="21.216" classname="LM-25-2 Should not be able to allow non-numeric values when column is set for numeric numbers">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-3 Should be able to put samples in correct location" time="20.724" classname="LM-25-3 Should be able to put samples in correct location">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-4 Should remove sample from a location" time="26.451" classname="LM-25-4 Should remove sample from a location">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-6 Should not add sample to full location" time="17.275" classname="LM-25-6 Should not add sample to full location">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-7 Should add multiple items to a location" time="24.211" classname="LM-25-7 Should add multiple items to a location">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-10 Should be able to add attachments to protocol columns and steps" time="17.601" classname="LM-25-10 Should be able to add attachments to protocol columns and steps">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-11 Should be able to use Date Picker" time="15.044" classname="LM-25-11 Should be able to use Date Picker">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-12 Should be able to use Checkbox" time="14.807" classname="LM-25-12 Should be able to use Checkbox">
+    </testcase>
+  </testsuite>
+</testsuites>

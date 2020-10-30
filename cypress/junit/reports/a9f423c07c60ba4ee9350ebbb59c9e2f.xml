@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.975" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T21:14:15" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="33 - I can see the number of samples added to an experiment" timestamp="2020-02-27T21:14:15" tests="1" failures="0" time="23.975">
+    <testcase name="33 - I can see the number of samples added to an experiment PR-33-1 Should find number of samples" time="23.975" classname="PR-33-1 Should find number of samples">
+    </testcase>
+  </testsuite>
+</testsuites>

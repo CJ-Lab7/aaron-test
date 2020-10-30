@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.198" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-25T01:20:12" tests="0" file="cypress/integration/apps/location/LC35.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="35 - I can view container type fields in the data tab" timestamp="2020-06-25T01:20:12" tests="1" failures="0" time="16.198">
+    <testcase name="35 - I can view container type fields in the data tab LC-35-1 Should find container type fields in the data tab" time="16.198" classname="LC-35-1 Should find container type fields in the data tab">
+    </testcase>
+  </testsuite>
+</testsuites>

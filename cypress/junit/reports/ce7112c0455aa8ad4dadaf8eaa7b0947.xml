@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.334" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-28T16:12:42" tests="0" file="cypress/integration/apps/data/D14.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="14 - I can return to the Data main page (file details)" timestamp="2020-03-28T16:12:42" tests="1" failures="0" time="10.334">
+    <testcase name="14 - I can return to the Data main page (file details) D-14-1 Should return to Data by clicking Done" time="10.334" classname="D-14-1 Should return to Data by clicking Done">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="26.439" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-26T16:25:10" tests="0" file="cypress/integration/apps/customers/CS12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can access and view History details" timestamp="2020-05-26T16:25:10" tests="3" failures="0" time="26.439">
+    <testcase name="12 - I can access and view History details CS-12-1 History is added at creation of the customer" time="11.184" classname="CS-12-1 History is added at creation of the customer">
+    </testcase>
+    <testcase name="12 - I can access and view History details CS-12-2 Changes after editing name/description/tags" time="8.344" classname="CS-12-2 Changes after editing name/description/tags">
+    </testcase>
+    <testcase name="12 - I can access and view History details CS-12-3 Changes after editing billing/shipping address" time="6.911" classname="CS-12-3 Changes after editing billing/shipping address">
+    </testcase>
+  </testsuite>
+</testsuites>

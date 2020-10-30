@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.845000000000006" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-28T17:03:16" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I should see the ESP logo, search bar, history, and recent activity" timestamp="2020-02-28T17:03:16" tests="4" failures="0" time="20.845000000000006">
+    <testcase name="1 - I should see the ESP logo, search bar, history, and recent activity SR-1-1 Should find ESP logo" time="10.64" classname="SR-1-1 Should find ESP logo">
+    </testcase>
+    <testcase name="1 - I should see the ESP logo, search bar, history, and recent activity SR-1-2 Should find search box" time="5.496" classname="SR-1-2 Should find search box">
+    </testcase>
+    <testcase name="1 - I should see the ESP logo, search bar, history, and recent activity SR-1-3 Should find search history" time="2.536" classname="SR-1-3 Should find search history">
+    </testcase>
+    <testcase name="1 - I should see the ESP logo, search bar, history, and recent activity SR-1-4 Should find recent activity" time="2.173" classname="SR-1-4 Should find recent activity">
+    </testcase>
+  </testsuite>
+</testsuites>

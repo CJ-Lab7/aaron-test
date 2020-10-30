@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="99.302" tests="11" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-07-11T01:48:33" tests="0" file="cypress/integration/apps/samples/SP32_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="32 - I can edit all sample type variables" timestamp="2020-07-11T01:48:33" tests="11" failures="0" time="99.302">
+    <testcase name="32 - I can edit all sample type variables SP-32-11 Should require field" time="20.729" classname="SP-32-11 Should require field">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-12 Should find default" time="4.613" classname="SP-32-12 Should find default">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-13 Should find read only" time="4.016" classname="SP-32-13 Should find read only">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-14 Should be able to edit Sample Resource Link" time="9.918" classname="SP-32-14 Should be able to edit Sample Resource Link">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-16 Should be able to edit File Resource Link" time="9.762" classname="SP-32-16 Should be able to edit File Resource Link">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-17 Should be able to edit Container Resource Link" time="9.74" classname="SP-32-17 Should be able to edit Container Resource Link">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-18 Should be able to edit Report Resource Link" time="9.964" classname="SP-32-18 Should be able to edit Report Resource Link">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-19 Should be able to edit Project Resource Link" time="9.756" classname="SP-32-19 Should be able to edit Project Resource Link">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-20 Should be able to edit Experiment Resource Link" time="10.041" classname="SP-32-20 Should be able to edit Experiment Resource Link">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-21 Should be able to edit Inventory Resource Link" time="10.763" classname="SP-32-21 Should be able to edit Inventory Resource Link">
+    </testcase>
+  </testsuite>
+</testsuites>

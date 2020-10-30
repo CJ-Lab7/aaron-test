@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="22.385" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T17:55:57" tests="0" file="cypress/integration/apps/inventory/IN24.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="24 - Item type quantity updates in admin when making changes in inventory app" timestamp="2020-04-03T17:55:57" tests="1" failures="0" time="22.385">
+    <testcase name="24 - Item type quantity updates in admin when making changes in inventory app IN-24-1 Should update admin quantity" time="22.385" classname="IN-24-1 Should update admin quantity">
+    </testcase>
+  </testsuite>
+</testsuites>

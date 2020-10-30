@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="31.785" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T14:49:37" tests="0" file="cypress/integration/apps/customers/CS03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I should be able to expand and collapse customers filter panel" timestamp="2020-06-26T14:49:37" tests="3" failures="0" time="31.785">
+    <testcase name="3 - I should be able to expand and collapse customers filter panel CS-3-1 Should filter by Name" time="13.392" classname="CS-3-1 Should filter by Name">
+    </testcase>
+    <testcase name="3 - I should be able to expand and collapse customers filter panel CS-3-2 Should filter by Description" time="10.132" classname="CS-3-2 Should filter by Description">
+    </testcase>
+    <testcase name="3 - I should be able to expand and collapse customers filter panel CS-3-3/4 Should collapse then expand customers filter panel" time="8.261" classname="CS-3-3/4 Should collapse then expand customers filter panel">
+    </testcase>
+  </testsuite>
+</testsuites>

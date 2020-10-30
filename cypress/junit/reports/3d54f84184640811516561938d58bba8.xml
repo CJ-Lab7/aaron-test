@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="103.55199999999999" tests="14" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T02:33:51" tests="0" file="cypress/integration/apps/permissions/LP07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - With permission, i can access apps via the address bar" timestamp="2020-04-16T02:33:51" tests="14" failures="0" time="103.55199999999999">
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-1 Should visit admin" time="8.487" classname="LP-7-1 Should visit admin">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-2 Should visit analysis" time="8.252" classname="LP-7-2 Should visit analysis">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-3 Should visit applets" time="6.989" classname="LP-7-3 Should visit applets">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-4 Should visit dashbaord" time="7.112" classname="LP-7-4 Should visit dashbaord">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-5 Should visit data" time="7.18" classname="LP-7-5 Should visit data">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-6 Should visit entities" time="7.565" classname="LP-7-6 Should visit entities">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-7 Should visit IAM" time="7.661" classname="LP-7-7 Should visit IAM">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-8 Should visit ingest" time="7.806" classname="LP-7-8 Should visit ingest">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-9 Should visit inventory" time="7.532" classname="LP-7-9 Should visit inventory">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-10 Should visit lims" time="7.017" classname="LP-7-10 Should visit lims">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-11 Should visit location" time="6.809" classname="LP-7-11 Should visit location">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-12 Should visit projects" time="7.147" classname="LP-7-12 Should visit projects">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-13 Should visit samples" time="7.16" classname="LP-7-13 Should visit samples">
+    </testcase>
+    <testcase name="7 - With permission, i can access apps via the address bar LP-7-14 Should visit seach" time="6.835" classname="LP-7-14 Should visit seach">
+    </testcase>
+  </testsuite>
+</testsuites>

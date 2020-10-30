@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="34.969" tests="6" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-22T14:09:35" tests="0" file="cypress/integration/apps/entities/EN25_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I can see correct processed data in entity details" timestamp="2020-03-22T14:09:35" tests="6" failures="0" time="34.969">
+    <testcase name="25 - I can see correct processed data in entity details EN-25-8 Should find barcode column" time="9.307" classname="EN-25-8 Should find barcode column">
+    </testcase>
+    <testcase name="25 - I can see correct processed data in entity details EN-25-9 Should find approval column" time="12.417" classname="EN-25-9 Should find approval column">
+    </testcase>
+    <testcase name="25 - I can see correct processed data in entity details EN-25-10 Should find link column" time="3.484" classname="EN-25-10 Should find link column">
+    </testcase>
+    <testcase name="25 - I can see correct processed data in entity details EN-25-11 Should find inventory column" time="6.501" classname="EN-25-11 Should find inventory column">
+    </testcase>
+    <testcase name="25 - I can see correct processed data in entity details EN-25-12 Should find multiselect column" time="3.26" classname="EN-25-12 Should find multiselect column">
+    </testcase>
+  </testsuite>
+</testsuites>

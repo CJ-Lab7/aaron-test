@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="31.966" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T17:12:37" tests="0" file="cypress/integration/apps/entities/EN36.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="36 - I can access a custom entitiy class app" timestamp="2020-04-03T17:12:37" tests="2" failures="0" time="31.966">
+    <testcase name="36 - I can access a custom entitiy class app EN-36-1 Should use qaclass home page link" time="18.043" classname="EN-36-1 Should use qaclass home page link">
+    </testcase>
+    <testcase name="36 - I can access a custom entitiy class app EN-36-2 Should use qaclass app drawer link" time="13.923" classname="EN-36-2 Should use qaclass app drawer link">
+    </testcase>
+  </testsuite>
+</testsuites>

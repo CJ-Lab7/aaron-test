@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="52.264" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-22T20:32:36" tests="0" file="cypress/integration/apps/projects/PR09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards)" timestamp="2020-03-22T20:32:36" tests="5" failures="1" time="52.264">
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-1 Should see project details on the left" time="44.561" classname="PR-9-1 Should see project details on the left">
+    </testcase>
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-2 Should access/use Chains tab" time="3.686" classname="PR-9-2 Should access/use Chains tab">
+    </testcase>
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-3 Should access/view Experiments tab" time="0" classname="PR-9-3 Should access/view Experiments tab">
+      <failure message="Timed out retrying: Expected to find content: &apos;PR09 exp&apos; within the selector: &apos;[data-test=&quot;content-collapsible__section&quot;]&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'PR09 exp' within the selector: '[data-test="content-collapsible__section"]' but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-4 Should access/view Samples tab" time="2.061" classname="PR-9-4 Should access/view Samples tab">
+    </testcase>
+    <testcase name="9 - I see a project&apos;s details page by clicking the blue flag (Projects Cards) PR-9-5 Should access/view History tab" time="1.956" classname="PR-9-5 Should access/view History tab">
+    </testcase>
+  </testsuite>
+</testsuites>

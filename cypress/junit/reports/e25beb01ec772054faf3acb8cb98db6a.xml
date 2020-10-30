@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.497" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-28T19:27:35" tests="0" file="cypress/integration/apps/lims/LM08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I should be able to filter worksheets" timestamp="2020-03-28T19:27:35" tests="2" failures="1" time="25.497">
+    <testcase name="8 - I should be able to filter worksheets LM-8-1 Should filter worksheets by Name in list view" time="15.717" classname="LM-8-1 Should filter worksheets by Name in list view">
+    </testcase>
+    <testcase name="8 - I should be able to filter worksheets LM-8-4 Should filter worksheets by Name in cards view" time="4.89" classname="LM-8-4 Should filter worksheets by Name in cards view">
+    </testcase>
+    <testcase name="8 - I should be able to filter worksheets &quot;after all&quot; hook for &quot;LM-8-4 Should filter worksheets by Name in cards view&quot;" time="4.89" classname="&quot;after all&quot; hook for &quot;LM-8-4 Should filter worksheets by Name in cards view&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM08seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 14:27:57,707:Saving data in Experiment LM8Exp1 for Protocol: Test Type Protocol.
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, l...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;8 - I should be able to fil...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM08seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 14:27:57,707:Saving data in Experiment LM8Exp1 for Protocol: Test Type Protocol.
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", l...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '8 - I should be able to fil...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

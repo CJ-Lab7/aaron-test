@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="42.68900000000001" tests="3" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-09-23T15:36:10" tests="0" file="cypress/integration/apps/location/LC36.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="36 - I can add items to item pool by scanning barcodes" timestamp="2020-09-23T15:36:10" tests="3" failures="2" time="42.68900000000001">
+    <testcase name="36 - I can add items to item pool by scanning barcodes LC-36-1 Should add samples with the same barcode to the item pool" time="24.457" classname="LC-36-1 Should add samples with the same barcode to the item pool">
+      <failure message="Timed out retrying: Expected to find content: &apos;LC3610001&apos; within the selector: &apos;.pool .sample_content&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'LC3610001' within the selector: '.pool .sample_content' but never did.
+    at assertPool (https://chris.test.l7informatics.com/__cypress/tests?p=cypress/integration/apps/location/LC36.js:556:10)
+    at Context.eval (https://chris.test.l7informatics.com/__cypress/tests?p=cypress/integration/apps/location/LC36.js:217:30)]]></failure>
+    </testcase>
+    <testcase name="36 - I can add items to item pool by scanning barcodes LC-36-2 Should add containers with the same barcode to the item pool " time="14.163" classname="LC-36-2 Should add containers with the same barcode to the item pool ">
+      <failure message="Timed out retrying: Expected to find content: &apos;LC-36-2b&apos; within the selector: &apos;.pool .sample_content&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'LC-36-2b' within the selector: '.pool .sample_content' but never did.
+    at assertPool (https://chris.test.l7informatics.com/__cypress/tests?p=cypress/integration/apps/location/LC36.js:556:10)
+    at Context.eval (https://chris.test.l7informatics.com/__cypress/tests?p=cypress/integration/apps/location/LC36.js:223:30)]]></failure>
+    </testcase>
+    <testcase name="36 - I can add items to item pool by scanning barcodes LC-36-3 Should add sample and container with same barcode to the item pool" time="4.069" classname="LC-36-3 Should add sample and container with same barcode to the item pool">
+    </testcase>
+  </testsuite>
+</testsuites>

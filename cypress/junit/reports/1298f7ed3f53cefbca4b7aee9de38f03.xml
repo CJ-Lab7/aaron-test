@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="148.63000000000002" tests="9" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-22T18:02:28" tests="0" file="cypress/integration/apps/lims/LM42.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="42 - I can use approval column in worksheets" timestamp="2020-03-22T18:02:28" tests="9" failures="1" time="148.63000000000002">
+    <testcase name="42 - I can use approval column in worksheets LM-42-1 Should approve and autosave" time="113.342" classname="LM-42-1 Should approve and autosave">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-2 Should approve, complete, and save sheet" time="6.691" classname="LM-42-2 Should approve, complete, and save sheet">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-3 Should fail to complete and save without approval" time="0" classname="LM-42-3 Should fail to complete and save without approval">
+      <failure message="Timed out retrying: cy.click() failed because this element is disabled:
+
+&lt;button data-v-5554da26=&quot;&quot; data-v-298dc4f5=&quot;&quot; disabled=&quot;disabled&quot; class=&quot;btn primary&quot; data-test=&quot;worksheet-tab--save-button&quot;&gt;...&lt;/button&gt;
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.click() failed because this element is disabled:
+
+<button data-v-5554da26="" data-v-298dc4f5="" disabled="disabled" class="btn primary" data-test="worksheet-tab--save-button">...</button>
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132798:12)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-4 Should fail samples then approve a different sample" time="6.932" classname="LM-42-4 Should fail samples then approve a different sample">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-5 Should move approved samples to next protocol" time="6.475" classname="LM-42-5 Should move approved samples to next protocol">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-6 Should fail to approve with user not in workgroup" time="3.979" classname="LM-42-6 Should fail to approve with user not in workgroup">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-7 Should fail to approve when user is not logged in" time="2.723" classname="LM-42-7 Should fail to approve when user is not logged in">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-8 Should fail to approve with incorrect password" time="3.562" classname="LM-42-8 Should fail to approve with incorrect password">
+    </testcase>
+    <testcase name="42 - I can use approval column in worksheets LM-42-9 Should fail to approve before all required columns have values" time="4.926" classname="LM-42-9 Should fail to approve before all required columns have values">
+    </testcase>
+  </testsuite>
+</testsuites>

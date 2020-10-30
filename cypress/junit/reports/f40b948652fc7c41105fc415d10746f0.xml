@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.323" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-28T14:07:40" tests="0" file="cypress/integration/apps/entity_types/ET07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I can navigate to details from link in inspector" timestamp="2020-05-28T14:07:40" tests="1" failures="0" time="11.323">
+    <testcase name="7 - I can navigate to details from link in inspector ET-7-1 Should click inspector link" time="11.323" classname="ET-7-1 Should click inspector link">
+    </testcase>
+  </testsuite>
+</testsuites>

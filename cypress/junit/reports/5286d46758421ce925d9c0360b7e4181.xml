@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.107999999999999" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T23:13:04" tests="0" file="cypress/integration/apps/reports/RP12.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="12 - I can use Reports link in the nav bar" timestamp="2020-07-10T23:13:04" tests="2" failures="0" time="14.107999999999999">
+    <testcase name="12 - I can use Reports link in the nav bar RP-12-1 Should use Reports link" time="10.495" classname="RP-12-1 Should use Reports link">
+    </testcase>
+    <testcase name="12 - I can use Reports link in the nav bar RP-12-2 Should use DASHBOARD link" time="3.613" classname="RP-12-2 Should use DASHBOARD link">
+    </testcase>
+  </testsuite>
+</testsuites>

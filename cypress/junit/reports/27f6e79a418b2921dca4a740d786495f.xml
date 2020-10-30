@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.225" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-01T16:59:44" tests="0" file="cypress/integration/apps/service_types/ST24.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="24 - I can only create one price entry per customer" timestamp="2020-06-01T16:59:44" tests="1" failures="0" time="14.225">
+    <testcase name="24 - I can only create one price entry per customer ST-24-1 Should not able to create a price entry already exists for a customer" time="14.225" classname="ST-24-1 Should not able to create a price entry already exists for a customer">
+    </testcase>
+  </testsuite>
+</testsuites>

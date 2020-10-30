@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="104.22000000000001" tests="8" failures="2" skipped="2">
+  <testsuite name="Root Suite" timestamp="2020-04-15T20:50:25" tests="0" file="cypress/integration/apps/lims/LM25_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25_2 - I should be able to render columns correctly when protocol is run" timestamp="2020-04-15T20:50:25" tests="8" failures="2" time="104.22000000000001">
+    <testcase name="25_2 - I should be able to render columns correctly when protocol is run LM-25-13 Should be able to use Link option" time="55.045" classname="LM-25-13 Should be able to use Link option">
+    </testcase>
+    <testcase name="25_2 - I should be able to render columns correctly when protocol is run LM-25-14 Should be able to use Pick List option" time="18.79" classname="LM-25-14 Should be able to use Pick List option">
+    </testcase>
+    <testcase name="25_2 - I should be able to render columns correctly when protocol is run LM-25-17 Should not save without required field" time="17.816" classname="LM-25-17 Should not save without required field">
+    </testcase>
+    <testcase name="25_2 - I should be able to render columns correctly when protocol is run LM-25-18 Should find default value" time="12.569" classname="LM-25-18 Should find default value">
+    </testcase>
+    <testcase name="25_2 - I should be able to render columns correctly when protocol is run LM-25-19 Should not edit read only column" time="0" classname="LM-25-19 Should not edit read only column">
+      <failure message="Timed out retrying: Expected to find content: &apos;Worksheet&apos; within the selector: &apos;.ag-header-cell&apos; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'Worksheet' within the selector: '.ag-header-cell' but never did.
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="25_2 - I should be able to render columns correctly when protocol is run LM-25-20 Should complete sample" time="0" classname="LM-25-20 Should complete sample">
+      <failure message="Timed out retrying: expected &apos;&lt;div.loading-dots&gt;&apos; not to be &apos;visible&apos;" type="CypressError"><![CDATA[CypressError: Timed out retrying: expected '<div.loading-dots>' not to be 'visible'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

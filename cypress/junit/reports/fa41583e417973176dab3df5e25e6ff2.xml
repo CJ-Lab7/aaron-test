@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.497" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:58:56" tests="0" file="cypress/integration/apps/entities/EN34.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="34 - I can view entity fields separated by var group" timestamp="2020-07-10T19:58:56" tests="2" failures="0" time="15.497">
+    <testcase name="34 - I can view entity fields separated by var group EN-34-1 Should find separate table of fields for each var group" time="11.174" classname="EN-34-1 Should find separate table of fields for each var group">
+    </testcase>
+    <testcase name="34 - I can view entity fields separated by var group EN-34-2 Should find the default var group to be Data" time="4.323" classname="EN-34-2 Should find the default var group to be Data">
+    </testcase>
+  </testsuite>
+</testsuites>

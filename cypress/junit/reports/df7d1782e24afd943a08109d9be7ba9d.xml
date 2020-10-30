@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.295" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-20T20:44:49" tests="0" file="cypress/integration/apps/entities/EN19.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="19 - I am shown a message when a entity has no barcode" timestamp="2020-03-20T20:44:49" tests="1" failures="0" time="28.295">
+    <testcase name="19 - I am shown a message when a entity has no barcode EN-19-1 Should delete barcode and find message" time="28.295" classname="EN-19-1 Should delete barcode and find message">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.308" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-20T19:56:38" tests="0" file="cypress/integration/apps/data/D07.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="7 - I can expand/collapse the filter column" timestamp="2020-03-20T19:56:38" tests="1" failures="0" time="11.308">
+    <testcase name="7 - I can expand/collapse the filter column D-7-1/2 Should expand/collapse filter column" time="11.308" classname="D-7-1/2 Should expand/collapse filter column">
+    </testcase>
+  </testsuite>
+</testsuites>

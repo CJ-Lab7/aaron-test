@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="77.863" tests="13" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-29T18:48:52" tests="0" file="cypress/integration/apps/samples/SP32.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="32 - I can edit all sample type variables" timestamp="2020-03-29T18:48:52" tests="13" failures="0" time="77.863">
+    <testcase name="32 - I can edit all sample type variables SP-32-1 Should add text" time="18.421" classname="SP-32-1 Should add text">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-2 Should add numeric" time="7.281" classname="SP-32-2 Should add numeric">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-3 Should add picklist" time="5.148" classname="SP-32-3 Should add picklist">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-4 Should add multiselect picklist" time="3.172" classname="SP-32-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-5 Should add date" time="5.195" classname="SP-32-5 Should add date">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-6 Should add checkbox" time="4.971" classname="SP-32-6 Should add checkbox">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-7 Should add attachment" time="6.61" classname="SP-32-7 Should add attachment">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-8 Should add qr barcode" time="5.474" classname="SP-32-8 Should add qr barcode">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-9 Should add 1d barcode" time="5.248" classname="SP-32-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-10 Should add mini data matrix" time="5.254" classname="SP-32-10 Should add mini data matrix">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-11 Should require field" time="5.464" classname="SP-32-11 Should require field">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-12 Should find default" time="2.714" classname="SP-32-12 Should find default">
+    </testcase>
+    <testcase name="32 - I can edit all sample type variables SP-32-13 Should find read only" time="2.911" classname="SP-32-13 Should find read only">
+    </testcase>
+  </testsuite>
+</testsuites>

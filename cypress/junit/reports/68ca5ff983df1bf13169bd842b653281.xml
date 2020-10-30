@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="85.454" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T22:30:48" tests="0" file="cypress/integration/apps/sample_sets/LM58g.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58g - archive worksheets with multiple sample protocols" timestamp="2020-04-03T22:30:48" tests="3" failures="0" time="85.454">
+    <testcase name="58g - archive worksheets with multiple sample protocols LM-58g-1 - Archive after all samples are complete" time="48.793" classname="LM-58g-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58g - archive worksheets with multiple sample protocols LM-58g-2 - Archive after all samples fail in second protocol" time="17.027" classname="LM-58g-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58g - archive worksheets with multiple sample protocols LM-58g-3 - Archive after all samples fail in third protocol" time="19.634" classname="LM-58g-3 - Archive after all samples fail in third protocol">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="123.57299999999998" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T14:39:16" tests="0" file="cypress/integration/apps/container_types/CT17.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="17 - I can click on a Container Types details and can edit Custom Fields" timestamp="2020-06-26T14:39:16" tests="8" failures="0" time="123.57299999999998">
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-1 Should edit name" time="20.341" classname="CT-17-1 Should edit name">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-2 Should edit description" time="14.09" classname="CT-17-2 Should edit description">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-3 Should edit default value" time="14.086" classname="CT-17-3 Should edit default value">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-4 Should add read only" time="13.887" classname="CT-17-4 Should add read only">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-5 Should add required" time="14.671" classname="CT-17-5 Should add required">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-6 Should edit type" time="14.433" classname="CT-17-6 Should edit type">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-7 Should add picklist options" time="17.875" classname="CT-17-7 Should add picklist options">
+    </testcase>
+    <testcase name="17 - I can click on a Container Types details and can edit Custom Fields CT-17-8 Should remove custom field" time="14.19" classname="CT-17-8 Should remove custom field">
+    </testcase>
+  </testsuite>
+</testsuites>

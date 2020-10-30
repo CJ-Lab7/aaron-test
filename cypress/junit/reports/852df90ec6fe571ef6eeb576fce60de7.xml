@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="114.18299999999996" tests="18" failures="1" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-02-27T22:41:12" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I can see sample details (right column) after clicking a sample ID" timestamp="2020-02-27T22:41:12" tests="18" failures="1" time="114.18299999999996">
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-1 Should find Data tab" time="42.96" classname="SP-3-1 Should find Data tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-2 Should view experiments and worksheets (Process Data)" time="6.67" classname="SP-3-2 Should view experiments and worksheets (Process Data)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-3 Should find Parents &amp; Children tab" time="3.033" classname="SP-3-3 Should find Parents &amp; Children tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-4 Should view parents/children of sample (Parent&apos;s &amp; Children)" time="3.715" classname="SP-3-4 Should view parents/children of sample (Parent&apos;s &amp; Children)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-5 Should find Attachments tab" time="3.013" classname="SP-3-5 Should find Attachments tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-6 Should view attachments (Attachments)" time="4.25" classname="SP-3-6 Should view attachments (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-7a Should upload attachment (Attachments)" time="14.2" classname="SP-3-7a Should upload attachment (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-7b Should attach file from Data (Attachments)" time="5.213" classname="SP-3-7b Should attach file from Data (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-7c Should attach multiple files from Data (Attachments)" time="5.178" classname="SP-3-7c Should attach multiple files from Data (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-8 Should access attachments (Attachments)" time="4.747" classname="SP-3-8 Should access attachments (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-10 Should delete an attachment (Attachments)" time="4.722" classname="SP-3-10 Should delete an attachment (Attachments)">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-11 Should find History tab" time="3.381" classname="SP-3-11 Should find History tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-12 Should view history (History)" time="0" classname="SP-3-12 Should view history (History)">
+      <failure message="Timed out retrying: Expected to find content: &apos;created sample&apos; within the element: [ &lt;div.row&gt;, 15 more... ] but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'created sample' within the element: [ <div.row>, 15 more... ] but never did.
+    at Object.cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65727:11)
+    at Object.throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65692:18)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:65719:17)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:59237:16)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:51312:18
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:131273:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129291:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129348:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129393:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:129468:18)
+    at Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126197:16)
+    at Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126207:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:126081:14)
+    at <anonymous>]]></failure>
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-15 Should find data tab" time="3.234" classname="SP-3-15 Should find data tab">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-16 Should view columns under data" time="3.16" classname="SP-3-16 Should view columns under data">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-17 Should view column values under data" time="3.238" classname="SP-3-17 Should view column values under data">
+    </testcase>
+    <testcase name="3 - I can see sample details (right column) after clicking a sample ID SP-3-18 Should find no column values under data" time="3.469" classname="SP-3-18 Should find no column values under data">
+    </testcase>
+  </testsuite>
+</testsuites>

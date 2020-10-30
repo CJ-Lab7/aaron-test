@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="212.418" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-26T20:12:09" tests="0" file="cypress/integration/apps/sample_sets/LM58d.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="58d - archive worksheets with multiple sample protocols" timestamp="2020-06-26T20:12:09" tests="5" failures="1" time="212.418">
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-1 - Archive after all samples are complete" time="66.71" classname="LM-58d-1 - Archive after all samples are complete">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-2 - Archive after all samples fail in second protocol" time="21.14" classname="LM-58d-2 - Archive after all samples fail in second protocol">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-3 - Archive after first sample fails in second protocol" time="36.013" classname="LM-58d-3 - Archive after first sample fails in second protocol">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-4 - Archive after last sample fails in second protocol" time="35.115" classname="LM-58d-4 - Archive after last sample fails in second protocol">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols LM-58d-5 - Archive after all samples fail in third protocol" time="26.72" classname="LM-58d-5 - Archive after all samples fail in third protocol">
+    </testcase>
+    <testcase name="58d - archive worksheets with multiple sample protocols &quot;after all&quot; hook for &quot;LM-58d-5 - Archive after all samples fail in third protocol&quot;" time="26.72" classname="&quot;after all&quot; hook for &quot;LM-58d-5 - Archive after all samples fail in third protocol&quot;">
+      <failure message="cy.exec(&apos;esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/sample_sets/LM58dseed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-06-26 15:15:17,709:Dropping SampleSheet: LM58-x d
+INFO:root:2020-06-26 15:15:17,850:Dropping Experiment: LM58d-x
+INFO:root:2020-06-26 15:15:19,387:Dropping Experiment: LM58d-1
+Traceb...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;58d - archive worksheets wi...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp -s -P 443 -H chris.test.l7informatics.com -u admin@localhost -p L4b7R0cks! seed -f -d cypress/fixtures/apps/sample_sets/LM58dseed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-06-26 15:15:17,709:Dropping SampleSheet: LM58-x d
+INFO:root:2020-06-26 15:15:17,850:Dropping Experiment: LM58d-x
+INFO:root:2020-06-26 15:15:19,387:Dropping Experiment: LM58d-1
+Traceb...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '58d - archive worksheets wi...'
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

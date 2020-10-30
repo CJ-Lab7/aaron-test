@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="138.398" tests="11" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-07-11T01:43:34" tests="0" file="cypress/integration/apps/samples/SP31_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I can use all types of data columns in new experiment modal" timestamp="2020-07-11T01:43:34" tests="11" failures="0" time="138.398">
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-11 Should require field" time="20.982" classname="SP-31-11 Should require field">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-12 Should find default value" time="10.197" classname="SP-31-12 Should find default value">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-13 Should not edit read only" time="9.419" classname="SP-31-13 Should not edit read only">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-14 Should add Sample Resource Link" time="13.411" classname="SP-31-14 Should add Sample Resource Link">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-16 Should add File Link Type" time="13.897" classname="SP-31-16 Should add File Link Type">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-17 Should add Container Link Type" time="13.921" classname="SP-31-17 Should add Container Link Type">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-18 Should add Report Link Type" time="13.934" classname="SP-31-18 Should add Report Link Type">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-19 Should add Project Link Type" time="14.163" classname="SP-31-19 Should add Project Link Type">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-20 Should add Experiment Link Type" time="14.464" classname="SP-31-20 Should add Experiment Link Type">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-21 Should add Inventory Link Type" time="14.01" classname="SP-31-21 Should add Inventory Link Type">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="144.51899999999998" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-20T19:06:40" tests="0" file="cypress/integration/apps/analysis/AN09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - I should be able to change state of pipeline instance under Monitor tab" timestamp="2020-03-20T19:06:40" tests="6" failures="0" time="144.51899999999998">
+    <testcase name="9 - I should be able to change state of pipeline instance under Monitor tab AN-9-1 Should be able to pause a running instance" time="81.826" classname="AN-9-1 Should be able to pause a running instance">
+    </testcase>
+    <testcase name="9 - I should be able to change state of pipeline instance under Monitor tab AN-9-2 Should be able to kill a running instance" time="24.12" classname="AN-9-2 Should be able to kill a running instance">
+    </testcase>
+    <testcase name="9 - I should be able to change state of pipeline instance under Monitor tab AN-9-3 Should be able to resume a paused instance" time="10.557" classname="AN-9-3 Should be able to resume a paused instance">
+    </testcase>
+    <testcase name="9 - I should be able to change state of pipeline instance under Monitor tab AN-9-4 Should be able to restart a failed instance" time="10.591" classname="AN-9-4 Should be able to restart a failed instance">
+    </testcase>
+    <testcase name="9 - I should be able to change state of pipeline instance under Monitor tab AN-9-5 Should be able to restart a killed instance" time="11.016" classname="AN-9-5 Should be able to restart a killed instance">
+    </testcase>
+    <testcase name="9 - I should be able to change state of pipeline instance under Monitor tab AN-9-6 Should not be able to do anything to a successfully run instance" time="6.409" classname="AN-9-6 Should not be able to do anything to a successfully run instance">
+    </testcase>
+  </testsuite>
+</testsuites>

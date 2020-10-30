@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.706" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-29T14:33:16" tests="0" file="cypress/integration/apps/customers/CS13.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="13 - I can archive customers from main as well as details page" timestamp="2020-05-29T14:33:16" tests="1" failures="0" time="13.706">
+    <testcase name="13 - I can archive customers from main as well as details page CS-13-3 Should archive customer from details page" time="13.706" classname="CS-13-3 Should archive customer from details page">
+    </testcase>
+  </testsuite>
+</testsuites>

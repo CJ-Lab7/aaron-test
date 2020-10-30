@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.638" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:11:24" tests="0" file="cypress/integration/apps/data/D15.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="15 - I can open multiple details tabs" timestamp="2020-07-10T19:11:24" tests="1" failures="0" time="15.638">
+    <testcase name="15 - I can open multiple details tabs D-15-1/2 Should open multiple files" time="15.638" classname="D-15-1/2 Should open multiple files">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.299" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T19:47:46" tests="0" file="cypress/integration/apps/location/LC22.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="22 - I see an error when scanning a barcode that doesn&apos;t exist" timestamp="2020-04-03T19:47:46" tests="1" failures="0" time="14.299">
+    <testcase name="22 - I see an error when scanning a barcode that doesn&apos;t exist LC-22-1 Should scan non-existent barcode and find toast error" time="14.299" classname="LC-22-1 Should scan non-existent barcode and find toast error">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="88.89099999999999" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T03:28:12" tests="0" file="cypress/integration/apps/projects/PR03.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="3 - I should see a summary of all projects (Projects List)" timestamp="2020-04-16T03:28:12" tests="8" failures="0" time="88.89099999999999">
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-1 Should view all project names" time="25.241" classname="PR-3-1 Should view all project names">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-2 Should observe number of workflow chains" time="7.81" classname="PR-3-2 Should observe number of workflow chains">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-3 Should display correct number of experiments in a project" time="9.767" classname="PR-3-3 Should display correct number of experiments in a project">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-4 Should display the correct number of samples in a project" time="8.893" classname="PR-3-4 Should display the correct number of samples in a project">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-5 Should see View Details button for each project" time="8.793" classname="PR-3-5 Should see View Details button for each project">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-6 Should see + Experiment button for each project" time="9.626" classname="PR-3-6 Should see + Experiment button for each project">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-7 Should open a dropdown menu containing the project&apos;s experiments" time="9.276" classname="PR-3-7 Should open a dropdown menu containing the project&apos;s experiments">
+    </testcase>
+    <testcase name="3 - I should see a summary of all projects (Projects List) PR-3-8 Should list all chains in a project" time="9.485" classname="PR-3-8 Should list all chains in a project">
+    </testcase>
+  </testsuite>
+</testsuites>

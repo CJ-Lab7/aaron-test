@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.003999999999998" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T15:27:54" tests="0" file="cypress/integration/apps/applets/APL01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I should see the header" timestamp="2020-04-03T15:27:54" tests="4" failures="0" time="27.003999999999998">
+    <testcase name="1 - I should see the header APL-1-1 Should click APPLETS title link" time="13.046" classname="APL-1-1 Should click APPLETS title link">
+    </testcase>
+    <testcase name="1 - I should see the header APL-1-2 Should find number of applets" time="4.951" classname="APL-1-2 Should find number of applets">
+    </testcase>
+    <testcase name="1 - I should see the header APL-1-3 Should find subheader" time="4.372" classname="APL-1-3 Should find subheader">
+    </testcase>
+    <testcase name="1 - I should see the header APL-1-4 Should find quick filter" time="4.635" classname="APL-1-4 Should find quick filter">
+    </testcase>
+  </testsuite>
+</testsuites>

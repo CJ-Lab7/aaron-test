@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="46.192" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-25T01:06:16" tests="0" file="cypress/integration/apps/location/LC09.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="9 - On a container details page, I can edit details" timestamp="2020-06-25T01:06:16" tests="3" failures="0" time="46.192">
+    <testcase name="9 - On a container details page, I can edit details LC-9-1 Should add tags" time="16.738" classname="LC-9-1 Should add tags">
+    </testcase>
+    <testcase name="9 - On a container details page, I can edit details LC-9-2 Should remove tags" time="12.905" classname="LC-9-2 Should remove tags">
+    </testcase>
+    <testcase name="9 - On a container details page, I can edit details LC-9-3 Should edit description" time="16.549" classname="LC-9-3 Should edit description">
+    </testcase>
+  </testsuite>
+</testsuites>

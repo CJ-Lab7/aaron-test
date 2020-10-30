@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="35.376000000000005" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:02:55" tests="0" file="cypress/integration/apps/location/LC26.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="26 - I can add samples to container slots by scanning barcode" timestamp="2020-07-10T22:02:55" tests="4" failures="0" time="35.376000000000005">
+    <testcase name="26 - I can add samples to container slots by scanning barcode LC-26-1 Should add uuid sample to location when sample is in item pool" time="17.582" classname="LC-26-1 Should add uuid sample to location when sample is in item pool">
+    </testcase>
+    <testcase name="26 - I can add samples to container slots by scanning barcode LC-26-2 Should add non-uuid sample to location when sample is in item pool" time="8.05" classname="LC-26-2 Should add non-uuid sample to location when sample is in item pool">
+    </testcase>
+    <testcase name="26 - I can add samples to container slots by scanning barcode LC-26-3 Should add uuid sample to location when sample is NOT in item pool" time="4.939" classname="LC-26-3 Should add uuid sample to location when sample is NOT in item pool">
+    </testcase>
+    <testcase name="26 - I can add samples to container slots by scanning barcode LC-26-4 Should add non-uuid sample to location when sample is NOT in item pool" time="4.805" classname="LC-26-4 Should add non-uuid sample to location when sample is NOT in item pool">
+    </testcase>
+  </testsuite>
+</testsuites>

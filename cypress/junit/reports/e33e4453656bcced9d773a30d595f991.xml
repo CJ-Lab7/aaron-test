@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="35.082" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-02T16:19:37" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I should see Header, Metadata and Quick Filter at the top of page under Monitor tab" timestamp="2020-03-02T16:19:37" tests="3" failures="0" time="35.082">
+    <testcase name="2 - I should see Header, Metadata and Quick Filter at the top of page under Monitor tab AN-2-1 Should have Pipeline Monitor as the header" time="29.983" classname="AN-2-1 Should have Pipeline Monitor as the header">
+    </testcase>
+    <testcase name="2 - I should see Header, Metadata and Quick Filter at the top of page under Monitor tab AN-2-3 Should display metadata" time="3.915" classname="AN-2-3 Should display metadata">
+    </testcase>
+    <testcase name="2 - I should see Header, Metadata and Quick Filter at the top of page under Monitor tab AN-2-5 Should find filter panel" time="1.184" classname="AN-2-5 Should find filter panel">
+    </testcase>
+  </testsuite>
+</testsuites>

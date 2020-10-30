@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="84.947" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T14:52:16" tests="0" file="cypress/integration/apps/customers/CS08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I should find customer details" timestamp="2020-06-26T14:52:16" tests="8" failures="0" time="84.947">
+    <testcase name="8 - I should find customer details CS-8-1 Should find header" time="13.734" classname="CS-8-1 Should find header">
+    </testcase>
+    <testcase name="8 - I should find customer details CS-8-2 Should find subheader" time="9.889" classname="CS-8-2 Should find subheader">
+    </testcase>
+    <testcase name="8 - I should find customer details CS-8-3 Should find archive button" time="9.593" classname="CS-8-3 Should find archive button">
+    </testcase>
+    <testcase name="8 - I should find customer details CS-8-4 Should find export history button" time="8.973" classname="CS-8-4 Should find export history button">
+    </testcase>
+    <testcase name="8 - I should find customer details CS-8-5 Should find details panel" time="9.865" classname="CS-8-5 Should find details panel">
+    </testcase>
+    <testcase name="8 - I should find customer details CS-8-6 Should find same shipping and billing address" time="10.527" classname="CS-8-6 Should find same shipping and billing address">
+    </testcase>
+    <testcase name="8 - I should find customer details CS-8-7 Should find different shipping and billing address" time="12.195" classname="CS-8-7 Should find different shipping and billing address">
+    </testcase>
+    <testcase name="8 - I should find customer details CS-8-8 Should find history tab" time="10.171" classname="CS-8-8 Should find history tab">
+    </testcase>
+  </testsuite>
+</testsuites>

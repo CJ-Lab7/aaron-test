@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="65.516" tests="10" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-05-21T18:57:57" tests="0" file="cypress/integration/apps/entities/EN29_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="29 - I can use all types of data columns in new entity modal" timestamp="2020-05-21T18:57:57" tests="10" failures="0" time="65.516">
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-1 Should add text" time="15.383" classname="EN-29-1 Should add text">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-2 Should add numeric" time="8.41" classname="EN-29-2 Should add numeric">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-3 Should add picklist" time="6.596" classname="EN-29-3 Should add picklist">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-4 Should add multiselect picklist" time="4.536" classname="EN-29-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-5 Should add date" time="6.221" classname="EN-29-5 Should add date">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-6 Should add checkbox" time="6.05" classname="EN-29-6 Should add checkbox">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-8 Should add qr barcode" time="5.863" classname="EN-29-8 Should add qr barcode">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-9 Should add 1d barcode" time="6.173" classname="EN-29-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-10 Should add mini data matrix" time="6.284" classname="EN-29-10 Should add mini data matrix">
+    </testcase>
+  </testsuite>
+</testsuites>

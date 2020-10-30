@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.544" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T17:21:17" tests="0" file="cypress/integration/apps/samples/SP37.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="37 - I can archive a new sample" timestamp="2020-04-16T17:21:17" tests="1" failures="0" time="28.544">
+    <testcase name="37 - I can archive a new sample SP-37-1 Should archive new sample" time="28.544" classname="SP-37-1 Should archive new sample">
+    </testcase>
+  </testsuite>
+</testsuites>

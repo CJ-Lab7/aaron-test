@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:15:48" tests="0" file="cypress/integration/apps/navbar/NB02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I can change a user password" timestamp="2020-07-10T22:15:48" tests="1" failures="1" time="0">
+    <testcase name="2 - I can change a user password NB-2-1 Should change password" time="0" classname="NB-2-1 Should change password">
+      <failure message="Timed out retrying: Expected to find content: &apos;Back to ESP Home&apos; within the selector: &apos;a&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'Back to ESP Home' within the selector: 'a' but never did.
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/navbar/NB02.js:28:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="82.82" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T04:07:11" tests="0" file="cypress/integration/apps/data/D19.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="19 - I can see that files are added when a protocol is run" timestamp="2020-03-31T04:07:11" tests="4" failures="0" time="82.82">
+    <testcase name="19 - I can see that files are added when a protocol is run D-19-1 Should add attachments when a standard protocol is run" time="37.947" classname="D-19-1 Should add attachments when a standard protocol is run">
+    </testcase>
+    <testcase name="19 - I can see that files are added when a protocol is run D-19-2 Should add attachments when a sample protocol is run" time="12.413" classname="D-19-2 Should add attachments when a sample protocol is run">
+    </testcase>
+    <testcase name="19 - I can see that files are added when a protocol is run D-19-3 Should add attachments when a pipeline protocol is run" time="11.984" classname="D-19-3 Should add attachments when a pipeline protocol is run">
+    </testcase>
+    <testcase name="19 - I can see that files are added when a protocol is run D-19-4 Should add I/O files when a pipeline protocol is run" time="20.476" classname="D-19-4 Should add I/O files when a pipeline protocol is run">
+    </testcase>
+  </testsuite>
+</testsuites>

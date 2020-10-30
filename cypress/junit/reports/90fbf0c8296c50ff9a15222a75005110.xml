@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.609" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T01:07:56" tests="0" file="cypress/integration/apps/inventory/IN06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - On the Inventory main page, I can expand/collapse filter column" timestamp="2020-04-16T01:07:57" tests="1" failures="0" time="8.609">
+    <testcase name="6 - On the Inventory main page, I can expand/collapse filter column IN-6-1/2 Should expand/collapse filter collumn" time="8.609" classname="IN-6-1/2 Should expand/collapse filter collumn">
+    </testcase>
+  </testsuite>
+</testsuites>

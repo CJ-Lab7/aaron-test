@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="91.589" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-27T22:50:00" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can add parents and children to samples" timestamp="2020-02-27T22:50:00" tests="7" failures="0" time="91.589">
+    <testcase name="8 - I can add parents and children to samples SP-8-1 Should add parents to a sample" time="50.224" classname="SP-8-1 Should add parents to a sample">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-2 Should add children to a sample" time="8.393" classname="SP-8-2 Should add children to a sample">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-3 Should not add sample as it&apos;s own parent" time="5.191" classname="SP-8-3 Should not add sample as it&apos;s own parent">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-4 Should not add sample as it&apos;s own child" time="5.171" classname="SP-8-4 Should not add sample as it&apos;s own child">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-5 Should add sample as another samples child and parent" time="6.015" classname="SP-8-5 Should add sample as another samples child and parent">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-6 Should access details of parents" time="8.373" classname="SP-8-6 Should access details of parents">
+    </testcase>
+    <testcase name="8 - I can add parents and children to samples SP-8-7 Should access details of children" time="8.222" classname="SP-8-7 Should access details of children">
+    </testcase>
+  </testsuite>
+</testsuites>

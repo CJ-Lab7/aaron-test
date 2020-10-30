@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="89.04100000000001" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T23:17:07" tests="0" file="cypress/integration/apps/samples/SP24.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="24 - I can edit barcodes with the barcode modal" timestamp="2020-04-03T23:17:07" tests="5" failures="0" time="89.04100000000001">
+    <testcase name="24 - I can edit barcodes with the barcode modal SP-24-1 Should edit QR barcode" time="22.837" classname="SP-24-1 Should edit QR barcode">
+    </testcase>
+    <testcase name="24 - I can edit barcodes with the barcode modal SP-24-2 Should edit 1D barcode" time="18.062" classname="SP-24-2 Should edit 1D barcode">
+    </testcase>
+    <testcase name="24 - I can edit barcodes with the barcode modal SP-24-3 Should edit Mini Data Matrix barcode" time="16.938" classname="SP-24-3 Should edit Mini Data Matrix barcode">
+    </testcase>
+    <testcase name="24 - I can edit barcodes with the barcode modal SP-24-5 Should close modal with &apos;X&apos;" time="16.183" classname="SP-24-5 Should close modal with &apos;X&apos;">
+    </testcase>
+    <testcase name="24 - I can edit barcodes with the barcode modal SP-24-6 Should close modal with Cancel" time="15.021" classname="SP-24-6 Should close modal with Cancel">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="90.97" tests="13" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-03-28T16:58:05" tests="0" file="cypress/integration/apps/entities/EN30.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I can use all types of data columns in new experiment modal" timestamp="2020-03-28T16:58:05" tests="13" failures="0" time="90.97">
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-1 Should add text" time="19.402" classname="EN-30-1 Should add text">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-2 Should add numeric" time="10.817" classname="EN-30-2 Should add numeric">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-3 Should add picklist" time="6.502" classname="EN-30-3 Should add picklist">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-4 Should add multiselect picklist" time="6.71" classname="EN-30-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-5 Should add date" time="6.992" classname="EN-30-5 Should add date">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-6 Should add checkbox" time="6.378" classname="EN-30-6 Should add checkbox">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-8 Should add qr barcode" time="6.589" classname="EN-30-8 Should add qr barcode">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-9 Should add 1d barcode" time="7.113" classname="EN-30-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-10 Should add mini data matrix" time="6.919" classname="EN-30-10 Should add mini data matrix">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-11 Should require field" time="3.723" classname="EN-30-11 Should require field">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-12 Should find default value" time="3.267" classname="EN-30-12 Should find default value">
+    </testcase>
+    <testcase name="30 - I can use all types of data columns in new experiment modal EN-30-13 Should not edit read only" time="6.558" classname="EN-30-13 Should not edit read only">
+    </testcase>
+  </testsuite>
+</testsuites>

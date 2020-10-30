@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="122.96399999999998" tests="13" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-03T17:54:43" tests="0" file="cypress/integration/apps/samples/SP31.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I can use all types of data columns in new experiment modal" timestamp="2020-03-03T17:54:43" tests="13" failures="1" time="122.96399999999998">
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-1 Should add text" time="36.409" classname="SP-31-1 Should add text">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-2 Should add numeric" time="9.507" classname="SP-31-2 Should add numeric">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-3 Should add picklist" time="7.12" classname="SP-31-3 Should add picklist">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-4 Should add multiselect picklist" time="7.338" classname="SP-31-4 Should add multiselect picklist">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-5 Should add date" time="6.961" classname="SP-31-5 Should add date">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-6 Should add checkbox" time="6.97" classname="SP-31-6 Should add checkbox">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-7 Should add attachment" time="0" classname="SP-31-7 Should add attachment">
+      <failure message="Timed out retrying: Expected to find content: &apos;sp31.txt&apos; within the element: &lt;div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value.ag-column-hover.ag-cell-focus.ag-cell-range-selected.ag-cell-range-selected-1.ag-cell-range-single-cell.ag-cell-popup-editing&gt; but never did." type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find content: 'sp31.txt' within the element: <div.ag-cell.ag-cell-not-inline-editing.ag-cell-with-height.ag-cell-value.ag-column-hover.ag-cell-focus.ag-cell-range-selected.ag-cell-range-selected-1.ag-cell-range-single-cell.ag-cell-popup-editing> but never did.
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at retry (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:132299:19)
+    at onFailFn (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:120514:16)
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163008:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-8 Should add qr barcode" time="7.869" classname="SP-31-8 Should add qr barcode">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-9 Should add 1d barcode" time="7.615" classname="SP-31-9 Should add 1d barcode">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-10 Should add mini data matrix" time="7.877" classname="SP-31-10 Should add mini data matrix">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-11 Should require field" time="8.174" classname="SP-31-11 Should require field">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-12 Should find default value" time="8.721" classname="SP-31-12 Should find default value">
+    </testcase>
+    <testcase name="31 - I can use all types of data columns in new experiment modal SP-31-13 Should not edit read only" time="8.403" classname="SP-31-13 Should not edit read only">
+    </testcase>
+  </testsuite>
+</testsuites>

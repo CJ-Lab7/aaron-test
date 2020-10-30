@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.727" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T20:17:55" tests="0" file="cypress/integration/apps/navbar/NB04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can access documentation for ESP" timestamp="2020-04-03T20:17:55" tests="1" failures="0" time="8.727">
+    <testcase name="4 - I can access documentation for ESP NB-4-1 Should access documentation" time="8.727" classname="NB-4-1 Should access documentation">
+    </testcase>
+  </testsuite>
+</testsuites>

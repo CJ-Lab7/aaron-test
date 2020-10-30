@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="162.447" tests="9" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-24T15:25:43" tests="0" file="cypress/integration/apps/lims/LM25_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25_1 - I should be able to render columns correctly when protocol is run" timestamp="2020-06-24T15:25:43" tests="9" failures="1" time="162.447">
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-1 Should use free text column" time="0" classname="LM-25-1 Should use free text column">
+      <failure message="Timed out retrying: cy.dblclick() failed because this element is detached from the DOM.
+
+&lt;div tabindex=&quot;-1&quot; unselectable=&quot;on&quot; role=&quot;gridcell&quot; comp-id=&quot;188&quot; col-id=&quot;cbf42756-6b2d-46c8-b4cf-d0a8dce8a804&quot; class=&quot;ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value&quot; style=&quot;width: 200px; left: 0px; background-color: ; &quot;&gt;&lt;/div&gt;
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  &gt; cy.as()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add &apos;guards&apos; which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom" type="CypressError"><![CDATA[CypressError: Timed out retrying: cy.dblclick() failed because this element is detached from the DOM.
+
+<div tabindex="-1" unselectable="on" role="gridcell" comp-id="188" col-id="cbf42756-6b2d-46c8-b4cf-d0a8dce8a804" class="ag-cell ag-cell-not-inline-editing ag-cell-with-height ag-cell-value" style="width: 200px; left: 0px; background-color: ; "></div>
+
+Cypress requires elements be attached in the DOM to interact with them.
+
+The previous command that ran was:
+
+  > cy.as()
+
+This DOM element likely became detached somewhere between the previous and current command.
+
+Common situations why this happens:
+  - Your JS framework re-rendered asynchronously
+  - Your app code reacted to an event firing and removed the element
+
+You typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.
+
+https://on.cypress.io/element-has-detached-from-dom
+    at cypressErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:138017:3)
+    at Object.retry (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132299:19)
+    at retryActionability (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:120118:19)
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Function.Promise.attempt.Promise.try (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162170:29)
+    at tryFn (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132763:21)
+    at whenStable (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132798:12)
+    at https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:132342:16
+    at tryCatcher (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:163012:18)
+    at Promise._fulfill (https://chris.test.l7informatics.com/__cypress/runner/cypress_runner.js:162957:18)]]></failure>
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-2 Should not be able to allow non-numeric values when column is set for numeric numbers" time="22.836" classname="LM-25-2 Should not be able to allow non-numeric values when column is set for numeric numbers">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-3 Should be able to put samples in correct location" time="20.86" classname="LM-25-3 Should be able to put samples in correct location">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-4 Should remove sample from a location" time="24.093" classname="LM-25-4 Should remove sample from a location">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-6 Should not add sample to full location" time="17.378" classname="LM-25-6 Should not add sample to full location">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-7 Should add multiple items to a location" time="25.76" classname="LM-25-7 Should add multiple items to a location">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-10 Should be able to add attachments to protocol columns and steps" time="17.964" classname="LM-25-10 Should be able to add attachments to protocol columns and steps">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-11 Should be able to use Date Picker" time="17.434" classname="LM-25-11 Should be able to use Date Picker">
+    </testcase>
+    <testcase name="25_1 - I should be able to render columns correctly when protocol is run LM-25-12 Should be able to use Checkbox" time="16.122" classname="LM-25-12 Should be able to use Checkbox">
+    </testcase>
+  </testsuite>
+</testsuites>

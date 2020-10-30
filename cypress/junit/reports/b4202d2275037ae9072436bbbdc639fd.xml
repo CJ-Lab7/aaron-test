@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="38.212" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T17:26:22" tests="0" file="cypress/integration/apps/expressions/EX10.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="10 - I should be able to use the User API" timestamp="2020-04-03T17:26:22" tests="2" failures="0" time="38.212">
+    <testcase name="10 - I should be able to use the User API EX-10-1 Should use user_names()" time="20.485" classname="EX-10-1 Should use user_names()">
+    </testcase>
+    <testcase name="10 - I should be able to use the User API EX-10-2 Should use workgroup_user_names(workgroup=None)" time="17.727" classname="EX-10-2 Should use workgroup_user_names(workgroup=None)">
+    </testcase>
+  </testsuite>
+</testsuites>

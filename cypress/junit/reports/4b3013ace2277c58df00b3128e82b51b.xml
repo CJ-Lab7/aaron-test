@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.656" tests="4" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-07-10T15:11:03" tests="0" file="cypress/integration/apps/analysis/AN30.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="30 - I should see tasks colored correctly in the inspector" timestamp="2020-07-10T15:11:03" tests="4" failures="2" time="18.656">
+    <testcase name="30 - I should see tasks colored correctly in the inspector AN-30-1 Should find running tasks in green" time="14.93" classname="AN-30-1 Should find running tasks in green">
+    </testcase>
+    <testcase name="30 - I should see tasks colored correctly in the inspector AN-30-3 Should find killed tasks in red" time="0" classname="AN-30-3 Should find killed tasks in red">
+      <failure message="Timed out retrying: expected &apos;&lt;rect&gt;&apos; to have CSS property &apos;fill&apos; with the value &apos;rgb(212, 64, 60)&apos;, but the value was &apos;rgb(0, 0, 0)&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected '<rect>' to have CSS property 'fill' with the value 'rgb(212, 64, 60)', but the value was 'rgb(0, 0, 0)'
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/analysis/AN30.js:27:49)]]></failure>
+    </testcase>
+    <testcase name="30 - I should see tasks colored correctly in the inspector AN-30-4 Should find queued tasks in grey" time="3.726" classname="AN-30-4 Should find queued tasks in grey">
+    </testcase>
+    <testcase name="30 - I should see tasks colored correctly in the inspector AN-30-5 Should find complete tasks in black" time="0" classname="AN-30-5 Should find complete tasks in black">
+      <failure message="Timed out retrying: expected &apos;&lt;rect&gt;&apos; to have CSS property &apos;fill&apos; with the value &apos;rgb(0, 0, 0)&apos;, but the value was &apos;rgb(204, 204, 204)&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected '<rect>' to have CSS property 'fill' with the value 'rgb(0, 0, 0)', but the value was 'rgb(204, 204, 204)'
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/analysis/AN30.js:36:55)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

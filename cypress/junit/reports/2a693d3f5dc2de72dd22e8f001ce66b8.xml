@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="20.768" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-26T15:05:26" tests="0" file="cypress/integration/apps/entity_types/ET06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can sort columns" timestamp="2020-06-26T15:05:26" tests="1" failures="0" time="20.768">
+    <testcase name="6 - I can sort columns ET-6-1 Should sort all columns" time="20.768" classname="ET-6-1 Should sort all columns">
+    </testcase>
+  </testsuite>
+</testsuites>

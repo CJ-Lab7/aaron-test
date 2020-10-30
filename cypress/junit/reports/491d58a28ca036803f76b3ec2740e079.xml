@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.066" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T12:41:32" tests="0" file="cypress/integration/apps/expressions/EX01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I should be able to use the Expression API" timestamp="2020-03-31T12:41:32" tests="2" failures="0" time="28.066">
+    <testcase name="1 - I should be able to use the Expression API EX-1-1 Should use python addition expression" time="18.423" classname="EX-1-1 Should use python addition expression">
+    </testcase>
+    <testcase name="1 - I should be able to use the Expression API EX-1-2 Should use if/else expression" time="9.643" classname="EX-1-2 Should use if/else expression">
+    </testcase>
+  </testsuite>
+</testsuites>

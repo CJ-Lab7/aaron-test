@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="46.962" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-24T21:44:44" tests="0" file="cypress/integration/apps/entities/EN06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can edit a entity on the Entity details page" timestamp="2020-06-24T21:44:44" tests="2" failures="0" time="46.962">
+    <testcase name="6 - I can edit a entity on the Entity details page EN-6-1 Should add/remove tags" time="28.805" classname="EN-6-1 Should add/remove tags">
+    </testcase>
+    <testcase name="6 - I can edit a entity on the Entity details page EN-6-2 Should add/edit/remove note" time="18.157" classname="EN-6-2 Should add/edit/remove note">
+    </testcase>
+  </testsuite>
+</testsuites>

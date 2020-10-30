@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.993" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T21:55:40" tests="0" file="cypress/integration/apps/location/LC01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - On the Locations main page, I can see all the containers" timestamp="2020-07-10T21:55:40" tests="5" failures="0" time="18.993">
+    <testcase name="1 - On the Locations main page, I can see all the containers LC-1-2 Should see total number of containers" time="10.377" classname="LC-1-2 Should see total number of containers">
+    </testcase>
+    <testcase name="1 - On the Locations main page, I can see all the containers LC-1-3 Should show metadata" time="3.134" classname="LC-1-3 Should show metadata">
+    </testcase>
+    <testcase name="1 - On the Locations main page, I can see all the containers LC-1-4 Should have filters" time="1.731" classname="LC-1-4 Should have filters">
+    </testcase>
+    <testcase name="1 - On the Locations main page, I can see all the containers LC-1-5 Should list all containers with details" time="2.051" classname="LC-1-5 Should list all containers with details">
+    </testcase>
+    <testcase name="1 - On the Locations main page, I can see all the containers LC-1-6 Should find column management button" time="1.7" classname="LC-1-6 Should find column management button">
+    </testcase>
+  </testsuite>
+</testsuites>

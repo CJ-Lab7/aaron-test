@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="31.035999999999998" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T13:43:59" tests="0" file="cypress/integration/apps/data/D18.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="18 - I can edit tags and description" timestamp="2020-03-22T13:43:59" tests="3" failures="0" time="31.035999999999998">
+    <testcase name="18 - I can edit tags and description D-18-1 Should edit description" time="15.859" classname="D-18-1 Should edit description">
+    </testcase>
+    <testcase name="18 - I can edit tags and description D-18-2 Should add a tag" time="8.416" classname="D-18-2 Should add a tag">
+    </testcase>
+    <testcase name="18 - I can edit tags and description D-18-3 Should delete a tag" time="6.761" classname="D-18-3 Should delete a tag">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="89.624" tests="11" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:53:36" tests="0" file="cypress/integration/apps/entities/EN31_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I can edit all entity type variables" timestamp="2020-07-10T19:53:36" tests="11" failures="0" time="89.624">
+    <testcase name="31 - I can edit all entity type variables EN-31-11 Should require field" time="18.164" classname="EN-31-11 Should require field">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-12 Should find default" time="4.252" classname="EN-31-12 Should find default">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-13 Should find read only" time="2.936" classname="EN-31-13 Should find read only">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-14 Should edit Sample Resource Link" time="9.39" classname="EN-31-14 Should edit Sample Resource Link">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-16 Should edit File Resource Link" time="8.918" classname="EN-31-16 Should edit File Resource Link">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-17 Should edit Container Link Type" time="9.139" classname="EN-31-17 Should edit Container Link Type">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-18 Should edit Report Link Type" time="8.823" classname="EN-31-18 Should edit Report Link Type">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-19 Should edit Project Link Type" time="9.682" classname="EN-31-19 Should edit Project Link Type">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-20 Should edit Experiment Link Type" time="9.851" classname="EN-31-20 Should edit Experiment Link Type">
+    </testcase>
+    <testcase name="31 - I can edit all entity type variables EN-31-21 Should edit Inventory Link Type" time="8.469" classname="EN-31-21 Should edit Inventory Link Type">
+    </testcase>
+  </testsuite>
+</testsuites>

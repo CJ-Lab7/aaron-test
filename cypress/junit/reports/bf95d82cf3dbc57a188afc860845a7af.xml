@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.467" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-28T17:35:30" tests="0" file="cypress/integration/apps/navbar/NB02.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="2 - I can change a user password" timestamp="2020-04-28T17:35:30" tests="1" failures="0" time="12.467">
+    <testcase name="2 - I can change a user password NB-2-1 Should change password" time="12.467" classname="NB-2-1 Should change password">
+    </testcase>
+  </testsuite>
+</testsuites>

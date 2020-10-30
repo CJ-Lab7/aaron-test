@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.698" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-10T23:00:57" tests="0" file="cypress/integration/apps/projects/PR25.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="25 - I can check the state of experiments" timestamp="2020-07-10T23:00:58" tests="4" failures="0" time="23.698">
+    <testcase name="25 - I can check the state of experiments PR-25-1 Should find pending experiment" time="16.027" classname="PR-25-1 Should find pending experiment">
+    </testcase>
+    <testcase name="25 - I can check the state of experiments PR-25-2 Should find queued experiment" time="3.264" classname="PR-25-2 Should find queued experiment">
+    </testcase>
+    <testcase name="25 - I can check the state of experiments PR-25-3 Should find running experiment" time="2.608" classname="PR-25-3 Should find running experiment">
+    </testcase>
+    <testcase name="25 - I can check the state of experiments PR-25-4 Should find done experiment" time="1.799" classname="PR-25-4 Should find done experiment">
+    </testcase>
+  </testsuite>
+</testsuites>

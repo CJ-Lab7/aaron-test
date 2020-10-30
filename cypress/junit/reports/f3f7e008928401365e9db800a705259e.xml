@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="29.357" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-27T16:43:36" tests="0" file="cypress/integration/apps/inventory/IN31.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - On the barcode modal, I can edit and save barcode information" timestamp="2020-04-27T16:43:36" tests="4" failures="0" time="29.357">
+    <testcase name="31 - On the barcode modal, I can edit and save barcode information IN-31-1 Delete existing barcode and generate a new barcode" time="12.887" classname="IN-31-1 Delete existing barcode and generate a new barcode">
+    </testcase>
+    <testcase name="31 - On the barcode modal, I can edit and save barcode information IN-31-2 Change barcode type" time="8.351" classname="IN-31-2 Change barcode type">
+    </testcase>
+    <testcase name="31 - On the barcode modal, I can edit and save barcode information IN-31-3 Manually update barcode" time="3.967" classname="IN-31-3 Manually update barcode">
+    </testcase>
+    <testcase name="31 - On the barcode modal, I can edit and save barcode information IN-31-4, IN-31-5 &amp; IN-31-6 Print 1D, QR, and Mini Datamatrix barcode" time="4.152" classname="IN-31-4, IN-31-5 &amp; IN-31-6 Print 1D, QR, and Mini Datamatrix barcode">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="51.196" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-03T19:19:17" tests="0" file="cypress/integration/apps/lims/LM50.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="50 - I can scan to add a sample to a worksheet with a barcode column" timestamp="2020-04-03T19:19:17" tests="2" failures="0" time="51.196">
+    <testcase name="50 - I can scan to add a sample to a worksheet with a barcode column LM-50-1 Should update sample barcode by scanning uuid barcode to barcode column" time="31.263" classname="LM-50-1 Should update sample barcode by scanning uuid barcode to barcode column">
+    </testcase>
+    <testcase name="50 - I can scan to add a sample to a worksheet with a barcode column LM-50-2 Should update sample barcode by scanning NON-uuid barcode to barcode column" time="19.933" classname="LM-50-2 Should update sample barcode by scanning NON-uuid barcode to barcode column">
+    </testcase>
+  </testsuite>
+</testsuites>

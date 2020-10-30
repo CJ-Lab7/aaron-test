@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="101.524" tests="11" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-05-21T18:59:14" tests="0" file="cypress/integration/apps/entities/EN29_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="29 - I can use all types of data columns in new entity modal" timestamp="2020-05-21T18:59:14" tests="11" failures="0" time="101.524">
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-11 Should require required field" time="17.686" classname="EN-29-11 Should require required field">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-12 Should find default value" time="7.556" classname="EN-29-12 Should find default value">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-13 Should find read only field" time="3.307" classname="EN-29-13 Should find read only field">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-14 Should add Sample Resource Link" time="10.581" classname="EN-29-14 Should add Sample Resource Link">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-16 Should add File Resource Link" time="10.122" classname="EN-29-16 Should add File Resource Link">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-17 Should add Container Resource Link" time="10.622" classname="EN-29-17 Should add Container Resource Link">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-18 Should add Report Resource Link" time="10.344" classname="EN-29-18 Should add Report Resource Link">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-19 Should add Project Resource Link" time="10.299" classname="EN-29-19 Should add Project Resource Link">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-20 Should add Experiment Resource Link" time="10.699" classname="EN-29-20 Should add Experiment Resource Link">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-21 Should add Inventory Resource Link" time="10.308" classname="EN-29-21 Should add Inventory Resource Link">
+    </testcase>
+  </testsuite>
+</testsuites>

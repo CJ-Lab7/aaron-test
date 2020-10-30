@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="24.272" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T18:23:35" tests="0" file="cypress/integration/apps/applets/APL08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can quick filter" timestamp="2020-04-16T18:23:35" tests="3" failures="0" time="24.272">
+    <testcase name="8 - I can quick filter APL-8-1 Should quick filter in list view" time="10.285" classname="APL-8-1 Should quick filter in list view">
+    </testcase>
+    <testcase name="8 - I can quick filter APL-8-2 Should quick filter in cards view" time="7.177" classname="APL-8-2 Should quick filter in cards view">
+    </testcase>
+    <testcase name="8 - I can quick filter APL-8-3 Should quick filter in group view" time="6.81" classname="APL-8-3 Should quick filter in group view">
+    </testcase>
+  </testsuite>
+</testsuites>

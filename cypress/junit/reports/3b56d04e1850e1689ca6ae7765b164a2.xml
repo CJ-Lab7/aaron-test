@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="66.658" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-28T19:45:04" tests="0" file="cypress/integration/apps/lims/LM31.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="31 - I should be able to restart failed/paused pipelines (pipeline details modal)" timestamp="2020-03-28T19:45:04" tests="4" failures="1" time="66.658">
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) LM-31-1 Should not restart a paused pipeline" time="29.991" classname="LM-31-1 Should not restart a paused pipeline">
+    </testcase>
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) LM-31-2 Should restart a killed pipeline" time="16.158" classname="LM-31-2 Should restart a killed pipeline">
+    </testcase>
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) LM-31-3 Should restart a failed pipeline" time="13.349" classname="LM-31-3 Should restart a failed pipeline">
+    </testcase>
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) LM-31-4 Should not restart a running pipeline" time="3.58" classname="LM-31-4 Should not restart a running pipeline">
+    </testcase>
+    <testcase name="31 - I should be able to restart failed/paused pipelines (pipeline details modal) &quot;after all&quot; hook for &quot;LM-31-4 Should not restart a running pipeline&quot;" time="3.58" classname="&quot;after all&quot; hook for &quot;LM-31-4 Should not restart a running pipeline&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM31seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 14:46:09,662:Saving data in Experiment LM31-1 for Protocol: LM31-1 pipeline.
+Traceback (most recent call last):
+  File &quot;/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp&quot;, line ...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;31 - I should be able to re...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/lims/LM31seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 14:46:09,662:Saving data in Experiment LM31-1 for Protocol: LM31-1 pipeline.
+Traceback (most recent call last):
+  File "/Users/cj/bitrepos/esp/develop/bin/.venv/bin/esp", line ...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '31 - I should be able to re...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

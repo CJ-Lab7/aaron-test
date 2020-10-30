@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="102.718" tests="11" failures="1" skipped="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T19:44:19" tests="0" file="cypress/integration/apps/entities/EN29_2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="29 - I can use all types of data columns in new entity modal" timestamp="2020-07-10T19:44:19" tests="11" failures="1" time="102.718">
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-11 Should require required field" time="22.108" classname="EN-29-11 Should require required field">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-12 Should find default value" time="8.641" classname="EN-29-12 Should find default value">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-13 Should find read only field" time="4.47" classname="EN-29-13 Should find read only field">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-14 Should add Sample Resource Link" time="11.039" classname="EN-29-14 Should add Sample Resource Link">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-16 Should add File Resource Link" time="11.005" classname="EN-29-16 Should add File Resource Link">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-17 Should add Container Resource Link" time="11.227" classname="EN-29-17 Should add Container Resource Link">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-18 Should add Report Resource Link" time="10.796" classname="EN-29-18 Should add Report Resource Link">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-19 Should add Project Resource Link" time="10.928" classname="EN-29-19 Should add Project Resource Link">
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-20 Should add Experiment Resource Link" time="0" classname="EN-29-20 Should add Experiment Resource Link">
+      <failure message="Timed out retrying: Expected to find element: `.ag-cell-wrapper`, but never found it. Queried from element: [ &lt;div.modal-container.fullscreen&gt;, 2 more... ]" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `.ag-cell-wrapper`, but never found it. Queried from element: [ <div.modal-container.fullscreen>, 2 more... ]
+    at resourceLink (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entities/EN29_2.js:113:32)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/entities/EN29_2.js:100:5)]]></failure>
+    </testcase>
+    <testcase name="29 - I can use all types of data columns in new entity modal EN-29-21 Should add Inventory Resource Link" time="12.504" classname="EN-29-21 Should add Inventory Resource Link">
+    </testcase>
+  </testsuite>
+</testsuites>

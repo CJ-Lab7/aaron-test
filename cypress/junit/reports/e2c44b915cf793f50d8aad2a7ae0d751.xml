@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.721999999999998" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-03-29T00:30:04" tests="0" file="cypress/integration/apps/projects/PR08.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="8 - I can access experiments in the inspector panel (Projects Cards)" timestamp="2020-03-29T00:30:04" tests="2" failures="1" time="16.721999999999998">
+    <testcase name="8 - I can access experiments in the inspector panel (Projects Cards) PR-8-1 Should list experiments and status in inspector" time="10.572" classname="PR-8-1 Should list experiments and status in inspector">
+    </testcase>
+    <testcase name="8 - I can access experiments in the inspector panel (Projects Cards) PR-8-2 Should link to experiment details" time="3.075" classname="PR-8-2 Should link to experiment details">
+    </testcase>
+    <testcase name="8 - I can access experiments in the inspector panel (Projects Cards) &quot;after all&quot; hook for &quot;PR-8-2 Should link to experiment details&quot;" time="3.075" classname="&quot;after all&quot; hook for &quot;PR-8-2 Should link to experiment details&quot;">
+      <failure message="cy.exec(&apos;esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/projects/PR08seed.yml&apos;) failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 19:30:19,259:Dropping Experiment: PR08 unsub
+INFO:root:2020-03-28 19:30:20,667:Saving data in Experiment PR08 submitted for Protocol: Simple Protocol.
+Traceback (most recent ca...
+
+Because this error occurred during a &apos;after all&apos; hook we are skipping the remaining tests in the current suite: &apos;8 - I can access experiment...&apos;" type="CypressError"><![CDATA[CypressError: cy.exec('esp  -P 8080 -H 127.0.0.1 -u admin@localhost -p admin seed -f -d cypress/fixtures/apps/projects/PR08seed.yml') failed because the command exited with a non-zero code.
+
+Pass {failOnNonZeroExit: false} to ignore exit code failures.
+
+Information about the failure:
+Code: 1
+
+Stderr:
+INFO:root:2020-03-28 19:30:19,259:Dropping Experiment: PR08 unsub
+INFO:root:2020-03-28 19:30:20,667:Saving data in Experiment PR08 submitted for Protocol: Simple Protocol.
+Traceback (most recent ca...
+
+Because this error occurred during a 'after all' hook we are skipping the remaining tests in the current suite: '8 - I can access experiment...'
+    at cypressErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138036:9)
+    at throwErr (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:137969:11)
+    at Object.throwErrByPath (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:138017:3)
+    at http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:125593:26
+    at tryCatcher (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:164895:23)
+    at Promise._settlePromiseFromHandler (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162831:31)
+    at Promise._settlePromise (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162888:18)
+    at Promise._settlePromise0 (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:162933:10)
+    at Promise._settlePromises (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:163012:18)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159620:16)
+    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159630:10)
+    at Async.drainQueues (http://127.0.0.1:8080/__cypress/runner/cypress_runner.js:159504:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

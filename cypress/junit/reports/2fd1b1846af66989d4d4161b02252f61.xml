@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="55.878" tests="14" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-10T22:24:56" tests="0" file="cypress/integration/apps/permissions/LP05.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="5 - With permission, I can use links on the home page" timestamp="2020-07-10T22:24:56" tests="14" failures="1" time="55.878">
+    <testcase name="5 - With permission, I can use links on the home page LP-5-2 Should link to analysis on home page" time="10.052" classname="LP-5-2 Should link to analysis on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-3 Should link to applets on home page" time="5.102" classname="LP-5-3 Should link to applets on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-4 Should link to dashboard on home page" time="3.244" classname="LP-5-4 Should link to dashboard on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-5 Should link to data on home page" time="3.585" classname="LP-5-5 Should link to data on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-6 Should link to entities on home page" time="4.78" classname="LP-5-6 Should link to entities on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-7 Should link to IAM on home page" time="0" classname="LP-5-7 Should link to IAM on home page">
+      <failure message="Timed out retrying: expected &apos;http://127.0.0.1:8080/#/iam&apos; to include &apos;/admin&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected 'http://127.0.0.1:8080/#/iam' to include '/admin'
+    at clickLinkAppPicker (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/permissions/LP05.js:164:14)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/permissions/LP05.js:31:41)]]></failure>
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-8 Should link to ingest on home page" time="3.823" classname="LP-5-8 Should link to ingest on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-9 Should link to inventory on home page" time="3.507" classname="LP-5-9 Should link to inventory on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-10 Should link to LIMS on home page" time="3.626" classname="LP-5-10 Should link to LIMS on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-11 Should link to location on home page" time="3.637" classname="LP-5-11 Should link to location on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-12 Should link to projects on home page" time="3.934" classname="LP-5-12 Should link to projects on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-13 Should link to samples on home page" time="3.716" classname="LP-5-13 Should link to samples on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-14 Should link to search on home page" time="3.271" classname="LP-5-14 Should link to search on home page">
+    </testcase>
+    <testcase name="5 - With permission, I can use links on the home page LP-5-15 Should link to builders on home page" time="3.601" classname="LP-5-15 Should link to builders on home page">
+    </testcase>
+  </testsuite>
+</testsuites>

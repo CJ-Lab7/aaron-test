@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.876" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-29T14:42:27" tests="0" file="cypress/integration/apps/service_types/ST06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can access Inspector panel by clicking on a row" timestamp="2020-05-29T14:42:27" tests="2" failures="0" time="13.876">
+    <testcase name="6 - I can access Inspector panel by clicking on a row ST-6-1 Should open inspector" time="9.398" classname="ST-6-1 Should open inspector">
+    </testcase>
+    <testcase name="6 - I can access Inspector panel by clicking on a row ST-6-2 Should find correct details in inspector" time="4.478" classname="ST-6-2 Should find correct details in inspector">
+    </testcase>
+  </testsuite>
+</testsuites>

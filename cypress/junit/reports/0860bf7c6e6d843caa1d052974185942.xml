@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.22" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-31T15:09:01" tests="0" file="cypress/integration/apps/projects/PR04.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="4 - I can see and access experiments in the inspector panel after clicking a project&apos;s name" timestamp="2020-03-31T15:09:01" tests="2" failures="0" time="19.22">
+    <testcase name="4 - I can see and access experiments in the inspector panel after clicking a project&apos;s name PR-4-1 Should view project details from inspector" time="12.668" classname="PR-4-1 Should view project details from inspector">
+    </testcase>
+    <testcase name="4 - I can see and access experiments in the inspector panel after clicking a project&apos;s name PR-4-2 Should access experiment details by clicking experiment name" time="6.552" classname="PR-4-2 Should access experiment details by clicking experiment name">
+    </testcase>
+  </testsuite>
+</testsuites>

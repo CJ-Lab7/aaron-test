@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="218.477" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T18:16:26" tests="0" file="cypress/integration/apps/lims/LM52_1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="52 - I can use group all with every column type" timestamp="2020-03-22T18:16:26" tests="7" failures="0" time="218.477">
+    <testcase name="52 - I can use group all with every column type LM-52-1 Should use group all protocol with text column" time="168.439" classname="LM-52-1 Should use group all protocol with text column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-2 Should use group all protocol with numeric column" time="5.186" classname="LM-52-2 Should use group all protocol with numeric column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-3 Should use group all protocol with picklist column" time="2.978" classname="LM-52-3 Should use group all protocol with picklist column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-4 Should use group all protocol with date column" time="2.596" classname="LM-52-4 Should use group all protocol with date column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-5 Should use group all protocol with attachment column" time="3.776" classname="LM-52-5 Should use group all protocol with attachment column">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-6a Should use group all protocol with location column (different containers)" time="17.814" classname="LM-52-6a Should use group all protocol with location column (different containers)">
+    </testcase>
+    <testcase name="52 - I can use group all with every column type LM-52-6b Should use group all protocol with location column (same container)" time="17.688" classname="LM-52-6b Should use group all protocol with location column (same container)">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="46.923" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-02T15:31:40" tests="0" file="cypress/integration/apps/container_types/CT15.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="15 - I can delete container dimensions" timestamp="2020-07-02T15:31:40" tests="3" failures="0" time="46.923">
+    <testcase name="15 - I can delete container dimensions CT-15-1 Should delete dimension" time="16.55" classname="CT-15-1 Should delete dimension">
+    </testcase>
+    <testcase name="15 - I can delete container dimensions CT-15-2 Should cancel" time="15.283" classname="CT-15-2 Should cancel">
+    </testcase>
+    <testcase name="15 - I can delete container dimensions CT-15-3 Should close modal with x" time="15.09" classname="CT-15-3 Should close modal with x">
+    </testcase>
+  </testsuite>
+</testsuites>

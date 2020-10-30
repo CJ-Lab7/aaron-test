@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-07-10T16:51:35" tests="0" file="cypress/integration/apps/container_types/CT06.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="6 - I can view inspector details" timestamp="2020-07-10T16:51:35" tests="2" failures="2" time="0">
+    <testcase name="6 - I can view inspector details CT-6-1 Should find inspector details" time="0" classname="CT-6-1 Should find inspector details">
+      <failure message="Timed out retrying: Expected to find content: &apos;CT06 one&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CT06 one' within the selector: '.ag-center-cols-viewport .ag-row' but never did.
+    at Function.containsContainerTypeRow (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT06.js:271:17)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT06.js:82:46)]]></failure>
+    </testcase>
+    <testcase name="6 - I can view inspector details CT-6-2 Should find inspector dimensions" time="0" classname="CT-6-2 Should find inspector dimensions">
+      <failure message="Timed out retrying: Expected to find content: &apos;CT06 one&apos; within the selector: &apos;.ag-center-cols-viewport .ag-row&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find content: 'CT06 one' within the selector: '.ag-center-cols-viewport .ag-row' but never did.
+    at Function.containsContainerTypeRow (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT06.js:271:17)
+    at Context.eval (http://127.0.0.1:8080/__cypress/tests?p=cypress/integration/apps/container_types/CT06.js:94:46)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

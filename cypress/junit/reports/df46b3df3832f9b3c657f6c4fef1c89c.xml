@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.581000000000003" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-03-22T21:56:00" tests="0" file="cypress/integration/apps/reports/RP01.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="1 - I can see the header" timestamp="2020-03-22T21:56:00" tests="3" failures="0" time="19.581000000000003">
+    <testcase name="1 - I can see the header RP-1-1 Should find the title" time="16.442" classname="RP-1-1 Should find the title">
+    </testcase>
+    <testcase name="1 - I can see the header RP-1-2 Should find the number of reports" time="2.164" classname="RP-1-2 Should find the number of reports">
+    </testcase>
+    <testcase name="1 - I can see the header RP-1-3 Should find metadata" time="0.975" classname="RP-1-3 Should find metadata">
+    </testcase>
+  </testsuite>
+</testsuites>
